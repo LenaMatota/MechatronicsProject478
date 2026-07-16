@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  9 JUL 2026 17:17
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  10 JUL 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1237,7 +1237,12 @@ LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
 \openout2 = `chaps-front/chap-summary.aux'.
 
 
-(./chaps-front/chap-summary.tex [3
+(./chaps-front/chap-summary.tex
+Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
+ [] 
+ []
+
+[3
 
 
 
@@ -1249,13 +1254,13 @@ LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
  [4]
 \openout2 = `chaps-front/chap-acknowledge.aux'.
 
- (./chaps-front/chap-acknowledge.tex)
-[5
+ (./chaps-front/chap-acknowledge.tex) [5
 
 
 
 
-] (./template-stb-report-eng.toc)
+]
+(./template-stb-report-eng.toc)
 \tf@toc=\write3
 \openout3 = `template-stb-report-eng.toc'.
 
@@ -1267,10 +1272,10 @@ LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 \tf@lof=\write4
 \openout4 = `template-stb-report-eng.lof'.
 
+ [7
 
-[7
-
-] (./template-stb-report-eng.lot)
+]
+(./template-stb-report-eng.lot)
 \tf@lot=\write5
 \openout5 = `template-stb-report-eng.lot'.
 
@@ -1388,7 +1393,7 @@ L3 programming layer <2026-06-18>
 Here is how much of TeX's memory you used:
  16701 strings out of 467813
  383277 string characters out of 5427149
- 897677 words of memory out of 5000000
+ 898677 words of memory out of 5000000
  45504 multiletter control sequences out of 15000+600000
  630080 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
