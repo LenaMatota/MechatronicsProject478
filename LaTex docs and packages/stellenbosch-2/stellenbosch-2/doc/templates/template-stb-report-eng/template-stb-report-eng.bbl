@@ -1,37 +1,40 @@
-\begin{thebibliography}{2}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\providecommand{\selectlanguage}[1]{\relax}
-\edef\AFRstr{\string afrikaans}
-\ifx\AFRstr\languagename
-   \input{stb-bib.afr}%
- \else
-   \input{stb-bib.eng}%
-\fi
-\newcommand{\Capitalize}[1]{\uppercase{#1}}
-\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
-\providecommand{\eprint}[2][]{\url{#2}}
+\begin{thebibliography}{1}
 
-\bibitem[{\citenamefont{Cundall} \protect\BIBand{}
-  \citenamefont{Strack}(1979)}]{Cundall-1979}
-\bibnamefont{Cundall}, \bibfnamefont{P.A.} \protect\BIBand{}
-  \bibnamefont{Strack}, \bibfnamefont{O.D.L.} (1979).
-\newblock A discrete numerical model for granular assemblies.
-\newblock \emph{G\'eotechnique}, \bblvol{}~29, \bblno{}~1, \bblpp{} 47--65.
+\bibitem{Leussink:2024}
+L.~Engineering, ``The advantages of using a portable cmm arm in metrology,''
+  {\em Leussink Engineering}, 2024.
 
-\bibitem[{\citenamefont{Lin} \protect\BIBand{}
-  \citenamefont{Ng}(1997)}]{Lin:1997}
-\bibnamefont{Lin}, \bibfnamefont{X.} \protect\BIBand{} \bibnamefont{Ng},
-  \bibfnamefont{T.T.} (1997).
-\newblock A three-dimensional discrete element model using arrays of
-  ellipsoids.
-\newblock \emph{G{\'e}otechnique}, \bblvol{}~47, \bblno{}~2, \bblpp{} 319--329.
+\bibitem{Ibaraki:2023}
+S.~Ibaraki and R.~Saito, ``Novel kinematic model of articulated arm coordinate
+  measuring machine with angular position measuremnt errors of rotary axes,''
+  {\em CIRP Annals}, vol.~72, no.~1, pp.~449--452, 2023.
+
+\bibitem{Cuesta:2015}
+B.~Alvarez, E.~Cuesta, P.~Luque, D.~Mantaras, and D.~Muina, ``Dynamic
+  deformations in coordinate measuring arms using virtual simulation,'' {\em
+  Internation Journal of Simulation Modelling}, vol.~14, no.~4, pp.~609--620,
+  2015.
+
+\bibitem{Rim:2019}
+E.~Cuesta, D.~A. Mantaras, P.~Luque, B.~J. Alvarez, and D.~Muina, ``A
+  calibration method of portable coordinate measuring arms by using
+  artifacts,'' {\em MAPAN-Journal of Metrology Society of India}, vol.~34,
+  no.~1, pp.~1--11, 2019.
+
+\bibitem{Hall:2010}
+L.~Hall and K.~Schreve, ``Error distribution of an articulated arm measurement
+  system,'' (Stellenbosch, South Africa), July 2010.
+
+\bibitem{Meagher:2016}
+H.~Meagher, ``Measurement tool spotlight - portable measuring arms.'' OASIS
+  Alignment Service, LLC, February 2016.
+
+\bibitem{Cundall-1979}
+P.~A. Cundall and O.~D.~L. Strack, ``A discrete numerical model for granular
+  assemblies,'' {\em G\'eotechnique}, vol.~29, no.~1, pp.~47--65, 1979.
+
+\bibitem{Lin:1997}
+X.~Lin and T.~T. Ng, ``A three-dimensional discrete element model using arrays
+  of ellipsoids,'' {\em G{\'e}otechnique}, vol.~47, no.~2, pp.~319--329, 1997.
 
 \end{thebibliography}

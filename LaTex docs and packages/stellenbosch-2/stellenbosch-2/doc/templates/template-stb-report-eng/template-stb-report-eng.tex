@@ -27,6 +27,8 @@
     \usepackage{bm}%.............................. Bold math fonts
 \fi
 \normalfont
+\usepackage{microtype}
+\usepackage[none]{hyphenat}
 
 %==== Units and numbers ==============================================
 \usepackage{siunitx}%............................. Unit, number and angle output
@@ -40,16 +42,18 @@
          
 %==== Ref's, Bib's and Nomencl =======================================
 \usepackage{stb-nomencl}%......................... List of symbols 
-    \renewcommand*{\UnitLabel}[1]{~[\,\unit{#1}\,]}
+\renewcommand*{\UnitLabel}[1]{~[\,\unit{#1}\,]}
 \usepackage{stb-bib}%............................. Bibliography (natbib internally)
-    \bibliographystyle{stb-bib-eng-a}
-    \renewcommand\bibfont{\small}
-    \renewcommand\bibsection{\chapter{\bibname}}
+\setcitestyle{numbers} % <--- THIS IS THE MISSING LINE
+\bibliographystyle{ieeetr}
+\renewcommand\bibfont{\small}
+\renewcommand\bibsection{\chapter{\bibname}}
 
 %==== Tables + Graphics + Color =====================================
 \usepackage{array}%............................... Extended table defs 
     \setlength{\extrarowheight}{2pt}
 \usepackage{longtable}%........................... Tables can break over pages
+\usepackage{tabularx}
 \usepackage{graphicx}%............................ Included graphics
 \usepackage[font=small]{caption}%................. Customize captions  
 \usepackage[table]{xcolor}%....................... Color setup + colortbl 
@@ -85,7 +89,7 @@
 \makeatother
 
 %==== Title Page =====================================================
-\title{\textbf{Title}\\[2ex]
+\title{\textbf{Portable Coordinate Measuring Arm Joint Design}\\[2ex]
        \large Mechatronic Project 478\\Final Report\\[2ex]}                   
 \author{\Large Author: Lena Matota\\ 
         \large 24989142 \\[5ex]

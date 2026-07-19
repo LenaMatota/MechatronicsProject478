@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  10 JUL 2026 15:48
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  18 JUL 2026 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -923,20 +923,53 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/b/n on input line 21
 .
 
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+\MT@toks=\toks24
+\MT@tempbox=\box56
+\MT@count=\count315
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks25
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen171
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count316
+
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip56
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(c:/texlive/2026/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language91
+LaTeX Info: Redefining \_ on input line 43.
+)
 (c:/texlive/2026/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count315
-\l__siunitx_number_exponent_fixed_int=\count316
-\l__siunitx_number_min_decimal_int=\count317
-\l__siunitx_number_min_integer_int=\count318
-\l__siunitx_number_round_precision_int=\count319
-\l__siunitx_number_lower_threshold_int=\count320
-\l__siunitx_number_upper_threshold_int=\count321
-\l__siunitx_number_group_first_int=\count322
-\l__siunitx_number_group_size_int=\count323
-\l__siunitx_number_group_min_int=\count324
-\l__siunitx_number_group_minimum_int=\count325
-\l__siunitx_compound_count_int=\count326
+\l__siunitx_number_uncert_offset_int=\count317
+\l__siunitx_number_exponent_fixed_int=\count318
+\l__siunitx_number_min_decimal_int=\count319
+\l__siunitx_number_min_integer_int=\count320
+\l__siunitx_number_round_precision_int=\count321
+\l__siunitx_number_lower_threshold_int=\count322
+\l__siunitx_number_upper_threshold_int=\count323
+\l__siunitx_number_group_first_int=\count324
+\l__siunitx_number_group_size_int=\count325
+\l__siunitx_number_group_min_int=\count326
+\l__siunitx_number_group_minimum_int=\count327
+\l__siunitx_compound_count_int=\count328
 
 (c:/texlive/2026/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -953,32 +986,32 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-\l__siunitx_table_tmp_box=\box56
-\l__siunitx_table_tmp_dim=\dimen171
-\l__siunitx_table_column_width_dim=\dimen172
-\l__siunitx_table_integer_box=\box57
-\l__siunitx_table_decimal_box=\box58
-\l__siunitx_table_uncert_box=\box59
-\l__siunitx_table_before_box=\box60
-\l__siunitx_table_after_box=\box61
-\l__siunitx_table_before_dim=\dimen173
-\l__siunitx_table_carry_dim=\dimen174
-\l__siunitx_unit_tmp_int=\count327
-\l__siunitx_unit_position_int=\count328
-\l__siunitx_unit_total_int=\count329
-\l__siunitx_sexagesimal_tmp_dim=\dimen175
-\l__siunitx_sexagesimal_marker_box=\box62
-\l__siunitx_sexagesimal_unit_box=\box63
+\l__siunitx_table_tmp_box=\box57
+\l__siunitx_table_tmp_dim=\dimen172
+\l__siunitx_table_column_width_dim=\dimen173
+\l__siunitx_table_integer_box=\box58
+\l__siunitx_table_decimal_box=\box59
+\l__siunitx_table_uncert_box=\box60
+\l__siunitx_table_before_box=\box61
+\l__siunitx_table_after_box=\box62
+\l__siunitx_table_before_dim=\dimen174
+\l__siunitx_table_carry_dim=\dimen175
+\l__siunitx_unit_tmp_int=\count329
+\l__siunitx_unit_position_int=\count330
+\l__siunitx_unit_total_int=\count331
+\l__siunitx_sexagesimal_tmp_dim=\dimen176
+\l__siunitx_sexagesimal_marker_box=\box63
+\l__siunitx_sexagesimal_unit_box=\box64
 
 (c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty
 Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
-\col@sep=\dimen176
-\ar@mcellbox=\box64
-\extrarowheight=\dimen177
-\NC@list=\toks24
-\extratabsurround=\skip56
-\backup@length=\skip57
-\ar@cellbox=\box65
+\col@sep=\dimen177
+\ar@mcellbox=\box65
+\extrarowheight=\dimen178
+\NC@list=\toks26
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box66
 ))
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
@@ -1015,53 +1048,63 @@ Package: stb-nomencl 2023/07/25 v1.1 Stellenbosch Thesis Nomenclature (DNJ ELS)
 
 (c:/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count330
-\calc@Bcount=\count331
-\calc@Adimen=\dimen178
-\calc@Bdimen=\dimen179
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
+\calc@Acount=\count332
+\calc@Bcount=\count333
+\calc@Adimen=\dimen179
+\calc@Bdimen=\dimen180
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count332
-\calc@Cskip=\skip60
+\calc@Ccount=\count334
+\calc@Cskip=\skip61
 )
-\STBN@tdima=\skip61
-\STBN@NomGrpSep=\skip62
-\NomGrpSep=\skip63
-\NomItmSep=\skip64
-\NomItmMrg=\skip65
-\NomLblSep=\skip66
-\UnitLabelWdth=\skip67
+\STBN@tdima=\skip62
+\STBN@NomGrpSep=\skip63
+\NomGrpSep=\skip64
+\NomItmSep=\skip65
+\NomItmMrg=\skip66
+\NomLblSep=\skip67
+\UnitLabelWdth=\skip68
 )
 (c:/texlive/2026/texmf-dist/tex/latex/stellenbosch-2/stb-bib.sty
 Package: stb-bib 2023/01/16 1.0 (DNJ Els)
 
 (c:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip68
-\bibsep=\skip69
+\bibhang=\skip69
+\bibsep=\skip70
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count333
+\c@NAT@ctr=\count335
 ))
 (c:/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
-\LTleft=\skip70
-\LTright=\skip71
-\LTpre=\skip72
-\LTpost=\skip73
-\LTchunksize=\count334
-\LTcapwidth=\dimen180
-\LT@head=\box66
-\LT@firsthead=\box67
-\LT@foot=\box68
-\LT@lastfoot=\box69
-\LT@gbox=\box70
-\LT@cols=\count335
-\LT@rows=\count336
-\c@LT@tables=\count337
-\c@LT@chunks=\count338
-\LT@p@ftn=\toks25
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
+\LTchunksize=\count336
+\LTcapwidth=\dimen181
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@gbox=\box71
+\LT@cols=\count337
+\LT@rows=\count338
+\c@LT@tables=\count339
+\c@LT@chunks=\count340
+\LT@p@ftn=\toks27
+)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen182
+\TX@old@table=\dimen183
+\TX@old@col=\dimen184
+\TX@target=\dimen185
+\TX@delta=\dimen186
+\TX@cols=\count341
+\TX@ftn=\toks28
 )
 (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -1080,26 +1123,26 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen181
-\Gin@req@width=\dimen182
+\Gin@req@height=\dimen187
+\Gin@req@width=\dimen188
 )
 (c:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen183
-\captionmargin=\dimen184
-\caption@leftmargin=\dimen185
-\caption@rightmargin=\dimen186
-\caption@width=\dimen187
-\caption@indent=\dimen188
-\caption@parindent=\dimen189
-\caption@hangindent=\dimen190
+\caption@tempdima=\dimen189
+\captionmargin=\dimen190
+\caption@leftmargin=\dimen191
+\caption@rightmargin=\dimen192
+\caption@width=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count339
-\c@continuedfloat=\count340
+\c@caption@flags=\count342
+\c@continuedfloat=\count343
 Package caption Info: longtable package is loaded.
 
 (c:/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1127,15 +1170,15 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
 
 new hooks used!!
-\minrowclearance=\skip74
-\rownum=\count341
+\minrowclearance=\skip75
+\rownum=\count344
 ) (c:/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
-\ESO@tempdima=\dimen191
-\ESO@tempdimb=\dimen192
+\ESO@tempdima=\dimen197
+\ESO@tempdimb=\dimen198
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 103.
+h' as default language. on input line 107.
 
 (./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
 (./chaps-front/chap-summary.aux) (./chaps-front/chap-acknowledge.aux)
@@ -1145,22 +1188,22 @@ h' as default language. on input line 103.
 (./chaps-append/chap-experiment.aux))
 \openout1 = `template-stb-report-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1200,6 +1243,22 @@ LaTeX Font Info:    ... okay on input line 103.
 
 File: stb-logo-vert.pdf Graphic file (type pdf)
 <use stb-logo-vert.pdf>
+LaTeX Info: Redefining \microtypecontext on input line 107.
+Package microtype Info: Applying patch `item' on input line 107.
+Package microtype Info: Applying patch `toc' on input line 107.
+Package microtype Info: Applying patch `eqnum' on input line 107.
+Package microtype Info: Applying patch `footnote' on input line 107.
+Package microtype Info: Applying patch `verbatim' on input line 107.
+LaTeX Info: Redefining \microtypesetup on input line 107.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Cambria' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 (c:/texlive/2026/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -1207,7 +1266,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 103.
+or `english'. on input line 107.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
@@ -1218,26 +1277,42 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `chaps-front/chap-plagiarism.aux'.
 
  (./chaps-front/chap-plagiarism.tex
-LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 16.
-LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 8.76093pt on input line 16.
-LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 16.
-LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 16.
-LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 8.75905pt on input line 16.
-LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 16.
+Overfull \hbox (32.74905pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 (including the internet) have been cited fully. I underst
+and that the reproduction
+ []
+
+
+Overfull \hbox (14.11137pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 of text without quotation marks (even when the source is 
+cited) is plagiarism. 
+ []
+
+
+Overfull \hbox (14.79788pt too wide) in paragraph at lines 13--14
+[]\TU/Cambria(0)/m/n/12 I declare that the work contained in this assignment, e
+xcept where otherwise
+ []
+
 ) [2
 
 
 ]
 \openout2 = `chaps-front/chap-summary.aux'.
 
+ (./chaps-front/chap-summary.tex
+Underfull \hbox (badness 1107) in paragraph at lines 33--34
+[]|\TU/Cambria(0)/m/n/12 Risks: University workshop manufacturing capabilities 
+may fall short of
+ []
 
-(./chaps-front/chap-summary.tex
+
+Underfull \hbox (badness 2080) in paragraph at lines 33--34
+\TU/Cambria(0)/m/n/12 friction. Expectation of Success: The design requirements
+ are heavily
+ []
+
+
 Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
  [] 
  []
@@ -1250,7 +1325,7 @@ Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
 ])
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 109.
+ 113.
  [4]
 \openout2 = `chaps-front/chap-acknowledge.aux'.
 
@@ -1301,15 +1376,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  (./chaps-main/chap-intro.tex
 Chapter 1.
-) [1
+File: ../../../../../portable-coordinate-measuring-machine-arm.jpg Graphic file
+ (type bmp)
+<../../../../../portable-coordinate-measuring-machine-arm.jpg>
+
+Overfull \hbox (13.00275pt too wide) in paragraph at lines 5--13
+\TU/Cambria(0)/m/n/12 A portable coordinate measuring arm (PCMA) is a handheld 
+metrology instrument
+ []
+
+
+Overfull \hbox (5.13376pt too wide) in paragraph at lines 5--13
+\TU/Cambria(0)/m/n/12 that captures three-dimensional (3D) coordinates directly
+ from a physical object,
+ []
+
+
+Overfull \hbox (24.45682pt too wide) in paragraph at lines 5--13
+\TU/Cambria(0)/m/n/12 dimensional analysis, computer-aided design (CAD) inspect
+ion, reverse engineering,
+ []
+
+
+Overfull \hbox (5.27441pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 As a result, designing an effective joint with a position
+-holding mechanism would
+ []
+
+
+Overfull \hbox (1.05696pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 joint in this manner, error due to manual operation will 
+be minimised, kinematic
+ []
+
+[1
 
 
 ]
+Overfull \hbox (11.48499pt too wide) in paragraph at lines 22--23
+\TU/Cambria(0)/m/n/12 by Hall and Schreve by sampling the working volume of a P
+CMA determining
+ []
+
+
+Overfull \hbox (19.01532pt too wide) in paragraph at lines 23--24
+[]\TU/Cambria(0)/m/n/12 To design, build, and test the joint design through the
+ single-point articulation
+ []
+
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 34.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 34.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 34.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 34.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 34.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 34.
+
+Underfull \hbox (badness 6396) in paragraph at lines 34--34
+[][]\TU/Cambria(0)/m/n/10 In the context of PCMAs, ”in-line” refers to performi
+ng quality inspections and
+ []
+
+
+Overfull \hbox (14.16359pt too wide) in paragraph at lines 33--35
+\TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than tradition coordinate
+ measuring machines
+ []
+
+
+Overfull \hbox (19.1718pt too wide) in paragraph at lines 36--37
+\TU/Cambria(0)/m/n/12 Despite their growing popularity, the PCMA’s revolute joi
+nts must satisfy competing
+ []
+
+
+Overfull \hbox (35.5761pt too wide) in paragraph at lines 42--44
+\TU/Cambria(0)/m/n/12 errors at each joint propagate through the kinematic chai
+n, which affects end-effector’s
+ []
+
+
+Overfull \hbox (17.90578pt too wide) in paragraph at lines 42--44
+\TU/Cambria(0)/m/n/12 generalised model based off of an error model that was de
+veloped by a Stellenbosch
+ []
+
+
+Overfull \hbox (20.99565pt too wide) in paragraph at lines 42--44
+\TU/Cambria(0)/m/n/12 Alumnus, Leon Hall, ([]). This will produce a validated j
+oint and testing methodology
+ []
+
+[2]
+Overfull \hbox (4.5592pt too wide) in paragraph at lines 47--48
+\TU/Cambria(0)/m/n/12 Gemini is an artificial intelligence (AI) tool will be us
+ed check grammatical errors
+ []
+
+
+Overfull \hbox (2.35214pt too wide) in paragraph at lines 54--55
+[]\TU/Cambria(0)/m/n/12 Section 2 presents a literature review discussing sourc
+es relevant to PCMA
+ []
+
+
+Overfull \hbox (17.35066pt too wide) in paragraph at lines 54--55
+\TU/Cambria(0)/m/n/12 joint design, position-holding technology, kinematic mode
+ling, error analysis,
+ []
+
+) [3]
 \openout2 = `chaps-main/chap-literature.aux'.
 
  (./chaps-main/chap-literature.tex
 Chapter 2.
-) [2
+
+Package natbib Warning: Author undefined for citation`Lin:1997' 
+(natbib)                on page 4 on input line 5.
+
+)
+Overfull \hbox (15.16379pt too wide) in paragraph at lines 5--129
+\TU/Cambria(0)/m/n/12 The Discrete Element Method (DEM) analysis ([]) uses sphe
+rical objects. \TU/Cambria(0)/b/n/12 (author?)
+ []
+
+[4
 
 
 
@@ -1320,14 +1516,18 @@ Chapter 2.
  (./chaps-main/chap-content-A.tex
 Chapter 3.
 
-Overfull \hbox (5.7046pt too wide) in paragraph at lines 3--4
+Overfull \hbox (3.97661pt too wide) in paragraph at lines 3--4
 \TU/Cambria(0)/m/n/12 that explains how this chapter contributes to the objecti
 ves of the report/project. 
  []
 
 LaTeX Font Info:    Font shape `TU/Consolas(0)/m/n' will be
 (Font)              scaled to size 11.42633pt on input line 24.
-[3
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Consolas' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[5
 
 
 
@@ -1342,12 +1542,12 @@ olas(0)/m/n/12 graphicx \TU/Cambria(0)/m/n/12 package can import \TU/Consolas(0
 
 File: figs/waterplants.jpg Graphic file (type bmp)
 <figs/waterplants.jpg>
-) [4]
+) [6]
 \openout2 = `chaps-main/chap-conclusion.aux'.
 
  (./chaps-main/chap-conclusion.tex
 Chapter 4.
-) [5
+) [7
 
 
 
@@ -1357,7 +1557,13 @@ Chapter 4.
 
  (./chaps-append/chap-maths.tex
 Appendix A.
-) [6
+
+Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
+\TU/Cambria(0)/m/n/12 conservation of mass for Newtonian fluids. Navier-Stokes 
+equations using tensor
+ []
+
+) [8
 
 
 
@@ -1367,19 +1573,29 @@ Appendix A.
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-) [7
+) [9
 
 
 
 
 ] (./template-stb-report-eng.bbl
-(c:/texlive/2026/texmf-dist/tex/latex/stellenbosch-2/stb-bib.eng)) [8
+Underfull \hbox (badness 1394) in paragraph at lines 29--31
+[]\TU/Cambria(0)/m/n/10.95 H. Meagher, “Measurement tool spotlight - portable m
+easuring arms.” OASIS
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 33--35
+[]\TU/Cambria(0)/m/n/10.95 P. A. Cundall and O. D. L. Strack, “A discrete numer
+ical model for granular
+ []
+
+) [10
 
 
 
 
-]
-(./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
+] (./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
 (./chaps-front/chap-summary.aux) (./chaps-front/chap-acknowledge.aux)
 (./chaps-front/chap-symbols.aux) (./chaps-main/chap-intro.aux)
 (./chaps-main/chap-literature.aux) (./chaps-main/chap-content-A.aux)
@@ -1391,12 +1607,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16701 strings out of 467813
- 383277 string characters out of 5427149
- 898677 words of memory out of 5000000
- 45504 multiletter control sequences out of 15000+600000
- 630080 words of font info for 111 fonts, out of 8000000 for 9000
+ 18536 strings out of 467813
+ 418610 string characters out of 5427149
+ 955075 words of memory out of 5000000
+ 47308 multiletter control sequences out of 15000+600000
+ 630721 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,9n,115p,439b,692s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,9n,115p,1020b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (18 pages).
+Output written on template-stb-report-eng.pdf (20 pages).
