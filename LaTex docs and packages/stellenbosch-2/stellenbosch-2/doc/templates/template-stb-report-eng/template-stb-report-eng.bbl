@@ -29,12 +29,4 @@ L.~Hall and K.~Schreve, ``Error distribution of an articulated arm measurement
 H.~Meagher, ``Measurement tool spotlight - portable measuring arms.'' OASIS
   Alignment Service, LLC, February 2016.
 
-\bibitem{Cundall-1979}
-P.~A. Cundall and O.~D.~L. Strack, ``A discrete numerical model for granular
-  assemblies,'' {\em G\'eotechnique}, vol.~29, no.~1, pp.~47--65, 1979.
-
-\bibitem{Lin:1997}
-X.~Lin and T.~T. Ng, ``A three-dimensional discrete element model using arrays
-  of ellipsoids,'' {\em G{\'e}otechnique}, vol.~47, no.~2, pp.~319--329, 1997.
-
 \end{thebibliography}

@@ -1,7 +1,8 @@
-\contentsline {chapter}{Executive summary}{iii}{}%
-\contentsline {chapter}{List of figures}{vii}{}%
-\contentsline {chapter}{List of tables}{viii}{}%
-\contentsline {chapter}{List of symbols}{ix}{}%
+\contentsline {chapter}{Executive summary}{iv}{}%
+\contentsline {chapter}{ECSA Exit Level Outcomes}{vi}{}%
+\contentsline {chapter}{List of figures}{ix}{}%
+\contentsline {chapter}{List of tables}{x}{}%
+\contentsline {chapter}{List of symbols}{xi}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Background}{1}{}%
 \contentsline {section}{\numberline {1.2}Aim and Objectives}{2}{}%
@@ -10,7 +11,8 @@
 \contentsline {section}{\numberline {1.5}Use of AI Tools}{3}{}%
 \contentsline {section}{\numberline {1.6}Report Overview}{3}{}%
 \contentsline {chapter}{\numberline {2}Literature review}{4}{}%
-\contentsline {section}{\numberline {2.1}Discrete element method }{4}{}%
+\contentsline {section}{\numberline {2.1}PCMA Context}{4}{}%
+\contentsline {section}{\numberline {2.2}The Denavit-Hartenberg Model}{4}{}%
 \contentsline {chapter}{\numberline {3}Content chapter}{5}{}%
 \contentsline {section}{\numberline {3.1}Heading level 2}{5}{}%
 \contentsline {subsection}{\numberline {3.1.1}Heading level 3}{5}{}%
