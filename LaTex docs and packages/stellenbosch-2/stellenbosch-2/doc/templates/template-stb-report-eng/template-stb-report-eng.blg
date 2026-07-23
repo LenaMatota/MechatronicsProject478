@@ -3,7 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: template-stb-report-eng.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: chaps-front/chap-plagiarism.aux
+A level-1 auxiliary file: chaps-front/chap-AI-use-2024.aux
 A level-1 auxiliary file: chaps-front/chap-summary.aux
+A level-1 auxiliary file: chaps-front/chap-ECSA.aux
 A level-1 auxiliary file: chaps-front/chap-acknowledge.aux
 A level-1 auxiliary file: chaps-front/chap-symbols.aux
 A level-1 auxiliary file: chaps-main/chap-intro.aux
@@ -16,7 +18,7 @@ Database file #1: bib/bib-sample.bib
 Warning--empty booktitle in Hall:2010
 You've used 6 entries,
             1876 wiz_defined-function locations,
-            529 strings with 4828 characters,
+            531 strings with 4885 characters,
 and the built_in function-call counts, 1459 in all, are:
 = -- 139
 > -- 58

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  20 JUL 2026 17:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  23 JUL 2026 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1564,14 +1564,8 @@ text as what PCMAs
 
  (./chaps-main/chap-content-A.tex
 Chapter 3.
-
-Overfull \hbox (3.97661pt too wide) in paragraph at lines 3--4
-\TU/Cambria(0)/m/n/12 that explains how this chapter contributes to the objecti
-ves of the report/project. 
- []
-
 LaTeX Font Info:    Font shape `TU/Consolas(0)/m/n' will be
-(Font)              scaled to size 11.42633pt on input line 24.
+(Font)              scaled to size 11.42633pt on input line 28.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Consolas' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1582,7 +1576,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-Overfull \hbox (13.21988pt too wide) in paragraph at lines 38--39
+Overfull \hbox (13.21988pt too wide) in paragraph at lines 42--43
  \TU/Cambria(0)/b/n/12 Figures and tables:[] \TU/Cambria(0)/m/n/12 The \TU/Cons
 olas(0)/m/n/12 graphicx \TU/Cambria(0)/m/n/12 package can import \TU/Consolas(0
 )/m/n/12 PDF\TU/Cambria(0)/m/n/12 , \TU/Consolas(0)/m/n/12 PNG \TU/Cambria(0)/m
