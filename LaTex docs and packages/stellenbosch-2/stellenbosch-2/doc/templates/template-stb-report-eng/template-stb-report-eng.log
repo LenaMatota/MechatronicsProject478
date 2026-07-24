@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  24 JUL 2026 15:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  24 JUL 2026 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,26 +6,6 @@ entering extended mode
 (./template-stb-report-eng.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 g
-     it % !TeX encoding = UTF-8
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no g ("67) in font nullfont!
-Missing character: There is no i ("69) in font nullfont!
-Missing character: There is no t ("74) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
-[] 
- []
-
 (c:/texlive/2026/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (c:/texlive/2026/texmf-dist/tex/latex/base/bk12.clo
@@ -43,7 +23,7 @@ File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
- [1])
+)
 (c:/texlive/2026/texmf-dist/tex/latex/stellenbosch-2/stb-titlepage.sty
 Package: stb-titlepage 2023/07/22 v1.1 Stellenbosch Title Page Package (DNJ ELS
 )
@@ -1290,13 +1270,9 @@ Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 107.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 109.
- [2
+ [1
 
 
-] [1
 
 ]
 \openout2 = `chaps-front/chap-plagiarism.aux'.
@@ -1367,7 +1343,11 @@ Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
 
 
 
-]) [5]
+])
+LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
+ 114.
+ [5]
 \openout2 = `chaps-front/chap-ECSA.aux'.
 
  (./chaps-front/chap-ECSA.tex
@@ -1407,27 +1387,27 @@ dge
 
 
 
-] (./template-stb-report-eng.toc)
-\tf@toc=\write3
-\openout3 = `template-stb-report-eng.toc'.
-
-
+] (./template-stb-report-eng.toc
 [8
 
 
 
-] (./template-stb-report-eng.lof)
+])
+\tf@toc=\write3
+\openout3 = `template-stb-report-eng.toc'.
+
+ [9] (./template-stb-report-eng.lof)
 \tf@lof=\write4
 \openout4 = `template-stb-report-eng.lof'.
 
- [9
+ [10
 
 ] (./template-stb-report-eng.lot)
 \tf@lot=\write5
 \openout5 = `template-stb-report-eng.lot'.
 
 
-[10
+[11
 
 ]
 \openout2 = `chaps-front/chap-symbols.aux'.
@@ -1437,11 +1417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) [11
-
-
-] [12
-
+) [12
 
 
 ]
@@ -1483,6 +1459,9 @@ be minimised, kinematic
  []
 
 [1
+
+
+
 
 
 ]
@@ -1595,17 +1574,30 @@ Overfull \hbox (13.41982pt too wide) in paragraph at lines 18--27
  [][] 
  []
 
-) [5
+[5
 
 
 
 
 ]
+File: ../../../../../../../../../Downloads/System Context.png Graphic file (typ
+e bmp)
+<../../../../../../../../../Downloads/System Context.png>
+
+Overfull \hbox (1.13356pt too wide) in paragraph at lines 48--60
+ [][] 
+ []
+
+[6]
+File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
+phic file (type bmp)
+<../../../../../../../../../Downloads/Functional decomposition (2).png>
+ [7]) [8]
 \openout2 = `chaps-main/chap-conclusion.aux'.
 
  (./chaps-main/chap-conclusion.tex
 Chapter 4.
-) [6
+) [9
 
 
 
@@ -1621,7 +1613,7 @@ Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
 equations using tensor
  []
 
-) [7
+) [10
 
 
 
@@ -1631,7 +1623,7 @@ equations using tensor
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-) [8
+) [11
 
 
 
@@ -1642,7 +1634,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [9
+) [12
 
 
 
@@ -1660,12 +1652,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18546 strings out of 467813
- 419623 string characters out of 5427149
- 955673 words of memory out of 5000000
- 47306 multiletter control sequences out of 15000+600000
- 630713 words of font info for 126 fonts, out of 8000000 for 9000
+ 18593 strings out of 467813
+ 422331 string characters out of 5427149
+ 955879 words of memory out of 5000000
+ 47351 multiletter control sequences out of 15000+600000
+ 630705 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,10n,115p,1020b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,115p,1020b,764s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (23 pages).
+Output written on template-stb-report-eng.pdf (24 pages).

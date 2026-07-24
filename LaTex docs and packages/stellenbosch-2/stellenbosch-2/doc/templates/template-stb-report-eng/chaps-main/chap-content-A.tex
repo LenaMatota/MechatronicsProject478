@@ -28,4 +28,82 @@ The stakeholders relevant to the project are defined in Table~\ref{tab:SID table
 
 \section{System Context}
 
-The next step is 
+The next step is to define the narrower system of interest (NSoI) and the wider system of interest (WSoI) of the project\footnote{The NSoI is the system being designed and the WSoI includes the NSoI and elements that the NSoI interacts with, \citep{Callister:2011}.}, \citep{Callister:2011} for the purposes of this project, the joint was identified as the NSoI and WSoI is the NSol with a reliable power supply and an artefact with which the joint will be tested. Figure~\ref{fig:system-context} illustrates the system context, with the NSoI shown as a "black box", \citep{Callister:2011}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"../../../../../../../../../Downloads/System Context"}
+	\caption{System Context}
+	\label{fig:system-context}
+\end{figure}
+
+\section{Design Independent Parameters}
+
+Next, the design independent parameters (DIPs) are defined. DIPs influence the system during the operational and support life cycle stages, but are not controllable nor are part of the system being defined, \citep{Callister:2011}. The DIPs of the joint design are detailed in Table~\ref{tab:DIPs} below.
+
+\begin{table}[h]
+	\centering
+	\caption{Design Independent Parameters}
+	\label{tab:DIPs}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{DIP\_ID} & \textbf{Description} & \textbf{Expected range} \\\hline
+		DIP\_01.1 & Electrical supply & \SI{12}{V} - \SI{24}{V} \\\hline
+		DIP\_01.2 & Electrical supply & \SI{12}{A} maximum \\\hline
+		DIP\_01.3 & Electrical supply & Direct current \\\hline
+		DIP\_02.1 & Artefact & Compliant with ISO 10360-12:2016 \\\hline
+		DIP\_02.2 & Artefact & 20 points reference points \\\hline
+		DIP\_03.1 & Environment & Laboratory ambient temperature: \SI{0}{\degree C} - \SI{35}{\degree C} \\\hline
+		DIP\_03.2 & Environment & Laboratory ambient humidity: \SI{20}{\%} - \SI{80}{\%} \\\hline
+		DIP\_{03.3} & Project budgect & R 6000 \\\hline
+	\end{tabular}
+\end{table}
+
+\section{Functional Requirements}
+
+In this section, the primary and top-level derived functional requirements (FRs) for the joint design are defined. The only FRs that are considered are only associated with joint's operation. FRs are categorised into primary and derived FRs, in which:
+\begin{itemize}
+	\item Stakeholders are directly concerned with primary FRs.
+	\item Derived FRs are required so that the systen can perform primary FRs.
+\end{itemize}
+As seen in Table~\ref{tab:FRs} below, the FRs for the joint design are listed.
+\begin{table}[h]
+	\centering
+	\caption{Table 3: Functional Requirements}
+	\label{tab:FRs}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{FR ID} & \textbf{Description} & \textbf{Primary / Derived} \\\hline
+		FR\_01 & Articulate output link & P \\\hline
+		FR\_02 & Hold position & P \\\hline
+		FR\_03 & Measure angular displacement & P\\\hline
+		FR\_04 & Store angular displacement data & D \\\hline
+		FR\_05 & Release position & P \\\hline
+	\end{tabular}
+\end{table}
+\noindent In Figure~\ref{fig:functional-decomposition-2}, the functional requirements of the joint are depicted below.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/Functional decomposition (2)"}
+	\caption{Top Level Functional Decomposition}
+	\label{fig:functional-decomposition-2}
+\end{figure}
+
+\section{Technical Performance Measures}
+
+This section defines the technical performance measures (TPMs) which will be used to determine how well the joint design (NSoI) performs the required functions\footnote{TPMs are measurable and unambiguous parameters that can be influenced by designing the joint}, in Table~\ref{tab:TPMs} below.
+
+\begin{table}[h]
+	\centering
+	\caption{Technical Performance Measures}
+	\label{tab:TPMs}
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{TPM ID} & \textbf{Related FR} & \textbf{Description} & \textbf{Target range} \\\hline
+		TPM\_01 & FR\_01, FR\_05 & Run-out tolerance & \SI{1.571e-3}{rad} \\\hline
+		TPM\_02 & FR\_02 & Holding torque & \SI{7.725}{Nm} \\\hline
+		TPM\_03 & FR\_03, FR\_04 & Encoder accuracy & \SI{1000}{PPR} \\\hline
+		TPM\_04 & FR\_01, FR\_02, FR\_05 & Joint life cycle & \num{e6} life cycles \\\hline
+	\end{tabular}
+\end{table}

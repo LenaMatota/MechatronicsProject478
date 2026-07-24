@@ -16,45 +16,45 @@ A level-1 auxiliary file: chaps-append/chap-maths.aux
 A level-1 auxiliary file: chaps-append/chap-experiment.aux
 Database file #1: bib/bib-sample.bib
 Warning--empty booktitle in Hall:2010
-You've used 6 entries,
+You've used 7 entries,
             1876 wiz_defined-function locations,
-            531 strings with 4885 characters,
-and the built_in function-call counts, 1459 in all, are:
-= -- 139
-> -- 58
+            539 strings with 5001 characters,
+and the built_in function-call counts, 1630 in all, are:
+= -- 155
+> -- 66
 < -- 0
-+ -- 22
-- -- 16
-* -- 110
-:= -- 218
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 6
++ -- 25
+- -- 18
+* -- 120
+:= -- 243
+add.period$ -- 8
+call.type$ -- 7
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 72
-empty$ -- 143
-format.name$ -- 16
-if$ -- 347
+cite$ -- 8
+duplicate$ -- 81
+empty$ -- 163
+format.name$ -- 18
+if$ -- 390
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 5
-newline$ -- 21
-num.names$ -- 6
-pop$ -- 21
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 25
+num.names$ -- 7
+pop$ -- 26
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 44
+skip$ -- 46
 stack$ -- 0
 substring$ -- 83
-swap$ -- 24
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 15
-width$ -- 7
-write$ -- 59
+while$ -- 16
+width$ -- 8
+write$ -- 69
 (There was 1 warning)
