@@ -14,16 +14,11 @@
 \contentsline {section}{\numberline {2.1}PCMA Context}{4}{}%
 \contentsline {section}{\numberline {2.2}The Denavit-Hartenberg Model}{4}{}%
 \contentsline {chapter}{\numberline {3}Requirement Analysis}{5}{}%
-\contentsline {subsection}{\numberline {3.0.1}Identification of Stakeholders}{5}{}%
-\contentsline {section}{\numberline {3.1}Heading level 2}{5}{}%
-\contentsline {subsection}{\numberline {3.1.1}Heading level 3}{5}{}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Deepest heading, only if you cannot do without it}{5}{}%
-\contentsline {paragraph}{Equations:}{5}{}%
-\contentsline {paragraph}{Symbols and numbers:}{6}{}%
-\contentsline {paragraph}{Figures and tables:}{6}{}%
-\contentsline {chapter}{\numberline {4}Conclusions}{7}{}%
-\contentsline {chapter}{\numberline {A}Mathematical proofs}{8}{}%
-\contentsline {section}{\numberline {A.1}Euler's equation}{8}{}%
-\contentsline {section}{\numberline {A.2}Navier Stokes equation}{8}{}%
-\contentsline {chapter}{\numberline {B}Experimental results}{9}{}%
-\contentsline {chapter}{List of references}{10}{}%
+\contentsline {section}{\numberline {3.1}Identification of Stakeholders}{5}{}%
+\contentsline {section}{\numberline {3.2}System Context}{5}{}%
+\contentsline {chapter}{\numberline {4}Conclusions}{6}{}%
+\contentsline {chapter}{\numberline {A}Mathematical proofs}{7}{}%
+\contentsline {section}{\numberline {A.1}Euler's equation}{7}{}%
+\contentsline {section}{\numberline {A.2}Navier Stokes equation}{7}{}%
+\contentsline {chapter}{\numberline {B}Experimental results}{8}{}%
+\contentsline {chapter}{List of references}{9}{}%
