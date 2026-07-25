@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  25 JUL 2026 12:02
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  25 JUL 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,20 +956,37 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language91
 LaTeX Info: Redefining \_ on input line 43.
 )
+(c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count317
+\float@exts=\toks26
+\float@box=\box57
+\@float@everytoks=\toks27
+\@floatcapt=\box58
+)
+(c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip57
+\enit@outerparindent=\dimen172
+\enit@toks=\toks28
+\enit@inbox=\box59
+\enit@count@id=\count318
+\enitdp@description=\count319
+)
 (c:/texlive/2026/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count317
-\l__siunitx_number_exponent_fixed_int=\count318
-\l__siunitx_number_min_decimal_int=\count319
-\l__siunitx_number_min_integer_int=\count320
-\l__siunitx_number_round_precision_int=\count321
-\l__siunitx_number_lower_threshold_int=\count322
-\l__siunitx_number_upper_threshold_int=\count323
-\l__siunitx_number_group_first_int=\count324
-\l__siunitx_number_group_size_int=\count325
-\l__siunitx_number_group_min_int=\count326
-\l__siunitx_number_group_minimum_int=\count327
-\l__siunitx_compound_count_int=\count328
+\l__siunitx_number_uncert_offset_int=\count320
+\l__siunitx_number_exponent_fixed_int=\count321
+\l__siunitx_number_min_decimal_int=\count322
+\l__siunitx_number_min_integer_int=\count323
+\l__siunitx_number_round_precision_int=\count324
+\l__siunitx_number_lower_threshold_int=\count325
+\l__siunitx_number_upper_threshold_int=\count326
+\l__siunitx_number_group_first_int=\count327
+\l__siunitx_number_group_size_int=\count328
+\l__siunitx_number_group_min_int=\count329
+\l__siunitx_number_group_minimum_int=\count330
+\l__siunitx_compound_count_int=\count331
 
 (c:/texlive/2026/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -986,32 +1003,32 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-\l__siunitx_table_tmp_box=\box57
-\l__siunitx_table_tmp_dim=\dimen172
-\l__siunitx_table_column_width_dim=\dimen173
-\l__siunitx_table_integer_box=\box58
-\l__siunitx_table_decimal_box=\box59
-\l__siunitx_table_uncert_box=\box60
-\l__siunitx_table_before_box=\box61
-\l__siunitx_table_after_box=\box62
-\l__siunitx_table_before_dim=\dimen174
-\l__siunitx_table_carry_dim=\dimen175
-\l__siunitx_unit_tmp_int=\count329
-\l__siunitx_unit_position_int=\count330
-\l__siunitx_unit_total_int=\count331
-\l__siunitx_sexagesimal_tmp_dim=\dimen176
-\l__siunitx_sexagesimal_marker_box=\box63
-\l__siunitx_sexagesimal_unit_box=\box64
+\l__siunitx_table_tmp_box=\box60
+\l__siunitx_table_tmp_dim=\dimen173
+\l__siunitx_table_column_width_dim=\dimen174
+\l__siunitx_table_integer_box=\box61
+\l__siunitx_table_decimal_box=\box62
+\l__siunitx_table_uncert_box=\box63
+\l__siunitx_table_before_box=\box64
+\l__siunitx_table_after_box=\box65
+\l__siunitx_table_before_dim=\dimen175
+\l__siunitx_table_carry_dim=\dimen176
+\l__siunitx_unit_tmp_int=\count332
+\l__siunitx_unit_position_int=\count333
+\l__siunitx_unit_total_int=\count334
+\l__siunitx_sexagesimal_tmp_dim=\dimen177
+\l__siunitx_sexagesimal_marker_box=\box66
+\l__siunitx_sexagesimal_unit_box=\box67
 
 (c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty
 Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
-\col@sep=\dimen177
-\ar@mcellbox=\box65
-\extrarowheight=\dimen178
-\NC@list=\toks26
-\extratabsurround=\skip57
-\backup@length=\skip58
-\ar@cellbox=\box66
+\col@sep=\dimen178
+\ar@mcellbox=\box68
+\extrarowheight=\dimen179
+\NC@list=\toks29
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box69
 ))
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
@@ -1048,64 +1065,70 @@ Package: stb-nomencl 2023/07/25 v1.1 Stellenbosch Thesis Nomenclature (DNJ ELS)
 
 (c:/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count332
-\calc@Bcount=\count333
-\calc@Adimen=\dimen179
-\calc@Bdimen=\dimen180
-\calc@Askip=\skip59
-\calc@Bskip=\skip60
+\calc@Acount=\count335
+\calc@Bcount=\count336
+\calc@Adimen=\dimen180
+\calc@Bdimen=\dimen181
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count334
-\calc@Cskip=\skip61
+\calc@Ccount=\count337
+\calc@Cskip=\skip62
 )
-\STBN@tdima=\skip62
-\STBN@NomGrpSep=\skip63
-\NomGrpSep=\skip64
-\NomItmSep=\skip65
-\NomItmMrg=\skip66
-\NomLblSep=\skip67
-\UnitLabelWdth=\skip68
+\STBN@tdima=\skip63
+\STBN@NomGrpSep=\skip64
+\NomGrpSep=\skip65
+\NomItmSep=\skip66
+\NomItmMrg=\skip67
+\NomLblSep=\skip68
+\UnitLabelWdth=\skip69
 )
 (c:/texlive/2026/texmf-dist/tex/latex/stellenbosch-2/stb-bib.sty
 Package: stb-bib 2023/01/16 1.0 (DNJ Els)
 
 (c:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip69
-\bibsep=\skip70
+\bibhang=\skip70
+\bibsep=\skip71
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count335
+\c@NAT@ctr=\count338
 ))
 (c:/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
-\LTleft=\skip71
-\LTright=\skip72
-\LTpre=\skip73
-\LTpost=\skip74
-\LTchunksize=\count336
-\LTcapwidth=\dimen181
-\LT@head=\box67
-\LT@firsthead=\box68
-\LT@foot=\box69
-\LT@lastfoot=\box70
-\LT@gbox=\box71
-\LT@cols=\count337
-\LT@rows=\count338
-\c@LT@tables=\count339
-\c@LT@chunks=\count340
-\LT@p@ftn=\toks27
+\LTleft=\skip72
+\LTright=\skip73
+\LTpre=\skip74
+\LTpost=\skip75
+\LTchunksize=\count339
+\LTcapwidth=\dimen182
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@gbox=\box74
+\LT@cols=\count340
+\LT@rows=\count341
+\c@LT@tables=\count342
+\c@LT@chunks=\count343
+\LT@p@ftn=\toks30
 )
 (c:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen182
-\TX@old@table=\dimen183
-\TX@old@col=\dimen184
-\TX@target=\dimen185
-\TX@delta=\dimen186
-\TX@cols=\count341
-\TX@ftn=\toks28
+\TX@col@width=\dimen183
+\TX@old@table=\dimen184
+\TX@old@col=\dimen185
+\TX@target=\dimen186
+\TX@delta=\dimen187
+\TX@cols=\count344
+\TX@ftn=\toks31
 )
+(c:/texlive/2026/texmf-dist/tex/latex/xltabular/xltabular.sty
+Package: xltabular 2025/02/28 v0.2i `xltabular' package (hv,RN)
+
+(c:/texlive/2026/texmf-dist/tex/latex/ltablex/ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+))
 (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -1123,26 +1146,27 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen187
-\Gin@req@width=\dimen188
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
 )
 (c:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen189
-\captionmargin=\dimen190
-\caption@leftmargin=\dimen191
-\caption@rightmargin=\dimen192
-\caption@width=\dimen193
-\caption@indent=\dimen194
-\caption@parindent=\dimen195
-\caption@hangindent=\dimen196
+\caption@tempdima=\dimen190
+\captionmargin=\dimen191
+\caption@leftmargin=\dimen192
+\caption@rightmargin=\dimen193
+\caption@width=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count342
-\c@continuedfloat=\count343
+\c@caption@flags=\count345
+\c@continuedfloat=\count346
+Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 
 (c:/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1170,15 +1194,15 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
 
 new hooks used!!
-\minrowclearance=\skip75
-\rownum=\count344
+\minrowclearance=\skip76
+\rownum=\count347
 ) (c:/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
-\ESO@tempdima=\dimen197
-\ESO@tempdimb=\dimen198
+\ESO@tempdima=\dimen198
+\ESO@tempdimb=\dimen199
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 107.
+h' as default language. on input line 110.
 
 (./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
 (./chaps-front/chap-AI-use-2024.aux) (./chaps-front/chap-summary.aux)
@@ -1193,22 +1217,22 @@ h' as default language. on input line 107.
 (./chaps-append/chap-experiment.aux))
 \openout1 = `template-stb-report-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1248,13 +1272,13 @@ LaTeX Font Info:    ... okay on input line 107.
 
 File: stb-logo-vert.pdf Graphic file (type pdf)
 <use stb-logo-vert.pdf>
-LaTeX Info: Redefining \microtypecontext on input line 107.
-Package microtype Info: Applying patch `item' on input line 107.
-Package microtype Info: Applying patch `toc' on input line 107.
-Package microtype Info: Applying patch `eqnum' on input line 107.
-Package microtype Info: Applying patch `footnote' on input line 107.
-Package microtype Info: Applying patch `verbatim' on input line 107.
-LaTeX Info: Redefining \microtypesetup on input line 107.
+LaTeX Info: Redefining \microtypecontext on input line 110.
+Package microtype Info: Applying patch `item' on input line 110.
+Package microtype Info: Applying patch `toc' on input line 110.
+Package microtype Info: Applying patch `eqnum' on input line 110.
+Package microtype Info: Applying patch `footnote' on input line 110.
+Package microtype Info: Applying patch `verbatim' on input line 110.
+LaTeX Info: Redefining \microtypesetup on input line 110.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1271,7 +1295,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 107.
+or `english'. on input line 110.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
@@ -1350,7 +1374,7 @@ Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
 ])
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 114.
+ 117.
  [5]
 \openout2 = `chaps-front/chap-ECSA.aux'.
 
@@ -1505,7 +1529,7 @@ Overfull \hbox (14.16359pt too wide) in paragraph at lines 33--35
  []
 
 
-Overfull \hbox (19.1718pt too wide) in paragraph at lines 36--37
+Overfull \hbox (19.1718pt too wide) in paragraph at lines 36--38
 \TU/Cambria(0)/m/n/12 Despite their growing popularity, the PCMA’s revolute joi
 nts must satisfy competing
  []
@@ -1596,22 +1620,824 @@ Overfull \hbox (1.13356pt too wide) in paragraph at lines 48--60
 File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
- [7]) [8]
+
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 95--96
+\TU/Cambria(0)/m/n/12 functions[]. The TPMs, listed in Table 3.4[], were derive
+d from the results obtained
+ []
+
+[7]
+Overfull \hbox (29.70679pt too wide) in paragraph at lines 101--110
+ [][] 
+ []
+
+) [8]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
 Chapter 4.
-) [9
+
+Overfull \hbox (23.02531pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 mechanical solutions, and different mechanisms were evalu
+ated for implementation
+ []
+
+
+Overfull \hbox (14.19615pt too wide) in paragraph at lines 9--10
+\TU/Cambria(0)/m/n/12 minimal run-out. Bellville washer and preload nuts are us
+ed to secure the bearings
+ []
+
+File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
+)
+<../../../../../../Building the joint/Concept 1.jpg>
+[9
 
 
 
 
 ]
+Overfull \hbox (5.4027pt too wide) in paragraph at lines 18--18
+[]\TU/Cambria(0)/b/n/14.4 Concept Two: PCMA Joint with a Counterbalance Spring 
+
+ []
+
+
+Overfull \hbox (6.16095pt too wide) in paragraph at lines 20--21
+\TU/Cambria(0)/m/n/12 position-holding. The counterbalance spring produces a li
+fting force to the upper
+ []
+
+File: ../../../../../../Building the joint/Concept 3.jpg Graphic file (type bmp
+)
+<../../../../../../Building the joint/Concept 3.jpg>
+
+Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--32
+\TU/Cambria(0)/m/n/12 Figure 4.3[] depicts a PCMA with internal modifications t
+o implement an electromagnetic
+ []
+
+[10]
+File: ../../../../../../Building the joint/Concept 2.jpg Graphic file (type bmp
+)
+<../../../../../../Building the joint/Concept 2.jpg>
+
+Overfull \hbox (24.10942pt too wide) in paragraph at lines 42--43
+\TU/Cambria(0)/m/n/12 concepts are still solution neutral and cannot undergo a 
+full quantitative comparison.
+ []
+
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 51.
+
+
+Overfull \hbox (18.09184pt too wide) in paragraph at lines 50--52
+\TU/Cambria(0)/m/n/12 maximise the joint design’s ability to maintain and/or im
+prove the PCMA’s accuracy.
+ []
+
+
+Overfull \hbox (31.71242pt too wide) in paragraph at lines 50--52
+\TU/Cambria(0)/m/n/12 EC4 and EC5 was included as a practical design considerat
+ion given the manufacturing
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Load
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 driven by a stepper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 motor achieves
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 positioning equivalent
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 to the datum at the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already mandates a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 real-time encoder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 for user-interface
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 state reporting; with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder feedback
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 available to all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 concepts equally,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 residual belt stretch
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 is corrected in closed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 loop, removing any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 inherent accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Datum:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 PWM-controlled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 open-loop step
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 resolution is high,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 but since FR_-13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already requires an
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder for real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 user-interface
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 advantage is negated
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 when compared with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 an encoder-equipped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Operational
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 articulation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 driven by a stepper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 motor achieves
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 positioning equivalent
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 to the datum at the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already mandates a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 real-time encoder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 for user-interface
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 state reporting; with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder feedback
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 available to all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 concepts equally,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 residual belt stretch
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 is corrected in closed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 loop, removing any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 inherent accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Datum:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 PWM-controlled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 open-loop step
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 resolution is high,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 but since FR_-13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already requires an
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder for real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 user-interface
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 advantage is negated
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 when compared with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 an encoder-equipped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Positional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 driven by a stepper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 motor achieves
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 positioning equivalent
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 to the datum at the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already mandates a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 real-time encoder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 for user-interface
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 state reporting; with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder feedback
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 available to all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 concepts equally,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 residual belt stretch
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 is corrected in closed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 loop, removing any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 inherent accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Datum:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 PWM-controlled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 open-loop step
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 resolution is high,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 but since FR_-13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already requires an
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder for real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 user-interface
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 advantage is negated
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 when compared with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 an encoder-equipped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Component
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 driven by a stepper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 motor achieves
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 positioning equivalent
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 to the datum at the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already mandates a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 real-time encoder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 for user-interface
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 state reporting; with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder feedback
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 available to all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 concepts equally,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 residual belt stretch
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 is corrected in closed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 loop, removing any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 inherent accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Datum:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 PWM-controlled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 open-loop step
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 resolution is high,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 but since FR_-13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already requires an
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder for real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 user-interface
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 advantage is negated
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 when compared with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 an encoder-equipped
+ []
+
+
+Overfull \hbox (1.57088pt too wide) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Construction
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 driven by a stepper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 motor achieves
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 positioning equivalent
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 to the datum at the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already mandates a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 real-time encoder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 for user-interface
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 state reporting; with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder feedback
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 available to all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 concepts equally,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 residual belt stretch
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 is corrected in closed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 loop, removing any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 inherent accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 Datum:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 PWM-controlled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 open-loop step
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 resolution is high,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 but since FR_-13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 already requires an
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 encoder for real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 user-interface
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 advantage is negated
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 when compared with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/Cambria(0)/m/n/8 an encoder-equipped
+ []
+
+[12] [13]) [14]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
 Chapter 5.
-) [10
+) [15
 
 
 
@@ -1621,7 +2447,7 @@ Chapter 5.
 
  (./chaps-main/chap-design_evaluation.tex
 Chapter 6.
-) [11
+) [16
 
 
 
@@ -1631,7 +2457,7 @@ Chapter 6.
 
  (./chaps-main/chap-experimental_procedure.tex
 Chapter 7.
-) [12
+) [17
 
 
 
@@ -1641,7 +2467,7 @@ Chapter 7.
 
  (./chaps-main/chap-conclusion.tex
 Chapter 8.
-) [13
+) [18
 
 
 
@@ -1657,7 +2483,7 @@ Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
 equations using tensor
  []
 
-) [14
+) [19
 
 
 
@@ -1667,7 +2493,7 @@ equations using tensor
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-) [15
+) [20
 
 
 
@@ -1678,7 +2504,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [16
+) [21
 
 
 
@@ -1698,14 +2524,18 @@ easuring arms.” OASIS
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 18696 strings out of 467813
- 427587 string characters out of 5427149
- 957311 words of memory out of 5000000
- 47425 multiletter control sequences out of 15000+600000
- 630713 words of font info for 126 fonts, out of 8000000 for 9000
+ 19286 strings out of 467813
+ 441288 string characters out of 5427149
+ 1019233 words of memory out of 5000000
+ 47981 multiletter control sequences out of 15000+600000
+ 631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,11n,115p,1020b,764s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,115p,1537b,778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (28 pages).
+Output written on template-stb-report-eng.pdf (33 pages).

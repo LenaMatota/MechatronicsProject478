@@ -2,19 +2,136 @@
 
 \section{Concept Generation}
 
+The generalised error propagation model was used to derive the TPMs in the development of the joint design. These TPMs guided the research into various mechanical solutions, and different mechanisms were evaluated for implementation to ensure the final design could achieve the required TPMs. Three concepts were generated and evaluated against the FRs and the TPMs, as presented in this section.
 
-\subsection{Concept One:}
+\subsection{Concept One: PCMA Joint with a Locking Dial}
 
+Figure~\ref{fig:concept-1} below shows a PCMA joint with the following internal modifications to implement position-holding capabilities. In the center of the shaft, is a spacer between angular contact bearings, which will allow the shaft to rotate with minimal run-out. Bellville washer and preload nuts are used to secure the bearings in place. On one end, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held secure by the joint housing. This is done to ensure that the relative angular displacement of the shaft with respect to the joint housing is measured. The joint housing is held stationary by the base link and the joint shaft is rotated by the output link. The knob on the other end of the shaft is meant to loosen and/or tighten the preload nuts against the bearings to lock or release the shaft for the output link's rotation.
 
-\subsection{Concept Two:}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\linewidth]{"../../../../../../Building the joint/Concept 1"}
+	\caption{PCMA Joint with Locking Dial}
+	\label{fig:concept-1}
+\end{figure}
 
+\subsection{Concept Two: PCMA Joint with a Counterbalance Spring}
 
-\subsection{Concept Three:}
+Figure~\ref{fig:concept-3} illustrates a PCMA joint with external modifications to implement position-holding. The counterbalance spring produces a lifting force to the upper link via the upper and lower rods. Each rod is pin-connected to a cuff that can be fixed in position along the length of either link using a set screw, thereby holding the position of the joint. The 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{"../../../../../../Building the joint/Concept 3"}
+	\caption{PCMA Joint with Couunterbalance Spring}
+	\label{fig:concept-3}
+\end{figure}
+
+\subsection{Concept Three: PCMA Joint with an Electromagnetic Brake}
+
+Figure~\ref{fig:concept-2} depicts a PCMA with internal modifications to implement an electromagnetic brake. In the center of the shaft, two angular contact bearings are fitted in place with the bearing housing and pressed against a shoulder of the shaft by preload nuts and washers. On one side of the shaft, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held stationary by the joint housing. The base link is supports the joint housing. The electromagnetic brake sits on the other side of the shaft and is also held stationary by they joint housing, however, the brake disc is free to rotate on the joint shaft. When the brake is energised, the air gap between the brake disc and friction plate opens up and the shaft is free to be rotated by the output link. When the brake's power supply is cut off, the air gap closes and the joint is held still.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.55\linewidth]{"../../../../../../Building the joint/Concept 2"}
+	\caption{PCMA Joint with Electromagnetic Brake}
+	\label{fig:concept-2}
+\end{figure}
 
 \section{Concept Evaluation}
 
+The concepts presented in the previous section were determined to be feasible. A qualitative evaluation of the concepts is to be conducted as the generated concepts are still solution neutral and cannot undergo a full quantitative comparison. This section compares the concepts in terms of the following evaluation criteria (EC):
+\begin{enumerate}[label=EC\arabic*]
+	\item Load capacity: The ability of the joint design to carry the required holding torque (TPM\_03).
+	\item Operational articulation angle: The ability of the joint design to achieve the full required sweep without interference (TPM\_01).
+	\item Positional stability: The ability of the joint design to maintain position when the position-holding technology is in use (TPM\_02).
+	\item Component availability: The degree to which all required components are available in the mechanical workshop.
+	\item Construction simplicity: The number of distinct components and the ease of assembly and alignment during fabrication.
+\end{enumerate}
+EC1 was derived from TPM\_03 and determined to be the most important EC as the joint will be ineffective if it is unable to achieve the holding torque dictated by TPM\_03. EC2 was derived from TPM\_01 as the chosen joint design must not inhibit the PCMA's existing range of motion once implemented. EC3 was derived from TPM\_02  as any internal sources of error must be minimised to maximise the joint design's ability to maintain and/or improve the PCMA's accuracy. EC4 and EC5 was included as a practical design consideration given the manufacturing capabilities of the mechanical workshop and the project's timeline and budget.
+\\\noindent Table~\ref{} below, presents a comparison of the generated concepts. To rate the concepts, one of them is marked as the DATUM and the other two are awarded a $+1$ if the other concept is stronger or $-1$ if it is weaker. Each rating is motivated in the table as well.
 
+\begingroup % Keeps the sizing commands isolated to this table
+\scriptsize 
+\setlength{\tabcolsep}{3pt} 
+\renewcommand{\arraystretch}{1.3} 
+\begin{xltabular}{\linewidth}{|c|p{1.5cm}|c|c|X|c|X|c|X|}
+	% --- FIRST PAGE HEADER ---
+	\caption{Concept Evaluation}
+	\label{tab:concept_evaluation_portrait} \\
+	\hline
+	\multicolumn{3}{|c|}{\textbf{Criterion}} & 
+	\multicolumn{2}{c|}{\begin{tabular}[t]{@{}c@{}}\textbf{Concept 1: PCMA Joint} \\ \textbf{with a Locking Dial}\end{tabular}} & 
+	\multicolumn{2}{c|}{\begin{tabular}[t]{@{}c@{}}\textbf{Concept 2: PCMA Joint} \\ \textbf{with a Counterbalance} \\ \textbf{Spring (DATUM)}\end{tabular}} & 
+	\multicolumn{2}{c|}{\begin{tabular}[t]{@{}c@{}}\textbf{Concept 3: PCMA Joint} \\ \textbf{with an Electromagnetic} \\ \textbf{Brake}\end{tabular}} \\ \hline
+	
+	\textbf{\#} & \textbf{Description} & \textbf{Wt.} & \textbf{Rtg} & \multicolumn{1}{c|}{\textbf{Motivation}} & \textbf{Dat} & \multicolumn{1}{c|}{\textbf{Motivation}} & \textbf{Rtg} & \multicolumn{1}{c|}{\textbf{Motivation}} \\ \hline
+	\endfirsthead
+	
+	% --- REPEATING HEADER (Pages 2+) ---
+	\multicolumn{9}{c}{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+	\hline
+	\multicolumn{3}{|c|}{\textbf{Criterion}} & 
+	\multicolumn{2}{c|}{\begin{tabular}[t]{@{}c@{}}\textbf{Concept 1: PCMA Joint} \\ \textbf{with a Locking Dial}\end{tabular}} & 
+	\multicolumn{2}{c|}{\begin{tabular}[t]{@{}c@{}}\textbf{Concept 2: PCMA Joint} \\ \textbf{with a Counterbalance} \\ \textbf{Spring (DATUM)}\end{tabular}} & 
+	\multicolumn{2}{c|}{\begin{tabular}[t]{@{}c@{}}\textbf{Concept 3: PCMA Joint} \\ \textbf{with an Electromagnetic} \\ \textbf{Brake}\end{tabular}} \\ \hline
+	
+	\textbf{\#} & \textbf{Description} & \textbf{Wt.} & \textbf{Rtg} & \multicolumn{1}{c|}{\textbf{Motivation}} & \textbf{Dat} & \multicolumn{1}{c|}{\textbf{Motivation}} & \textbf{Rtg} & \multicolumn{1}{c|}{\textbf{Motivation}} \\ \hline
+	\endhead
+	
+	% --- BOTTOM OF PAGE (When continuing to next page) ---
+	\hline
+	\endfoot
+	
+	% --- VERY END OF TABLE ---
+	\endlastfoot
+	
+	% ==========================================
+	% TABLE DATA STARTS HERE
+	% ==========================================
+	
+	EC1 & Load capacity & 5 & +1 & 
+	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	& 
+	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
+	0 & 
+	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	
+	EC2 & Operational articulation angle & 5 & +1 & 
+	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	& 
+	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
+	0 & 
+	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	
+	EC3 & Positional stability & 5 & +1 & 
+	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	& 
+	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
+	0 & 
+	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	
+	EC4 & Component availabilty & 5 & +1 & 
+	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	& 
+	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
+	0 & 
+	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	
+	EC5 & Construction simplicity & 5 & +1 & 
+	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	& 
+	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
+	0 & 
+	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	
+	\multicolumn{3}{|r|}{\textbf{Number of + ratings}} & 2 & & & & 1 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Number of - ratings}} & 1 & & & & 1 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Overall total}} & +1 & & & & 0 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Weighted total}} & +4 & & 0 & & +1 & \\ \hline
+	
+\end{xltabular}
+\endgroup
+	
 \section{Concept Selection}
 
 
