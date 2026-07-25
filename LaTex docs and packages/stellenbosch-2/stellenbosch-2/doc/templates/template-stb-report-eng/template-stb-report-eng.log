@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  24 JUL 2026 21:33
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  25 JUL 2026 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1184,7 +1184,11 @@ h' as default language. on input line 107.
 (./chaps-front/chap-AI-use-2024.aux) (./chaps-front/chap-summary.aux)
 (./chaps-front/chap-ECSA.aux) (./chaps-front/chap-acknowledge.aux)
 (./chaps-front/chap-symbols.aux) (./chaps-main/chap-intro.aux)
-(./chaps-main/chap-literature.aux) (./chaps-main/chap-content-A.aux)
+(./chaps-main/chap-literature.aux) (./chaps-main/chap-requirement_analysis.aux)
+(./chaps-main/chap-concept_development.aux)
+(./chaps-main/chap-design_analysis.aux)
+(./chaps-main/chap-design_evaluation.aux)
+(./chaps-main/chap-experimental_procedure.aux)
 (./chaps-main/chap-conclusion.aux) (./chaps-append/chap-maths.aux)
 (./chaps-append/chap-experiment.aux))
 \openout1 = `template-stb-report-eng.aux'.
@@ -1559,9 +1563,9 @@ text as what PCMAs
 
 
 ]
-\openout2 = `chaps-main/chap-content-A.aux'.
+\openout2 = `chaps-main/chap-requirement_analysis.aux'.
 
- (./chaps-main/chap-content-A.tex
+ (./chaps-main/chap-requirement_analysis.tex
 Chapter 3.
 
 Overfull \hbox (18.37895pt too wide) in paragraph at lines 9--10
@@ -1593,11 +1597,51 @@ File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
  [7]) [8]
+\openout2 = `chaps-main/chap-concept_development.aux'.
+
+ (./chaps-main/chap-concept_development.tex
+Chapter 4.
+) [9
+
+
+
+
+]
+\openout2 = `chaps-main/chap-design_analysis.aux'.
+
+ (./chaps-main/chap-design_analysis.tex
+Chapter 5.
+) [10
+
+
+
+
+]
+\openout2 = `chaps-main/chap-design_evaluation.aux'.
+
+ (./chaps-main/chap-design_evaluation.tex
+Chapter 6.
+) [11
+
+
+
+
+]
+\openout2 = `chaps-main/chap-experimental_procedure.aux'.
+
+ (./chaps-main/chap-experimental_procedure.tex
+Chapter 7.
+) [12
+
+
+
+
+]
 \openout2 = `chaps-main/chap-conclusion.aux'.
 
  (./chaps-main/chap-conclusion.tex
-Chapter 4.
-) [9
+Chapter 8.
+) [13
 
 
 
@@ -1613,7 +1657,7 @@ Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
 equations using tensor
  []
 
-) [10
+) [14
 
 
 
@@ -1623,7 +1667,7 @@ equations using tensor
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-) [11
+) [15
 
 
 
@@ -1634,7 +1678,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [12
+) [16
 
 
 
@@ -1643,7 +1687,11 @@ easuring arms.” OASIS
 (./chaps-front/chap-AI-use-2024.aux) (./chaps-front/chap-summary.aux)
 (./chaps-front/chap-ECSA.aux) (./chaps-front/chap-acknowledge.aux)
 (./chaps-front/chap-symbols.aux) (./chaps-main/chap-intro.aux)
-(./chaps-main/chap-literature.aux) (./chaps-main/chap-content-A.aux)
+(./chaps-main/chap-literature.aux) (./chaps-main/chap-requirement_analysis.aux)
+(./chaps-main/chap-concept_development.aux)
+(./chaps-main/chap-design_analysis.aux)
+(./chaps-main/chap-design_evaluation.aux)
+(./chaps-main/chap-experimental_procedure.aux)
 (./chaps-main/chap-conclusion.aux) (./chaps-append/chap-maths.aux)
 (./chaps-append/chap-experiment.aux))
  ***********
@@ -1652,12 +1700,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18593 strings out of 467813
- 422331 string characters out of 5427149
- 955879 words of memory out of 5000000
- 47351 multiletter control sequences out of 15000+600000
- 630705 words of font info for 125 fonts, out of 8000000 for 9000
+ 18696 strings out of 467813
+ 427587 string characters out of 5427149
+ 957311 words of memory out of 5000000
+ 47425 multiletter control sequences out of 15000+600000
+ 630713 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,11n,115p,1020b,764s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (24 pages).
+Output written on template-stb-report-eng.pdf (28 pages).
