@@ -25,26 +25,26 @@
 \contentsline {subsection}{\numberline {4.1.2}Concept Two: PCMA Joint with a Counterbalance Spring}{10}{}%
 \contentsline {subsection}{\numberline {4.1.3}Concept Three: PCMA Joint with an Electromagnetic Brake}{10}{}%
 \contentsline {section}{\numberline {4.2}Concept Evaluation}{11}{}%
-\contentsline {section}{\numberline {4.3}Concept Selection}{14}{}%
-\contentsline {section}{\numberline {4.4}Design Refinement}{14}{}%
-\contentsline {chapter}{\numberline {5}Design Analysis}{15}{}%
-\contentsline {section}{\numberline {5.1}Mechanical Design}{15}{}%
-\contentsline {section}{\numberline {5.2}Electronic Design}{15}{}%
-\contentsline {section}{\numberline {5.3}Software Design}{15}{}%
-\contentsline {chapter}{\numberline {6}Design Evaluation}{16}{}%
-\contentsline {section}{\numberline {6.1}As-Built System Overview}{16}{}%
-\contentsline {section}{\numberline {6.2}Performance Testing}{16}{}%
-\contentsline {chapter}{\numberline {7}Experimental Procedure}{17}{}%
-\contentsline {section}{\numberline {7.1}Experimental Apparatus}{17}{}%
-\contentsline {section}{\numberline {7.2}Experimental Setup}{17}{}%
-\contentsline {section}{\numberline {7.3}Experimental Equipment Specifications}{17}{}%
-\contentsline {subsection}{\numberline {7.3.1}Test Sphere Specifications}{17}{}%
-\contentsline {subsection}{\numberline {7.3.2}Joint Component Specifications}{17}{}%
-\contentsline {subsection}{\numberline {7.3.3}Experimental Apparatus Specifications}{17}{}%
-\contentsline {subsection}{\numberline {7.3.4}Methodology}{17}{}%
-\contentsline {chapter}{\numberline {8}Conclusions}{18}{}%
-\contentsline {chapter}{\numberline {A}Mathematical proofs}{19}{}%
-\contentsline {section}{\numberline {A.1}Euler's equation}{19}{}%
-\contentsline {section}{\numberline {A.2}Navier Stokes equation}{19}{}%
-\contentsline {chapter}{\numberline {B}Experimental results}{20}{}%
-\contentsline {chapter}{List of references}{21}{}%
+\contentsline {section}{\numberline {4.3}Concept Selection}{13}{}%
+\contentsline {section}{\numberline {4.4}Design Refinement}{13}{}%
+\contentsline {chapter}{\numberline {5}Design Analysis}{14}{}%
+\contentsline {section}{\numberline {5.1}Mechanical Design}{14}{}%
+\contentsline {section}{\numberline {5.2}Electronic Design}{14}{}%
+\contentsline {section}{\numberline {5.3}Software Design}{14}{}%
+\contentsline {chapter}{\numberline {6}Design Evaluation}{15}{}%
+\contentsline {section}{\numberline {6.1}As-Built System Overview}{15}{}%
+\contentsline {section}{\numberline {6.2}Performance Testing}{15}{}%
+\contentsline {chapter}{\numberline {7}Experimental Procedure}{16}{}%
+\contentsline {section}{\numberline {7.1}Experimental Apparatus}{16}{}%
+\contentsline {section}{\numberline {7.2}Experimental Setup}{16}{}%
+\contentsline {section}{\numberline {7.3}Experimental Equipment Specifications}{16}{}%
+\contentsline {subsection}{\numberline {7.3.1}Test Sphere Specifications}{16}{}%
+\contentsline {subsection}{\numberline {7.3.2}Joint Component Specifications}{16}{}%
+\contentsline {subsection}{\numberline {7.3.3}Experimental Apparatus Specifications}{16}{}%
+\contentsline {subsection}{\numberline {7.3.4}Methodology}{16}{}%
+\contentsline {chapter}{\numberline {8}Conclusions}{17}{}%
+\contentsline {chapter}{\numberline {A}Mathematical proofs}{18}{}%
+\contentsline {section}{\numberline {A.1}Euler's equation}{18}{}%
+\contentsline {section}{\numberline {A.2}Navier Stokes equation}{18}{}%
+\contentsline {chapter}{\numberline {B}Wiring Diagram}{19}{}%
+\contentsline {chapter}{List of references}{20}{}%

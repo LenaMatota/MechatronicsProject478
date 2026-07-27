@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  25 JUL 2026 21:35
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  27 JUL 2026 07:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1688,9 +1688,6 @@ full quantitative comparison.
  []
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 51.
-
-
 Overfull \hbox (18.09184pt too wide) in paragraph at lines 50--52
 \TU/Cambria(0)/m/n/12 maximise the joint design’s ability to maintain and/or im
 prove the PCMA’s accuracy.
@@ -1703,741 +1700,555 @@ ion given the manufacturing
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Load
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+Underfull \hbox (badness 2970) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 The capability of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 driven by a stepper
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 design achieving the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 motor achieves
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 exact holding torque
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 positioning equivalent
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 required is entirely
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 to the datum at the
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 dependent on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already mandates a
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 operator’s strength
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 real-time encoder
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 and consistency,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 for user-interface
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 otherwise the joint
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 state reporting; with
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 design is highly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder feedback
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 mechanism on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 available to all
+Underfull \hbox (badness 4765) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 a friction-based hold,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 concepts equally,
+Underfull \hbox (badness 2142) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 which establishes the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 residual belt stretch
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 An adequately
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 is corrected in closed
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 specified
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 loop, removing any
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 electromagnetic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 inherent accuracy
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 torque that meets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 Datum:
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 the holding torque
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 PWM-controlled
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 FR. This removes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 human reliability
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 open-loop step
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 (in comparison with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 resolution is high,
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 when the joint is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 but since FR_-13
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already requires an
- []
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder for real-time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 user-interface
- []
-
-
-Underfull \hbox (badness 6016) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 advantage is negated
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 when compared with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 an encoder-equipped
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Operational
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \TU/Cambria(0)/m/n/8 articulation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 The locking
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 driven by a stepper
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 internal. Because
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 motor achieves
+Underfull \hbox (badness 1527) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 there are no external
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 positioning equivalent
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 linkages, the joint
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 to the datum at the
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 can achieve its full
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already mandates a
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 required [][] sweep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 real-time encoder
+Underfull \hbox (badness 7576) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 without any physical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 for user-interface
+Underfull \hbox (badness 2205) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 Datum: The external
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 state reporting; with
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 arrangement of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder feedback
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 upper and lower
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 available to all
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 rods, including the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 concepts equally,
+Underfull \hbox (badness 2799) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 obstruction serves as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 residual belt stretch
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 for the required
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 is corrected in closed
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 the electromagnetic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 loop, removing any
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 brake is neatly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 inherent accuracy
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 integrated with the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 Datum:
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 joint shaft, which
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 PWM-controlled
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 The lead screw’s
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 open-loop step
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 resolution is high,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 but since FR_-13
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already requires an
- []
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder for real-time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 user-interface
- []
-
-
-Underfull \hbox (badness 6016) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 advantage is negated
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 when compared with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 an encoder-equipped
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Positional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 Manually twisting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 driven by a stepper
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 the dial introduces
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 motor achieves
+Underfull \hbox (badness 2343) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 asymmetric axial and
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 positioning equivalent
+Underfull \hbox (badness 2591) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 radial loads onto the
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 to the datum at the
+Underfull \hbox (badness 1448) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 joint shaft. This can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already mandates a
+Underfull \hbox (badness 1043) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 cause deflections that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 real-time encoder
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 violate the run-out
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 for user-interface
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 tolerance FR and
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 state reporting; with
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 degrade the PCMA’s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder feedback
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 Datum: Fixing the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 available to all
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 joint’s position by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 concepts equally,
+Underfull \hbox (badness 3312) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 tightening set screws
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 residual belt stretch
+Underfull \hbox (badness 3312) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 on the external cuffs
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 is corrected in closed
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 introduces off-center
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 loop, removing any
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 This represents the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 inherent accuracy
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 The electromagnetic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 Datum:
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 brake applies a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 PWM-controlled
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 uniform, symmetric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 clamping force
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 open-loop step
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 between the brake
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 resolution is high,
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 disc and friction
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 but since FR_-13
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 manual influence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already requires an
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 during the locking
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder for real-time
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 process, as well as,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 user-interface
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 minimises parasitic
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 advantage is negated
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 when compared with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 an encoder-equipped
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 The required
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 driven by a stepper
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 shafts, preload nuts,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 motor achieves
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 bellville washers)
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 positioning equivalent
+Underfull \hbox (badness 3417) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 are items that either
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 to the datum at the
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 readily available or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already mandates a
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 Datum: The design
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 real-time encoder
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 relies on standard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 for user-interface
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 mechanical items
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 state reporting; with
+Underfull \hbox (badness 1052) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 such as springs, rods,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder feedback
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 material availability
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 available to all
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 brakes are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 concepts equally,
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 commercially
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 residual belt stretch
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 available, specific
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 is corrected in closed
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 ordering is required,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 loop, removing any
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 inherent accuracy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 Datum:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 PWM-controlled
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 The lead screw’s
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 open-loop step
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 resolution is high,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 but since FR_-13
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already requires an
- []
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder for real-time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 user-interface
- []
-
-
-Underfull \hbox (badness 6016) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 advantage is negated
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 when compared with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 an encoder-equipped
- []
-
-
-Overfull \hbox (1.57088pt too wide) in paragraph at lines 133--133
+Overfull \hbox (1.57088pt too wide) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Construction
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 A GT2 timing belt
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 The mechanical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 driven by a stepper
+Underfull \hbox (badness 2626) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 assembly is relatively
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 motor achieves
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 straightforward
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 positioning equivalent
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 and on the level of
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 to the datum at the
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 design. However,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already mandates a
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 achieving accurate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 real-time encoder
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 bearing alignment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 for user-interface
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 Datum: Assembling
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 state reporting; with
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 the external support
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder feedback
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 cuffs, rods, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 available to all
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 pin-connections
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 concepts equally,
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 require a standard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 residual belt stretch
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 level of manual
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 is corrected in closed
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 alignment and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 loop, removing any
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 fabrication, setting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 inherent accuracy
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 the baseline for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 Datum:
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 manufacturing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 PWM-controlled
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/Cambria(0)/m/n/8 This is the most
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/Cambria(0)/m/n/8 The lead screw’s
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 complex design to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 open-loop step
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 precise mechanical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 resolution is high,
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 calibration of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 but since FR_-13
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 encoder, as well
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 already requires an
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 as integration of
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 encoder for real-time
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 electrical wiring and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 user-interface
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-
-Underfull \hbox (badness 6016) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 advantage is negated
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 when compared with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/Cambria(0)/m/n/8 an encoder-equipped
- []
-
-[12] [13]) [14]
+[12]
+File: ../../../../../../../../../Downloads/Rough joint design.jpg Graphic file 
+(type bmp)
+<../../../../../../../../../Downloads/Rough joint design.jpg>
+) [13]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
 Chapter 5.
-) [15
+) [14
 
 
 
@@ -2447,7 +2258,7 @@ Chapter 5.
 
  (./chaps-main/chap-design_evaluation.tex
 Chapter 6.
-) [16
+) [15
 
 
 
@@ -2457,7 +2268,7 @@ Chapter 6.
 
  (./chaps-main/chap-experimental_procedure.tex
 Chapter 7.
-) [17
+) [16
 
 
 
@@ -2467,7 +2278,7 @@ Chapter 7.
 
  (./chaps-main/chap-conclusion.tex
 Chapter 8.
-) [18
+) [17
 
 
 
@@ -2483,7 +2294,7 @@ Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
 equations using tensor
  []
 
-) [19
+) [18
 
 
 
@@ -2493,7 +2304,10 @@ equations using tensor
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-) [20
+File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
+e bmp)
+<../../../../../../../../../Downloads/Wiring Diagram.png>
+) [19
 
 
 
@@ -2504,7 +2318,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [21
+) [20
 
 
 
@@ -2524,18 +2338,14 @@ easuring arms.” OASIS
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 19286 strings out of 467813
- 441288 string characters out of 5427149
- 1019233 words of memory out of 5000000
- 47981 multiletter control sequences out of 15000+600000
+ 19331 strings out of 467813
+ 444008 string characters out of 5427149
+ 1012068 words of memory out of 5000000
+ 48024 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,12n,115p,1537b,778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (33 pages).
+Output written on template-stb-report-eng.pdf (32 pages).

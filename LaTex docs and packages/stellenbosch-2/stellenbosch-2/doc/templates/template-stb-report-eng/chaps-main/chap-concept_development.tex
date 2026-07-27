@@ -48,7 +48,7 @@ The concepts presented in the previous section were determined to be feasible. A
 	\item Construction simplicity: The number of distinct components and the ease of assembly and alignment during fabrication.
 \end{enumerate}
 EC1 was derived from TPM\_03 and determined to be the most important EC as the joint will be ineffective if it is unable to achieve the holding torque dictated by TPM\_03. EC2 was derived from TPM\_01 as the chosen joint design must not inhibit the PCMA's existing range of motion once implemented. EC3 was derived from TPM\_02  as any internal sources of error must be minimised to maximise the joint design's ability to maintain and/or improve the PCMA's accuracy. EC4 and EC5 was included as a practical design consideration given the manufacturing capabilities of the mechanical workshop and the project's timeline and budget.
-\\\noindent Table~\ref{} below, presents a comparison of the generated concepts. To rate the concepts, one of them is marked as the DATUM and the other two are awarded a $+1$ if the other concept is stronger or $-1$ if it is weaker. Each rating is motivated in the table as well.
+\\\noindent Table~\ref{tab:concept_evaluation_portrait} below, presents a comparison of the generated concepts. To rate the concepts, one of them is marked as the DATUM and the other two are awarded a $+1$ if the other concept is stronger or $-1$ if it is weaker. Each rating is motivated in the table as well.
 
 \begingroup % Keeps the sizing commands isolated to this table
 \scriptsize 
@@ -89,50 +89,58 @@ EC1 was derived from TPM\_03 and determined to be the most important EC as the j
 	% TABLE DATA STARTS HERE
 	% ==========================================
 	
-	EC1 & Load capacity & 5 & +1 & 
-	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	EC1 & Load capacity & 5 & -1 & 
+	The capability of the design achieving the exact holding torque required is entirely dependent on the operator's strength and consistency, otherwise the joint design is highly susceptible to slipping under load. & 
 	& 
-	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
-	0 & 
-	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	Datum: The set screw mechanism on the support cuffs provides a friction-based hold, which establishes the baseline for evaluating the holding torque FR. & 
+	+1 & 
+	An adequately specified electromagnetic brake can consistently deliver a static holding torque that meets the holding torque FR. This removes human reliability (in comparison with concept 1) and ensures reliable load capability when the joint is powered.\\ \hline
 	
 	EC2 & Operational articulation angle & 5 & +1 & 
-	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	The locking mechanism is entirely internal. Because there are no external linkages, the joint can achieve its full required \SI{90}{\degree} sweep without any physical interference. & 
 	& 
-	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
-	0 & 
-	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	Datum: The external arrangement of the upper and lower rods, including the spring casing, limit the joint's movement. This obstruction serves as the baseline limitation for the required  articulation sweep.& 
+	+1 & 
+	Similarly to concept 1, the electromagnetic brake is neatly integrated with the joint shaft, which allows for uninhibited articulation\\ \hline
 	
-	EC3 & Positional stability & 5 & +1 & 
-	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	EC3 & Positional stability & 5 & -1 & 
+	Manually twisting the dial introduces asymmetric axial and radial loads onto the joint shaft. This can cause deflections that violate the run-out tolerance FR and degrade the PCMA's spatial accuracy.& 
 	& 
-	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
-	0 & 
-	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	Datum: Fixing the joint's position by tightening set screws on the external cuffs introduces off-center loads to the joint shaft. This represents the baseline for positional deflection and run-out error.& 
+	+1 & 
+	The electromagnetic brake applies a uniform, symmetric clamping force between the brake disc and friction plate. This eliminates manual influence during the locking process, as well as, minimises parasitic deflection and protects the system's positional accuracy. \\ \hline
 	
 	EC4 & Component availabilty & 5 & +1 & 
-	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	The required components (threaded shafts, preload nuts, bellville washers) are items that either readily available or easily machined in the university workshop. & 
 	& 
-	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
+	Datum: The design relies on standard mechanical items such as springs, rods, and set screws, which defines the baseline for material availability due these components being accessible in the mechanical workshop. & 
 	0 & 
-	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	While electromagnetic brakes are commercially available, specific ordering is required, lead times, and budget allocation compared to the raw materials used  in the datum design.\\ \hline
 	
-	EC5 & Construction simplicity & 5 & +1 & 
-	A GT2 timing belt driven by a stepper motor achieves positioning equivalent to the datum at the 1--2 mm target. FR\_13 already mandates a real-time encoder for user-interface state reporting; with encoder feedback available to all concepts equally, residual belt stretch is corrected in closed loop, removing any inherent accuracy disadvantage. & 
+	EC5 & Construction simplicity & 5 & 0 & 
+	The mechanical assembly is relatively straightforward and on the level of simplicity as the datum design. However, achieving accurate bearing alignment under varying manual requires extra care. & 
 	& 
-	Datum: PWM-controlled DC motor with piston; accuracy is limited by gear backlash without a feedback sensor. & 
-	0 & 
-	The lead screw's open-loop step resolution is high, but since FR\_13 already requires an encoder for real-time user-interface feedback, this inherent advantage is negated when compared with an encoder-equipped belt system at the 1--2 mm target range. \\ \hline
+	Datum: Assembling the external support cuffs, rods, and pin-connections require a standard level of manual alignment and fabrication, setting the baseline for manufacturing complexity. & 
+	-1 & 
+	This is the most complex design to implement. It requires precise mechanical calibration of the encoder, as well as integration of electrical wiring and control circuitry for the solenoid.\\ \hline
 	
-	\multicolumn{3}{|r|}{\textbf{Number of + ratings}} & 2 & & & & 1 & \\ \hline
-	\multicolumn{3}{|r|}{\textbf{Number of - ratings}} & 1 & & & & 1 & \\ \hline
-	\multicolumn{3}{|r|}{\textbf{Overall total}} & +1 & & & & 0 & \\ \hline
-	\multicolumn{3}{|r|}{\textbf{Weighted total}} & +4 & & 0 & & +1 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Number of + ratings}} & 2 & & & & 3 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Number of - ratings}} & 2 & & & & 1 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Overall total}} & 0 & & & & 2 & \\ \hline
+	\multicolumn{3}{|r|}{\textbf{Weighted total}} & 0 & & 0 & & +10 & \\ \hline
 	
 \end{xltabular}
 \endgroup
 	
 \section{Concept Selection}
+
+As seen in Figure~\ref{fig:rough-joint-design}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{"../../../../../../../../../Downloads/Rough joint design"}
+	\caption{Selected Concept Design}
+	\label{fig:rough-joint-design}
+\end{figure}
 
 
 \section{Design Refinement}
