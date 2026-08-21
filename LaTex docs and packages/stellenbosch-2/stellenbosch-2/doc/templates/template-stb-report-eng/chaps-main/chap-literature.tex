@@ -2,6 +2,13 @@
 
 \section{PCMA Context}
 
-Sources such as Leussink Engineering and Meagher gave context as what PCMAs are and how they are used.
+Sources such as Leussink Engineering and Meagher gave context as what PCMAs are and how they are used, as defined in Section 1.1.
 
-\section{The Denavit-Hartenberg Model}
+\section{The Denavit-Hartenberg (D-H) Model}
+A Denavit-Hartenburg (D-H) model is a tranformation matrix that models an end-effector's position and orientation relative to the system of articulate linkages it is connected to \citep{Hall:2010}. This is done by relating the end-effector's reference coordinate system to the last linkage's reference coordinate system \citep{Hall:2010}. Hall and Schreve conducted a full investigation of measurement error of PCMAs, which also accounted spatial error using a modified D-H model. The motivation behind this investigation was because PCMA manufacturers did not adopt a common standard that properly governed their products' accuracy \citep{Hall:2010}. It was found that there was a descrepancy as manufacturers did not account for spatial dependancy in their product \citep{Hall:2010}.
+
+The first step of the project was derive a D-H model, based on the Faro Quantum X arm.  The Faro Quantum X arm has six degrees-of freedom (DOF) and was modelled as a serial kinematic chain due to the architecture of the PCMA. The end effector's position is seen in Equation~\ref{dh-model}:
+\begin{equation}
+	\label{dh-model}
+	T_6^0 = A_1 \cdot A_2 \cdot A_3 \cdot A_4 \cdot A_5 \cdot A_6
+\end{equation}

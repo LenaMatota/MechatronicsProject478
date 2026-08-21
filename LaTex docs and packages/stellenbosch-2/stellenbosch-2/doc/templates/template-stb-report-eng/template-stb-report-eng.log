@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  27 JUL 2026 07:52
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  19 AUG 2026 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1448,6 +1448,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 ) [12
 
 
+] [13] [14
+
+
+
 ]
 \openout2 = `chaps-main/chap-intro.aux'.
 
@@ -1475,33 +1479,24 @@ ion, reverse engineering,
  []
 
 
-Overfull \hbox (5.27441pt too wide) in paragraph at lines 14--15
-\TU/Cambria(0)/m/n/12 As a result, designing an effective joint with a position
--holding mechanism would
+Overfull \hbox (11.8925pt too wide) in paragraph at lines 14--15
+[]\TU/Cambria(0)/m/n/12 As a result, designing a more effective joint with a po
+sition-holding mechanism
  []
 
 
-Overfull \hbox (1.05696pt too wide) in paragraph at lines 14--15
-\TU/Cambria(0)/m/n/12 joint in this manner, error due to manual operation will 
-be minimised, kinematic
+Overfull \hbox (19.35384pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 the joint in this manner, error due to manual operation w
+ill be minimised, kinematic
  []
 
 [1
 
 
-
-
-
 ]
-Overfull \hbox (11.48499pt too wide) in paragraph at lines 22--23
-\TU/Cambria(0)/m/n/12 by Hall and Schreve by sampling the working volume of a P
-CMA determining
- []
-
-
-Overfull \hbox (19.01532pt too wide) in paragraph at lines 23--24
-[]\TU/Cambria(0)/m/n/12 To design, build, and test the joint design through the
- single-point articulation
+Overfull \hbox (11.2907pt too wide) in paragraph at lines 29--30
+\TU/Cambria(0)/m/n/12 schematics will be used. In addition, due to time constra
+ints, only key components
  []
 
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
@@ -1529,43 +1524,25 @@ Overfull \hbox (14.16359pt too wide) in paragraph at lines 33--35
  []
 
 
-Overfull \hbox (19.1718pt too wide) in paragraph at lines 36--38
-\TU/Cambria(0)/m/n/12 Despite their growing popularity, the PCMA’s revolute joi
-nts must satisfy competing
- []
-
-
-Overfull \hbox (35.5761pt too wide) in paragraph at lines 42--44
-\TU/Cambria(0)/m/n/12 errors at each joint propagate through the kinematic chai
-n, which affects end-effector’s
- []
-
-
-Overfull \hbox (17.90578pt too wide) in paragraph at lines 42--44
-\TU/Cambria(0)/m/n/12 generalised model based off of an error model that was de
-veloped by a Stellenbosch
- []
-
-
-Overfull \hbox (20.99565pt too wide) in paragraph at lines 42--44
-\TU/Cambria(0)/m/n/12 Alumnus, Leon Hall, ([]). This will produce a validated j
-oint and testing methodology
+Overfull \hbox (5.74791pt too wide) in paragraph at lines 44--45
+\TU/Cambria(0)/m/n/12 model based off of an error model that was developed by a
+ Stellenbosch Alumnus,
  []
 
 [2]
-Overfull \hbox (4.5592pt too wide) in paragraph at lines 47--48
+Overfull \hbox (4.5592pt too wide) in paragraph at lines 48--49
 \TU/Cambria(0)/m/n/12 Gemini is an artificial intelligence (AI) tool will be us
 ed check grammatical errors
  []
 
 
-Overfull \hbox (2.35214pt too wide) in paragraph at lines 54--55
+Overfull \hbox (2.35214pt too wide) in paragraph at lines 55--56
 []\TU/Cambria(0)/m/n/12 Section 2 presents a literature review discussing sourc
 es relevant to PCMA
  []
 
 
-Overfull \hbox (17.35066pt too wide) in paragraph at lines 54--55
+Overfull \hbox (17.35066pt too wide) in paragraph at lines 55--56
 \TU/Cambria(0)/m/n/12 joint design, position-holding technology, kinematic mode
 ling, error analysis,
  []
@@ -1580,6 +1557,45 @@ Overfull \hbox (1.2339pt too wide) in paragraph at lines 5--6
 \TU/Cambria(0)/m/n/12 Sources such as Leussink Engineering and Meagher gave con
 text as what PCMAs
  []
+
+
+Overfull \hbox (11.1968pt too wide) in paragraph at lines 8--9
+\TU/Cambria(0)/m/n/12 end-effector’s position and orientation relative to the s
+ystem of articulate linkages
+ []
+
+
+Overfull \hbox (22.23912pt too wide) in paragraph at lines 8--9
+\TU/Cambria(0)/m/n/12 it is connected to ([]). This is done by relating the end
+-effector’s reference coordinate
+ []
+
+
+Overfull \hbox (23.77531pt too wide) in paragraph at lines 8--9
+\TU/Cambria(0)/m/n/12 conducted a full investigation of measurement error of PC
+MAs, which also accounted
+ []
+
+
+Overfull \hbox (14.06247pt too wide) in paragraph at lines 8--9
+\TU/Cambria(0)/m/n/12 spatial error using a modified D-H model. The motivation 
+behind this investigation
+ []
+
+
+Overfull \hbox (12.23651pt too wide) in paragraph at lines 8--9
+\TU/Cambria(0)/m/n/12 was because PCMA manufacturers did not adopt a common sta
+ndard that properly
+ []
+
+
+Overfull \hbox (4.06998pt too wide) in paragraph at lines 8--9
+\TU/Cambria(0)/m/n/12 governed their products’ accuracy ([]). It was found that
+ there was a descrepancy
+ []
+
+
+LaTeX Warning: Reference `dh-model' on page 4 undefined on input line 10.
 
 ) [4
 
@@ -2338,14 +2354,21 @@ easuring arms.” OASIS
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 19331 strings out of 467813
- 444008 string characters out of 5427149
- 1012068 words of memory out of 5000000
- 48024 multiletter control sequences out of 15000+600000
+ 19332 strings out of 467813
+ 444018 string characters out of 5427149
+ 1013104 words of memory out of 5000000
+ 48025 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,12n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (32 pages).
+Output written on template-stb-report-eng.pdf (34 pages).
