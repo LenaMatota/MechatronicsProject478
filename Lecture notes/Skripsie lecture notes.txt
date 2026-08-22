@@ -1,1 +1,20 @@
 SKRIPSIE LECTURE 21/08/2026
+- Documentation must be done as the project progresses.
+- The final report must be updated WEEKLY, if not daily.
+- What is not reported, cannot be assessed
+
+THE REPORT MUST MAKE SENSE
+- Diagnose whether the report makes a coherent engineering argument
+- Test whether each major conclusion is supported by traceable evidence
+- Identify 3 concrete repairs to complete before submission
+
+Look at the module framework for guidance on how you want the report structured as well as the templates
+-Lean into jargon, when speaking on niche topice, then you can offer definitions
+
+QUESTIONS
+- What problem or need was addressed
+- What criteria defined an acceptable outcome
+- Why were these methods or design choices appropriate
+- What evidence supports the results and decisions
+- What are the limits, risks and uncertainties
+- What did this student contribute

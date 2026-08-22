@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  19 AUG 2026 13:32
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 AUG 2026 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1571,38 +1571,60 @@ Overfull \hbox (22.23912pt too wide) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (23.77531pt too wide) in paragraph at lines 8--9
-\TU/Cambria(0)/m/n/12 conducted a full investigation of measurement error of PC
-MAs, which also accounted
+Overfull \hbox (1.6885pt too wide) in paragraph at lines 10--11
+[]\TU/Cambria(0)/m/n/12 The first step of the project was derive a D-H model, b
+ased on a six degrees-of
  []
 
-
-Overfull \hbox (14.06247pt too wide) in paragraph at lines 8--9
-\TU/Cambria(0)/m/n/12 spatial error using a modified D-H model. The motivation 
-behind this investigation
- []
-
-
-Overfull \hbox (12.23651pt too wide) in paragraph at lines 8--9
-\TU/Cambria(0)/m/n/12 was because PCMA manufacturers did not adopt a common sta
-ndard that properly
- []
-
-
-Overfull \hbox (4.06998pt too wide) in paragraph at lines 8--9
-\TU/Cambria(0)/m/n/12 governed their products’ accuracy ([]). It was found that
- there was a descrepancy
- []
-
-
-LaTeX Warning: Reference `dh-model' on page 4 undefined on input line 10.
-
-) [4
+[4
 
 
 
 
 ]
+File: ../../../../../../Concept design report/DH model of Faro arm.png Graphic 
+file (type bmp)
+<../../../../../../Concept design report/DH model of Faro arm.png>
+
+Overfull \hbox (1.7721pt too wide) in paragraph at lines 27--33
+[]\TU/Cambria(0)/m/n/12 The D-H model relevant to the joint-design project mode
+lled a Faro Quantum
+ []
+
+
+Overfull \hbox (8.37262pt too wide) in paragraph at lines 37--38
+\TU/Cambria(0)/m/n/12 From the derivation of the D-H model, the error progation
+ model could be derived.
+ []
+
+
+Overfull \hbox (32.60695pt too wide) in paragraph at lines 37--38
+\TU/Cambria(0)/m/n/12 known uncertainties move through an articulated system an
+d how those uncertainties
+ []
+
+
+Overfull \hbox (25.34563pt too wide) in paragraph at lines 41--43
+\TU/Cambria(0)/m/n/12 derivation for Equatio 2.3[] begins with a Taylor series 
+expansion, which approximates
+ []
+
+File: ../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg Gra
+phic file (type bmp)
+<../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg>
+[5]
+Overfull \hbox (4.74141pt too wide) in paragraph at lines 51--52
+\TU/Cambria(0)/m/n/12 closer to its base. The bright yellow regions show where 
+the arm is least accurate,
+ []
+
+)
+Overfull \hbox (10.07092pt too wide) in paragraph at lines 53--134
+\TU/Cambria(0)/m/n/12 also be used for the future developement of a full PCMA a
+rm with position-holding
+ []
+
+[6]
 \openout2 = `chaps-main/chap-requirement_analysis.aux'.
 
  (./chaps-main/chap-requirement_analysis.tex
@@ -1618,7 +1640,7 @@ Overfull \hbox (13.41982pt too wide) in paragraph at lines 18--27
  [][] 
  []
 
-[5
+[7
 
 
 
@@ -1632,7 +1654,7 @@ Overfull \hbox (1.13356pt too wide) in paragraph at lines 48--60
  [][] 
  []
 
-[6]
+[8]
 File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
@@ -1642,12 +1664,12 @@ Overfull \hbox (1.49472pt too wide) in paragraph at lines 95--96
 d from the results obtained
  []
 
-[7]
+[9]
 Overfull \hbox (29.70679pt too wide) in paragraph at lines 101--110
  [][] 
  []
 
-) [8]
+) [10]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
@@ -1667,7 +1689,7 @@ ed to secure the bearings
 File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 1.jpg>
-[9
+[11
 
 
 
@@ -1693,7 +1715,7 @@ Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--32
 o implement an electromagnetic
  []
 
-[10]
+[12]
 File: ../../../../../../Building the joint/Concept 2.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 2.jpg>
@@ -1715,7 +1737,7 @@ Overfull \hbox (31.71242pt too wide) in paragraph at lines 50--52
 ion given the manufacturing
  []
 
-[11]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Load
  []
@@ -2255,16 +2277,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-[12]
+[14]
 File: ../../../../../../../../../Downloads/Rough joint design.jpg Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Rough joint design.jpg>
-) [13]
+) [15]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
 Chapter 5.
-) [14
+) [16
 
 
 
@@ -2274,7 +2296,7 @@ Chapter 5.
 
  (./chaps-main/chap-design_evaluation.tex
 Chapter 6.
-) [15
+) [17
 
 
 
@@ -2284,7 +2306,7 @@ Chapter 6.
 
  (./chaps-main/chap-experimental_procedure.tex
 Chapter 7.
-) [16
+) [18
 
 
 
@@ -2294,7 +2316,7 @@ Chapter 7.
 
  (./chaps-main/chap-conclusion.tex
 Chapter 8.
-) [17
+) [19
 
 
 
@@ -2310,7 +2332,7 @@ Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
 equations using tensor
  []
 
-) [18
+) [20
 
 
 
@@ -2323,7 +2345,7 @@ Appendix B.
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
 e bmp)
 <../../../../../../../../../Downloads/Wiring Diagram.png>
-) [19
+) [21
 
 
 
@@ -2334,7 +2356,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [20
+) [22
 
 
 
@@ -2354,21 +2376,14 @@ easuring arms.” OASIS
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 19332 strings out of 467813
- 444018 string characters out of 5427149
- 1013104 words of memory out of 5000000
- 48025 multiletter control sequences out of 15000+600000
+ 19383 strings out of 467813
+ 447294 string characters out of 5427149
+ 1018550 words of memory out of 5000000
+ 48073 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,12n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (34 pages).
+Output written on template-stb-report-eng.pdf (36 pages).

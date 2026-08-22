@@ -5,10 +5,49 @@
 Sources such as Leussink Engineering and Meagher gave context as what PCMAs are and how they are used, as defined in Section 1.1.
 
 \section{The Denavit-Hartenberg (D-H) Model}
-A Denavit-Hartenburg (D-H) model is a tranformation matrix that models an end-effector's position and orientation relative to the system of articulate linkages it is connected to \citep{Hall:2010}. This is done by relating the end-effector's reference coordinate system to the last linkage's reference coordinate system \citep{Hall:2010}. Hall and Schreve conducted a full investigation of measurement error of PCMAs, which also accounted spatial error using a modified D-H model. The motivation behind this investigation was because PCMA manufacturers did not adopt a common standard that properly governed their products' accuracy \citep{Hall:2010}. It was found that there was a descrepancy as manufacturers did not account for spatial dependancy in their product \citep{Hall:2010}.
+A Denavit-Hartenburg (D-H) model is a tranformation matrix that models an end-effector's position and orientation relative to the system of articulate linkages it is connected to \citep{Hall:2010}. This is done by relating the end-effector's reference coordinate system to the last linkage's reference coordinate system through the matrix \citep{Hall:2010}. Hall and Schreve \citep{Hall:2010} conducted a full investigation of measurement error in PCMAs, which also accounted for spatial error using a modified D-H model. The motivation behind this investigation was that PCMA manufacturers did not adopt a common standard that properly governed their products' accuracy \citep{Hall:2010}. It was found that there was a descrepancy in advertised PCMA accuracy to actual PCMA accuracy as manufacturers did not account for spatial dependancy in their product \citep{Hall:2010}.
 
-The first step of the project was derive a D-H model, based on the Faro Quantum X arm.  The Faro Quantum X arm has six degrees-of freedom (DOF) and was modelled as a serial kinematic chain due to the architecture of the PCMA. The end effector's position is seen in Equation~\ref{dh-model}:
+The first step of the project was derive a D-H model, based on a six degrees-of freedom (DOF) PCMA.  This PCMA was modelled as a serial kinematic chain due to its architecture. The end effector's position is seen in Equation~\ref{eq:dh-model}:
 \begin{equation}
-	\label{dh-model}
+	\label{eq:dh-model}
 	T_6^0 = A_1 \cdot A_2 \cdot A_3 \cdot A_4 \cdot A_5 \cdot A_6
 \end{equation}
+wherein, each $A_i$ models the position of each relative to the previous joint's reference coordinate system, as seen in Equation~\ref{eq:A-dh}:
+\begin{equation}
+	\label{eq:A-dh}
+	A_i=\begin{bmatrix}
+		\cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\theta_i\cos\alpha_i & a_i\cos\theta_i \\
+		\sin\theta_i & \cos\theta_i\sin\alpha_i & -\cos\theta_i\sin\alpha_i & a_i\sin\theta_i \\
+		0 & \sin\alpha_i & \cos\alpha_i & d_i \\
+		0 & 0 & 0 & 1
+	\end{bmatrix}
+\end{equation}
+where $a_i$ is the joint length, $\theta_i$ is the rotational angle, $\alpha_i$ is the twist angle, and $d_i$ is the joint offset.
+
+The D-H model relevant to the joint-design project modelled a Faro Quantum X arm as seen in Figure~\ref{fig:dh-model-of-faro-arm} below.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../../../../../../Concept design report/DH model of Faro arm"}
+	\caption{D-H Model of the Faro Quantum X Arm}
+	\label{fig:dh-model-of-faro-arm}
+\end{figure}
+The full derivation of the D-H model is documented in Appendix A.
+
+\section{The Error Propagation Model}
+From the derivation of the D-H model, the error progation model could be derived. Hall and Schreve \citep{Hall:2010} explain that the model is a mathematical depiction of how known uncertainties move through an articulated system and how those uncertainties effect the output position of the end-effector. The output-position uncertainty is calculated using Equation~\ref{eq:errorP} below:
+\begin{equation}
+	\label{eq:errorP}
+	\Lambda_F=J(x)\cdot\Lambda_x J(x)^T
+\end{equation}
+, where $J(x)$ is the jacobian matrix of the end-effector's position and $\Lambda_x$ is a matrix of the known uncertainty of the encoder at each respective joint. The derivation for Equatio~\ref{eq:errorP} begins with a Taylor series expansion, which approximates the articulated system's behaviour near a known point using first-order terms only, which produces the Jacobian matrix. Higher-order terms are negligibly small. The Jacobian matrix is then used to scale the known uncertainties $\Lambda_x$ and calculate the unknown uncertainty of the end-effector, $\Lambda_F$.
+
+The limitation found to this model was that the uncertainty of end-effector could be calculated for only one pose of the articulated system at a time. For the purposes of this project, the error propogation model was generalised by taking a sample of the working volume of the Faro Quantum X arm and computing the uncertainty of the end-effector across the sampled work volume. The software used to conduct these computations was MATLAB, which was also used to plot the distribution of uncertainty across a sampled workspace, which can be seen in Figure~\ref{fig:screenshot-2026-08-22-191504}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{"../../../../../../../../../Downloads/Screenshot 2026-08-22 191504"}
+	\caption{Uncertainty Distribution Across Sampled Workspace}
+	\label{fig:screenshot-2026-08-22-191504}
+\end{figure}
+The dark blue regions show where the arm is most accurate, which is at approximately \SI{56}{microns} of uncertainty. This occurs when the arm is folded closer to its base. The bright yellow regions show where the arm is least accurate, up to \SI{74}{microns}. This occurs at the outer edges of the workspace where the arm is fully extended.
+
+The full capabilities of the code also include a section in which certain joints can be locked and the effect of the locked joints can be computed and plotted on a graph similar to the one found in Figure~\ref{fig:screenshot-2026-08-22-191504}. This means that the software can also be used for the future developement of a full PCMA arm with position-holding implementation at optimal joint locations. The code can found in Appendix B.
