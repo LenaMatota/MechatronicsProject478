@@ -10,51 +10,55 @@ A level-1 auxiliary file: chaps-front/chap-acknowledge.aux
 A level-1 auxiliary file: chaps-front/chap-symbols.aux
 A level-1 auxiliary file: chaps-main/chap-intro.aux
 A level-1 auxiliary file: chaps-main/chap-literature.aux
-A level-1 auxiliary file: chaps-main/chap-content-A.aux
+A level-1 auxiliary file: chaps-main/chap-requirement_analysis.aux
+A level-1 auxiliary file: chaps-main/chap-concept_development.aux
+A level-1 auxiliary file: chaps-main/chap-design_analysis.aux
+A level-1 auxiliary file: chaps-main/chap-design_evaluation.aux
+A level-1 auxiliary file: chaps-main/chap-experimental_procedure.aux
 A level-1 auxiliary file: chaps-main/chap-conclusion.aux
 A level-1 auxiliary file: chaps-append/chap-maths.aux
 A level-1 auxiliary file: chaps-append/chap-experiment.aux
 Database file #1: bib/bib-sample.bib
 Warning--empty booktitle in Hall:2010
-You've used 7 entries,
+You've used 8 entries,
             1876 wiz_defined-function locations,
-            539 strings with 5001 characters,
-and the built_in function-call counts, 1630 in all, are:
-= -- 155
-> -- 66
+            547 strings with 5231 characters,
+and the built_in function-call counts, 1717 in all, are:
+= -- 163
+> -- 67
 < -- 0
-+ -- 25
++ -- 26
 - -- 18
-* -- 120
-:= -- 243
-add.period$ -- 8
-call.type$ -- 7
+* -- 125
+:= -- 251
+add.period$ -- 9
+call.type$ -- 8
 change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 81
-empty$ -- 163
+cite$ -- 9
+duplicate$ -- 87
+empty$ -- 177
 format.name$ -- 18
-if$ -- 390
+if$ -- 413
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 8
 missing$ -- 7
-newline$ -- 25
+newline$ -- 28
 num.names$ -- 7
-pop$ -- 26
+pop$ -- 29
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 49
 stack$ -- 0
 substring$ -- 83
-swap$ -- 25
+swap$ -- 26
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
 while$ -- 16
-width$ -- 8
-write$ -- 69
+width$ -- 9
+write$ -- 75
 (There was 1 warning)

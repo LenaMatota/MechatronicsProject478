@@ -1,17 +1,78 @@
-\chapter{Mathematical proofs}
+\chapter{Mathematical Derivations}
 
-\section{Euler's equation}
-Euler's equation gives the relationship between the trigonometric functions and the complex exponential function.
-\begin{equation}
-    e^{ i\theta } = \cos \theta + i\sin \theta
-    \label{eq:Euler}
-\end{equation}
-Inserting $\theta=\pi$ in \eqref{eq:Euler} results in Euler's identity
-\begin{equation}
-    e^{ i \pi} + 1 = 0
-    \label{eq:Euler2}
-\end{equation}
+\section{Denavit-Hartenberg Model}
+The D-H model derived for the project is based off of the FaroArm QuantumX arm. The arm has six-DOF and will be modelled as a serial kinematic chain. The first step is to determine the D-H parameters of the PCMA. Note that the nominal D-H parameters of the FaroArm are not published as they are stored in the device's internal electrically erasable programmable read-only memory (EEPROM) firmware or stored within its proprietary device drivers. However, they can be derived from physical dmensions in the product specifications document due the analogous structure of Faro QuantumX family \cite{Faro:2024}. The specific length chosen was the three-meter arm and its D-H parameters are tabulated under Table~\ref{tab:DH} below:
+\begin{table}[H]
+	\centering
+	\caption{Denavit-Hartenberg parameters for the FaroArm model}
+	\label{tab:DH}
+	\begin{tabular}{lccc p{0.5\linewidth}}
+		\hline
+		Link $i$ & $a_i$ [mm] & $\alpha_i$ & $d_i$ [mm] & Notes \\ \hline
+		1 & 0 & +\SI{90}{\degree} & 283 & Offset as a result of the base. \\ 
+		2 & 0 & -\SI{90}{\degree} & 755 & Length of link 1 from position sensitive detector (PSD) \\ 
+		3 & 0 & +\SI{90}{\degree} & 0 & Joint\footnote{For all joints, assume 0 mm length} \\
+		4 & 0 & -\SI{90}{\degree} & 569 & Length of link 2 from PSD \\
+		5 & 0 & +\SI{90}{\degree} & 0 & Joint \\
+		6 & 0 & -\SI{90}{\degree} & 220 & End-effector length \\
+		\hline
+	\end{tabular}
+\end{table}
 
+The D-H parameters are:
+\begin{itemize}
+	\item $a_i$ is the D-H joint length.
+	\item $\alpha_i$ the angle between two consecutive joint axes and can be assumed through deductive reasoning.
+	\begin{itemize}
+		\item +\SI{90}{\degree} means the joint axes are perpendicular to each other in a positive orientation.
+		\item \SI{0}{\degree} means the joint axes are parallel to each other.
+		\item -\SI{90}{\degree} means the joint axes are perpendicular to each other in a negative orientation.
+	\end{itemize}
+	\item $d_i$ is the joint offset between two consecutive joints.
+\end{itemize}
+
+The next step is to derive the transformation matrix which determines the end-effector's coordinates relative to joint $i$, as shown in Equation~\ref{eq:dh As} below:
+\begin{equation}
+	\label{eq:dh As}
+	\begin{aligned}
+		A_1 &= \begin{bmatrix}
+			\cos\theta_1 & -\sin\theta_1\cos\alpha_1 & \sin\theta_1\cos\alpha_1 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 
+		\end{bmatrix} \\[1.5em]
+		M_2 &= \begin{bmatrix}
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 
+		\end{bmatrix} \\[1.5em]
+		M_3 &= \begin{bmatrix}
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 
+		\end{bmatrix} \\[1.5em]
+		M_4 &= \begin{bmatrix}
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 
+		\end{bmatrix} \\[1.5em]
+		M_5 &= \begin{bmatrix}
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 
+		\end{bmatrix} \\[1.5em]
+		M_6 &= \begin{bmatrix}
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 \\
+			1 & 2 & 3 & 4 
+		\end{bmatrix}
+	\end{aligned}
+\end{equation}
 
 \section{Navier Stokes equation}
 

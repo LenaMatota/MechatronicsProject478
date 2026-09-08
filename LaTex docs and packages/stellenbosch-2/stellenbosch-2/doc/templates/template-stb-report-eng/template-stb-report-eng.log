@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 AUG 2026 19:27
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  8 SEP 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1445,10 +1445,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) [12
+[12
 
 
-] [13] [14
+]) [13] [14
 
 
 
@@ -2327,17 +2327,41 @@ Chapter 8.
  (./chaps-append/chap-maths.tex
 Appendix A.
 
-Overfull \hbox (5.73517pt too wide) in paragraph at lines 18--20
-\TU/Cambria(0)/m/n/12 conservation of mass for Newtonian fluids. Navier-Stokes 
-equations using tensor
+Overfull \hbox (23.81007pt too wide) in paragraph at lines 4--20
+\TU/Cambria(0)/m/n/12 they can be derived from physical dmensions in the produc
+t specifications document
  []
 
-) [20
+
+Overfull \hbox (13.37007pt too wide) in paragraph at lines 25--27
+[]$[][]$ \TU/Cambria(0)/m/n/12 the angle between two consecutive joint axes and
+ can be assumed through
+ []
+
+
+Overfull \hbox (5.37434pt too wide) in paragraph at lines 27--28
+[]\TU/Cambria(0)/m/n/12 +[][] means the joint axes are perpendicular to each ot
+her in a positive
+ []
+
+[20
 
 
 
 
 ]
+Overfull \hbox (5.08522pt too wide) in paragraph at lines 29--30
+[]\TU/Cambria(0)/m/n/12 -[][] means the joint axes are perpendicular to each ot
+her in a negative
+ []
+
+
+Overfull \hbox (5.73517pt too wide) in paragraph at lines 79--81
+\TU/Cambria(0)/m/n/12 conservation of mass for Newtonian fluids. Navier-Stokes 
+equations using tensor
+ []
+
+[21]) [22]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
@@ -2345,7 +2369,7 @@ Appendix B.
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
 e bmp)
 <../../../../../../../../../Downloads/Wiring Diagram.png>
-) [21
+) [23
 
 
 
@@ -2356,7 +2380,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [22
+) [24
 
 
 
@@ -2378,12 +2402,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19383 strings out of 467813
- 447294 string characters out of 5427149
- 1018550 words of memory out of 5000000
- 48073 multiletter control sequences out of 15000+600000
+ 19389 strings out of 467813
+ 447409 string characters out of 5427149
+ 1021779 words of memory out of 5000000
+ 48079 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,12n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (36 pages).
+Output written on template-stb-report-eng.pdf (38 pages).
