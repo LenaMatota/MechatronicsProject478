@@ -44,8 +44,8 @@
 \contentsline {subsection}{\numberline {7.3.3}Experimental Apparatus Specifications}{18}{}%
 \contentsline {subsection}{\numberline {7.3.4}Methodology}{18}{}%
 \contentsline {chapter}{\numberline {8}Conclusions}{19}{}%
-\contentsline {chapter}{\numberline {A}Mathematical Derivations}{20}{}%
+\contentsline {chapter}{\numberline {A}Design Calculations}{20}{}%
 \contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{20}{}%
-\contentsline {section}{\numberline {A.2}Navier Stokes equation}{22}{}%
-\contentsline {chapter}{\numberline {B}Wiring Diagram}{23}{}%
-\contentsline {chapter}{List of references}{24}{}%
+\contentsline {section}{\numberline {A.2}Error-Propagation Model}{22}{}%
+\contentsline {chapter}{\numberline {B}Wiring Diagram}{24}{}%
+\contentsline {chapter}{List of references}{25}{}%

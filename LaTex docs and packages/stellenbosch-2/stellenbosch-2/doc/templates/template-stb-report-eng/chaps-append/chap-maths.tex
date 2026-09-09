@@ -1,7 +1,8 @@
-\chapter{Mathematical Derivations}
+\chapter{Design Calculations}
 
 \section{Denavit-Hartenberg Model}
-The D-H model derived for the project is based off of the FaroArm QuantumX arm. The arm has six-DOF and will be modelled as a serial kinematic chain. The first step is to determine the D-H parameters of the PCMA. Note that the nominal D-H parameters of the FaroArm are not published as they are stored in the device's internal electrically erasable programmable read-only memory (EEPROM) firmware or stored within its proprietary device drivers. However, they can be derived from physical dmensions in the product specifications document due the analogous structure of Faro QuantumX family \cite{Faro:2024}. The specific length chosen was the three-meter arm and its D-H parameters are tabulated under Table~\ref{tab:DH} below:
+The D-H model derived for the project is based off of the FaroArm QuantumX arm. The arm has six-DOF and will be modelled as a serial kinematic chain. The first step is to determine the D-H parameters of the PCMA. Note that the nominal D-H parameters of the FaroArm are not published as they are stored in the device's internal electrically erasable programmable read-only memory (EEPROM) firmware or stored within its proprietary device drivers. However, they can be derived from physical dimensions in the product specifications document due to the analogous structure of the Faro QuantumX family \cite{Faro:2024}. The specific length chosen was the three-meter arm and its D-H parameters are tabulated under Table~\ref{tab:DH} below:
+
 \begin{table}[H]
 	\centering
 	\caption{Denavit-Hartenberg parameters for the FaroArm model}
@@ -11,83 +12,98 @@ The D-H model derived for the project is based off of the FaroArm QuantumX arm. 
 		Link $i$ & $a_i$ [mm] & $\alpha_i$ & $d_i$ [mm] & Notes \\ \hline
 		1 & 0 & +\SI{90}{\degree} & 283 & Offset as a result of the base. \\ 
 		2 & 0 & -\SI{90}{\degree} & 755 & Length of link 1 from position sensitive detector (PSD) \\ 
-		3 & 0 & +\SI{90}{\degree} & 0 & Joint\footnote{For all joints, assume 0 mm length} \\
+		3 & 0 & +\SI{90}{\degree} & 0 & Intersecting elbow axes\footnotemark[1] \\
 		4 & 0 & -\SI{90}{\degree} & 569 & Length of link 2 from PSD \\
-		5 & 0 & +\SI{90}{\degree} & 0 & Joint \\
+		5 & 0 & +\SI{90}{\degree} & 0 & Intersecting wrist axes\footnotemark[2] \\
 		6 & 0 & -\SI{90}{\degree} & 220 & End-effector length \\
 		\hline
 	\end{tabular}
 \end{table}
+\footnotetext[1]{Physically, this represents the twist and hinge encoders of the elbow working together as a multi-axis pivot, instead of being separated by a distinct tubular segment.}
+\footnotetext[2]{There is a physical housing that connects the encoders, which reduces the link length to zero, creating a joint-like behaviour before the end-effector offset.}
 
 The D-H parameters are:
 \begin{itemize}
-	\item $a_i$ is the D-H joint length.
-	\item $\alpha_i$ the angle between two consecutive joint axes and can be assumed through deductive reasoning.
+	\item $a_i$ is the perpendicular distance between two consecutive joints' axes of rotation.
+	\item $\alpha_i$ is the angle between two consecutive joints' axes of rotation and can be assumed through deductive reasoning.
 	\begin{itemize}
 		\item +\SI{90}{\degree} means the joint axes are perpendicular to each other in a positive orientation.
 		\item \SI{0}{\degree} means the joint axes are parallel to each other.
 		\item -\SI{90}{\degree} means the joint axes are perpendicular to each other in a negative orientation.
 	\end{itemize}
-	\item $d_i$ is the joint offset between two consecutive joints.
+	\item $d_i$ is the perpendicular distance between two consecutive joints' axes of rotation.
 \end{itemize}
 
-The next step is to derive the transformation matrix which determines the end-effector's coordinates relative to joint $i$, as shown in Equation~\ref{eq:dh As} below:
-\begin{equation}
-	\label{eq:dh As}
-	\begin{aligned}
-		A_1 &= \begin{bmatrix}
-			\cos\theta_1 & -\sin\theta_1\cos\alpha_1 & \sin\theta_1\cos\alpha_1 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 
-		\end{bmatrix} \\[1.5em]
-		M_2 &= \begin{bmatrix}
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 
-		\end{bmatrix} \\[1.5em]
-		M_3 &= \begin{bmatrix}
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 
-		\end{bmatrix} \\[1.5em]
-		M_4 &= \begin{bmatrix}
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 
-		\end{bmatrix} \\[1.5em]
-		M_5 &= \begin{bmatrix}
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 
-		\end{bmatrix} \\[1.5em]
-		M_6 &= \begin{bmatrix}
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 \\
-			1 & 2 & 3 & 4 
-		\end{bmatrix}
-	\end{aligned}
-\end{equation}
+Note that there is a rotational angle, $\theta_i$, which is the relative rotation between joints with respect to the previous joint. This $\theta_i$ is a real-time variable measured by the encoder at each joint. The next step is to derive the transformation matrix which determines the end-effector's coordinates relative to joint $i$, as seen in Equation~\ref{eq:dh As}:
 
-\section{Navier Stokes equation}
+\begin{align}
+	A_1 &= \begin{bmatrix}
+		\cos\theta_1 & -\sin\theta_1\cos\alpha_1 & \sin\theta_1\sin\alpha_1 & 0 \\
+		\sin\theta_1 & \cos\theta_1\cos\alpha_1 & -\cos\theta_1\sin\alpha_1 & 0 \\
+		0 & \sin\alpha_1 & \cos\alpha_1 & 283 \\
+		0 & 0 & 0 & 1 
+	\end{bmatrix} \nonumber \\[1em]
+	A_2 &= \begin{bmatrix}
+		\cos\theta_2 & -\sin\theta_2\cos\alpha_2 & \sin\theta_2\sin\alpha_2 & 0 \\
+		\sin\theta_2 & \cos\theta_2\cos\alpha_2 & -\cos\theta_2\sin\alpha_2 & 0 \\
+		0 & \sin\alpha_2 & \cos\alpha_2 & 755 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix} \nonumber \\[1em]
+	A_3 &= \begin{bmatrix}
+		\cos\theta_3 & -\sin\theta_3\cos\alpha_3 & \sin\theta_3\sin\alpha_3 & 0 \\
+		\sin\theta_3 & \cos\theta_3\cos\alpha_3 & -\cos\theta_3\sin\alpha_3 & 0 \\
+		0 & \sin\alpha_3 & \cos\alpha_3 & 0 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix} \nonumber \\[1em]
+	A_4 &= \begin{bmatrix}
+		\cos\theta_4 & -\sin\theta_4\cos\alpha_4 & \sin\theta_4\sin\alpha_4 & 0 \\
+		\sin\theta_4 & \cos\theta_4\cos\alpha_4 & -\cos\theta_4\sin\alpha_4 & 0 \\
+		0 & \sin\alpha_4 & \cos\alpha_4 & 569 \\
+		0 & 0 & 0 & 1 
+	\end{bmatrix} \label{eq:dh As} 
+\end{align}
 
-The Navier–Stokes equations mathematically express momentum balance and conservation of mass for Newtonian fluids.  Navier-Stokes equations using tensor notation:
-\begin{subequations}
-\begin{gather}
-    \frac{\partial \rho}{\partial t} +
-    \frac{\partial}{\partial x_j}\left[ \rho u_j \right] = 0 
-    \\
-    \frac{\partial}{\partial t}\left( \rho u_i \right) +
-    \frac{\partial}{\partial x_j}
-    \left[ \rho u_i u_j + p \delta_{ij} - \tau_{ji} \right] = 0, \quad i=1,2,3
-    \\
-    \frac{\partial}{\partial t}\left( \rho e_0 \right) +
-    \frac{\partial}{\partial x_j}
-    \left[ \rho u_j e_0 + u_j p + q_j - u_i \tau_{ij} \right] = 0
-\end{gather}
-\end{subequations}
+\begin{align}
+	A_5 &= \begin{bmatrix}
+		\cos\theta_5 & -\sin\theta_5\cos\alpha_5 & \sin\theta_5\sin\alpha_5 & 0 \\
+		\sin\theta_5 & \cos\theta_5\cos\alpha_5 & -\cos\theta_5\sin\alpha_5 & 0 \\
+		0 & \sin\alpha_5 & \cos\alpha_5 & 0 \\
+		0 & 0 & 0 & 1 
+	\end{bmatrix} \nonumber \\[1em]
+	A_6 &= \begin{bmatrix}
+		\cos\theta_6 & -\sin\theta_6\cos\alpha_6 & \sin\theta_6\sin\alpha_6 & 0 \\
+		\sin\theta_6 & \cos\theta_6\cos\alpha_6 & -\cos\theta_6\sin\alpha_6 & 0 \\
+		0 & \sin\alpha_6 & \cos\alpha_6 & 220 \\
+		0 & 0 & 0 & 1 
+	\end{bmatrix} \nonumber
+\end{align}
+
+The D-H parameters are input into the error propagation model to determine the transformation matrices in Equation~\ref{eq:A-dh} above, as discussed in the following Appendix A.2.
+
+\section{Error-Propagation Model}
+
+The purpose of the error-propagation model is to determine the position uncertainty distribution of the PCMA's end-effector across a sampled workspace. As shown in Figure~\ref{fig:screenshot001} below, the algorithm receives the D-H parameters of the chosen PCMA which is the FaroArm QuantumX arm, specifically, the \SI{3}{m} arm.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.1\linewidth]{../../../../../../../../../Downloads/screenshot001}
+	\caption{Error-Propagation Variable Input}
+	\label{fig:screenshot001}
+\end{figure}
+
+In the next step, the encoder variance is input into the algorithm as the identity matrix, $\Lambda_\theta$. This is done under the assumption that the encoders are independent and equal variance. The covariance used is \SI{6}{arc-sec} based off of industry standard, as shown in Figure~\ref{fig:screenshot002}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.1\linewidth]{../../../../../../../../../Downloads/screenshot002}
+	\caption{Error-Propagation Encoder Covariance Input}
+	\label{fig:screenshot002}
+\end{figure}
+
+Next, the joint sweep for each joint determined, such that an angle range is chosen for each joint and divided into a specified number of samples, as shown in Figure~\ref{fig:screenshot003} below.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.1\linewidth]{../../../../../../../../../Downloads/screenshot003}
+	\caption{Joint Sweep Sample}
+	\label{fig:screenshot003}
+\end{figure}
+
+This translates into a sample of the working volume. It is within this sample that every pose determined by the number of angle samples from the Figure~\ref{fig:screenshot003} above, that the position uncertainty distribution can be determined.
