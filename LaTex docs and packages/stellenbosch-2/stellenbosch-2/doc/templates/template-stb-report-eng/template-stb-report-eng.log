@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  9 SEP 2026 19:50
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  10 SEP 2026 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,13 +1196,20 @@ Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
 new hooks used!!
 \minrowclearance=\skip76
 \rownum=\count347
-) (c:/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count348
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count349
+)
+(c:/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
 \ESO@tempdima=\dimen198
 \ESO@tempdimb=\dimen199
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 110.
+h' as default language. on input line 111.
 
 (./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
 (./chaps-front/chap-AI-use-2024.aux) (./chaps-front/chap-summary.aux)
@@ -1217,22 +1224,22 @@ h' as default language. on input line 110.
 (./chaps-append/chap-experiment.aux))
 \openout1 = `template-stb-report-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1272,13 +1279,13 @@ LaTeX Font Info:    ... okay on input line 110.
 
 File: stb-logo-vert.pdf Graphic file (type pdf)
 <use stb-logo-vert.pdf>
-LaTeX Info: Redefining \microtypecontext on input line 110.
-Package microtype Info: Applying patch `item' on input line 110.
-Package microtype Info: Applying patch `toc' on input line 110.
-Package microtype Info: Applying patch `eqnum' on input line 110.
-Package microtype Info: Applying patch `footnote' on input line 110.
-Package microtype Info: Applying patch `verbatim' on input line 110.
-LaTeX Info: Redefining \microtypesetup on input line 110.
+LaTeX Info: Redefining \microtypecontext on input line 111.
+Package microtype Info: Applying patch `item' on input line 111.
+Package microtype Info: Applying patch `toc' on input line 111.
+Package microtype Info: Applying patch `eqnum' on input line 111.
+Package microtype Info: Applying patch `footnote' on input line 111.
+Package microtype Info: Applying patch `verbatim' on input line 111.
+LaTeX Info: Redefining \microtypesetup on input line 111.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1295,7 +1302,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 110.
+or `english'. on input line 111.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
@@ -1374,7 +1381,7 @@ Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
 ])
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 117.
+ 118.
  [5]
 \openout2 = `chaps-front/chap-ECSA.aux'.
 
@@ -1619,7 +1626,7 @@ the arm is least accurate,
  []
 
 )
-Overfull \hbox (10.07092pt too wide) in paragraph at lines 53--134
+Overfull \hbox (10.07092pt too wide) in paragraph at lines 53--135
 \TU/Cambria(0)/m/n/12 also be used for the future developement of a full PCMA a
 rm with position-holding
  []
@@ -2361,12 +2368,6 @@ Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
  model to determine
  []
 
-
-Overfull \hbox (0.17375pt too wide) in paragraph at lines 81--82
-\TU/Cambria(0)/m/n/12 the transformation matrices in Equation 2.2[] above, as d
-iscussed in the following
- []
-
 File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot001.png>
@@ -2398,7 +2399,19 @@ Overfull \hbox (39.83841pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
-) [23]
+File: ../../../../../../../../../Downloads/screenshot001-1.png Graphic file (ty
+pe bmp)
+<../../../../../../../../../Downloads/screenshot001-1.png>
+File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
+pe bmp)
+<../../../../../../../../../Downloads/screenshot001-2.png>
+[23])
+Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--144
+[]\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
+ plotted to show where
+ []
+
+[24]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
@@ -2406,7 +2419,7 @@ Appendix B.
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
 e bmp)
 <../../../../../../../../../Downloads/Wiring Diagram.png>
-) [24
+) [25
 
 
 
@@ -2417,7 +2430,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [25
+) [26
 
 
 
@@ -2439,12 +2452,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19445 strings out of 467813
- 450593 string characters out of 5427149
- 1023690 words of memory out of 5000000
- 48132 multiletter control sequences out of 15000+600000
+ 19602 strings out of 467813
+ 455124 string characters out of 5427149
+ 1025953 words of memory out of 5000000
+ 48285 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,15n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (39 pages).
+Output written on template-stb-report-eng.pdf (40 pages).

@@ -78,7 +78,7 @@ Note that there is a rotational angle, $\theta_i$, which is the relative rotatio
 	\end{bmatrix} \nonumber
 \end{align}
 
-The D-H parameters are input into the error propagation model to determine the transformation matrices in Equation~\ref{eq:A-dh} above, as discussed in the following Appendix A.2.
+The D-H parameters are input into the error propagation model to determine the transformation matrices in Equation~\ref{eq:A-dh} above. These calculations can be cumbersome if done by hand, however, Matlab ws chosen to complete them which will be discussed in the following Appendix A.2.
 
 \section{Error-Propagation Model}
 
@@ -106,4 +106,24 @@ Next, the joint sweep for each joint determined, such that an angle range is cho
 	\label{fig:screenshot003}
 \end{figure}
 
-This translates into a sample of the working volume. It is within this sample that every pose determined by the number of angle samples from the Figure~\ref{fig:screenshot003} above, that the position uncertainty distribution can be determined.
+These angle samples translate into a sample of the working volume. It is within this sample that every pose determined by the number of angle samples from the Figure~\ref{fig:screenshot003} above, that the position uncertainty distribution can be determined, using the error propagation model, as seen in Figure~\ref{fig:poses_evaluation} below.
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{../../../../../../../../../Downloads/screenshot001-1}
+		\caption{}
+		\label{fig:screenshot001-1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{../../../../../../../../../Downloads/screenshot001-2}
+		\caption{}
+		\label{fig:screenshot001-2}
+	\end{subfigure}
+	\caption{Evaluation of poses in the sampled working space}
+	\label{fig:poses_evaluation}
+\end{figure}
+
+From here, a distrbution of the position uncertainty is plotted to show where uncertainty is the weakest (higlighted in a deep blue) and where it is strongest (highlighted in a bright yellow)\footnote{See Figure~\ref{fig:screenshot-2026-08-22-191504} under Section 2.3.}. 

@@ -47,5 +47,5 @@
 \contentsline {chapter}{\numberline {A}Design Calculations}{20}{}%
 \contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{20}{}%
 \contentsline {section}{\numberline {A.2}Error-Propagation Model}{22}{}%
-\contentsline {chapter}{\numberline {B}Wiring Diagram}{24}{}%
-\contentsline {chapter}{List of references}{25}{}%
+\contentsline {chapter}{\numberline {B}Wiring Diagram}{25}{}%
+\contentsline {chapter}{List of references}{26}{}%

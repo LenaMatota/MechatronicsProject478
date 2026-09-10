@@ -42,7 +42,7 @@ From the derivation of the D-H model, the error progation model could be derived
 , where $J(x)$ is the jacobian matrix of the end-effector's position and $\Lambda_x$ is a matrix of the known uncertainty of the encoder at each respective joint. The derivation for Equatio~\ref{eq:errorP} begins with a Taylor series expansion, which approximates the articulated system's behaviour near a known point using first-order terms only, which produces the Jacobian matrix. Higher-order terms are negligibly small. The Jacobian matrix is then used to scale the known uncertainties $\Lambda_x$ and calculate the unknown uncertainty of the end-effector, $\Lambda_F$.
 
 The limitation found to this model was that the uncertainty of end-effector could be calculated for only one pose of the articulated system at a time. For the purposes of this project, the error propogation model was generalised by taking a sample of the working volume of the Faro Quantum X arm and computing the uncertainty of the end-effector across the sampled work volume. The software used to conduct these computations was MATLAB, which was also used to plot the distribution of uncertainty across a sampled workspace, which can be seen in Figure~\ref{fig:screenshot-2026-08-22-191504}
-\begin{figure} [H]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"../../../../../../../../../Downloads/Screenshot 2026-08-22 191504"}
 	\caption{Uncertainty Distribution Across Sampled Workspace}
@@ -50,4 +50,4 @@ The limitation found to this model was that the uncertainty of end-effector coul
 \end{figure}
 The dark blue regions show where the arm is most accurate, which is at approximately \SI{56}{microns} of uncertainty. This occurs when the arm is folded closer to its base. The bright yellow regions show where the arm is least accurate, up to \SI{74}{microns}. This occurs at the outer edges of the workspace where the arm is fully extended.
 
-The full capabilities of the code also include a section in which certain joints can be locked and the effect of the locked joints can be computed and plotted on a graph similar to the one found in Figure~\ref{fig:screenshot-2026-08-22-191504}. This means that the software can also be used for the future developement of a full PCMA arm with position-holding implementation at optimal joint locations. The code can found in Appendix B.
+The full capabilities of the code also include a section in which certain joints can be locked and the effect of the locked joints can be computed and plotted on a graph similar to the one found in Figure~\ref{fig:screenshot-2026-08-22-191504}. This means that the software can also be used for the future developement of a full PCMA arm with position-holding implementation at optimal joint locations.
