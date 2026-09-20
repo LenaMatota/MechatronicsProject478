@@ -1,0 +1,21 @@
+* TIP41C NPN Power Transistor Subcircuit Model
+.subckt TIP41C C B E
+* Connections: Collector, Base, Emitter
+Q1 C_int B_int E internal_npn
+RC C C_int 0.05
+RB B B_int 1.0
+.model internal_npn NPN (
++ IS = 1.2e-12
++ BF = 75
++ VAF = 60
++ IKF = 3.0
++ ISE = 1.2e-11
++ NE = 2.0
++ RE = 0.05
++ RC = 0.02
++ CJC = 120p
++ CJE = 400p
++ TR = 1u
++ TF = 50n
+)
+.ends TIP41C
