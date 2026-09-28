@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  28 SEP 2026 11:00
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  28 SEP 2026 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2305,82 +2305,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
  []
 
 [14]
-File: ../../../../../../../../../Downloads/Rough joint design.jpg Graphic file 
-(type bmp)
-<../../../../../../../../../Downloads/Rough joint design.jpg>
-
-Overfull \hbox (14.45123pt too wide) in paragraph at lines 148--149
+Overfull \hbox (14.45123pt too wide) in paragraph at lines 141--142
 \TU/Cambria(0)/m/n/12 and strength. When de-energised, the electromagnetic brak
 e is able to successfully
  []
 
-[15]
-Overfull \hbox (0.87923pt too wide) in paragraph at lines 150--151
+
+Overfull \hbox (0.87923pt too wide) in paragraph at lines 143--144
 \TU/Cambria(0)/m/n/12 functional requirements in Table 4.1[], Table 4.2[] below
 , identifies the components
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 brake opens the air gap,
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 179--179
+Underfull \hbox (badness 1466) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 allowing the joint shaft to be
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 179--179
+Underfull \hbox (badness 6173) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 freely rotated by the output
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []|\TU/Cambria(0)/m/n/12 When the electromagnet is
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 179--179
+Underfull \hbox (badness 1783) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 and the mechanism applies a
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 179--179
+Underfull \hbox (badness 2970) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 to the joint shaft via a rigid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 coupling, measuring relative
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 rotation while the encoder
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []|\TU/Cambria(0)/m/n/12 The angular displacement
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 179--179
+Underfull \hbox (badness 7221) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 data captured by the rotary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 encoder is transmitted to
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 179--179
+Underfull \hbox (badness 4819) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 the microcontroller, which is
  []
 
-[16]) [17]
+[15]
+File: C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProjec
+t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg Graphic
+ file (type bmp)
+<C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProject478/
+Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg>
+File: C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProjec
+t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg Graphic
+ file (type bmp)
+<C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProject478/
+Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg>
+
+Overfull \hbox (6.10187pt too wide) in paragraph at lines 192--193
+[]\TU/Cambria(0)/m/n/12 The design was modelled to ensure that the main compone
+nents are correctly
+ []
+
+
+Overfull \hbox (18.73247pt too wide) in paragraph at lines 192--193
+\TU/Cambria(0)/m/n/12 sized and positioned to integrate seamlessly within the P
+CMA’s physical constraints.
+ []
+
+)
+Overfull \hbox (2.12057pt too wide) in paragraph at lines 194--138
+[]\TU/Cambria(0)/m/n/12 The primary mechanical requirement for the refined mech
+anism is to deliver
+ []
+
+[16] [17]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
@@ -2542,16 +2567,12 @@ easuring arms.” OASIS
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 19673 strings out of 467813
- 456311 string characters out of 5427149
- 1025611 words of memory out of 5000000
- 48352 multiletter control sequences out of 15000+600000
+ 19672 strings out of 467813
+ 457754 string characters out of 5427149
+ 1025724 words of memory out of 5000000
+ 48349 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,15n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
