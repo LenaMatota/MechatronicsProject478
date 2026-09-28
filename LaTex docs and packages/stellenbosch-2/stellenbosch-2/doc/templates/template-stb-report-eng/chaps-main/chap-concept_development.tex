@@ -134,9 +134,7 @@ EC1 was derived from TPM\_03 and determined to be the most important EC as the j
 	
 \section{Concept Selection}
 
-Based on the qualitative evaluation presented under Section 4.2., Concept 3 is selected as the final design. The evaluation matrix illustrates the advantage of this mechanism, which achieved a final weighted total of +10. This concept significanly outperformed both Concept 1 and the datum Concept 2, which both scored a weighted total of 0.
-
-The selection of Concept 3, the electromagnetic brake, is motivated by its superior performance across the most critical functional criteria. For load capacity (EC1), the mechanism provides a reliable, static holding torque. This ensures the system's strict \SI{7.725}{Nm} holding requirement is met consistently. This will remove the variable of human reliability present in manual locking designs.
+Based on the qualitative evaluation presented under Section 4.2., Concept 3 is selected as the final design, as shown in Figure~\ref{fig:rough-joint-design}.
 
 \begin{figure}[h]
 	\centering
@@ -145,5 +143,39 @@ The selection of Concept 3, the electromagnetic brake, is motivated by its super
 	\label{fig:rough-joint-design}
 \end{figure}
 
+The motivation behind selecting this concept is its superior performance across the most critical functional criteria, specifically load capacity (EC1) and positional stability (EC3).
+
+The electromagnetic brake provides a consistent and reliable static hold, in contrast to the manual locking dial which relies heavilty on human reliability and strength. When de-energised, the electromagnetic brake is able to successfully meet the strict holding force requirement by applying a uniform clamping force between the brake disc and friction plate. The uniform clamping eliminates off-center loads and minimises parasitic deflections, thereby preserving the tight run-out tolerances required for the PCMA's spatial accuracy. In addition to this, the electromagnet is intergrated internally on the joint shaft, ensuring that the joint design does not impede the joint's physical movement. This allows te arm to achieve the full required \SI{90}{\degree} operational articulation sweep without interference (EC2).
+
+To confirm that the chosen selected concept is well suited to perform the functional requirements in Table~\ref{tab:concept_evaluation_portrait}, Table~\ref{tab:concept_functional_mapping} below, identifies the components to fulfilling the respective functions.
+
+\begin{xltabular}{\textwidth}{|>{\raggedright\arraybackslash}p{3cm}|>{\raggedright\arraybackslash}p{4cm}|X|}
+	\caption{Concept Functional Mapping}
+	\label{tab:concept_functional_mapping} \\
+	\hline
+	\textbf{Function Number} & \textbf{Function Description} & \textbf{Concept} \\
+	\hline
+	\endfirsthead
+	
+	% --- Header for subsequent pages ---
+	\multicolumn{3}{c}{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+	\hline
+	\textbf{Function Number} & \textbf{Function Description} & \textbf{Concept} \\
+	\hline
+	\endhead
+	
+	% --- Footer for the bottom of the page before a break ---
+	\hline
+	\endfoot
+	
+	% --- Footer for the very end of the table ---
+	\endlastfoot
+	
+	FR\_01 & Articulate output link & Energising the electromagnetic brake opens the air gap, allowing the joint shaft to be freely rotated by the output link.\\ \hline
+	FR\_02 & Hold position & When the electromagnet is de-energised, the air gap closes and the mechanism applies a static holding force to keep the joint stationary.\\ \hline
+	FR\_03 & Measure angular displacement & A rotary encoder is connected to the joint shaft via a rigid coupling, measuring relative rotation while the encoder body is held stationary by the housing.\\ \hline
+	FR\_04 & Store angular displacement data & The angular displacement data captured by the rotary encoder is transmitted to the microcontroller, which is part of the system's switching circuitry.\\ \hline
+	FR\_05 & Release position & Energising the brake's solenoid retracts the pressure plate from brake disk, releasing the joint for movement.\\ \hline
+\end{xltabular}
 
 \section{Design Refinement}
