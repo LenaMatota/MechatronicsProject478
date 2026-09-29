@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  28 SEP 2026 22:34
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  29 SEP 2026 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2387,30 +2387,48 @@ t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg Graphic
  file (type bmp)
 <C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProject478/
 Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg>
-
-Overfull \hbox (6.10187pt too wide) in paragraph at lines 192--193
-[]\TU/Cambria(0)/m/n/12 The design was modelled to ensure that the main compone
-nents are correctly
- []
-
-
+ [16]
 Overfull \hbox (18.73247pt too wide) in paragraph at lines 192--193
 \TU/Cambria(0)/m/n/12 sized and positioned to integrate seamlessly within the P
 CMA’s physical constraints.
  []
 
-)
-Overfull \hbox (2.12057pt too wide) in paragraph at lines 194--138
+
+Overfull \hbox (2.12057pt too wide) in paragraph at lines 194--195
 []\TU/Cambria(0)/m/n/12 The primary mechanical requirement for the refined mech
 anism is to deliver
  []
 
-[16] [17]
+
+Overfull \hbox (1.39815pt too wide) in paragraph at lines 194--195
+\TU/Cambria(0)/m/n/12 a relaible static holding torque of [][]. To achieve this
+, the electromagnetic
+ []
+
+
+Overfull \hbox (3.53586pt too wide) in paragraph at lines 196--197
+\TU/Cambria(0)/m/n/12 clamping force is physically implemented to stop the shaf
+t from rotating, thereby
+ []
+
+
+Overfull \hbox (19.44562pt too wide) in paragraph at lines 198--199
+\TU/Cambria(0)/m/n/12 chosen over angular contact bearings due to their cost-ef
+fectiveness and availability
+ []
+
+[17])
+Overfull \hbox (19.39244pt too wide) in paragraph at lines 200--138
+[]\TU/Cambria(0)/m/n/12 Below is a parts list that corresponds to the refined j
+oint subsystem in Figure 4.4[],
+ []
+
+[18]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
 Chapter 5.
-) [18
+) [19
 
 
 
@@ -2420,7 +2438,7 @@ Chapter 5.
 
  (./chaps-main/chap-design_evaluation.tex
 Chapter 6.
-) [19
+) [20
 
 
 
@@ -2430,7 +2448,7 @@ Chapter 6.
 
  (./chaps-main/chap-experimental_procedure.tex
 Chapter 7.
-) [20
+) [21
 
 
 
@@ -2440,7 +2458,7 @@ Chapter 7.
 
  (./chaps-main/chap-conclusion.tex
 Chapter 8.
-) [21
+) [22
 
 
 
@@ -2456,7 +2474,7 @@ Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
 ct specifications document
  []
 
-[22
+[23
 
 
 
@@ -2479,7 +2497,7 @@ Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
  the relative rotation between
  []
 
-[23]
+[24]
 Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
 []\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
  model to determine
@@ -2507,7 +2525,7 @@ Overfull \hbox (39.83841pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
-[24]
+[25]
 File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot003.png>
@@ -2522,13 +2540,13 @@ pe bmp)
 File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
 pe bmp)
 <../../../../../../../../../Downloads/screenshot001-2.png>
-[25])
+[26])
 Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--145
 []\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
  plotted to show where
  []
 
-[26]
+[27]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
@@ -2536,7 +2554,7 @@ Appendix B.
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
 e bmp)
 <../../../../../../../../../Downloads/Wiring Diagram.png>
-) [27
+) [28
 
 
 
@@ -2547,7 +2565,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [28
+) [29
 
 
 
@@ -2569,12 +2587,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19672 strings out of 467813
- 457754 string characters out of 5427149
- 1025724 words of memory out of 5000000
- 48349 multiletter control sequences out of 15000+600000
+ 19673 strings out of 467813
+ 457770 string characters out of 5427149
+ 1025740 words of memory out of 5000000
+ 48350 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,15n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (42 pages).
+Output written on template-stb-report-eng.pdf (43 pages).

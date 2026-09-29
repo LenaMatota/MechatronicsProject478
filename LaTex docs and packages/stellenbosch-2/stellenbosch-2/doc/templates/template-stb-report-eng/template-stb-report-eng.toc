@@ -28,24 +28,24 @@
 \contentsline {section}{\numberline {4.2}Concept Evaluation}{13}{}%
 \contentsline {section}{\numberline {4.3}Concept Selection}{15}{}%
 \contentsline {section}{\numberline {4.4}Design Refinement}{16}{}%
-\contentsline {chapter}{\numberline {5}Design Analysis}{18}{}%
-\contentsline {section}{\numberline {5.1}Mechanical Design}{18}{}%
-\contentsline {section}{\numberline {5.2}Electronic Design}{18}{}%
-\contentsline {section}{\numberline {5.3}Software Design}{18}{}%
-\contentsline {chapter}{\numberline {6}Design Evaluation}{19}{}%
-\contentsline {section}{\numberline {6.1}As-Built System Overview}{19}{}%
-\contentsline {section}{\numberline {6.2}Performance Testing}{19}{}%
-\contentsline {chapter}{\numberline {7}Experimental Procedure}{20}{}%
-\contentsline {section}{\numberline {7.1}Experimental Apparatus}{20}{}%
-\contentsline {section}{\numberline {7.2}Experimental Setup}{20}{}%
-\contentsline {section}{\numberline {7.3}Experimental Equipment Specifications}{20}{}%
-\contentsline {subsection}{\numberline {7.3.1}Test Sphere Specifications}{20}{}%
-\contentsline {subsection}{\numberline {7.3.2}Joint Component Specifications}{20}{}%
-\contentsline {subsection}{\numberline {7.3.3}Experimental Apparatus Specifications}{20}{}%
-\contentsline {subsection}{\numberline {7.3.4}Methodology}{20}{}%
-\contentsline {chapter}{\numberline {8}Conclusions}{21}{}%
-\contentsline {chapter}{\numberline {A}Design Calculations}{22}{}%
-\contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{22}{}%
-\contentsline {section}{\numberline {A.2}Error-Propagation Model}{24}{}%
-\contentsline {chapter}{\numberline {B}Wiring Diagram}{27}{}%
-\contentsline {chapter}{List of references}{28}{}%
+\contentsline {chapter}{\numberline {5}Design Analysis}{19}{}%
+\contentsline {section}{\numberline {5.1}Mechanical Design}{19}{}%
+\contentsline {section}{\numberline {5.2}Electronic Design}{19}{}%
+\contentsline {section}{\numberline {5.3}Software Design}{19}{}%
+\contentsline {chapter}{\numberline {6}Design Evaluation}{20}{}%
+\contentsline {section}{\numberline {6.1}As-Built System Overview}{20}{}%
+\contentsline {section}{\numberline {6.2}Performance Testing}{20}{}%
+\contentsline {chapter}{\numberline {7}Experimental Procedure}{21}{}%
+\contentsline {section}{\numberline {7.1}Experimental Apparatus}{21}{}%
+\contentsline {section}{\numberline {7.2}Experimental Setup}{21}{}%
+\contentsline {section}{\numberline {7.3}Experimental Equipment Specifications}{21}{}%
+\contentsline {subsection}{\numberline {7.3.1}Test Sphere Specifications}{21}{}%
+\contentsline {subsection}{\numberline {7.3.2}Joint Component Specifications}{21}{}%
+\contentsline {subsection}{\numberline {7.3.3}Experimental Apparatus Specifications}{21}{}%
+\contentsline {subsection}{\numberline {7.3.4}Methodology}{21}{}%
+\contentsline {chapter}{\numberline {8}Conclusions}{22}{}%
+\contentsline {chapter}{\numberline {A}Design Calculations}{23}{}%
+\contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{23}{}%
+\contentsline {section}{\numberline {A.2}Error-Propagation Model}{25}{}%
+\contentsline {chapter}{\numberline {B}Wiring Diagram}{28}{}%
+\contentsline {chapter}{List of references}{29}{}%

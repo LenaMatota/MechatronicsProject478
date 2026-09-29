@@ -175,7 +175,7 @@ To confirm that the chosen selected concept is well suited to perform the functi
 
 The conceptual design of the electromagnetic joint was refined into a 3D CAD assembly to verify spatial feasibility, component scaling, and integration into the wider system of interest, as seen in Figure~\ref{fig:rough-joint-design}.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering
 	\begin{minipage}{0.2\textwidth}
 		\centering
@@ -189,6 +189,35 @@ The conceptual design of the electromagnetic joint was refined into a 3D CAD ass
 	\label{fig:rough-joint-design}
 \end{figure}
 
-The design was modelled to ensure that the main componenents are correctly sized and positioned to integrate seamlessly within the PCMA's physical constraints. The model also ensures that the means of operation and load paths are clearly defined. This ensures the design does not impede the required \SI{90}{\degree} operational articulation sweep.
+The design was modelled to ensure that the main components are correctly sized and positioned to integrate seamlessly within the PCMA's physical constraints. The model also ensures that the means of operation and load paths are clearly defined. This ensures the design does not impede the required \SI{90}{\degree} operational articulation sweep.
 
-The primary mechanical requirement for the refined mechanism is to deliver a relaible static holding torque. To achieve this, the electromagnetic brake is mounted 
+The primary mechanical requirement for the refined mechanism is to deliver a relaible static holding torque of \SI{7.725}{Nm}. To achieve this, the electromagnetic brake is held stationary by the joint housing, with a loose fit on the same shaft as the rest of the joint. Under normal measurement operation, the electromagnet is energised with an operating current of \SI{12}{A}. The brake disc is fixed to rotate with the shaft via a key and the friction plate is connected to the pressure tabs on the elctromagnetic brake and is held stationary as a result. The force exerted as a result, retracts the pressure tabs and friction plate, thereby creating an air gap between the brake disc and friction plate to allow the shaft to rotate freely its bearings. The shaft is rotated by a lightweight output link\footnote{The output link represents the distal link of the PCMA arm.}, which is connected to the shaft through a dowel pin.
+
+The position-holding capabilites of the brake are activated by shutting of power to the electromagnet. The pressure tabs return to their resting position and force the friction plate against the brake disc. This is how the umiform clamping force is physically implemented to stop the shaft from rotating, thereby holding the joint's position. This configuration ensure uniform application of the holding torque to minimise parasitic radial deflections. This further ensures that the run-out tolrence is maintained for the PCMA's spatial accuracy.
+
+The design also accomodates the necessary sensing and structural support subsystems. A high-resolution rotary encoder is connected to the opposite end of the joint shaft via a rigid coupling. The encoder's body is secured to the joint housing, which encases the entire joint assembly and held stationary by the base link\footnote{The base link represents the proximal link of the PCMA arm.}. This ensures that any angular displacement of the shaft, relative to the stationary joint housing, is accurately captured and transmitted to the control circuitry. The shaft is supported by two roller bearings, which were chosen over angular contact bearings due to their cost-effectiveness and availability in the market in comparison. These bearings are mounted onto the shaft with an interference fit and shaft collars to prevent axial slipping. In addition to this, the shaft was designed with shoulders to maintain spacing, while the bearing housing was integrated into the joint housing to further eliminate axial play.
+
+Below is a parts list that corresponds to the refined joint subsystem in Figure~\ref{fig:rough-joint-design}, excluding standard/trivial fasteners:
+\begin{table}[htbp]
+	\centering
+	\caption{Refined Design Parts List}
+	\label{tab:parts_list}
+	\begin{tabularx}{0.85\textwidth}{|c|>{\raggedright\arraybackslash}X|c|}
+		\hline
+		\textbf{Item No.} & \textbf{Component Description} & \textbf{Quantity} \\
+		\hline
+		1 & Joint shaft & 1 \\ \hline
+		2 & Output link & 1 \\ \hline
+		3 & Roller bearings & 1 \\ \hline
+		4 & Shaft collars & 2 \\ \hline
+		5 & Bearing housing & 2 \\ \hline
+		6 & Electromagnetic brake assembly & 2 \\ \hline
+		7 & Rigid shaft coupling & 1 \\ \hline
+		8 & Rotary encoder & 1 \\ \hline
+		9 & Base link & 1 \\ \hline
+		10 & Joint housing & 1 \\ \hline
+		11 & Friction plate & 1 \\ \hline
+		12 & Brake disc & 1 \\
+		\hline
+	\end{tabularx}
+\end{table}
