@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  1 OCT 2026 22:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  3 OCT 2026 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2432,13 +2432,13 @@ oint subsystem in Figure 4.4[],
  (./chaps-main/chap-design_analysis.tex
 Chapter 5.
 
-Overfull \hbox (27.88953pt too wide) in paragraph at lines 3--4
+Overfull \hbox (27.88953pt too wide) in paragraph at lines 3--5
 \TU/Cambria(0)/m/n/12 The design analysis of the electromagnetic brake joint is
  divided into four hierarchical
  []
 
 
-Overfull \hbox (1.44759pt too wide) in paragraph at lines 3--4
+Overfull \hbox (1.44759pt too wide) in paragraph at lines 3--5
 \TU/Cambria(0)/m/n/12 however, the resulting architecture is documented in a lo
 gical, top-down fashion
  []
@@ -2452,39 +2452,254 @@ File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
 
 
 ]
-Overfull \hbox (21.661pt too wide) in paragraph at lines 16--17
+Overfull \hbox (21.661pt too wide) in paragraph at lines 17--18
 \TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure A.1[]. The diff
 erent views and dimensions
  []
 
 
-Overfull \hbox (13.8257pt too wide) in paragraph at lines 16--17
+Overfull \hbox (13.8257pt too wide) in paragraph at lines 17--18
 \TU/Cambria(0)/m/n/12 of the engineering drawing depict the position of physica
 l interfaces with elements
  []
 
 
-Overfull \hbox (9.94983pt too wide) in paragraph at lines 16--17
+Overfull \hbox (9.94983pt too wide) in paragraph at lines 17--18
 \TU/Cambria(0)/m/n/12 external to the NSoI and the spatial constraints for the 
 respective system elements
  []
 
 
-Overfull \hbox (37.5985pt too wide) in paragraph at lines 18--19
-\TU/Cambria(0)/m/n/12 electromagnetic brake assembly interfaces directly with t
-he shaft. The electromagnetic
+Overfull \hbox (28.10672pt too wide) in paragraph at lines 19--20
+\TU/Cambria(0)/m/n/12 supported by two RS PRO [][] ID 2-Row ball bearings mount
+ed with an inteference
  []
 
 
-Overfull \hbox (13.5761pt too wide) in paragraph at lines 20--21
+Overfull \hbox (3.26588pt too wide) in paragraph at lines 19--20
+\TU/Cambria(0)/m/n/12 electromagnetic brake consist of solenoids, friction plat
+e (laser-cut by Fabrinox),
+ []
+
+
+Overfull \hbox (13.5761pt too wide) in paragraph at lines 21--22
 []\TU/Cambria(0)/m/n/12 This configuration was chosen because it provides a rel
 iable, uniform clamping
  []
 
-
-Overfull \hbox (28.40074pt too wide) in paragraph at lines 22--23
+[20]
+Overfull \hbox (28.40074pt too wide) in paragraph at lines 23--24
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
  []
 
-File: ../../../../../../../../.
+
+Overfull \hbox (12.21375pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 The purpose of the switching circuit is to bridge the sig
+nificant power gap between
+ []
+
+
+Overfull \hbox (45.9526pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 circuitry is required to safely step down power for the l
+ogic and allow the microcontroller
+ []
+
+
+Overfull \hbox (3.29576pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 to switch the electromagnet without sustaining damage. Fi
+gure 5.2[] below shows
+ []
+
+File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
+e bmp)
+<../../../../../../../../../Downloads/Wiring Diagram.png>
+
+Overfull \hbox (2.36064pt too wide) in paragraph at lines 36--37
+\TU/Cambria(0)/m/n/12 implemented. Its purpose is to reduce the [][] supply to 
+a safe operating voltage
+ []
+
+
+Overfull \hbox (22.81897pt too wide) in paragraph at lines 38--39
+\TU/Cambria(0)/m/n/12 metal-oxide-semiconductor field-effect transistor (MOSFET
+) is utilised as a low-side
+ []
+
+
+Overfull \hbox (41.76215pt too wide) in paragraph at lines 38--39
+\TU/Cambria(0)/m/n/12 signal from the microcontroller[] and use it to safely tu
+rn the high-current electromagnet
+ []
+
+
+Overfull \hbox (21.42265pt too wide) in paragraph at lines 40--41
+\TU/Cambria(0)/m/n/12 and protective of the MOSFET, including the [][] gate res
+istor, the [][] pull-down
+ []
+
+[21]) [22]
+\openout2 = `chaps-main/chap-design_evaluation.aux'.
+
+ (./chaps-main/chap-design_evaluation.tex
+Chapter 6.
+) [23
+
+
+
+
+]
+\openout2 = `chaps-main/chap-experimental_procedure.aux'.
+
+ (./chaps-main/chap-experimental_procedure.tex
+Chapter 7.
+) [24
+
+
+
+
+]
+\openout2 = `chaps-main/chap-conclusion.aux'.
+
+ (./chaps-main/chap-conclusion.tex
+Chapter 8.
+) [25
+
+
+
+
+]
+\openout2 = `chaps-append/chap-maths.aux'.
+
+ (./chaps-append/chap-maths.tex
+Appendix A.
+
+Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
+\TU/Cambria(0)/m/n/12 they can be derived from physical dimensions in the produ
+ct specifications document
+ []
+
+[26
+
+
+
+
+]
+Overfull \hbox (5.37434pt too wide) in paragraph at lines 30--31
+[]\TU/Cambria(0)/m/n/12 +[][] means the joint axes are perpendicular to each ot
+her in a positive
+ []
+
+
+Overfull \hbox (5.08522pt too wide) in paragraph at lines 32--33
+[]\TU/Cambria(0)/m/n/12 -[][] means the joint axes are perpendicular to each ot
+her in a negative
+ []
+
+
+Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
+[]\TU/Cambria(0)/m/n/12 Note that there is a rotational angle, $[][]$, which is
+ the relative rotation between
+ []
+
+[27]
+Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
+[]\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
+ model to determine
+ []
+
+File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
+ bmp)
+<../../../../../../../../../Downloads/screenshot001.png>
+
+Overfull \hbox (39.83841pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
+
+
+Overfull \hbox (24.33952pt too wide) in paragraph at lines 85--91
+\TU/Cambria(0)/m/n/12 The purpose of the error-propagation model is to determin
+e the position uncertainty
+ []
+
+[28]
+File: ../../../../../../../../../Downloads/screenshot002.png Graphic file (type
+ bmp)
+<../../../../../../../../../Downloads/screenshot002.png>
+
+Overfull \hbox (39.83841pt too wide) in paragraph at lines 96--97
+ [][] 
+ []
+
+File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
+ bmp)
+<../../../../../../../../../Downloads/screenshot003.png>
+
+Overfull \hbox (39.83841pt too wide) in paragraph at lines 104--105
+ [][] 
+ []
+
+[29]
+File: ../../../../../../../../../Downloads/screenshot001-1.png Graphic file (ty
+pe bmp)
+<../../../../../../../../../Downloads/screenshot001-1.png>
+File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
+pe bmp)
+<../../../../../../../../../Downloads/screenshot001-2.png>
+)
+Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--145
+[]\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
+ plotted to show where
+ []
+
+[30] [31]
+\openout2 = `chaps-append/chap-experiment.aux'.
+
+ (./chaps-append/chap-experiment.tex
+Appendix B.
+) [32
+
+
+
+
+] (./template-stb-report-eng.bbl
+Underfull \hbox (badness 1394) in paragraph at lines 29--31
+[]\TU/Cambria(0)/m/n/10.95 H. Meagher, “Measurement tool spotlight - portable m
+easuring arms.” OASIS
+ []
+
+) [33
+
+
+
+
+] (./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
+(./chaps-front/chap-AI-use-2024.aux) (./chaps-front/chap-summary.aux)
+(./chaps-front/chap-ECSA.aux) (./chaps-front/chap-acknowledge.aux)
+(./chaps-front/chap-symbols.aux) (./chaps-main/chap-intro.aux)
+(./chaps-main/chap-literature.aux) (./chaps-main/chap-requirement_analysis.aux)
+(./chaps-main/chap-concept_development.aux)
+(./chaps-main/chap-design_analysis.aux)
+(./chaps-main/chap-design_evaluation.aux)
+(./chaps-main/chap-experimental_procedure.aux)
+(./chaps-main/chap-conclusion.aux) (./chaps-append/chap-maths.aux)
+(./chaps-append/chap-experiment.aux))
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 19673 strings out of 467813
+ 457770 string characters out of 5427149
+ 1025883 words of memory out of 5000000
+ 48350 multiletter control sequences out of 15000+600000
+ 631871 words of font info for 141 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 90i,15n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on template-stb-report-eng.pdf (47 pages).

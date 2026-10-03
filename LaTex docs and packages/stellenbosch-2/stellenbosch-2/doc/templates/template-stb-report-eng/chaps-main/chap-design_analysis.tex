@@ -1,6 +1,7 @@
 \chapter{Design Analysis}
 
-The design analysis of the electromagnetic brake joint is divided into four hierarchical layers, inculding the WSoI which encompasses the testsing enviornment and the PCMA arm, the NSoI representing the joint, its functional subsystems, and the individual components. The physical development of the joint was iterative, however, the resulting architecture is documented in a logical, top-down fashion instead of a chronological sequence. To describe the system's integration, the analysis is split into three domains which constitute the mechanical design, the electronic design, and the software design. The mechanical design outlines the spatial arrangement and loading paths. The electronic design describes the peripheral circuitry and power interfacing. The software design defines the control logic and the state machine controlling the electromagnetic brake.
+The design analysis of the electromagnetic brake joint is divided into four 
+hierarchical layers, inculding the WSoI which encompasses the testsing enviornment and the PCMA arm, the NSoI representing the joint, its functional subsystems, and the individual components. The physical development of the joint was iterative, however, the resulting architecture is documented in a logical, top-down fashion instead of a chronological sequence. To describe the system's integration, the analysis is split into three domains which constitute the mechanical design, the electronic design, and the software design. The mechanical design outlines the spatial arrangement and loading paths. The electronic design describes the peripheral circuitry and power interfacing. The software design defines the control logic and the state machine controlling the electromagnetic brake.
 
 \section{Mechanical Design}
 
@@ -8,14 +9,14 @@ Figure~\ref{fig:screenshot001} below, shows the 3D CAD assembly of the electroma
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{../../../../../../../../../Downloads/screenshot001}
+	\includegraphics[width=0.9\linewidth]{../../../../../../../../../Downloads/screenshot001}
 	\caption{Electromagnetic Brake Assembly}
 	\label{fig:screenshot001}
 \end{figure}
 
 The top-level system elements are listed in the drawing's materials list and are marked with balloon numbers in Figure~\ref{fig:screenshot001}. The different views and dimensions of the engineering drawing depict the position of physical interfaces with elements external to the NSoI and the spatial constraints for the respective system elements inside the NSoI.
 
-The overall configuration uses an electromagnetic brake mounted coaxially on the joint shaft. In the configuration, the base link and the output link are integrated with the internal actuation and sensing components. The joint is supported by two roller bearings mounted with an inteference fit and secured by shaft collars to prevent axial slipping. The bearing housing is integrated directly into the stationary joint housing. The housing encases the internal mechanisms and is held rigid by the base link. On one of the shaft, the high resolution optical encoder is connected via a rigid coupling. A spacer sits on the side of the encoder shaft to compensate for the discrepancy in diameters of the joint, the encoder, and the rigid coupling\footnote{See Appendix \#\# for calculations regarding the joint shaft  design.}. On the opposite end, the electromagnetic brake assembly interfaces directly with the shaft. The electromagnetic brake consist of solenoids, friction plate, and a brake disc.
+The overall configuration uses an electromagnetic brake mounted coaxially on the joint shaft. In the configuration, the base link and the output link are integrated with the internal actuation and sensing components. The joint is supported by two RS PRO \SI{20}{mm} ID 2-Row ball bearings mounted with an inteference fit and secured by RS PRO \SI{32}{mm} OD one-piece steel shaft collars to prevent axial slipping. The bearing housing is integrated directly into the stationary joint housing. The housing encases the internal mechanisms and is held rigid by the base link. On one of the shaft, the GTS06-OC-RA1000B-2M optical encoder is connected via a Ruland MCLX-20-20-F rigid black oxide steel coupling. A spacer sits on the side of the encoder shaft to compensate for the discrepancy in diameters of the joint, the encoder, and the rigid coupling\footnote{See Appendix \#\# for calculations regarding the joint shaft  design.}. On the opposite end, the electromagnetic brake assembly interfaces directly with the shaft. The electromagnetic brake consist of solenoids, friction plate (laser-cut by Fabrinox), and a brake disc.
 
 This configuration was chosen because it provides a reliable, uniform clamping force that minimises parasitic deflections and preserves the run-out tolerances necessary for the PCMA's spatial accuracy. Addionally, by housing the brake internally, the design is able to achieve the full \SI{90}{\degree} operational articulation sweep.
 
@@ -23,11 +24,21 @@ To maintain structural integrity and positional stability during locking, the el
 
 \section{Electronic Design}
 
+The purpose of the switching circuit is to bridge the significant power gap between the high-power electromagnet and the low-power control logic, as well the data management system. The stm32 Nucleo microcontroller outputs a low-current control signal, which is insufficient to directly drive the electromagnetic brake that requires a \SI{12}{A} operating current at \SI{24}{V_DC}. This means that peripheral circuitry is required to safely step down power for the logic and allow the microcontroller to switch the electromagnet without sustaining damage. Figure~\ref{fig:wiring-diagram} below shows a wiring diagram detailing these connections.
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../../../../../../../Downloads/Wiring Diagram"}
+	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/Wiring Diagram"}
 	\caption{Wiring Diagram}
 	\label{fig:wiring-diagram}
 \end{figure}
+
+To power the logic components, an XL7015 step-down buck converter is implemented. Its purpose is to reduce the \SI{24}{V} supply to a safe operating voltage suitable for the STM32 microcontroller and the rotary encoder.
+
+To control the energisation of the brake, an Infineon IRF640NPBF N-channel metal-oxide-semiconductor field-effect transistor (MOSFET) is utilised as a low-side switch. The MOSFET acts as a digital relay. It's purpose is to take the control signal from the microcontroller\footnote{From the microcontroller, one of the pins is configured as a general pin input/output, which outputs control signal typically between \SI{20}{mA} and \SI{25}{mA} at an operating voltage level of \SI{3.3}{V}.} and use it to safely turn the high-current electromagnet on and off.
+
+There are supporting components in the switching circuit which are critical and protective of the MOSFET, including the \SI{330}{\Omega} gate resistor, the \SI{10}{k\Omega} pull-down resistor, and the TO-220 flyback diode. The gate resistor is positioned between the microcontroller's signal pin and MOSFET gate. It's used to limit the sudden current flow needed to charge the MOSFET's internal capacitance in the event of switching the electromagnet on or off. This will prevent the microcontroller pin from burning out. The pull-down resistor is connected between MOSFET gate and drain. This allows the pull-down resistor to force the gate voltage to zero whenever the microcontroller is powering up, resetting, or outputting a floating signal. As a result, the MOSFET defaults to an "off" state, keeping the joint safely locked and preventing unintentional energisation. The flyback diode is placed in parallel across the electromagnetic coil. Its purpose is to minimise voltage spikes that could damage the MOSFET. When the electromagnet's current is suddenly cut off, the collapsing magnetic field generates a back electromotive force (EMF) due to its inductance. The back-emf would result is a high-voltage spike that exceeds the MOSFET's breakdown limit cause catastrophic failure. The diode provides a safe, low resistance path to dissipate the voltage spike.
+
+For the sensing subsystem, the GTS06-OC-RA1000B optical rotary encoder is connected into the logic power rails, with its signal lines that were connected directly to the microcontroller to transmit real-time angular displacement data. The associated electrical calculation sizing these components and evaluating the MOSFET's thermal dissipation are detailed in Appendix \#\#.
 
 \section{Software Design}
