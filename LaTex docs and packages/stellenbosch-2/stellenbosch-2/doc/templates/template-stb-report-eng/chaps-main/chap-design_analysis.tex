@@ -42,3 +42,28 @@ There are supporting components in the switching circuit which are critical and 
 For the sensing subsystem, the GTS06-OC-RA1000B optical rotary encoder is connected into the logic power rails, with its signal lines that were connected directly to the microcontroller to transmit real-time angular displacement data. The associated electrical calculation sizing these components and evaluating the MOSFET's thermal dissipation are detailed in Appendix \#\#.
 
 \section{Software Design}
+
+In mechatronics systems, such as the electromagnetic brake system, it is necessary to define the interactions between actuators (electrmoangetic brake), sensors (encoder), and the control software for reliable operation. The software architecture for the brake system uses a supervisory control and data acquisition (SCADA) hierachy to manage real-time monitoring and actuation processes. This hierarchy consists of the following levels, as shown in Figure~\ref{fig:softwareflowchart}:
+
+\begin{itemize}
+	\item Level 0 (field devices) consists of the hardware interacting directly with the optical rotary encoder, the IRF640N MOSFET, and the electromagnet brake.
+	\item Level 1 (control logic) is executed by the STM32 Nucleo microcontroller, which acts as input/output processing module.
+	\item Level 2 (supervisory) is handled by the connected computer that recieves angular displacement data from the microcontroller for logging and visualisation.
+\end{itemize}
+
+To fulfill the system's FRs, the microcontroller's pinout is configured to interface with the Level 0 devices. The rotary encoder's Phase A and Phase B signal lines are connected to pins PA0 and PA1. These pins are routed internally to the STM32's hardware timer (TIM2). The encoder outputs a quadrature pulse\footnote{A quadrature pulse is a signal that consists of two identical square waves offset by \SI{90}{\degree}.}, which allows the system to determine rotational position and direction of the shaft based on which phase leads the other. By utilising X4 encoding, which is when pulses are counting on the rising and falling edge, for both channels, the 1000 pulse per revolution (PPR) encoder yields 4000 distinct counts per 360-degree rotation.
+
+By operating TIM2 in Encoder Mode, the microcontroller is able to use its dedicated hardware circuitry to autonomously track the high-frequency quadrature pulses and update a 32-bit memory register entirely in the background. This type of tracking eliminates the need for CPU-intensive interrupts, which would force the processor to halt execution of the code to count thousands of pulses per second. As a result, the CPU is freed up to properly manage other tasks. Additionally, the MOSFET gate is driven by pin PC2, which is configured as a digital output. Pin PC13 is configured as a hardware interrupt (EXTI), which is tied to the user input button. Lastly, pins PA2 and PA3 are configured for USART2 serial transmission to communicate the level 2  supervisory computer.
+
+The control strategy implemented for the electromagnetic brake is an open-loop, bang-bang controller. Due to the binary mechanical requirement\footnote{The joint must be locked in placed, or released, free to rotate.}, duty cycle control is unnecessary. As shown in Figure~\ref{fig:softwareflowchart}, the system initialises into a locked state by defaulting PC2 low, thereby creating a fail-safe protocol. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.52\linewidth]{../../../../../../../../../Downloads/Software_Flowchart}
+	\caption{Software Design of the PCMA Operation}
+	\label{fig:softwareflowchart}
+\end{figure}
+
+The main loop reads the 32-bit counter from TIM2, converts the raw pulse count into an angular displacement into degrees, and transmits this data at \SI{20}{Hz} to the supervisor computer via USART2.
+
+To manage the energisation and de-energisation of the electromagnet, the software uses the external interrupt on PC13. When the user presses the button, the interrupt service routine (ISR) pauses the main looop and toggles the joint's variable (joint\_locked) state. If the variable goes high (joint\_locked == 1), the controller drives the MOSFET gate high (\SI{3.3}{V}). This energises the solenoid and opens the air gap. Due to the asynchronous execution of the interrupt, the user does not experience lag when manually operating the arm. This is done to ensure a seamless human machine interface (HMI) between the mechanical operation and the software control state.

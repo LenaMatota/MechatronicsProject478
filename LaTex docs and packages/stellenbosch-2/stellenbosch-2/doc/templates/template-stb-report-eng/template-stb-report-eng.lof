@@ -18,13 +18,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Electromagnetic Brake Assembly}}{20}{}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Wiring Diagram}}{21}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Software Design of the PCMA Operation}}{23}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Error-Propagation Variable Input}}{29}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{29}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Joint Sweep Sample}}{30}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{30}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Error-Propagation Variable Input}}{31}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{31}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Joint Sweep Sample}}{32}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{32}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
