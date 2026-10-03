@@ -22,10 +22,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Error-Propagation Variable Input}}{31}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{31}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Joint Sweep Sample}}{32}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{32}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Error-Propagation Variable Input}}{30}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{30}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Joint Sweep Sample}}{31}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{31}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
