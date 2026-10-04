@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  4 OCT 2026 22:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  4 OCT 2026 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1618,19 +1618,37 @@ oncept, with regards
  (./chaps-main/chap-literature.tex
 Chapter 2.
 
-Overfull \hbox (11.1968pt too wide) in paragraph at lines 8--9
+Overfull \hbox (5.05226pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 on high-precision probe as an end-effector and high-resol
+ution angular encoders
+ []
+
+
+Overfull \hbox (20.48pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 models may include internal temperature sensors to compen
+sate for environmental
+ []
+
+
+Overfull \hbox (24.30196pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 temperature changes. They may also incorporate laser line
+ scanners for non-contact,
+ []
+
+
+Overfull \hbox (11.1968pt too wide) in paragraph at lines 10--11
 \TU/Cambria(0)/m/n/12 end-effector’s position and orientation relative to the s
 ystem of articulate linkages
  []
 
 
-Overfull \hbox (22.23912pt too wide) in paragraph at lines 8--9
+Overfull \hbox (22.23912pt too wide) in paragraph at lines 10--11
 \TU/Cambria(0)/m/n/12 it is connected to ([]). This is done by relating the end
 -effector’s reference coordinate
  []
 
 
-Overfull \hbox (7.72769pt too wide) in paragraph at lines 10--11
+Overfull \hbox (7.72769pt too wide) in paragraph at lines 12--13
 \TU/Cambria(0)/m/n/12 PCMA. This PCMA was modelled as a serial kinematic chain 
 due to its architecture.
  []
@@ -1645,46 +1663,45 @@ File: ../../../../../../Concept design report/DH model of Faro arm.png Graphic
 file (type bmp)
 <../../../../../../Concept design report/DH model of Faro arm.png>
 
-Overfull \hbox (1.7721pt too wide) in paragraph at lines 27--33
+Overfull \hbox (1.7721pt too wide) in paragraph at lines 29--35
 []\TU/Cambria(0)/m/n/12 The D-H model relevant to the joint-design project mode
 lled a Faro Quantum
  []
 
 
-Overfull \hbox (8.37262pt too wide) in paragraph at lines 37--38
+Overfull \hbox (8.37262pt too wide) in paragraph at lines 39--40
 \TU/Cambria(0)/m/n/12 From the derivation of the D-H model, the error progation
  model could be derived.
  []
 
 
-Overfull \hbox (32.60695pt too wide) in paragraph at lines 37--38
+Overfull \hbox (32.60695pt too wide) in paragraph at lines 39--40
 \TU/Cambria(0)/m/n/12 known uncertainties move through an articulated system an
 d how those uncertainties
  []
 
-
-Overfull \hbox (25.34563pt too wide) in paragraph at lines 41--43
+[5]
+Overfull \hbox (25.34563pt too wide) in paragraph at lines 43--45
 \TU/Cambria(0)/m/n/12 derivation for Equatio 2.3[] begins with a Taylor series 
 expansion, which approximates
  []
 
-[5]
 File: ../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg>
 
-Overfull \hbox (4.74141pt too wide) in paragraph at lines 51--52
+Overfull \hbox (4.74141pt too wide) in paragraph at lines 53--54
 \TU/Cambria(0)/m/n/12 closer to its base. The bright yellow regions show where 
 the arm is least accurate,
  []
 
 
-Overfull \hbox (10.07092pt too wide) in paragraph at lines 53--54
+Overfull \hbox (10.07092pt too wide) in paragraph at lines 55--56
 \TU/Cambria(0)/m/n/12 also be used for the future developement of a full PCMA a
 rm with position-holding
  []
 
-) [6] [7]
+[6]) [7]
 \openout2 = `chaps-main/chap-requirement_analysis.aux'.
 
  (./chaps-main/chap-requirement_analysis.tex
@@ -2784,7 +2801,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  19668 strings out of 467813
  457962 string characters out of 5427149
- 1025367 words of memory out of 5000000
+ 1025369 words of memory out of 5000000
  48351 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
