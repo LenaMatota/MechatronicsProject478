@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  4 OCT 2026 13:50
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  4 OCT 2026 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1514,9 +1514,9 @@ sition-holding mechanism
  []
 
 
-Overfull \hbox (19.35384pt too wide) in paragraph at lines 14--15
-\TU/Cambria(0)/m/n/12 the joint in this manner, error due to manual operation w
-ill be minimised, kinematic
+Overfull \hbox (5.39525pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 would improve the design of a PCMA and is a good practice
+ of safety. By designing
  []
 
 [1
@@ -1529,9 +1529,15 @@ s and available schematics
  []
 
 
-Overfull \hbox (14.0796pt too wide) in paragraph at lines 29--30
-\TU/Cambria(0)/m/n/12 physical implementation of the propsed design is restrict
-ed to constructing critical
+Overfull \hbox (11.91052pt too wide) in paragraph at lines 29--30
+\TU/Cambria(0)/m/n/12 will be used for information extraction. In addition to t
+his, due to project timelines,
+ []
+
+
+Overfull \hbox (1.7632pt too wide) in paragraph at lines 29--30
+\TU/Cambria(0)/m/n/12 physical implementation of the propsed design will be res
+tricted to constructing
  []
 
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
@@ -1553,21 +1559,39 @@ ng quality inspections and
  []
 
 
-Overfull \hbox (14.16359pt too wide) in paragraph at lines 33--34
-\TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than tradition coordinate
- measuring machines
+Overfull \hbox (23.28078pt too wide) in paragraph at lines 33--34
+\TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than traditional coordina
+te measuring machines
  []
 
 
-Overfull \hbox (5.74791pt too wide) in paragraph at lines 43--44
-\TU/Cambria(0)/m/n/12 model based off of an error model that was developed by a
- Stellenbosch Alumnus,
+Overfull \hbox (7.33118pt too wide) in paragraph at lines 33--34
+\TU/Cambria(0)/m/n/12 applicability across multiple industries such as aerospac
+e, automotive, and heavy
+ []
+
+
+Overfull \hbox (11.17622pt too wide) in paragraph at lines 43--44
+\TU/Cambria(0)/m/n/12 joint propagate through the kinematic chain, which affect
+s end-effector’s accuracy.
+ []
+
+
+Overfull \hbox (25.52687pt too wide) in paragraph at lines 43--44
+\TU/Cambria(0)/m/n/12 a generalised model based off of an error model that was 
+developed by a Stellenbosch
+ []
+
+
+Overfull \hbox (18.35854pt too wide) in paragraph at lines 43--44
+\TU/Cambria(0)/m/n/12 Alumnus, Leon Hall ([]). This will produce a validated jo
+int and testing methodology
  []
 
 [2]
-Overfull \hbox (4.5592pt too wide) in paragraph at lines 47--48
-\TU/Cambria(0)/m/n/12 Gemini is an artificial intelligence (AI) tool will be us
-ed check grammatical errors
+Overfull \hbox (5.1549pt too wide) in paragraph at lines 47--48
+\TU/Cambria(0)/m/n/12 Gemini is an artificial intelligence (AI) tool that will 
+be used to check grammatical
  []
 
 
@@ -1594,12 +1618,6 @@ oncept, with regards
  (./chaps-main/chap-literature.tex
 Chapter 2.
 
-Overfull \hbox (1.2339pt too wide) in paragraph at lines 5--6
-\TU/Cambria(0)/m/n/12 Sources such as Leussink Engineering and Meagher gave con
-text as what PCMAs
- []
-
-
 Overfull \hbox (11.1968pt too wide) in paragraph at lines 8--9
 \TU/Cambria(0)/m/n/12 end-effector’s position and orientation relative to the s
 ystem of articulate linkages
@@ -1612,9 +1630,9 @@ Overfull \hbox (22.23912pt too wide) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (1.6885pt too wide) in paragraph at lines 10--11
-[]\TU/Cambria(0)/m/n/12 The first step of the project was derive a D-H model, b
-ased on a six degrees-of
+Overfull \hbox (7.72769pt too wide) in paragraph at lines 10--11
+\TU/Cambria(0)/m/n/12 PCMA. This PCMA was modelled as a serial kinematic chain 
+due to its architecture.
  []
 
 [4
@@ -1650,22 +1668,23 @@ Overfull \hbox (25.34563pt too wide) in paragraph at lines 41--43
 expansion, which approximates
  []
 
+[5]
 File: ../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg>
-[5]
+
 Overfull \hbox (4.74141pt too wide) in paragraph at lines 51--52
 \TU/Cambria(0)/m/n/12 closer to its base. The bright yellow regions show where 
 the arm is least accurate,
  []
 
-)
-Overfull \hbox (10.07092pt too wide) in paragraph at lines 53--136
+
+Overfull \hbox (10.07092pt too wide) in paragraph at lines 53--54
 \TU/Cambria(0)/m/n/12 also be used for the future developement of a full PCMA a
 rm with position-holding
  []
 
-[6]
+) [6] [7]
 \openout2 = `chaps-main/chap-requirement_analysis.aux'.
 
  (./chaps-main/chap-requirement_analysis.tex
@@ -1681,7 +1700,7 @@ Overfull \hbox (13.41982pt too wide) in paragraph at lines 18--27
  [][] 
  []
 
-[7
+[8
 
 
 
@@ -1695,7 +1714,7 @@ Overfull \hbox (1.13356pt too wide) in paragraph at lines 48--60
  [][] 
  []
 
-[8]
+[9]
 File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
@@ -1705,12 +1724,12 @@ Overfull \hbox (1.49472pt too wide) in paragraph at lines 95--96
 d from the results obtained
  []
 
-[9]
+[10]
 Overfull \hbox (29.70679pt too wide) in paragraph at lines 101--110
  [][] 
  []
 
-) [10]
+) [11]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
@@ -1730,7 +1749,7 @@ ed to secure the bearings
 File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 1.jpg>
-[11
+[12
 
 
 
@@ -1756,7 +1775,7 @@ Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--32
 o implement an electromagnetic
  []
 
-[12]
+[13]
 File: ../../../../../../Building the joint/Concept 2.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 2.jpg>
@@ -1778,7 +1797,7 @@ Overfull \hbox (31.71242pt too wide) in paragraph at lines 50--52
 ion given the manufacturing
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\TU/Cambria(0)/m/n/8 Load
  []
@@ -2318,7 +2337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-[14]
+[15]
 Overfull \hbox (14.45123pt too wide) in paragraph at lines 141--142
 \TU/Cambria(0)/m/n/12 and strength. When de-energised, the electromagnetic brak
 e is able to successfully
@@ -2390,7 +2409,7 @@ Underfull \hbox (badness 4819) in paragraph at lines 172--172
 \TU/Cambria(0)/m/n/12 the microcontroller, which is
  []
 
-[15]
+[16]
 File: C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProjec
 t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg Graphic
  file (type bmp)
@@ -2401,7 +2420,7 @@ t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg Graphic
  file (type bmp)
 <C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProject478/
 Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg>
- [16]
+ [17]
 Overfull \hbox (18.73247pt too wide) in paragraph at lines 192--193
 \TU/Cambria(0)/m/n/12 sized and positioned to integrate seamlessly within the P
 CMA’s physical constraints.
@@ -2431,13 +2450,13 @@ Overfull \hbox (19.44562pt too wide) in paragraph at lines 198--199
 fectiveness and availability
  []
 
-[17])
+[18])
 Overfull \hbox (19.39244pt too wide) in paragraph at lines 200--138
 []\TU/Cambria(0)/m/n/12 Below is a parts list that corresponds to the refined j
 oint subsystem in Figure 4.4[],
  []
 
-[18]
+[19]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
@@ -2457,7 +2476,7 @@ gical, top-down fashion
 File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot001.png>
-[19
+[20
 
 
 
@@ -2498,7 +2517,7 @@ Overfull \hbox (13.5761pt too wide) in paragraph at lines 21--22
 iable, uniform clamping
  []
 
-[20]
+[21]
 Overfull \hbox (28.40074pt too wide) in paragraph at lines 23--24
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
@@ -2549,7 +2568,7 @@ Overfull \hbox (21.42265pt too wide) in paragraph at lines 40--41
 istor, the [][] pull-down
  []
 
-[21]
+[22]
 Overfull \hbox (12.5304pt too wide) in paragraph at lines 46--47
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
@@ -2579,7 +2598,7 @@ Overfull \hbox (18.09758pt too wide) in paragraph at lines 54--55
 ut is configured to interface
  []
 
-[22]
+[23]
 Overfull \hbox (20.48195pt too wide) in paragraph at lines 56--57
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
@@ -2594,7 +2613,7 @@ c brake is an open-loop,
 File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Software_Flowchart.png>
-[23]) [24]
+[24]) [25]
 \openout2 = `chaps-main/chap-design_evaluation_and_testing.aux'.
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
@@ -2623,7 +2642,7 @@ Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
 lted in a four-solenoid
  []
 
-) [25
+) [26
 
 
 
@@ -2633,7 +2652,7 @@ lted in a four-solenoid
 
  (./chaps-main/chap-conclusion.tex
 Chapter 7.
-) [26
+) [27
 
 
 
@@ -2649,7 +2668,7 @@ Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
 ct specifications document
  []
 
-[27
+[28
 
 
 
@@ -2672,7 +2691,7 @@ Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
  the relative rotation between
  []
 
-[28]
+[29]
 Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
 []\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
  model to determine
@@ -2692,7 +2711,7 @@ Overfull \hbox (24.33952pt too wide) in paragraph at lines 85--91
 e the position uncertainty
  []
 
-[29]
+[30]
 File: ../../../../../../../../../Downloads/screenshot002.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot002.png>
@@ -2709,7 +2728,7 @@ Overfull \hbox (39.83841pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
-[30]
+[31]
 File: ../../../../../../../../../Downloads/screenshot001-1.png Graphic file (ty
 pe bmp)
 <../../../../../../../../../Downloads/screenshot001-1.png>
@@ -2722,12 +2741,12 @@ Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--144
  plotted to show where
  []
 
-[31] [32]
+[32] [33]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-) [33
+) [34
 
 
 
@@ -2738,7 +2757,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 29--31
 easuring arms.” OASIS
  []
 
-) [34
+) [35
 
 
 
@@ -2765,10 +2784,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  19668 strings out of 467813
  457962 string characters out of 5427149
- 1025366 words of memory out of 5000000
+ 1025367 words of memory out of 5000000
  48351 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,15n,115p,1537b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (48 pages).
+Output written on template-stb-report-eng.pdf (49 pages).
