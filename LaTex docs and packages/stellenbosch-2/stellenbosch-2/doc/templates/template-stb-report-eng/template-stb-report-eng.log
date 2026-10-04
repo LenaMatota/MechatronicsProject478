@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  3 OCT 2026 19:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  4 OCT 2026 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,57 +1523,69 @@ ill be minimised, kinematic
 
 
 ]
-Overfull \hbox (11.2907pt too wide) in paragraph at lines 29--30
-\TU/Cambria(0)/m/n/12 schematics will be used. In addition, due to time constra
-ints, only key components
+Overfull \hbox (29.66898pt too wide) in paragraph at lines 29--30
+\TU/Cambria(0)/m/n/12 In the process of determining D-H parameters, user manual
+s and available schematics
+ []
+
+
+Overfull \hbox (14.0796pt too wide) in paragraph at lines 29--30
+\TU/Cambria(0)/m/n/12 physical implementation of the propsed design is restrict
+ed to constructing critical
  []
 
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 34.
+(Font)              scaled to size 10.00107pt on input line 33.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 34.
+(Font)              scaled to size 7.00075pt on input line 33.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 34.
+(Font)              scaled to size 5.00053pt on input line 33.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 34.
+(Font)              scaled to size 9.99893pt on input line 33.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 34.
+(Font)              scaled to size 6.99925pt on input line 33.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 34.
+(Font)              scaled to size 4.99947pt on input line 33.
 
-Underfull \hbox (badness 6396) in paragraph at lines 34--34
+Underfull \hbox (badness 6396) in paragraph at lines 33--33
 [][]\TU/Cambria(0)/m/n/10 In the context of PCMAs, ”in-line” refers to performi
 ng quality inspections and
  []
 
 
-Overfull \hbox (14.16359pt too wide) in paragraph at lines 33--35
+Overfull \hbox (14.16359pt too wide) in paragraph at lines 33--34
 \TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than tradition coordinate
  measuring machines
  []
 
 
-Overfull \hbox (5.74791pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.74791pt too wide) in paragraph at lines 43--44
 \TU/Cambria(0)/m/n/12 model based off of an error model that was developed by a
  Stellenbosch Alumnus,
  []
 
 [2]
-Overfull \hbox (4.5592pt too wide) in paragraph at lines 48--49
+Overfull \hbox (4.5592pt too wide) in paragraph at lines 47--48
 \TU/Cambria(0)/m/n/12 Gemini is an artificial intelligence (AI) tool will be us
 ed check grammatical errors
  []
 
 
-Overfull \hbox (2.35214pt too wide) in paragraph at lines 55--56
-[]\TU/Cambria(0)/m/n/12 Section 2 presents a literature review discussing sourc
+Overfull \hbox (5.46933pt too wide) in paragraph at lines 54--55
+[]\TU/Cambria(0)/m/n/12 Chapter 2 presents a literature review discussing sourc
 es relevant to PCMA
  []
 
 
-Overfull \hbox (17.35066pt too wide) in paragraph at lines 55--56
+Overfull \hbox (17.35066pt too wide) in paragraph at lines 54--55
 \TU/Cambria(0)/m/n/12 joint design, position-holding technology, kinematic mode
 ling, error analysis,
+ []
+
+
+Overfull \hbox (6.14445pt too wide) in paragraph at lines 57--58
+[]\TU/Cambria(0)/m/n/12 Chapter 5 describes the design analysis of the chosen c
+oncept, with regards
  []
 
 ) [3]
@@ -2587,6 +2599,30 @@ File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
 Chapter 6.
+
+Overfull \hbox (9.53664pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 design was restricted to critical subsystems required to 
+validate its core operating
+ []
+
+
+Overfull \hbox (22.06609pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 functions. As a result, instead of building the full-scal
+e joint assembly, a scaled-down
+ []
+
+
+Overfull \hbox (2.39284pt too wide) in paragraph at lines 7--8
+[]\TU/Cambria(0)/m/n/12 Due to project constraints, inculuding an extended theo
+rectical design phase,
+ []
+
+
+Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 The resulting design implementation of the prototype resu
+lted in a four-solenoid
+ []
+
 ) [25
 
 
@@ -2729,7 +2765,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  19668 strings out of 467813
  457962 string characters out of 5427149
- 1025325 words of memory out of 5000000
+ 1025366 words of memory out of 5000000
  48351 multiletter control sequences out of 15000+600000
  631871 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
