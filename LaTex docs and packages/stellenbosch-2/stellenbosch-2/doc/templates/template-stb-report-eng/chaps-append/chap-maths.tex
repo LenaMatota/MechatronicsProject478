@@ -85,7 +85,7 @@ The D-H parameters are input into the error propagation model to determine the t
 The purpose of the error-propagation model is to determine the position uncertainty distribution of the PCMA's end-effector across a sampled workspace. As shown in Figure~\ref{fig:screenshot001} below, the algorithm receives the D-H parameters of the chosen PCMA which is the FaroArm QuantumX arm, specifically, the \SI{3}{m} arm.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.1\linewidth]{../../../../../../../../../Downloads/screenshot001}
+	\includegraphics[width=1.0\linewidth]{../../../../../../../../../Downloads/Screenshot 2026-10-05 114515}
 	\caption{Error-Propagation Variable Input}
 	\label{fig:screenshot001}
 \end{figure}
@@ -127,3 +127,11 @@ These angle samples translate into a sample of the working volume. It is within 
 \end{figure}
 
 From here, a distrbution of the position uncertainty is plotted to show where uncertainty is the weakest (higlighted in a deep blue) and where it is strongest (highlighted in a bright yellow)\footnote{See Figure~\ref{fig:screenshot-2026-08-22-191504} under Section 2.3.}. 
+
+\section{TPM Derivation}
+
+After simulating the sampled workspace, the error-propagation model isolates the worst-case (maximum) spatial measurement uncertainty of the arm's end-effector at a \SI{95}{\%} confidence interval ($U_{95}$). This is the value used to derive the TPMs stated in section 3.5.
+
+\subsection{Encoder Accuracy}
+
+The required standard deviation of the 

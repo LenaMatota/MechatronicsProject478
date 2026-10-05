@@ -5,26 +5,26 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces D-H Model of the Faro Quantum X Arm}}{5}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Uncertainty Distribution Across Sampled Workspace}}{6}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces D-H Model of the Faro Quantum X Arm}}{6}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Uncertainty Distribution Across Sampled Workspace}}{7}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System Context}}{9}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Top Level Functional Decomposition}}{10}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System Context}}{10}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Top Level Functional Decomposition}}{11}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces PCMA Joint with Locking Dial}}{13}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces PCMA Joint with Couunterbalance Spring}}{13}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces PCMA Joint with Electromagnetic Brake}}{14}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Selected Concept Design}}{18}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces PCMA Joint with Locking Dial}}{14}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces PCMA Joint with Couunterbalance Spring}}{14}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces PCMA Joint with Electromagnetic Brake}}{15}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Selected Concept Design}}{19}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Electromagnetic Brake Assembly}}{21}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wiring Diagram}}{22}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Software Design of the PCMA Operation}}{24}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Electromagnetic Brake Assembly}}{22}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wiring Diagram}}{23}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Software Design of the PCMA Operation}}{25}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Error-Propagation Variable Input}}{31}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{31}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{32}{}%
 \contentsline {figure}{\numberline {A.3}{\ignorespaces Joint Sweep Sample}}{32}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{32}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{33}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
