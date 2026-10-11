@@ -2,44 +2,45 @@
 
 \section{Concept Generation}
 
-The generalised error propagation model was used to derive the TPMs in the development of the joint design. These TPMs guided the research into various mechanical solutions, and different mechanisms were evaluated for implementation to ensure the final design could achieve the required TPMs. Three concepts were generated and evaluated against the FRs and the TPMs, as presented in this section.
+The generalised error propagation model was used to derive the TPMs in the development of the joint design. These TPMs guided the research into various mechanical solutions, and different mechanisms were evaluated for \\implementation to ensure the final design could achieve the required TPMs. Three concepts were generated and evaluated against the FRs and the TPMs, as presented in this section.
 
 \subsection{Concept One: PCMA Joint with a Locking Dial}
 
-Figure~\ref{fig:concept-1} below shows a PCMA joint with the following internal modifications to implement position-holding capabilities. In the center of the shaft, is a spacer between angular contact bearings, which will allow the shaft to rotate with minimal run-out. Bellville washer and preload nuts are used to secure the bearings in place. On one end, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held secure by the joint housing. This is done to ensure that the relative angular displacement of the shaft with respect to the joint housing is measured. The joint housing is held stationary by the base link and the joint shaft is rotated by the output link. The knob on the other end of the shaft is meant to loosen and/or tighten the preload nuts against the bearings to lock or release the shaft for the output link's rotation.
+Figure~\ref{fig:concept-1} below shows a PCMA joint with the following internal modifications to implement position-holding capabilities. In the center of the shaft, is a spacer between angular contact bearings, which will allow the shaft to rotate with minimal run-out. Bellville washers and preload nuts are used to secure the bearings in place. On one end, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held secure by the joint housing. This is done to ensure that the relative angular displacement of the shaft with respect to the joint housing is measured. The joint housing is held stationary by the base link and the joint shaft is rotated by the output link. The knob on the other end of the shaft is meant to loosen and/or tighten the preload nuts against the bearings to lock or release the shaft for the output link's rotation.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\linewidth]{"../../../../../../Building the joint/Concept 1"}
+	\includegraphics[width=0.9\linewidth]{"../../../../../../Building the joint/Concept 1"}
 	\caption{PCMA Joint with Locking Dial}
 	\label{fig:concept-1}
 \end{figure}
 
 \subsection{Concept Two: PCMA Joint with a Counterbalance Spring}
 
-Figure~\ref{fig:concept-3} illustrates a PCMA joint with external modifications to implement position-holding. The counterbalance spring produces a lifting force to the upper link via the upper and lower rods. Each rod is pin-connected to a cuff that can be fixed in position along the length of either link using a set screw, thereby holding the position of the joint. The 
+Figure~\ref{fig:concept-3} illustrates a PCMA joint with external modifications to implement position-holding. The counterbalance spring produces a lifting force to the upper link via the upper and lower rods. Each rod is pin-connected to a cuff that can be fixed in position along the length of either link using a set screw, thereby holding the position of the joint. The spring between the upper and lower rods is used to increase the range of rotation for the joint. 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.3\linewidth]{"../../../../../../Building the joint/Concept 3"}
+	\includegraphics[width=0.5\linewidth]{"../../../../../../Building the joint/Concept 3"}
 	\caption{PCMA Joint with Couunterbalance Spring}
 	\label{fig:concept-3}
 \end{figure}
 
 \subsection{Concept Three: PCMA Joint with an Electromagnetic Brake}
 
-Figure~\ref{fig:concept-2} depicts a PCMA with internal modifications to implement an electromagnetic brake. In the center of the shaft, two angular contact bearings are fitted in place with the bearing housing and pressed against a shoulder of the shaft by preload nuts and washers. On one side of the shaft, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held stationary by the joint housing. The base link is supports the joint housing. The electromagnetic brake sits on the other side of the shaft and is also held stationary by they joint housing, however, the brake disc is free to rotate on the joint shaft. When the brake is energised, the air gap between the brake disc and friction plate opens up and the shaft is free to be rotated by the output link. When the brake's power supply is cut off, the air gap closes and the joint is held still.
+Figure~\ref{fig:concept-2} depicts a PCMA with internal modifications to implement an
+electromagnetic brake. In the center of the shaft, two angular contact bearings are fitted in place with the bearing housing and pressed against a shoulder of the shaft by preload nuts and washers. On one side of the shaft, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held stationary by the joint housing. The base link is supported by the joint housing. The electromagnetic brake sits on the other side of the shaft and is also held stationary by the joint housing, however, the brake disc is free to rotate on the joint shaft. When the brake is energised, the air gap between the brake disc and friction plate opens up and the shaft is free to be rotated by the output link. When the brake's power supply is cut off, the air gap closes and the joint is held still.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.55\linewidth]{"../../../../../../Building the joint/Concept 2"}
+	\includegraphics[width=0.9\linewidth]{"../../../../../../Building the joint/Concept 2"}
 	\caption{PCMA Joint with Electromagnetic Brake}
 	\label{fig:concept-2}
 \end{figure}
 
 \section{Concept Evaluation}
 
-The concepts presented in the previous section were determined to be feasible. A qualitative evaluation of the concepts is to be conducted as the generated concepts are still solution neutral and cannot undergo a full quantitative comparison. This section compares the concepts in terms of the following evaluation criteria (EC):
+The concepts presented in the previous section were determined to be feasible. A qualitative evaluation of the concepts is to be conducted for a full quantitative comparison. This section compares the concepts in terms of the following evaluation criteria (EC):
 \begin{enumerate}[label=EC\arabic*]
 	\item Load capacity: The ability of the joint design to carry the required holding torque (TPM\_03).
 	\item Operational articulation angle: The ability of the joint design to achieve the full required sweep without interference (TPM\_01).
@@ -47,7 +48,7 @@ The concepts presented in the previous section were determined to be feasible. A
 	\item Component availability: The degree to which all required components are available in the mechanical workshop.
 	\item Construction simplicity: The number of distinct components and the ease of assembly and alignment during fabrication.
 \end{enumerate}
-EC1 was derived from TPM\_03 and determined to be the most important EC as the joint will be ineffective if it is unable to achieve the holding torque dictated by TPM\_03. EC2 was derived from TPM\_01 as the chosen joint design must not inhibit the PCMA's existing range of motion once implemented. EC3 was derived from TPM\_02  as any internal sources of error must be minimised to maximise the joint design's ability to maintain and/or improve the PCMA's accuracy. EC4 and EC5 was included as a practical design consideration given the manufacturing capabilities of the mechanical workshop and the project's timeline and budget.
+EC1 was derived from TPM\_03 and determined to be the most important EC as the joint will be ineffective if it is unable to achieve the holding torque dictated by TPM\_03. EC2 was derived from TPM\_01 as the chosen joint design must not inhibit the PCMA's existing range of motion once implemented. EC3 was derived from TPM\_02  as any internal sources of error must be minimised to maximise the joint design's ability to maintain and/or improve the PCMA's accuracy. EC4 and EC5 was included as a practical design consideration given the manufacturing capabilities of the mechanical workshop and the project's timeline and budget (FR\_06 and FR\_07).
 \\\noindent Table~\ref{tab:concept_evaluation_portrait} below, presents a comparison of the generated concepts. To rate the concepts, one of them is marked as the DATUM and the other two are awarded a $+1$ if the other concept is stronger or $-1$ if it is weaker. Each rating is motivated in the table as well.
 
 \begingroup % Keeps the sizing commands isolated to this table

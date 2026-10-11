@@ -130,8 +130,55 @@ From here, a distrbution of the position uncertainty is plotted to show where un
 
 \section{TPM Derivation}
 
-After simulating the sampled workspace, the error-propagation model isolates the worst-case (maximum) spatial measurement uncertainty of the arm's end-effector at a \SI{95}{\%} confidence interval ($U_{95}$). This is the value used to derive the TPMs stated in section 3.5.
+From the error-propagation model, the worst-case uncertianty value can be used to determine the derive the TPMs stated under section 3.5.
 
-\subsection{Encoder Accuracy}
+\subsection{TPM\_{04} Encoder Resolution}
 
-The required standard deviation of the 
+ The project brief states that PCMAs offer an accuracy ranging from \SI{5}{microns} \- \SI{50}{microns}. This range is used to scale the encoder count relative to the D-H model's maximum uncertainty value, as seen in Figure~\ref{fig:screenshot001---encoder-uncertainty} below.
+ 
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/screenshot001 - encoder uncertainty"}
+ 	\caption{}
+ 	\label{fig:screenshot001---encoder-uncertainty}
+ \end{figure}
+ 
+This is because the model relies on first-order linearisation, therefore the relationship between the angular uncertainty at the joints and uncertainty at the end effector is linear. The encoder resolution is calculated under Equation~\ref{eq:TPM_03} below:
+
+\begin{equation}
+	\label{eq:TPM_03}
+	\begin{split}
+		\text{encoder\_resolution} &=\log_2(\text{encoder\_required\_counts}) \\
+		&= \log_2(3.0298 \times 10^5) \\
+		&= 19 \text{ bits}
+	\end{split}
+\end{equation}
+
+However, the highest resoluiton available in the market that was also within the project was the GTS06-OC-RA1000B-2M optical encoder with a \SI{1000}{PPR} which was calculated to have the resolution shown in Equation~\ref{eq:TPM_03_actual} below:
+
+\begin{equation}
+	\label{eq:TPM_03_actual}
+	\text{encoder\_resolution} = \log_2(1000) = \SI{9}{bits}
+\end{equation}
+
+\subsection{TPM\_{03} Holding Torque}
+
+Below, in Figure~\ref{fig:whatsapp-image-2026-10-05-at-15}, is the free-body diagram one of the links of the Faro QuantumX links.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12"}
+	\caption{FBD of one of the Faro QuantumX links}
+	\label{fig:whatsapp-image-2026-10-05-at-15}
+\end{figure}
+
+From the user manual \citep{Faro:2024}, the mass of the link is \SI{1.5}{kg}, and the distance from the center of the link to the center of the joint is \SI{0.35}{m}. The holding torque was determined in Equation~\ref{eq:holding_torque}, with a safety factor of 1.5 applied:
+
+\begin{equation}
+	\label{eq:holding_torque}
+	\begin{split}
+		T &= SF\cdot m\cdot g\cdot l\\
+		&= (1.5)(1.5)(9.81)(0.35) \\
+		&= \SI{7.725}{Nm}
+	\end{split}
+\end{equation}
