@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  11 OCT 2026 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  15 OCT 2026 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1448,62 +1448,139 @@ LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 \openout2 = `chaps-front/chap-ECSA.aux'.
 
  (./chaps-front/chap-ECSA.tex
-Overfull \hbox (0.87625pt too wide) in paragraph at lines 7--8
-\TU/Cambria(0)/m/n/12 The project addresses an engineering problem, which is th
-e lack of a joint design
- []
-
-
-Overfull \hbox (2.71477pt too wide) in paragraph at lines 7--8
-\TU/Cambria(0)/m/n/12 for PCMAs that provides a reliable, constant holding torq
-ue to ensure the PCMA’s
- []
-
-
 Overfull \hbox (37.38234pt too wide) in paragraph at lines 9--9
 []\TU/Cambria(0)/b/n/17.28 GA 2 - Application Scientific and Engineering Knowle
 dge 
  []
 
 
-Overfull \hbox (26.02039pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 This outcome was demonstrated by using mathematical formu
-lae and computational
+Overfull \hbox (22.6968pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 and computing must be applied to create effective solutio
+ns for complex engineering
  []
 
 
-Overfull \hbox (10.28078pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 methods to evaluate the holding torque and structural ine
-tgrity of the engineering
+Overfull \hbox (4.32896pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 problems. This was demonstrated by using mathematical for
+mulae to determine
  []
 
 
-Overfull \hbox (4.90036pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 components within the PCMA joint. Principles of mechanics
- and physical science
+Overfull \hbox (20.00032pt too wide) in paragraph at lines 15--16
+\TU/Cambria(0)/m/n/12 problems and the design of systems, components, or proces
+ses to meet an identified
  []
 
 
-Overfull \hbox (29.77974pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 capabilities, and the locking mechanics necessary to achi
-eve reliable position-holding. 
+Overfull \hbox (2.2567pt too wide) in paragraph at lines 15--16
+\TU/Cambria(0)/m/n/12 need. This was achieved by executing a satisfactory desig
+n process that included
  []
 
-) [6
+
+Overfull \hbox (1.87819pt too wide) in paragraph at lines 15--16
+\TU/Cambria(0)/m/n/12 and electromagnetic locking, as well as mechanical fricti
+on methods. The design
+ []
+
+
+Overfull \hbox (3.88234pt too wide) in paragraph at lines 15--16
+\TU/Cambria(0)/m/n/12 following a techno-analysis covering workshop fabrication
+ costs and component
+ []
+
+[6
 
 
 
 
 ]
+Overfull \hbox (19.65709pt too wide) in paragraph at lines 19--20
+\TU/Cambria(0)/m/n/12 simulate and optimise the switching ciruit driving the el
+ectromagnet. Experimental
+ []
+
+
+Overfull \hbox (10.05437pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 This outcome requires demonstrating the competence to com
+municate effectively
+ []
+
+
+Overfull \hbox (28.52077pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 on complex engineering activities, both orally and in wri
+ting. Written communication
+ []
+
+
+Overfull \hbox (20.68616pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 was demonstrated through a structured report adhering to 
+departmental standards,
+ []
+
+
+Overfull \hbox (12.25865pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 empirical performance graphs. Oral and visual communicati
+on was demonstrated
+ []
+
+
+Overfull \hbox (16.36751pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 through the progress presentation, final oral presentatio
+n, and poster presentation
+ []
+
+
+Overfull \hbox (9.12038pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 indiviual. Although execution encountered significant sch
+edule delays, individual
+ []
+
+
+Overfull \hbox (13.49211pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 competence was demonstarted by actively managing these se
+tbacks, re-evaluating
+ []
+
+
+Overfull \hbox (36.29578pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 This was done while maintaining communication with the su
+pervisor and coordinating
+ []
+
+
+Overfull \hbox (7.54715pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 with departmental workshop staff and laboratory technicia
+ns to bring the project
+ []
+
+)
+Overfull \hbox (4.12193pt too wide) in paragraph at lines 31--122
+\TU/Cambria(0)/m/n/12 research skills. Independent literature reviews were cond
+ucted electromagnetic
+ []
+
+
+Overfull \hbox (1.25279pt too wide) in paragraph at lines 31--122
+\TU/Cambria(0)/m/n/12 actuator design, high-current switching circuits, and joi
+nt stiffness optimisation.
+ []
+
+
+Overfull \hbox (9.48264pt too wide) in paragraph at lines 31--122
+\TU/Cambria(0)/m/n/12 These were topics that extended beyond standard coursewor
+k. This self-acquired
+ []
+
+[7] [8]
 \openout2 = `chaps-front/chap-acknowledge.aux'.
 
- (./chaps-front/chap-acknowledge.tex) [7
+ (./chaps-front/chap-acknowledge.tex) [9
 
 
 
 
-] (./template-stb-report-eng.toc
-[8
+] (./template-stb-report-eng.toc [10
 
 
 
@@ -1511,18 +1588,17 @@ eve reliable position-holding.
 \tf@toc=\write3
 \openout3 = `template-stb-report-eng.toc'.
 
- [9] (./template-stb-report-eng.lof)
+ [11] (./template-stb-report-eng.lof)
 \tf@lof=\write4
 \openout4 = `template-stb-report-eng.lof'.
 
- [10
+ [12
 
 ] (./template-stb-report-eng.lot)
 \tf@lot=\write5
 \openout5 = `template-stb-report-eng.lot'.
 
-
-[11
+ [13
 
 ]
 \openout2 = `chaps-front/chap-symbols.aux'.
@@ -1532,10 +1608,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[12
+[14
 
 
-]) [13] [14
+]) [15] [16
 
 
 
@@ -3187,4 +3263,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  90i,18n,115p,1738b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (78 pages).
+Output written on template-stb-report-eng.pdf (80 pages).

@@ -1,8 +1,8 @@
 \contentsline {chapter}{Executive summary}{iv}{}%
 \contentsline {chapter}{ECSA Exit Level Outcomes}{vi}{}%
-\contentsline {chapter}{List of figures}{x}{}%
-\contentsline {chapter}{List of tables}{xi}{}%
-\contentsline {chapter}{List of symbols}{xii}{}%
+\contentsline {chapter}{List of figures}{xii}{}%
+\contentsline {chapter}{List of tables}{xiii}{}%
+\contentsline {chapter}{List of symbols}{xiv}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Background}{1}{}%
 \contentsline {section}{\numberline {1.2}Aim and Objectives}{2}{}%
