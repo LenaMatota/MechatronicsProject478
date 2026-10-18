@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  15 OCT 2026 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  18 OCT 2026 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1611,137 +1611,148 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 [14
 
 
-]) [15] [16
-
-
-
-]
+]) [15]
 \openout2 = `chaps-main/chap-intro.aux'.
 
  (./chaps-main/chap-intro.tex
 Chapter 1.
-File: ../../../../../portable-coordinate-measuring-machine-arm.jpg Graphic file
- (type bmp)
-<../../../../../portable-coordinate-measuring-machine-arm.jpg>
 
-Overfull \hbox (13.00275pt too wide) in paragraph at lines 5--13
+Overfull \hbox (13.00275pt too wide) in paragraph at lines 5--6
 \TU/Cambria(0)/m/n/12 A portable coordinate measuring arm (PCMA) is a handheld 
 metrology instrument
  []
 
+File: ../../../../../portable-coordinate-measuring-machine-arm.jpg Graphic file
+ (type bmp)
+<../../../../../portable-coordinate-measuring-machine-arm.jpg>
 
-Overfull \hbox (5.13376pt too wide) in paragraph at lines 5--13
-\TU/Cambria(0)/m/n/12 that captures three-dimensional (3D) coordinates directly
- from a physical object,
+Overfull \hbox (4.06593pt too wide) in paragraph at lines 14--15
+[]\TU/Cambria(0)/m/n/12 PCMAs offer adaptable measurement capabilities across v
+arious engineering
  []
 
 
-Overfull \hbox (24.45682pt too wide) in paragraph at lines 5--13
-\TU/Cambria(0)/m/n/12 dimensional analysis, computer-aided design (CAD) inspect
-ion, reverse engineering,
+Overfull \hbox (35.54276pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 applications, including dimensional analysis, computer-ai
+ded design (CAD) inspection,
  []
 
 
-Overfull \hbox (11.8925pt too wide) in paragraph at lines 14--15
-[]\TU/Cambria(0)/m/n/12 As a result, designing a more effective joint with a po
-sition-holding mechanism
+Overfull \hbox (21.78741pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 vulnerable to positional instability and structural defor
+mation during measurement
  []
 
 
-Overfull \hbox (5.39525pt too wide) in paragraph at lines 14--15
-\TU/Cambria(0)/m/n/12 would improve the design of a PCMA and is a good practice
- of safety. By designing
+Overfull \hbox (11.28703pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 calibration procedures, which strictly require the arm to
+ remain as still as possible
+ []
+
+
+Overfull \hbox (3.99602pt too wide) in paragraph at lines 16--17
+[]\TU/Cambria(0)/m/n/12 As a result, integrating the design of an effective pos
+ition-holding mechanism
+ []
+
+
+Overfull \hbox (3.7903pt too wide) in paragraph at lines 16--17
+\TU/Cambria(0)/m/n/12 safety. Such a joint design improves the kinematic stabil
+ity of the arm, eliminates
+ []
+
+
+Overfull \hbox (20.83534pt too wide) in paragraph at lines 20--21
+\TU/Cambria(0)/m/n/12 PCMA to eliminate positional drift, enhance kinematic sta
+bility, and reduce operator
  []
 
 [1
 
 
+
+
+
 ]
-Overfull \hbox (29.66898pt too wide) in paragraph at lines 29--30
+Overfull \hbox (29.66898pt too wide) in paragraph at lines 30--31
 \TU/Cambria(0)/m/n/12 In the process of determining D-H parameters, user manual
 s and available schematics
  []
 
 
-Overfull \hbox (11.91052pt too wide) in paragraph at lines 29--30
+Overfull \hbox (11.91052pt too wide) in paragraph at lines 30--31
 \TU/Cambria(0)/m/n/12 will be used for information extraction. In addition to t
 his, due to project timelines,
  []
 
 
-Overfull \hbox (1.7632pt too wide) in paragraph at lines 29--30
-\TU/Cambria(0)/m/n/12 physical implementation of the propsed design will be res
-tricted to constructing
+Overfull \hbox (8.13234pt too wide) in paragraph at lines 30--31
+\TU/Cambria(0)/m/n/12 physical implementation of the proposed design will be re
+stricted to constructing
  []
 
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 33.
+(Font)              scaled to size 10.00107pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 33.
+(Font)              scaled to size 7.00075pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 33.
+(Font)              scaled to size 5.00053pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 33.
+(Font)              scaled to size 9.99893pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 33.
+(Font)              scaled to size 6.99925pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 33.
+(Font)              scaled to size 4.99947pt on input line 34.
 
-Underfull \hbox (badness 6396) in paragraph at lines 33--33
+Underfull \hbox (badness 6396) in paragraph at lines 34--34
 [][]\TU/Cambria(0)/m/n/10 In the context of PCMAs, ”in-line” refers to performi
 ng quality inspections and
  []
 
 
-Overfull \hbox (23.28078pt too wide) in paragraph at lines 33--34
+Overfull \hbox (23.28078pt too wide) in paragraph at lines 34--35
 \TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than traditional coordina
 te measuring machines
  []
 
 
-Overfull \hbox (7.33118pt too wide) in paragraph at lines 33--34
+Overfull \hbox (7.33118pt too wide) in paragraph at lines 34--35
 \TU/Cambria(0)/m/n/12 applicability across multiple industries such as aerospac
 e, automotive, and heavy
  []
 
 
-Overfull \hbox (11.17622pt too wide) in paragraph at lines 43--44
+Overfull \hbox (11.17622pt too wide) in paragraph at lines 44--45
 \TU/Cambria(0)/m/n/12 joint propagate through the kinematic chain, which affect
 s end-effector’s accuracy.
  []
 
 
-Overfull \hbox (25.52687pt too wide) in paragraph at lines 43--44
-\TU/Cambria(0)/m/n/12 a generalised model based off of an error model that was 
-developed by a Stellenbosch
+Overfull \hbox (13.19484pt too wide) in paragraph at lines 44--45
+\TU/Cambria(0)/m/n/12 a generalised model based on an error model that was deve
+loped by a Stellenbosch
  []
 
 
-Overfull \hbox (18.35854pt too wide) in paragraph at lines 43--44
+Overfull \hbox (18.35854pt too wide) in paragraph at lines 44--45
 \TU/Cambria(0)/m/n/12 Alumnus, Leon Hall ([]). This will produce a validated jo
 int and testing methodology
  []
 
 [2]
-Overfull \hbox (5.1549pt too wide) in paragraph at lines 47--48
-\TU/Cambria(0)/m/n/12 Gemini is an artificial intelligence (AI) tool that will 
-be used to check grammatical
- []
-
-
-Overfull \hbox (5.46933pt too wide) in paragraph at lines 54--55
+Overfull \hbox (5.46933pt too wide) in paragraph at lines 55--56
 []\TU/Cambria(0)/m/n/12 Chapter 2 presents a literature review discussing sourc
 es relevant to PCMA
  []
 
 
-Overfull \hbox (17.35066pt too wide) in paragraph at lines 54--55
+Overfull \hbox (17.35066pt too wide) in paragraph at lines 55--56
 \TU/Cambria(0)/m/n/12 joint design, position-holding technology, kinematic mode
 ling, error analysis,
  []
 
 
-Overfull \hbox (6.14445pt too wide) in paragraph at lines 57--58
+Overfull \hbox (6.14445pt too wide) in paragraph at lines 58--59
 []\TU/Cambria(0)/m/n/12 Chapter 5 describes the design analysis of the chosen c
 oncept, with regards
  []
@@ -1841,11 +1852,6 @@ due to its architecture.
  []
 
 [5]
-Overfull \hbox (1.74582pt too wide) in paragraph at lines 30--32
-\TU/Cambria(0)/m/n/12 is the joint offset. These are known as D-H parameters. T
-ogether, in Equation 2.2[]
- []
-
 File: ../../../../../../Concept design report/DH model of Faro arm.png Graphic 
 file (type bmp)
 <../../../../../../Concept design report/DH model of Faro arm.png>
@@ -1868,9 +1874,9 @@ d how those uncertainties
  []
 
 
-Overfull \hbox (32.0429pt too wide) in paragraph at lines 47--49
-\TU/Cambria(0)/m/n/12 derivation for Equation 2.3[] begins with a Taylor series
- expansion, which approximates
+Overfull \hbox (22.93742pt too wide) in paragraph at lines 47--49
+\TU/Cambria(0)/m/n/12 derivation for Equation 3[] begins with a Taylor series e
+xpansion, which approximates
  []
 
 [6]
@@ -1925,7 +1931,7 @@ phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
 
 Overfull \hbox (1.49472pt too wide) in paragraph at lines 95--96
-\TU/Cambria(0)/m/n/12 functions[]. The TPMs, listed in Table 3.4[], were derive
+\TU/Cambria(0)/m/n/12 functions[]. The TPMs, listed in Table 0.5[], were derive
 d from the results obtained
  []
 
@@ -1964,7 +1970,7 @@ File: ../../../../../../Building the joint/Concept 3.jpg Graphic file (type bmp
 <../../../../../../Building the joint/Concept 3.jpg>
 
 Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--33
-\TU/Cambria(0)/m/n/12 Figure 4.3[] depicts a PCMA with internal modifications t
+\TU/Cambria(0)/m/n/12 Figure 0.8[] depicts a PCMA with internal modifications t
 o implement an electromagnetic
  []
 
@@ -2538,7 +2544,7 @@ e is able to successfully
 
 [17]
 Overfull \hbox (0.87923pt too wide) in paragraph at lines 144--145
-\TU/Cambria(0)/m/n/12 functional requirements in Table 4.1[], Table 4.2[] below
+\TU/Cambria(0)/m/n/12 functional requirements in Table 0.6[], Table 0.7[] below
 , identifies the components
  []
 
@@ -2644,9 +2650,9 @@ fectiveness and availability
  []
 
 )
-Overfull \hbox (19.39244pt too wide) in paragraph at lines 201--140
+Overfull \hbox (19.39244pt too wide) in paragraph at lines 201--141
 []\TU/Cambria(0)/m/n/12 Below is a parts list that corresponds to the refined j
-oint subsystem in Figure 4.4[],
+oint subsystem in Figure 0.9[],
  []
 
 [20]
@@ -2675,8 +2681,8 @@ File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
 
 
 ]
-Overfull \hbox (21.661pt too wide) in paragraph at lines 17--18
-\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure A.1[]. The diff
+Overfull \hbox (20.82896pt too wide) in paragraph at lines 17--18
+\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure .13[]. The diff
 erent views and dimensions
  []
 
@@ -2726,12 +2732,6 @@ nificant power gap between
 Overfull \hbox (45.9526pt too wide) in paragraph at lines 27--28
 \TU/Cambria(0)/m/n/12 circuitry is required to safely step down power for the l
 ogic and allow the microcontroller
- []
-
-
-Overfull \hbox (3.29576pt too wide) in paragraph at lines 27--28
-\TU/Cambria(0)/m/n/12 to switch the electromagnet without sustaining damage. Fi
-gure 5.2[] below shows
  []
 
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
@@ -2932,14 +2932,8 @@ File: ../../../../../../../../../Downloads/screenshot001 - encoder uncertainty.
 png Graphic file (type bmp)
 <../../../../../../../../../Downloads/screenshot001 - encoder uncertainty.png>
 [33]
-Overfull \hbox (7.05357pt too wide) in paragraph at lines 146--147
-\TU/Cambria(0)/m/n/12 the end effector is linear. The encoder resolution is cal
-culated under Equation A.2[]
- []
-
-
-Overfull \hbox (14.90622pt too wide) in paragraph at lines 166--167
-\TU/Cambria(0)/m/n/12 Below, in Figure A.6[], is the free-body diagram one of t
+Overfull \hbox (14.07419pt too wide) in paragraph at lines 166--167
+\TU/Cambria(0)/m/n/12 Below, in Figure .18[], is the free-body diagram one of t
 he links of the Faro QuantumX
  []
 
@@ -3257,10 +3251,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  20527 strings out of 467813
  478908 string characters out of 5427149
- 1041876 words of memory out of 5000000
+ 1041877 words of memory out of 5000000
  49182 multiletter control sequences out of 15000+600000
  631879 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,18n,115p,1738b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (80 pages).
+Output written on template-stb-report-eng.pdf (79 pages).

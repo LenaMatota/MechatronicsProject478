@@ -2,31 +2,32 @@
 
 \section{Background}
 
-A portable coordinate measuring arm (PCMA) is a handheld metrology instrument that captures three-dimensional (3D) coordinates directly from a physical object, as shown in Figure~\ref{fig:portable-coordinate-measuring-machine-arm} below \citep{Leussink:2024}.
-\begin{figure}[h]
+A portable coordinate measuring arm (PCMA) is a handheld metrology instrument used to capture three-dimensional (3D) coordinates directly from a physical object, as shown in Figure~\ref{fig:portable-coordinate-measuring-machine-arm} \citep{Leussink:2024}.
+
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{../../../../../portable-coordinate-measuring-machine-arm}
-	\caption[]{A portable coordinate measurement arm, \citep{Leussink:2024}}
+	\caption{A portable coordinate measurement arm \citep{Leussink:2024}.}
 	\label{fig:portable-coordinate-measuring-machine-arm}
 \end{figure}
-\\PCMAs offer adaptable measurement systems for multiple applications, such as dimensional analysis, computer-aided design (CAD) inspection, reverse engineering, etc. \citep{Ibaraki:2023}. The main limitation of PCMAs is the effect of manual operation due to PCMA's current joint design, which can introduce positional instability and dynamic structural deformation during measurement due to the joints' inability to hold poition \citep{Cuesta:2015}. Manual operation can also inhibit calibration procedures as it is required that the PCMA must be held still during the procedure \citep{Rim:2019}.
 
-As a result, designing a more effective joint with a position-holding mechanism would improve the design of a PCMA and is a good practice of safety. By designing the joint in this manner, error due to manual operation will be minimised, and kinematic stability and accuracy will be improved.
+PCMAs offer adaptable measurement capabilities across various engineering applications, including dimensional analysis, computer-aided design (CAD) inspection, reverse engineering, etc. \citep{Ibaraki:2023}. However, a primary limitation of conventional PCMAs is the absence of a position-holding mechanism. This leaves the arm vulnerable to positional instability and structural deformation during measurement or upon accidental impact \citep{Cuesta:2015}. In addition to this, the instability complicates calibration procedures, which strictly require the arm to remain as still as possible throughout data acquisition \citep{Rim:2019}.
+
+As a result, integrating the design of an effective position-holding mechanism into the arm's joint addresses these limitations while enhancing operational safety. Such a joint design improves the kinematic stability of the arm, eliminates positional drift, and reduces operator fatigue.
 
 \section{Aim and Objectives}
 
-The aim of this project is to implement a position-holding mechanism on a PCMA without jeopardising its accuracy and ease of movement.
+The aim of this project is to implement a position-holding mechanism on a PCMA to eliminate positional drift, enhance kinematic stability, and reduce operator fatigue during measurement and calibration.
 
 \noindent The objectives of the project are:
 \begin{enumerate}
-	\item To generalise the conventional Denavit-Hartenberg(D-H) model derived by Professor Schreve and Mr. Hall \citep{Hall:2010}.
+	\item To generalise the conventional Denavit-Hartenberg(D-H) model derived by Professor Schreve and Mr. Hall, with the purpose of error modelling \citep{Hall:2010}.
 	\item To design, build and test key components of the joint to assess the joint design's mechanical feasibility.
-	\item To integrate the test results into the D-H model and assess feasibility of the joint design.
 \end{enumerate}
 
 \section{Scope}
 
-In the process of determining D-H parameters, user manuals and available schematics will be used for information extraction. In addition to this, due to project timelines, physical implementation of the propsed design will be restricted to constructing critical subsystems necessary to validate the core mechanical, electrical, and software functionality.
+In the process of determining D-H parameters, user manuals and available schematics will be used for information extraction. In addition to this, due to project timelines, physical implementation of the proposed design will be restricted to constructing critical subsystems necessary to validate the core mechanical, electrical, and software functionality.
 
 \section{Motivation}
 
@@ -40,11 +41,11 @@ Despite their growing popularity, the PCMA's revolute joints must satisfy compet
 \end{itemize}
 This has proved difficult since no commercially available joint designs have been found to meet these demands.
 
-Additionally, it has been established that angular position errors at each joint propagate through the kinematic chain, which affects end-effector's accuracy. This proves that joints have a measurable impact on the PCMA's accuracy \citep{Meagher:2016}. This project addresses the knowledge gap by deriving joint specifications from a generalised model based off of an error model that was developed by a Stellenbosch Alumnus, Leon Hall \citep{Hall:2010}. This will produce a validated joint and testing methodology to support future PCMA development.
+Additionally, it has been established that angular position errors at each joint propagate through the kinematic chain, which affects end-effector's accuracy. This proves that joints have a measurable impact on the PCMA's accuracy \citep{Meagher:2016}. This project addresses the knowledge gap by deriving joint specifications from a generalised model based on an error model that was developed by a Stellenbosch Alumnus, Leon Hall \citep{Hall:2010}. This will produce a validated joint and testing methodology to support future PCMA development.
 
 \section{Use of AI Tools}
 
-Gemini is an artificial intelligence (AI) tool that will be used to check grammatical errors and sentence structure as well as LaTex formatting for the report.
+Gemini is an artificial intelligence (AI) tool that was used to check grammatical errors and sentence structure as well as LaTex formatting for the report.
 
 \section{Report Overview}
 
