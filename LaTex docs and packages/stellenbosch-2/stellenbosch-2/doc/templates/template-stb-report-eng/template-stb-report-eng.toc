@@ -7,47 +7,51 @@
 \contentsline {section}{\numberline {1.1}Background}{1}{}%
 \contentsline {section}{\numberline {1.2}Aim and Objectives}{2}{}%
 \contentsline {section}{\numberline {1.3}Scope}{2}{}%
-\contentsline {section}{\numberline {1.4}Motivation}{2}{}%
+\contentsline {section}{\numberline {1.4}Motivation}{3}{}%
 \contentsline {section}{\numberline {1.5}Use of AI Tools}{3}{}%
 \contentsline {section}{\numberline {1.6}Report Overview}{3}{}%
-\contentsline {chapter}{\numberline {2}Literature review}{4}{}%
-\contentsline {section}{\numberline {2.1}PCMA Context}{4}{}%
-\contentsline {section}{\numberline {2.2}The Denavit-Hartenberg (D-H) Model}{5}{}%
-\contentsline {section}{\numberline {2.3}The Error Propagation Model}{6}{}%
-\contentsline {section}{\numberline {2.4}Prior Knowledge}{8}{}%
-\contentsline {section}{\numberline {2.5}Testing Design}{8}{}%
-\contentsline {chapter}{\numberline {3}Requirement Analysis}{9}{}%
-\contentsline {section}{\numberline {3.1}Identification of Stakeholders}{9}{}%
-\contentsline {section}{\numberline {3.2}System Context}{10}{}%
-\contentsline {section}{\numberline {3.3}Design Independent Parameters}{10}{}%
-\contentsline {section}{\numberline {3.4}Functional Requirements}{11}{}%
-\contentsline {section}{\numberline {3.5}Technical Performance Measures}{11}{}%
-\contentsline {chapter}{\numberline {4}Concept Development}{13}{}%
-\contentsline {section}{\numberline {4.1}Concept Generation}{13}{}%
-\contentsline {subsection}{\numberline {4.1.1}Concept One: PCMA Joint with a Locking Dial}{13}{}%
-\contentsline {subsection}{\numberline {4.1.2}Concept Two: PCMA Joint with a Counterbalance Spring}{14}{}%
-\contentsline {subsection}{\numberline {4.1.3}Concept Three: PCMA Joint with an Electromagnetic Brake}{15}{}%
-\contentsline {section}{\numberline {4.2}Concept Evaluation}{15}{}%
-\contentsline {section}{\numberline {4.3}Concept Selection}{17}{}%
-\contentsline {section}{\numberline {4.4}Design Refinement}{19}{}%
-\contentsline {chapter}{\numberline {5}Design Analysis}{21}{}%
-\contentsline {section}{\numberline {5.1}Mechanical Design}{21}{}%
-\contentsline {section}{\numberline {5.2}Electronic Design}{23}{}%
-\contentsline {section}{\numberline {5.3}Software Design}{24}{}%
-\contentsline {chapter}{\numberline {6}Design Evaluation and Testing}{27}{}%
-\contentsline {section}{\numberline {6.1}Prototype Construction}{27}{}%
-\contentsline {subsection}{\numberline {6.1.1}Mechanical Design of Prototype}{27}{}%
-\contentsline {subsection}{\numberline {6.1.2}Electrical Design of Prototype}{27}{}%
-\contentsline {subsection}{\numberline {6.1.3}Software Design of Prototype}{27}{}%
-\contentsline {section}{\numberline {6.2}Safety and Performance Testing}{27}{}%
-\contentsline {subsection}{\numberline {6.2.1}Holding Force Verification}{27}{}%
-\contentsline {subsection}{\numberline {6.2.2}Electrical Safety and Thermal Limits}{27}{}%
-\contentsline {chapter}{\numberline {7}Conclusions}{28}{}%
-\contentsline {chapter}{\numberline {A}Design Calculations}{29}{}%
-\contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{29}{}%
-\contentsline {section}{\numberline {A.2}Error-Propagation Model}{31}{}%
-\contentsline {section}{\numberline {A.3}TPM Derivation}{33}{}%
-\contentsline {subsection}{\numberline {A.3.1}TPM\_{04} Encoder Resolution}{33}{}%
-\contentsline {subsection}{\numberline {A.3.2}TPM\_{03} Holding Torque}{34}{}%
-\contentsline {chapter}{\numberline {B}Drawing Pack}{35}{}%
-\contentsline {chapter}{List of references}{64}{}%
+\contentsline {chapter}{\numberline {2}Literature review}{5}{}%
+\contentsline {section}{\numberline {2.1}PCMA Context}{5}{}%
+\contentsline {section}{\numberline {2.2}The Denavit-Hartenberg (D-H) Model}{6}{}%
+\contentsline {section}{\numberline {2.3}The Error Propagation Model}{7}{}%
+\contentsline {section}{\numberline {2.4}Prior Knowledge}{9}{}%
+\contentsline {section}{\numberline {2.5}Testing Design}{9}{}%
+\contentsline {chapter}{\numberline {3}Requirement Analysis}{10}{}%
+\contentsline {section}{\numberline {3.1}Identification of Stakeholders}{10}{}%
+\contentsline {section}{\numberline {3.2}Design Independent Parameters}{11}{}%
+\contentsline {section}{\numberline {3.3}Functional Requirements}{11}{}%
+\contentsline {section}{\numberline {3.4}Technical Performance Measures}{12}{}%
+\contentsline {subsection}{\numberline {3.4.1}TPM\_01: Operational Articulation Angle}{12}{}%
+\contentsline {subsection}{\numberline {3.4.2}TPM\_02: Run-Out Tolerance}{13}{}%
+\contentsline {subsection}{\numberline {3.4.3}TPM\_03: Holding Torque}{13}{}%
+\contentsline {subsection}{\numberline {3.4.4}TPM\_04: Encoder Resolution}{13}{}%
+\contentsline {subsection}{\numberline {3.4.5}TPM\_05: Joint Life Cycle}{13}{}%
+\contentsline {chapter}{\numberline {4}Concept Development}{14}{}%
+\contentsline {section}{\numberline {4.1}Concept Generation}{14}{}%
+\contentsline {subsection}{\numberline {4.1.1}Concept One: PCMA Joint with a Locking Dial}{14}{}%
+\contentsline {subsection}{\numberline {4.1.2}Concept Two: PCMA Joint with a Counterbalance Spring}{15}{}%
+\contentsline {subsection}{\numberline {4.1.3}Concept Three: PCMA Joint with an Electromagnetic Brake}{16}{}%
+\contentsline {section}{\numberline {4.2}Concept Evaluation}{16}{}%
+\contentsline {section}{\numberline {4.3}Concept Selection}{18}{}%
+\contentsline {section}{\numberline {4.4}Design Refinement}{20}{}%
+\contentsline {chapter}{\numberline {5}Design Analysis}{22}{}%
+\contentsline {section}{\numberline {5.1}Mechanical Design}{22}{}%
+\contentsline {section}{\numberline {5.2}Electronic Design}{24}{}%
+\contentsline {section}{\numberline {5.3}Software Design}{25}{}%
+\contentsline {chapter}{\numberline {6}Design Evaluation and Testing}{28}{}%
+\contentsline {section}{\numberline {6.1}Prototype Construction}{28}{}%
+\contentsline {subsection}{\numberline {6.1.1}Mechanical Design of Prototype}{28}{}%
+\contentsline {subsection}{\numberline {6.1.2}Electrical Design of Prototype}{28}{}%
+\contentsline {subsection}{\numberline {6.1.3}Software Design of Prototype}{28}{}%
+\contentsline {section}{\numberline {6.2}Safety and Performance Testing}{28}{}%
+\contentsline {subsection}{\numberline {6.2.1}Holding Force Verification}{28}{}%
+\contentsline {subsection}{\numberline {6.2.2}Electrical Safety and Thermal Limits}{28}{}%
+\contentsline {chapter}{\numberline {7}Conclusions}{29}{}%
+\contentsline {chapter}{\numberline {A}Design Calculations}{30}{}%
+\contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{30}{}%
+\contentsline {section}{\numberline {A.2}Error-Propagation Model}{32}{}%
+\contentsline {section}{\numberline {A.3}TPM Derivation}{34}{}%
+\contentsline {subsection}{\numberline {A.3.1}TPM\_{04} Encoder Resolution}{34}{}%
+\contentsline {subsection}{\numberline {A.3.2}TPM\_{03} Holding Torque}{35}{}%
+\contentsline {chapter}{\numberline {B}Drawing Pack}{36}{}%
+\contentsline {chapter}{List of references}{65}{}%

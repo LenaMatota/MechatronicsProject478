@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  18 OCT 2026 17:18
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  18 OCT 2026 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1674,98 +1674,114 @@ bility, and reduce operator
 
 
 ]
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 30.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 30.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 30.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 30.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 30.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 30.
+
 Overfull \hbox (29.66898pt too wide) in paragraph at lines 30--31
 \TU/Cambria(0)/m/n/12 In the process of determining D-H parameters, user manual
 s and available schematics
  []
 
+File: ../../../../../../../../../Downloads/System Context (2).png Graphic file 
+(type bmp)
+<../../../../../../../../../Downloads/System Context (2).png>
 
-Overfull \hbox (11.91052pt too wide) in paragraph at lines 30--31
-\TU/Cambria(0)/m/n/12 will be used for information extraction. In addition to t
-his, due to project timelines,
+Overfull \hbox (1.34796pt too wide) in paragraph at lines 39--40
+\TU/Cambria(0)/m/n/12 proposed design will be restricted to constructing critic
+al subsystems necessary
  []
 
 
-Overfull \hbox (8.13234pt too wide) in paragraph at lines 30--31
-\TU/Cambria(0)/m/n/12 physical implementation of the proposed design will be re
-stricted to constructing
- []
-
-LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 34.
-LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 34.
-LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 34.
-LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 34.
-LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 34.
-LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 34.
-
-Underfull \hbox (badness 6396) in paragraph at lines 34--34
+Underfull \hbox (badness 6396) in paragraph at lines 43--43
 [][]\TU/Cambria(0)/m/n/10 In the context of PCMAs, ”in-line” refers to performi
 ng quality inspections and
  []
 
 
-Overfull \hbox (23.28078pt too wide) in paragraph at lines 34--35
+Overfull \hbox (23.28078pt too wide) in paragraph at lines 43--44
 \TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than traditional coordina
 te measuring machines
  []
 
 
-Overfull \hbox (7.33118pt too wide) in paragraph at lines 34--35
+Overfull \hbox (7.33118pt too wide) in paragraph at lines 43--44
 \TU/Cambria(0)/m/n/12 applicability across multiple industries such as aerospac
 e, automotive, and heavy
  []
 
-
-Overfull \hbox (11.17622pt too wide) in paragraph at lines 44--45
+[2]
+Overfull \hbox (11.17622pt too wide) in paragraph at lines 53--54
 \TU/Cambria(0)/m/n/12 joint propagate through the kinematic chain, which affect
 s end-effector’s accuracy.
  []
 
 
-Overfull \hbox (13.19484pt too wide) in paragraph at lines 44--45
+Overfull \hbox (13.19484pt too wide) in paragraph at lines 53--54
 \TU/Cambria(0)/m/n/12 a generalised model based on an error model that was deve
 loped by a Stellenbosch
  []
 
 
-Overfull \hbox (18.35854pt too wide) in paragraph at lines 44--45
+Overfull \hbox (18.35854pt too wide) in paragraph at lines 53--54
 \TU/Cambria(0)/m/n/12 Alumnus, Leon Hall ([]). This will produce a validated jo
 int and testing methodology
  []
 
-[2]
-Overfull \hbox (5.46933pt too wide) in paragraph at lines 55--56
+
+Overfull \hbox (5.46933pt too wide) in paragraph at lines 64--65
 []\TU/Cambria(0)/m/n/12 Chapter 2 presents a literature review discussing sourc
 es relevant to PCMA
  []
 
 
-Overfull \hbox (17.35066pt too wide) in paragraph at lines 55--56
+Overfull \hbox (17.35066pt too wide) in paragraph at lines 64--65
 \TU/Cambria(0)/m/n/12 joint design, position-holding technology, kinematic mode
 ling, error analysis,
  []
 
-
-Overfull \hbox (6.14445pt too wide) in paragraph at lines 58--59
+[3]
+Overfull \hbox (6.14445pt too wide) in paragraph at lines 67--68
 []\TU/Cambria(0)/m/n/12 Chapter 5 describes the design analysis of the chosen c
 oncept, with regards
  []
 
-) [3]
+) [4]
 \openout2 = `chaps-main/chap-literature.aux'.
 
  (./chaps-main/chap-literature.tex
 Chapter 2.
 
-Overfull \hbox (5.05162pt too wide) in paragraph at lines 5--6
-\TU/Cambria(0)/m/n/12 compensate for environmental temperature changes. They ma
-y also incorporate
+Overfull \hbox (12.67336pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 on a high-precision probe as an end-effector and high-res
+olution angular encoders
+ []
+
+
+Overfull \hbox (0.80943pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 of the object within the PCMA’s reference coordinate syst
+em ([]). More advanced
+ []
+
+
+Overfull \hbox (53.06702pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 PCMA models may include internal temperature sensors to c
+ompensate for environmental
+ []
+
+
+Overfull \hbox (26.52461pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 temperature changes. They may also incorporate laser-line
+ scanners for non-contact,
  []
 
 
@@ -1810,7 +1826,7 @@ Overfull \hbox (2.48521pt too wide) in paragraph at lines 9--10
 act forces and variable
  []
 
-[4
+[5
 
 
 
@@ -1851,7 +1867,12 @@ Overfull \hbox (7.72769pt too wide) in paragraph at lines 16--17
 due to its architecture.
  []
 
-[5]
+[6]
+Overfull \hbox (1.74582pt too wide) in paragraph at lines 30--32
+\TU/Cambria(0)/m/n/12 is the joint offset. These are known as D-H parameters. T
+ogether, in Equation 2.2[]
+ []
+
 File: ../../../../../../Concept design report/DH model of Faro arm.png Graphic 
 file (type bmp)
 <../../../../../../Concept design report/DH model of Faro arm.png>
@@ -1874,12 +1895,12 @@ d how those uncertainties
  []
 
 
-Overfull \hbox (22.93742pt too wide) in paragraph at lines 47--49
-\TU/Cambria(0)/m/n/12 derivation for Equation 3[] begins with a Taylor series e
-xpansion, which approximates
+Overfull \hbox (32.0429pt too wide) in paragraph at lines 47--49
+\TU/Cambria(0)/m/n/12 derivation for Equation 2.3[] begins with a Taylor series
+ expansion, which approximates
  []
 
-[6]
+[7]
 File: ../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg>
@@ -1895,11 +1916,17 @@ Overfull \hbox (10.07092pt too wide) in paragraph at lines 59--60
 rm with position-holding
  []
 
-) [7] [8]
+) [8] [9]
 \openout2 = `chaps-main/chap-requirement_analysis.aux'.
 
  (./chaps-main/chap-requirement_analysis.tex
 Chapter 3.
+
+Overfull \hbox (3.9063pt too wide) in paragraph at lines 3--4
+\TU/Cambria(0)/m/n/12 the PCMA’s joint design for the purposes of concept gener
+ation and development. 
+ []
+
 
 Overfull \hbox (18.37895pt too wide) in paragraph at lines 9--10
 []\TU/Cambria(0)/m/n/12 Primary stakeholders directly interact with the system 
@@ -1911,36 +1938,43 @@ Overfull \hbox (13.41982pt too wide) in paragraph at lines 18--27
  [][] 
  []
 
-[9
+[10
 
 
 
 
 ]
-File: ../../../../../../../../../Downloads/System Context (1).png Graphic file 
-(type bmp)
-<../../../../../../../../../Downloads/System Context (1).png>
-
-Overfull \hbox (1.13356pt too wide) in paragraph at lines 48--58
+Overfull \hbox (1.13356pt too wide) in paragraph at lines 37--47
  [][] 
  []
 
-[10]
 File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
-
-Overfull \hbox (1.49472pt too wide) in paragraph at lines 95--96
-\TU/Cambria(0)/m/n/12 functions[]. The TPMs, listed in Table 0.5[], were derive
+[11]
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 84--85
+\TU/Cambria(0)/m/n/12 functions[]. The TPMs, listed in Table 3.4[], were derive
 d from the results obtained
  []
 
-[11]
-Overfull \hbox (29.70679pt too wide) in paragraph at lines 101--110
+
+Overfull \hbox (29.70679pt too wide) in paragraph at lines 90--99
  [][] 
  []
 
-) [12]
+
+Overfull \hbox (0.68867pt too wide) in paragraph at lines 101--102
+\TU/Cambria(0)/m/n/12 model and static loading requirements. The following subs
+ections, Section 3.4.1
+ []
+
+
+Overfull \hbox (2.16087pt too wide) in paragraph at lines 101--102
+\TU/Cambria(0)/m/n/12 to 3.4.5, provide detailed derivations, calculations, and
+ mechanical justifications
+ []
+
+[12]) [13]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
@@ -1948,7 +1982,7 @@ Chapter 4.
 File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 1.jpg>
-[13
+[14
 
 
 
@@ -1970,11 +2004,11 @@ File: ../../../../../../Building the joint/Concept 3.jpg Graphic file (type bmp
 <../../../../../../Building the joint/Concept 3.jpg>
 
 Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--33
-\TU/Cambria(0)/m/n/12 Figure 0.8[] depicts a PCMA with internal modifications t
+\TU/Cambria(0)/m/n/12 Figure 4.3[] depicts a PCMA with internal modifications t
 o implement an electromagnetic
  []
 
-[14]
+[15]
 File: ../../../../../../Building the joint/Concept 2.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 2.jpg>
@@ -1984,7 +2018,7 @@ Overfull \hbox (24.5399pt too wide) in paragraph at lines 43--44
 f the following evaluation
  []
 
-[15]
+[16]
 Overfull \hbox (18.09184pt too wide) in paragraph at lines 51--53
 \TU/Cambria(0)/m/n/12 maximise the joint design’s ability to maintain and/or im
 prove the PCMA’s accuracy.
@@ -2536,15 +2570,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-[16]
+[17]
 Overfull \hbox (14.45123pt too wide) in paragraph at lines 142--143
 \TU/Cambria(0)/m/n/12 and strength. When de-energised, the electromagnetic brak
 e is able to successfully
  []
 
-[17]
+[18]
 Overfull \hbox (0.87923pt too wide) in paragraph at lines 144--145
-\TU/Cambria(0)/m/n/12 functional requirements in Table 0.6[], Table 0.7[] below
+\TU/Cambria(0)/m/n/12 functional requirements in Table 4.1[], Table 4.2[] below
 , identifies the components
  []
 
@@ -2608,7 +2642,7 @@ Underfull \hbox (badness 4819) in paragraph at lines 173--173
 \TU/Cambria(0)/m/n/12 the microcontroller, which is
  []
 
-[18]
+[19]
 File: C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProjec
 t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg Graphic
  file (type bmp)
@@ -2643,7 +2677,7 @@ Overfull \hbox (3.53586pt too wide) in paragraph at lines 197--198
 t from rotating, thereby
  []
 
-[19]
+[20]
 Overfull \hbox (19.44562pt too wide) in paragraph at lines 199--200
 \TU/Cambria(0)/m/n/12 chosen over angular contact bearings due to their cost-ef
 fectiveness and availability
@@ -2652,10 +2686,10 @@ fectiveness and availability
 )
 Overfull \hbox (19.39244pt too wide) in paragraph at lines 201--141
 []\TU/Cambria(0)/m/n/12 Below is a parts list that corresponds to the refined j
-oint subsystem in Figure 0.9[],
+oint subsystem in Figure 4.4[],
  []
 
-[20]
+[21]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
@@ -2675,14 +2709,14 @@ gical, top-down fashion
 File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot001.png>
-[21
+[22
 
 
 
 
 ]
-Overfull \hbox (20.82896pt too wide) in paragraph at lines 17--18
-\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure .13[]. The diff
+Overfull \hbox (21.661pt too wide) in paragraph at lines 17--18
+\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure A.1[]. The diff
 erent views and dimensions
  []
 
@@ -2716,7 +2750,7 @@ Overfull \hbox (13.5761pt too wide) in paragraph at lines 21--22
 iable, uniform clamping
  []
 
-[22]
+[23]
 Overfull \hbox (28.40074pt too wide) in paragraph at lines 23--24
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
@@ -2732,6 +2766,12 @@ nificant power gap between
 Overfull \hbox (45.9526pt too wide) in paragraph at lines 27--28
 \TU/Cambria(0)/m/n/12 circuitry is required to safely step down power for the l
 ogic and allow the microcontroller
+ []
+
+
+Overfull \hbox (3.29576pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 to switch the electromagnet without sustaining damage. Fi
+gure 5.2[] below shows
  []
 
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
@@ -2761,7 +2801,7 @@ Overfull \hbox (21.42265pt too wide) in paragraph at lines 40--41
 istor, the [][] pull-down
  []
 
-[23]
+[24]
 Overfull \hbox (12.5304pt too wide) in paragraph at lines 46--47
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
@@ -2791,7 +2831,7 @@ Overfull \hbox (18.09758pt too wide) in paragraph at lines 54--55
 ut is configured to interface
  []
 
-[24]
+[25]
 Overfull \hbox (20.48195pt too wide) in paragraph at lines 56--57
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
@@ -2806,7 +2846,7 @@ c brake is an open-loop,
 File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Software_Flowchart.png>
-[25]) [26]
+[26]) [27]
 \openout2 = `chaps-main/chap-design_evaluation_and_testing.aux'.
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
@@ -2835,7 +2875,7 @@ Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
 lted in a four-solenoid
  []
 
-) [27
+) [28
 
 
 
@@ -2845,7 +2885,7 @@ lted in a four-solenoid
 
  (./chaps-main/chap-conclusion.tex
 Chapter 7.
-) [28
+) [29
 
 
 
@@ -2861,7 +2901,7 @@ Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
 ct specifications document
  []
 
-[29
+[30
 
 
 
@@ -2884,7 +2924,7 @@ Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
  the relative rotation between
  []
 
-[30]
+[31]
 Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
 []\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
  model to determine
@@ -2907,7 +2947,7 @@ Overfull \hbox (39.83841pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
-[31]
+[32]
 File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot003.png>
@@ -2922,7 +2962,7 @@ pe bmp)
 File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
 pe bmp)
 <../../../../../../../../../Downloads/screenshot001-2.png>
-[32]
+[33]
 Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--130
 []\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
  plotted to show where
@@ -2931,9 +2971,15 @@ Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--130
 File: ../../../../../../../../../Downloads/screenshot001 - encoder uncertainty.
 png Graphic file (type bmp)
 <../../../../../../../../../Downloads/screenshot001 - encoder uncertainty.png>
-[33]
-Overfull \hbox (14.07419pt too wide) in paragraph at lines 166--167
-\TU/Cambria(0)/m/n/12 Below, in Figure .18[], is the free-body diagram one of t
+[34]
+Overfull \hbox (7.05357pt too wide) in paragraph at lines 146--147
+\TU/Cambria(0)/m/n/12 the end effector is linear. The encoder resolution is cal
+culated under Equation A.2[]
+ []
+
+
+Overfull \hbox (14.90622pt too wide) in paragraph at lines 166--167
+\TU/Cambria(0)/m/n/12 Below, in Figure A.6[], is the free-body diagram one of t
 he links of the Faro QuantumX
  []
 
@@ -2941,12 +2987,12 @@ File: ../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.1
 2.jpeg Graphic file (type bmp)
 <../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12.jpe
 g>
-) [34]
+) [35]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-[35
+[36
 
 
 
@@ -2964,135 +3010,135 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 3>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 3>
- [36
-
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
  [37
 
+
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+<use Updated drawing pack.pdf, page 4>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+<use Updated drawing pack.pdf, page 4>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+<use Updated drawing pack.pdf, page 4>
  [38
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+<use Updated drawing pack.pdf, page 5>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+<use Updated drawing pack.pdf, page 5>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+<use Updated drawing pack.pdf, page 5>
  [39
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+<use Updated drawing pack.pdf, page 6>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+<use Updated drawing pack.pdf, page 6>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+<use Updated drawing pack.pdf, page 6>
  [40
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+<use Updated drawing pack.pdf, page 7>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+<use Updated drawing pack.pdf, page 7>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+<use Updated drawing pack.pdf, page 7>
  [41
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+<use Updated drawing pack.pdf, page 8>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+<use Updated drawing pack.pdf, page 8>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+<use Updated drawing pack.pdf, page 8>
  [42
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 9>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 9>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 9>
  [43
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 10>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 10>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 10>
  [44
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 11>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 11>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 11>
  [45
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 12>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 12>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 12>
  [46
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 13>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 13>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 13>
  [47
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 14>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 14>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 14>
  [48
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 15>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 15>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 15>
  [49
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 16>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 16>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 16>
+ [50
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 17>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 17>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 17>
 
-[50
+[51
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
@@ -3101,106 +3147,106 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 18>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 18>
- [51
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
  [52
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 19>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 19>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 19>
  [53
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 20>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 20>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 20>
  [54
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 21>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 21>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 21>
  [55
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 22>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 22>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 22>
  [56
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 23>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 23>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 23>
  [57
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 24>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 24>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 24>
  [58
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 25>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 25>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 25>
  [59
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 26>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 26>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 26>
  [60
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 27>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 27>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 27>
  [61
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 28>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 28>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 28>
  [62
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+ [63
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
@@ -3209,7 +3255,7 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 30>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 30>
- [63
+ [64
 
 ])
 (./template-stb-report-eng.bbl
@@ -3224,7 +3270,7 @@ Underfull \hbox (badness 2245) in paragraph at lines 33--36
 ation by laser tracker
  []
 
-) [64
+) [65
 
 
 
@@ -3251,10 +3297,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  20527 strings out of 467813
  478908 string characters out of 5427149
- 1041877 words of memory out of 5000000
+ 1041858 words of memory out of 5000000
  49182 multiletter control sequences out of 15000+600000
  631879 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,18n,115p,1738b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (79 pages).
+Output written on template-stb-report-eng.pdf (80 pages).

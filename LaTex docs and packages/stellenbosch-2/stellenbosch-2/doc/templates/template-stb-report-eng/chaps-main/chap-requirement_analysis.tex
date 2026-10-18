@@ -1,6 +1,6 @@
 \chapter{Requirement Analysis}
 
-The objective of the requirement analysis is to establish clear expectations of the PCMA's joint design for the purposes of concept development.
+The objective of the requirement analysis is to establish clear expectations of the PCMA's joint design for the purposes of concept generation and development.
 
 \section{Identification of Stakeholders}
 
@@ -26,22 +26,11 @@ The stakeholders relevant to the project are defined in Table~\ref{tab:SID table
 	\end{tabular}
 \end{table}
 
-\section{System Context}
-
-The next step is to define the narrower system of interest (NSoI) and the wider system of interest (WSoI) for the project\footnote{The NSoI is the system being designed and the WSoI includes the NSoI and elements that the NSoI interacts with, \citep{Callister:2011}.}, \citep{Callister:2011} for the purposes of this project, the joint was identified as the NSoI and WSoI is the NSol with a reliable power supply and an artefact with which the joint will be tested. Figure~\ref{fig:system-context} illustrates the system context, with the NSoI shown as a "black box", \citep{Callister:2011}.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.6\linewidth]{"../../../../../../../../../Downloads/System Context (1)"}
-	\caption{System Context}
-	\label{fig:system-context}
-\end{figure}
-
 \section{Design Independent Parameters}
 
-Next, the design independent parameters (DIPs) are defined. DIPs influence the system during the operational and support life cycle stages, but are not controllable nor are part of the system being defined, \citep{Callister:2011}. The DIPs of the joint design are detailed in Table~\ref{tab:DIPs} below.
+The next step is to define the design independent parameters (DIPs). DIPs influence the system during the operational and support life cycle stages, but are not controllable nor are they part of the system being defined, \citep{Callister:2011}. The DIPs of the joint design are detailed in Table~\ref{tab:DIPs} below.
 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\caption{Design Independent Parameters}
 	\label{tab:DIPs}
@@ -65,7 +54,7 @@ In this section, the primary and top-level derived functional requirements (FRs)
 	\item Derived FRs are required so that the systen can perform primary FRs.
 \end{itemize}
 As seen in Table~\ref{tab:FRs} below, the FRs for the joint design are listed.
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\caption{Table 3: Functional Requirements}
 	\label{tab:FRs}
@@ -83,7 +72,7 @@ As seen in Table~\ref{tab:FRs} below, the FRs for the joint design are listed.
 \end{table}
 \noindent In Figure~\ref{fig:functional-decomposition-2}, the functional requirements of the joint are depicted below.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/Functional decomposition (2)"}
 	\caption{Top Level Functional Decomposition}
@@ -94,7 +83,7 @@ As seen in Table~\ref{tab:FRs} below, the FRs for the joint design are listed.
 
 This section defines the technical performance measures (TPMs) which will be used to determine how well the joint design (NSoI) performs the required functions\footnote{TPMs are measurable and unambiguous parameters that can be influenced by designing the joint}. The TPMs, listed in Table~\ref{tab:TPMs}, were derived from the results obtained from the generalised error-propagation model. 
 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\caption{Technical Performance Measures}
 	\label{tab:TPMs}
@@ -108,3 +97,25 @@ This section defines the technical performance measures (TPMs) which will be use
 		TPM\_05 & FR\_01, FR\_02, FR\_05 & Joint life cycle & \num{e6} life cycles \\\hline
 	\end{tabular}
 \end{table}
+
+Each target value is derived from the generalised D-H error propagation model and static loading requirements. The following subsections, Section 3.4.1 to 3.4.5, provide detailed derivations, calculations, and mechanical justifications for TPM\_01 TO TPM\_05, respectively.
+
+\subsection{TPM\_01: Operational Articulation Angle}
+
+The \SI{90}{\degree} articulation TPM is derived from the D-H kinematic model to ensure that the joint mechanism provides the minimum range motion needed to cover all measurement coordinates within the PCMA working volume. This target value is a baseline of the D-H transformation chain and it guarentees that the complete kinematic motion path is fulfilled without restricting the arm's reach.
+
+\subsection{TPM\_02: Run-Out Tolerance}
+
+
+
+\subsection{TPM\_03: Holding Torque}
+
+
+
+\subsection{TPM\_04: Encoder Resolution}
+
+
+
+\subsection{TPM\_05: Joint Life Cycle}
+
+
