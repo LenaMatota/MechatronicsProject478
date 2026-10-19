@@ -56,7 +56,7 @@ In this section, the primary and top-level derived functional requirements (FRs)
 As seen in Table~\ref{tab:FRs} below, the FRs for the joint design are listed.
 \begin{table}[H]
 	\centering
-	\caption{Table 3: Functional Requirements}
+	\caption{Joint Functional Requirements}
 	\label{tab:FRs}
 	\begin{tabular}{|l|l|l|}
 		\hline
@@ -85,13 +85,13 @@ This section defines the technical performance measures (TPMs) which will be use
 
 \begin{table}[H]
 	\centering
-	\caption{Technical Performance Measures}
+	\caption{Joint Technical Performance Measures}
 	\label{tab:TPMs}
 	\begin{tabular}{|l|l|l|l|}
 		\hline
 		\textbf{TPM ID} & \textbf{Related FR} & \textbf{Description} & \textbf{Target Value} \\\hline
 		TPM\_01 & FR\_01, FR\_05 & Operational articulation angle & \SI{90}{\degree} \\\hline
-		TPM\_02 & FR\_01, FR\_05 & Run-out tolerance & \SI{1.571e-3}{rad} \\\hline
+		TPM\_02 & FR\_01, FR\_05 & Run-out tolerance & \SI{1e-3}{rad} \\\hline
 		TPM\_03 & FR\_02 & Holding torque & \SI{7.725}{Nm} \\\hline
 		TPM\_04 & FR\_03, FR\_04 & Encoder resolution & \SI{9}{bits} \\\hline
 		TPM\_05 & FR\_01, FR\_02, FR\_05 & Joint life cycle & \num{e6} life cycles \\\hline
@@ -102,19 +102,57 @@ Each target value is derived from the generalised D-H error propagation model an
 
 \subsection{TPM\_01: Operational Articulation Angle}
 
-The \SI{90}{\degree} articulation TPM is derived from the D-H kinematic model to ensure that the joint mechanism provides the minimum range motion needed to cover all measurement coordinates within the PCMA working volume. This target value is a baseline of the D-H transformation chain and it guarentees that the complete kinematic motion path is fulfilled without restricting the arm's reach.
+The \SI{90}{\degree} articulation TPM is derived from the D-H kinematic model to ensure that the joint mechanism provides the minimum range motion needed to cover all measurement coordinates within the PCMA working volume. This target value is a baseline of the D-H transformation chain and it guarentees that the complete kinematic path is fulfilled without restricting the arm's reach.
 
 \subsection{TPM\_02: Run-Out Tolerance}
 
+Minute bearing play and shaft imperfections can cause the joint to wobble during rotation. If this wobble is not bounded, it can introduce unintentional spatial drift at the probe tip. TPM\_02 ensures that the axis maintains alignment and measurement stability.
 
+The TPM is reliant on two parameters. One being an arbitrarily chosen to be joint diameter, $d_{joint}=\SI{20}{mm}$, to match commercially available bearings. The second being, the allowable radial bearing deflection defined under ISO 492:2014 as $\delta r_{bearing}=\SI{0.01}{mm}$ \citep{ISO492:2014}. This deflection represents the standard manufacturer precision tolerance for radial internal clearance and run-out. These two parameters are then used to calculate the runout tolerance as shown in Equation~\ref{eq:TPM_02}.
+
+\begin{equation}\label{eq:TPM_02}
+	\begin{aligned}
+		\Theta_{\text{runout}} &= \frac{\delta r_{\text{bearing}}}{\left(\frac{d_{\text{joint}}}{2}\right)} \\
+		&= \frac{0.010}{\left(\frac{20}{2}\right)} \\
+		&= \SI{1e-3}{rad}
+	\end{aligned}
+\end{equation}
+
+By limiting the run-out tolerance, it is ensured that the joint rotation will only track single-axis motion without off-axis tilt, which will preserve D-H kinematic model integrity and minimise spatial errors at the probe tip.
 
 \subsection{TPM\_03: Holding Torque}
 
+If the position-holding mechanism is uable to produce a sufficient static holding torque, the weight of the distal links can cause the arm to slip. By establishing TPM\_03, the joint is guaranteed to secure and maintain its angular position under a maximum gravity-induced cantilever moment without unexpected drift.
 
+Figure~\ref{fig:whatsapp-image-2026-10-05-at-15} depicts the freebody diagram used to calculate the holding torque.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12"}
+	\caption{FBD of one of the Faro QuantumX links}
+	\label{fig:whatsapp-image-2026-10-05-at-15}
+\end{figure}
+
+From the user manual \citep{Faro:2024}, the mass of the link is \SI{1.5}{kg}, and the distance from the center of the link to the center of the joint is \SI{0.35}{m}. The holding torque was determined in Equation~\ref{eq:holding_torque}, with a safety factor of 1.5 applied:
+
+\begin{equation}
+	\label{eq:holding_torque}
+	\begin{split}
+		T &= SF\cdot m\cdot g\cdot l\\
+		&= (1.5)(1.5)(9.81)(0.35) \\
+		&= \SI{7.725}{Nm}
+	\end{split}
+\end{equation}
+
+By achieving this holding torque, the position-holding mechanism will be able to successfully support the distal links when the mechanism is actuated.
 
 \subsection{TPM\_04: Encoder Resolution}
 
+Accurate spatial measurement in a PCMA depends on the ability of each joint's rotary encoder to digitise small angular displacements. If the optical encoder resolution is too coarse, quantisation error is emphasised, which prevents the system from meeting single-joint angular precision targets. Establishing TPM\_04 ensures that the chosen encoder resolution provides sufficient quantisation to keep measurement error minimised.
 
+The required encoder resolution is calculated using the worse-case uncertainty established under Section 2.2, specifically $\sigma_{\theta,\text{required}}=\SI{1.957e-5}{rad}$. This value comes from the D-H kinematic error propagation derivations, applied across a full rotational range of \SI{360}{\degree}.
+
+The mimunum number of discrete angular counts, $N_{counts}$, across a full revolution is calculated under Equation~\ref{}.
 
 \subsection{TPM\_05: Joint Life Cycle}
 

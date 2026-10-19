@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  18 OCT 2026 22:29
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  19 OCT 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1958,7 +1958,7 @@ d from the results obtained
  []
 
 
-Overfull \hbox (29.70679pt too wide) in paragraph at lines 90--99
+Overfull \hbox (21.77774pt too wide) in paragraph at lines 90--99
  [][] 
  []
 
@@ -1974,7 +1974,50 @@ Overfull \hbox (2.16087pt too wide) in paragraph at lines 101--102
  mechanical justifications
  []
 
-[12]) [13]
+[12]
+Overfull \hbox (4.55421pt too wide) in paragraph at lines 109--110
+\TU/Cambria(0)/m/n/12 Minute bearing play and shaft imperfections can cause the
+ joint to wobble during
+ []
+
+
+Overfull \hbox (10.11217pt too wide) in paragraph at lines 111--112
+\TU/Cambria(0)/m/n/12 manufacturer precision tolerance for radial internal clea
+rance and run-out. These
+ []
+
+
+Overfull \hbox (22.17484pt too wide) in paragraph at lines 121--122
+\TU/Cambria(0)/m/n/12 only track single-axis motion without off-axis tilt, whic
+h will preserve D-H kinematic
+ []
+
+
+Overfull \hbox (1.54497pt too wide) in paragraph at lines 125--126
+\TU/Cambria(0)/m/n/12 under a maximum gravity-induced cantilever moment without
+ unexpected drift. 
+ []
+
+File: ../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.1
+2.jpeg Graphic file (type bmp)
+<../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12.jpe
+g>
+[13]
+Overfull \hbox (6.35039pt too wide) in paragraph at lines 151--152
+\TU/Cambria(0)/m/n/12 system from meeting single-joint angular precision target
+s. Establishing TPM_-04
+ []
+
+
+Overfull \hbox (15.23468pt too wide) in paragraph at lines 153--154
+[]\TU/Cambria(0)/m/n/12 The required encoder resolution is calculated using the
+ worse-case uncertainty
+ []
+
+
+LaTeX Warning: Reference `' on page 14 undefined on input line 155.
+
+) [14]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
@@ -1982,7 +2025,7 @@ Chapter 4.
 File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 1.jpg>
-[14
+[15
 
 
 
@@ -2008,7 +2051,7 @@ Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--33
 o implement an electromagnetic
  []
 
-[15]
+[16]
 File: ../../../../../../Building the joint/Concept 2.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 2.jpg>
@@ -2018,7 +2061,7 @@ Overfull \hbox (24.5399pt too wide) in paragraph at lines 43--44
 f the following evaluation
  []
 
-[16]
+[17]
 Overfull \hbox (18.09184pt too wide) in paragraph at lines 51--53
 \TU/Cambria(0)/m/n/12 maximise the joint design’s ability to maintain and/or im
 prove the PCMA’s accuracy.
@@ -2570,13 +2613,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-[17]
+[18]
 Overfull \hbox (14.45123pt too wide) in paragraph at lines 142--143
 \TU/Cambria(0)/m/n/12 and strength. When de-energised, the electromagnetic brak
 e is able to successfully
  []
 
-[18]
+[19]
 Overfull \hbox (0.87923pt too wide) in paragraph at lines 144--145
 \TU/Cambria(0)/m/n/12 functional requirements in Table 4.1[], Table 4.2[] below
 , identifies the components
@@ -2642,7 +2685,7 @@ Underfull \hbox (badness 4819) in paragraph at lines 173--173
 \TU/Cambria(0)/m/n/12 the microcontroller, which is
  []
 
-[19]
+[20]
 File: C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProjec
 t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg Graphic
  file (type bmp)
@@ -2677,7 +2720,7 @@ Overfull \hbox (3.53586pt too wide) in paragraph at lines 197--198
 t from rotating, thereby
  []
 
-[20]
+[21]
 Overfull \hbox (19.44562pt too wide) in paragraph at lines 199--200
 \TU/Cambria(0)/m/n/12 chosen over angular contact bearings due to their cost-ef
 fectiveness and availability
@@ -2689,7 +2732,7 @@ Overfull \hbox (19.39244pt too wide) in paragraph at lines 201--141
 oint subsystem in Figure 4.4[],
  []
 
-[21]
+[22]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
@@ -2709,7 +2752,7 @@ gical, top-down fashion
 File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot001.png>
-[22
+[23
 
 
 
@@ -2750,7 +2793,7 @@ Overfull \hbox (13.5761pt too wide) in paragraph at lines 21--22
 iable, uniform clamping
  []
 
-[23]
+[24]
 Overfull \hbox (28.40074pt too wide) in paragraph at lines 23--24
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
@@ -2801,7 +2844,7 @@ Overfull \hbox (21.42265pt too wide) in paragraph at lines 40--41
 istor, the [][] pull-down
  []
 
-[24]
+[25]
 Overfull \hbox (12.5304pt too wide) in paragraph at lines 46--47
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
@@ -2831,7 +2874,7 @@ Overfull \hbox (18.09758pt too wide) in paragraph at lines 54--55
 ut is configured to interface
  []
 
-[25]
+[26]
 Overfull \hbox (20.48195pt too wide) in paragraph at lines 56--57
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
@@ -2846,7 +2889,7 @@ c brake is an open-loop,
 File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Software_Flowchart.png>
-[26]) [27]
+[27]) [28]
 \openout2 = `chaps-main/chap-design_evaluation_and_testing.aux'.
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
@@ -2875,7 +2918,7 @@ Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
 lted in a four-solenoid
  []
 
-) [28
+) [29
 
 
 
@@ -2885,7 +2928,7 @@ lted in a four-solenoid
 
  (./chaps-main/chap-conclusion.tex
 Chapter 7.
-) [29
+) [30
 
 
 
@@ -2901,7 +2944,7 @@ Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
 ct specifications document
  []
 
-[30
+[31
 
 
 
@@ -2924,7 +2967,7 @@ Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
  the relative rotation between
  []
 
-[31]
+[32]
 Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
 []\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
  model to determine
@@ -2947,7 +2990,7 @@ Overfull \hbox (39.83841pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
-[32]
+[33]
 File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot003.png>
@@ -2962,32 +3005,13 @@ pe bmp)
 File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
 pe bmp)
 <../../../../../../../../../Downloads/screenshot001-2.png>
-[33]
-Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--130
+[34])
+Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--147
 []\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
  plotted to show where
  []
 
-File: ../../../../../../../../../Downloads/screenshot001 - encoder uncertainty.
-png Graphic file (type bmp)
-<../../../../../../../../../Downloads/screenshot001 - encoder uncertainty.png>
-[34]
-Overfull \hbox (7.05357pt too wide) in paragraph at lines 146--147
-\TU/Cambria(0)/m/n/12 the end effector is linear. The encoder resolution is cal
-culated under Equation A.2[]
- []
-
-
-Overfull \hbox (14.90622pt too wide) in paragraph at lines 166--167
-\TU/Cambria(0)/m/n/12 Below, in Figure A.6[], is the free-body diagram one of t
-he links of the Faro QuantumX
- []
-
-File: ../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.1
-2.jpeg Graphic file (type bmp)
-<../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12.jpe
-g>
-) [35]
+[35]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
@@ -3259,15 +3283,21 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 
 ])
 (./template-stb-report-eng.bbl
-Underfull \hbox (badness 1394) in paragraph at lines 29--31
-[]\TU/Cambria(0)/m/n/10.95 H. Meagher, “Measurement tool spotlight - portable m
-easuring arms.” OASIS
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+[]\TU/Cambria(0)/m/n/10.95 E. Cuesta, D. A. Mantaras, P. Luque, B. J. Alvarez, 
+and D. Muina, “A
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 33--36
+Underfull \hbox (badness 1057) in paragraph at lines 37--40
 []\TU/Cambria(0)/m/n/10.95 “Articulated arm coordinate measuring machine calibr
 ation by laser tracker
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 42--45
+[]\TU/Cambria(0)/m/n/10.95 International Organisation for Standardisation, “Rol
+ling bearings — radial
  []
 
 ) [65
@@ -3291,16 +3321,19 @@ L3 programming layer <2026-06-18>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20527 strings out of 467813
- 478908 string characters out of 5427149
- 1041858 words of memory out of 5000000
- 49182 multiletter control sequences out of 15000+600000
+ 20511 strings out of 467813
+ 477377 string characters out of 5427149
+ 1041974 words of memory out of 5000000
+ 49167 multiletter control sequences out of 15000+600000
  631879 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,18n,115p,1738b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,115p,1738b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on template-stb-report-eng.pdf (80 pages).

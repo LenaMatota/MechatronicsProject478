@@ -18,38 +18,40 @@ A level-1 auxiliary file: chaps-main/chap-conclusion.aux
 A level-1 auxiliary file: chaps-append/chap-maths.aux
 A level-1 auxiliary file: chaps-append/chap-experiment.aux
 Database file #1: bib/bib-sample.bib
+Warning--entry type for "ISO492:2014" isn't style-file defined
+--line 57 of file bib/bib-sample.bib
 Warning--empty booktitle in Hall:2010
 Warning--empty author in Brau:2014
-You've used 9 entries,
+You've used 10 entries,
             1876 wiz_defined-function locations,
-            553 strings with 5366 characters,
-and the built_in function-call counts, 1977 in all, are:
-= -- 194
-> -- 68
+            560 strings with 5618 characters,
+and the built_in function-call counts, 2102 in all, are:
+= -- 204
+> -- 72
 < -- 0
-+ -- 27
-- -- 18
-* -- 140
-:= -- 276
-add.period$ -- 10
-call.type$ -- 9
-change.case$ -- 8
++ -- 29
+- -- 19
+* -- 146
+:= -- 295
+add.period$ -- 11
+call.type$ -- 10
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 108
-empty$ -- 201
-format.name$ -- 18
-if$ -- 485
+cite$ -- 12
+duplicate$ -- 112
+empty$ -- 219
+format.name$ -- 19
+if$ -- 516
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 10
 missing$ -- 8
-newline$ -- 31
-num.names$ -- 7
-pop$ -- 32
+newline$ -- 34
+num.names$ -- 8
+pop$ -- 39
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 68
+skip$ -- 71
 stack$ -- 0
 substring$ -- 95
 swap$ -- 39
@@ -58,7 +60,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 17
-width$ -- 10
-write$ -- 85
-(There were 2 warnings)
+while$ -- 18
+width$ -- 12
+write$ -- 92
+(There were 3 warnings)
