@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  20 OCT 2026 21:41
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  20 OCT 2026 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2635,13 +2635,13 @@ oint subsystem in Figure 4.4[],
  (./chaps-main/chap-design_analysis.tex
 Chapter 5.
 
-Overfull \hbox (27.88953pt too wide) in paragraph at lines 3--5
+Overfull \hbox (27.88953pt too wide) in paragraph at lines 3--4
 \TU/Cambria(0)/m/n/12 The design analysis of the electromagnetic brake joint is
  divided into four hierarchical
  []
 
 
-Overfull \hbox (1.44759pt too wide) in paragraph at lines 3--5
+Overfull \hbox (1.44759pt too wide) in paragraph at lines 3--4
 \TU/Cambria(0)/m/n/12 however, the resulting architecture is documented in a lo
 gical, top-down fashion
  []
@@ -2655,61 +2655,61 @@ File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
 
 
 ]
-Overfull \hbox (21.661pt too wide) in paragraph at lines 17--18
+Overfull \hbox (21.661pt too wide) in paragraph at lines 15--16
 \TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure A.1[]. The diff
 erent views and dimensions
  []
 
 
-Overfull \hbox (13.8257pt too wide) in paragraph at lines 17--18
+Overfull \hbox (13.8257pt too wide) in paragraph at lines 15--16
 \TU/Cambria(0)/m/n/12 of the engineering drawing depict the position of physica
 l interfaces with elements
  []
 
 
-Overfull \hbox (9.94983pt too wide) in paragraph at lines 17--18
+Overfull \hbox (9.94983pt too wide) in paragraph at lines 15--16
 \TU/Cambria(0)/m/n/12 external to the NSoI and the spatial constraints for the 
 respective system elements
  []
 
 
-Overfull \hbox (28.10672pt too wide) in paragraph at lines 19--20
+Overfull \hbox (28.10672pt too wide) in paragraph at lines 17--18
 \TU/Cambria(0)/m/n/12 supported by two RS PRO [][] ID 2-Row ball bearings mount
 ed with an inteference
  []
 
 
-Overfull \hbox (3.26588pt too wide) in paragraph at lines 19--20
+Overfull \hbox (3.26588pt too wide) in paragraph at lines 17--18
 \TU/Cambria(0)/m/n/12 electromagnetic brake consist of solenoids, friction plat
 e (laser-cut by Fabrinox),
  []
 
 
-Overfull \hbox (13.5761pt too wide) in paragraph at lines 21--22
+Overfull \hbox (13.5761pt too wide) in paragraph at lines 19--20
 []\TU/Cambria(0)/m/n/12 This configuration was chosen because it provides a rel
 iable, uniform clamping
  []
 
 [25]
-Overfull \hbox (28.40074pt too wide) in paragraph at lines 23--24
+Overfull \hbox (28.40074pt too wide) in paragraph at lines 21--22
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
  []
 
 
-Overfull \hbox (12.21375pt too wide) in paragraph at lines 27--28
+Overfull \hbox (12.21375pt too wide) in paragraph at lines 25--26
 \TU/Cambria(0)/m/n/12 The purpose of the switching circuit is to bridge the sig
 nificant power gap between
  []
 
 
-Overfull \hbox (45.9526pt too wide) in paragraph at lines 27--28
+Overfull \hbox (45.9526pt too wide) in paragraph at lines 25--26
 \TU/Cambria(0)/m/n/12 circuitry is required to safely step down power for the l
 ogic and allow the microcontroller
  []
 
 
-Overfull \hbox (3.29576pt too wide) in paragraph at lines 27--28
+Overfull \hbox (3.29576pt too wide) in paragraph at lines 25--26
 \TU/Cambria(0)/m/n/12 to switch the electromagnet without sustaining damage. Fi
 gure 5.2[] below shows
  []
@@ -2718,67 +2718,67 @@ File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
 e bmp)
 <../../../../../../../../../Downloads/Wiring Diagram.png>
 
-Overfull \hbox (2.36064pt too wide) in paragraph at lines 36--37
+Overfull \hbox (2.36064pt too wide) in paragraph at lines 34--35
 \TU/Cambria(0)/m/n/12 implemented. Its purpose is to reduce the [][] supply to 
 a safe operating voltage
  []
 
 
-Overfull \hbox (22.81897pt too wide) in paragraph at lines 38--39
+Overfull \hbox (22.81897pt too wide) in paragraph at lines 36--37
 \TU/Cambria(0)/m/n/12 metal-oxide-semiconductor field-effect transistor (MOSFET
 ) is utilised as a low-side
  []
 
 
-Overfull \hbox (41.76215pt too wide) in paragraph at lines 38--39
+Overfull \hbox (41.76215pt too wide) in paragraph at lines 36--37
 \TU/Cambria(0)/m/n/12 signal from the microcontroller[] and use it to safely tu
 rn the high-current electromagnet
  []
 
 
-Overfull \hbox (21.42265pt too wide) in paragraph at lines 40--41
+Overfull \hbox (21.42265pt too wide) in paragraph at lines 38--39
 \TU/Cambria(0)/m/n/12 and protective of the MOSFET, including the [][] gate res
 istor, the [][] pull-down
  []
 
 [26]
-Overfull \hbox (12.5304pt too wide) in paragraph at lines 46--47
+Overfull \hbox (12.5304pt too wide) in paragraph at lines 44--45
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
  []
 
 
-Overfull \hbox (23.84602pt too wide) in paragraph at lines 46--47
+Overfull \hbox (23.84602pt too wide) in paragraph at lines 44--45
 \TU/Cambria(0)/m/n/12 (encoder), and the control software for reliable operatio
 n. The software architecture
  []
 
 
-Overfull \hbox (9.22037pt too wide) in paragraph at lines 46--47
+Overfull \hbox (9.22037pt too wide) in paragraph at lines 44--45
 \TU/Cambria(0)/m/n/12 hierachy to manage real-time monitoring and actuation pro
 cesses. This hierarchy
  []
 
 
-Overfull \hbox (37.08598pt too wide) in paragraph at lines 51--52
+Overfull \hbox (37.08598pt too wide) in paragraph at lines 49--50
 \TU/Cambria(0)/m/n/12 angular displacement data from the microcontroller for lo
 gging and visualisation. 
  []
 
 
-Overfull \hbox (18.09758pt too wide) in paragraph at lines 54--55
+Overfull \hbox (18.09758pt too wide) in paragraph at lines 52--53
 []\TU/Cambria(0)/m/n/12 To fulfill the system’s FRs, the microcontroller’s pino
 ut is configured to interface
  []
 
 [27]
-Overfull \hbox (20.48195pt too wide) in paragraph at lines 56--57
+Overfull \hbox (20.48195pt too wide) in paragraph at lines 54--55
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
  []
 
 
-Overfull \hbox (20.88268pt too wide) in paragraph at lines 58--59
+Overfull \hbox (20.88268pt too wide) in paragraph at lines 56--57
 []\TU/Cambria(0)/m/n/12 The control strategy implemented for the electromagneti
 c brake is an open-loop,
  []
