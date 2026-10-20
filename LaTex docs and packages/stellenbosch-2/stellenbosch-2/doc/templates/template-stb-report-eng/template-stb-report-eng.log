@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  19 OCT 2026 22:32
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  20 OCT 2026 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1938,64 +1938,89 @@ Overfull \hbox (13.41982pt too wide) in paragraph at lines 18--27
  [][] 
  []
 
+
+Overfull \hbox (3.14919pt too wide) in paragraph at lines 36--46
+ [][] 
+ []
+
 [10
 
 
 
 
 ]
-Overfull \hbox (1.13356pt too wide) in paragraph at lines 37--47
- [][] 
+Overfull \hbox (2.33595pt too wide) in paragraph at lines 50--52
+\TU/Cambria(0)/m/n/12 with joint operation. FRs are categorised into primary an
+d derived FRs, in which: 
  []
 
 File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
 [11]
-Overfull \hbox (1.49472pt too wide) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/Cambria(0)/m/n/12 FR_-01, FR_-05,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/Cambria(0)/m/n/12 FR_-01, FR_-05,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/Cambria(0)/m/n/12 FR_-02, FR_-06,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/Cambria(0)/m/n/12 FR_-03, FR_-04,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/Cambria(0)/m/n/12 FR_-01, FR_-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\TU/Cambria(0)/m/n/12 FR_-05, FR_-06,
+ []
+
+
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 82--96
 \TU/Cambria(0)/m/n/12 functions[]. The TPMs, listed in Table 3.4[], were derive
 d from the results obtained
  []
 
 
-Overfull \hbox (21.77774pt too wide) in paragraph at lines 90--99
- [][] 
- []
-
-
-Overfull \hbox (0.68867pt too wide) in paragraph at lines 101--102
-\TU/Cambria(0)/m/n/12 model and static loading requirements. The following subs
-ections, Section 3.4.1
- []
-
-
-Overfull \hbox (2.16087pt too wide) in paragraph at lines 101--102
-\TU/Cambria(0)/m/n/12 to 3.4.5, provide detailed derivations, calculations, and
- mechanical justifications
+Overfull \hbox (8.29329pt too wide) in paragraph at lines 97--98
+[]\TU/Cambria(0)/m/n/12 The following subsections, Section 3.4.1 to 3.4.5, prov
+ide detailed calculations
  []
 
 [12]
-Overfull \hbox (4.55421pt too wide) in paragraph at lines 109--110
+Overfull \hbox (4.55421pt too wide) in paragraph at lines 105--106
 \TU/Cambria(0)/m/n/12 Minute bearing play and shaft imperfections can cause the
  joint to wobble during
  []
 
 
-Overfull \hbox (10.11217pt too wide) in paragraph at lines 111--112
-\TU/Cambria(0)/m/n/12 manufacturer precision tolerance for radial internal clea
-rance and run-out. These
+Overfull \hbox (3.42857pt too wide) in paragraph at lines 107--108
+\TU/Cambria(0)/m/n/12 for radial internal clearance and run-out. These paramete
+rs are used to calculate
  []
 
 
-Overfull \hbox (22.17484pt too wide) in paragraph at lines 121--122
-\TU/Cambria(0)/m/n/12 only track single-axis motion without off-axis tilt, whic
-h will preserve D-H kinematic
- []
-
-
-Overfull \hbox (1.54497pt too wide) in paragraph at lines 125--126
+Overfull \hbox (1.54497pt too wide) in paragraph at lines 119--120
 \TU/Cambria(0)/m/n/12 under a maximum gravity-induced cantilever moment without
  unexpected drift. 
+ []
+
+
+Overfull \hbox (3.34966pt too wide) in paragraph at lines 121--122
+[]\TU/Cambria(0)/m/n/12 Figure 3.2[] depicts the free-body diagram used to calc
+ulate the holding torque. 
  []
 
 File: ../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.1
@@ -2003,29 +2028,68 @@ File: ../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.1
 <../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12.jpe
 g>
 [13]
-Overfull \hbox (6.35039pt too wide) in paragraph at lines 151--152
-\TU/Cambria(0)/m/n/12 system from meeting single-joint angular precision target
-s. Establishing TPM_-04
+Overfull \hbox (14.55539pt too wide) in paragraph at lines 137--139
+\TU/Cambria(0)/m/n/12 By achieving this holding torque, the position-holding me
+chanism will successfully
  []
 
 
-Overfull \hbox (15.23468pt too wide) in paragraph at lines 153--154
+Overfull \hbox (4.96321pt too wide) in paragraph at lines 142--143
+\TU/Cambria(0)/m/n/12 resolution is too coarse, quantisation error is emphasise
+d, preventing the system
+ []
+
+
+Overfull \hbox (13.44171pt too wide) in paragraph at lines 144--145
 []\TU/Cambria(0)/m/n/12 The required encoder resolution is calculated using the
- worse-case uncertainty
+ worst-case uncertainty
  []
 
 
-LaTeX Warning: Reference `' on page 14 undefined on input line 155.
+Overfull \hbox (9.73865pt too wide) in paragraph at lines 146--147
+[]\TU/Cambria(0)/m/n/12 The minimum number of discrete pulse counts, $[][]$, ac
+ross a full revolution
+ []
 
-) [14]
+
+Overfull \hbox (25.50671pt too wide) in paragraph at lines 149--151
+\TU/Cambria(0)/m/n/12 This pulse count represents the required encoder resoluti
+on to satisfy the worst-case
+ []
+
+
+Overfull \hbox (2.22401pt too wide) in paragraph at lines 149--151
+\TU/Cambria(0)/m/n/12 uncertainty. This can be translated into a bit resolution
+ as shown in Equation 3.4[]. 
+ []
+
+)
+Overfull \hbox (42.05553pt too wide) in paragraph at lines 158--140
+\TU/Cambria(0)/m/n/12 preserve long-term mechanical reliability. This will prev
+ent joint play and measurement
+ []
+
+
+Overfull \hbox (7.33618pt too wide) in paragraph at lines 158--140
+\TU/Cambria(0)/m/n/12 duty cycles. Instead, the baseline requirement, $[][] [] 
+[][][][]$, is established
+ []
+
+[14] [15]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
 Chapter 4.
+
+Overfull \hbox (23.02531pt too wide) in paragraph at lines 5--6
+\TU/Cambria(0)/m/n/12 mechanical solutions, and different mechanisms were evalu
+ated for implementation
+ []
+
 File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 1.jpg>
-[15
+[16
 
 
 
@@ -2051,7 +2115,7 @@ Overfull \hbox (38.51624pt too wide) in paragraph at lines 31--33
 o implement an electromagnetic
  []
 
-[16]
+[17]
 File: ../../../../../../Building the joint/Concept 2.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 2.jpg>
@@ -2061,7 +2125,7 @@ Overfull \hbox (24.5399pt too wide) in paragraph at lines 43--44
 f the following evaluation
  []
 
-[17]
+[18]
 Overfull \hbox (18.09184pt too wide) in paragraph at lines 51--53
 \TU/Cambria(0)/m/n/12 maximise the joint design’s ability to maintain and/or im
 prove the PCMA’s accuracy.
@@ -2613,13 +2677,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-[18]
+[19]
 Overfull \hbox (14.45123pt too wide) in paragraph at lines 142--143
 \TU/Cambria(0)/m/n/12 and strength. When de-energised, the electromagnetic brak
 e is able to successfully
  []
 
-[19]
+[20]
 Overfull \hbox (0.87923pt too wide) in paragraph at lines 144--145
 \TU/Cambria(0)/m/n/12 functional requirements in Table 4.1[], Table 4.2[] below
 , identifies the components
@@ -2685,7 +2749,7 @@ Underfull \hbox (badness 4819) in paragraph at lines 173--173
 \TU/Cambria(0)/m/n/12 the microcontroller, which is
  []
 
-[20]
+[21]
 File: C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProjec
 t478/Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg Graphic
  file (type bmp)
@@ -2720,7 +2784,7 @@ Overfull \hbox (3.53586pt too wide) in paragraph at lines 197--198
 t from rotating, thereby
  []
 
-[21]
+[22]
 Overfull \hbox (19.44562pt too wide) in paragraph at lines 199--200
 \TU/Cambria(0)/m/n/12 chosen over angular contact bearings due to their cost-ef
 fectiveness and availability
@@ -2732,7 +2796,7 @@ Overfull \hbox (19.39244pt too wide) in paragraph at lines 201--141
 oint subsystem in Figure 4.4[],
  []
 
-[22]
+[23]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
@@ -2752,7 +2816,7 @@ gical, top-down fashion
 File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot001.png>
-[23
+[24
 
 
 
@@ -2793,7 +2857,7 @@ Overfull \hbox (13.5761pt too wide) in paragraph at lines 21--22
 iable, uniform clamping
  []
 
-[24]
+[25]
 Overfull \hbox (28.40074pt too wide) in paragraph at lines 23--24
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
@@ -2844,7 +2908,7 @@ Overfull \hbox (21.42265pt too wide) in paragraph at lines 40--41
 istor, the [][] pull-down
  []
 
-[25]
+[26]
 Overfull \hbox (12.5304pt too wide) in paragraph at lines 46--47
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
@@ -2874,7 +2938,7 @@ Overfull \hbox (18.09758pt too wide) in paragraph at lines 54--55
 ut is configured to interface
  []
 
-[26]
+[27]
 Overfull \hbox (20.48195pt too wide) in paragraph at lines 56--57
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
@@ -2889,7 +2953,7 @@ c brake is an open-loop,
 File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Software_Flowchart.png>
-[27]) [28]
+[28]) [29]
 \openout2 = `chaps-main/chap-design_evaluation_and_testing.aux'.
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
@@ -2918,7 +2982,7 @@ Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
 lted in a four-solenoid
  []
 
-) [29
+) [30
 
 
 
@@ -2928,7 +2992,7 @@ lted in a four-solenoid
 
  (./chaps-main/chap-conclusion.tex
 Chapter 7.
-) [30
+) [31
 
 
 
@@ -2944,7 +3008,7 @@ Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
 ct specifications document
  []
 
-[31
+[32
 
 
 
@@ -2967,7 +3031,7 @@ Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
  the relative rotation between
  []
 
-[32]
+[33]
 Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
 []\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
  model to determine
@@ -2990,7 +3054,7 @@ Overfull \hbox (39.83841pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
-[33]
+[34]
 File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
  bmp)
 <../../../../../../../../../Downloads/screenshot003.png>
@@ -3005,18 +3069,18 @@ pe bmp)
 File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
 pe bmp)
 <../../../../../../../../../Downloads/screenshot001-2.png>
-[34])
+[35])
 Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--147
 []\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
  plotted to show where
  []
 
-[35]
+[36]
 \openout2 = `chaps-append/chap-experiment.aux'.
 
  (./chaps-append/chap-experiment.tex
 Appendix B.
-[36
+[37
 
 
 
@@ -3034,135 +3098,135 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 3>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 3>
- [37
-
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
  [38
 
+
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+<use Updated drawing pack.pdf, page 4>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+<use Updated drawing pack.pdf, page 4>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+<use Updated drawing pack.pdf, page 4>
  [39
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+<use Updated drawing pack.pdf, page 5>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+<use Updated drawing pack.pdf, page 5>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+<use Updated drawing pack.pdf, page 5>
  [40
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+<use Updated drawing pack.pdf, page 6>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+<use Updated drawing pack.pdf, page 6>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+<use Updated drawing pack.pdf, page 6>
  [41
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+<use Updated drawing pack.pdf, page 7>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+<use Updated drawing pack.pdf, page 7>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+<use Updated drawing pack.pdf, page 7>
  [42
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+<use Updated drawing pack.pdf, page 8>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+<use Updated drawing pack.pdf, page 8>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+<use Updated drawing pack.pdf, page 8>
  [43
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 9>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 9>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 9>
  [44
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 10>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 10>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 10>
  [45
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 11>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 11>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 11>
  [46
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 12>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 12>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 12>
  [47
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 13>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 13>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 13>
  [48
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 14>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 14>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 14>
  [49
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 15>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 15>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 15>
  [50
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 16>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 16>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 16>
+ [51
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 17>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 17>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 17>
 
-[51
+[52
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
@@ -3171,106 +3235,106 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 18>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 18>
- [52
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
  [53
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 19>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 19>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 19>
  [54
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 20>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 20>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 20>
  [55
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 21>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 21>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 21>
  [56
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 22>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 22>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 22>
  [57
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 23>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 23>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 23>
  [58
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 24>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 24>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 24>
  [59
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 25>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 25>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 25>
  [60
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 26>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 26>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 26>
  [61
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 27>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 27>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 27>
  [62
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 28>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 28>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 28>
  [63
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+ [64
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
@@ -3279,7 +3343,7 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 30>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 30>
- [64
+ [65
 
 ])
 (./template-stb-report-eng.bbl
@@ -3300,7 +3364,7 @@ Underfull \hbox (badness 3407) in paragraph at lines 42--45
 ling bearings — radial
  []
 
-) [65
+) [66
 
 
 
@@ -3321,19 +3385,16 @@ L3 programming layer <2026-06-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20511 strings out of 467813
- 477377 string characters out of 5427149
- 1041974 words of memory out of 5000000
- 49167 multiletter control sequences out of 15000+600000
+ 20510 strings out of 467813
+ 477354 string characters out of 5427149
+ 1041929 words of memory out of 5000000
+ 49166 multiletter control sequences out of 15000+600000
  631879 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,17n,115p,1738b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,115p,1738b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (80 pages).
+Output written on template-stb-report-eng.pdf (81 pages).

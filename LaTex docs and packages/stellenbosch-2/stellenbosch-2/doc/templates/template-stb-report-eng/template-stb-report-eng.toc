@@ -21,34 +21,34 @@
 \contentsline {section}{\numberline {3.2}Design Independent Parameters}{11}{}%
 \contentsline {section}{\numberline {3.3}Functional Requirements}{11}{}%
 \contentsline {section}{\numberline {3.4}Technical Performance Measures}{12}{}%
-\contentsline {subsection}{\numberline {3.4.1}TPM\_01: Operational Articulation Angle}{12}{}%
+\contentsline {subsection}{\numberline {3.4.1}TPM\_01: Operational Articulation Angle}{13}{}%
 \contentsline {subsection}{\numberline {3.4.2}TPM\_02: Run-Out Tolerance}{13}{}%
 \contentsline {subsection}{\numberline {3.4.3}TPM\_03: Holding Torque}{13}{}%
 \contentsline {subsection}{\numberline {3.4.4}TPM\_04: Encoder Resolution}{14}{}%
-\contentsline {subsection}{\numberline {3.4.5}TPM\_05: Joint Life Cycle}{14}{}%
-\contentsline {chapter}{\numberline {4}Concept Development}{15}{}%
-\contentsline {section}{\numberline {4.1}Concept Generation}{15}{}%
-\contentsline {subsection}{\numberline {4.1.1}Concept One: PCMA Joint with a Locking Dial}{15}{}%
-\contentsline {subsection}{\numberline {4.1.2}Concept Two: PCMA Joint with a Counterbalance Spring}{16}{}%
-\contentsline {subsection}{\numberline {4.1.3}Concept Three: PCMA Joint with an Electromagnetic Brake}{17}{}%
-\contentsline {section}{\numberline {4.2}Concept Evaluation}{17}{}%
-\contentsline {section}{\numberline {4.3}Concept Selection}{19}{}%
-\contentsline {section}{\numberline {4.4}Design Refinement}{21}{}%
-\contentsline {chapter}{\numberline {5}Design Analysis}{23}{}%
-\contentsline {section}{\numberline {5.1}Mechanical Design}{23}{}%
-\contentsline {section}{\numberline {5.2}Electronic Design}{25}{}%
-\contentsline {section}{\numberline {5.3}Software Design}{26}{}%
-\contentsline {chapter}{\numberline {6}Design Evaluation and Testing}{29}{}%
-\contentsline {section}{\numberline {6.1}Prototype Construction}{29}{}%
-\contentsline {subsection}{\numberline {6.1.1}Mechanical Design of Prototype}{29}{}%
-\contentsline {subsection}{\numberline {6.1.2}Electrical Design of Prototype}{29}{}%
-\contentsline {subsection}{\numberline {6.1.3}Software Design of Prototype}{29}{}%
-\contentsline {section}{\numberline {6.2}Safety and Performance Testing}{29}{}%
-\contentsline {subsection}{\numberline {6.2.1}Holding Force Verification}{29}{}%
-\contentsline {subsection}{\numberline {6.2.2}Electrical Safety and Thermal Limits}{29}{}%
-\contentsline {chapter}{\numberline {7}Conclusions}{30}{}%
-\contentsline {chapter}{\numberline {A}Design Calculations}{31}{}%
-\contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{31}{}%
-\contentsline {section}{\numberline {A.2}Error-Propagation Model}{33}{}%
-\contentsline {chapter}{\numberline {B}Drawing Pack}{36}{}%
-\contentsline {chapter}{List of references}{65}{}%
+\contentsline {subsection}{\numberline {3.4.5}TPM\_05: Joint Life Cycle}{15}{}%
+\contentsline {chapter}{\numberline {4}Concept Development}{16}{}%
+\contentsline {section}{\numberline {4.1}Concept Generation}{16}{}%
+\contentsline {subsection}{\numberline {4.1.1}Concept One: PCMA Joint with a Locking Dial}{16}{}%
+\contentsline {subsection}{\numberline {4.1.2}Concept Two: PCMA Joint with a Counterbalance Spring}{17}{}%
+\contentsline {subsection}{\numberline {4.1.3}Concept Three: PCMA Joint with an Electromagnetic Brake}{18}{}%
+\contentsline {section}{\numberline {4.2}Concept Evaluation}{18}{}%
+\contentsline {section}{\numberline {4.3}Concept Selection}{20}{}%
+\contentsline {section}{\numberline {4.4}Design Refinement}{22}{}%
+\contentsline {chapter}{\numberline {5}Design Analysis}{24}{}%
+\contentsline {section}{\numberline {5.1}Mechanical Design}{24}{}%
+\contentsline {section}{\numberline {5.2}Electronic Design}{26}{}%
+\contentsline {section}{\numberline {5.3}Software Design}{27}{}%
+\contentsline {chapter}{\numberline {6}Design Evaluation and Testing}{30}{}%
+\contentsline {section}{\numberline {6.1}Prototype Construction}{30}{}%
+\contentsline {subsection}{\numberline {6.1.1}Mechanical Design of Prototype}{30}{}%
+\contentsline {subsection}{\numberline {6.1.2}Electrical Design of Prototype}{30}{}%
+\contentsline {subsection}{\numberline {6.1.3}Software Design of Prototype}{30}{}%
+\contentsline {section}{\numberline {6.2}Safety and Performance Testing}{30}{}%
+\contentsline {subsection}{\numberline {6.2.1}Holding Force Verification}{30}{}%
+\contentsline {subsection}{\numberline {6.2.2}Electrical Safety and Thermal Limits}{30}{}%
+\contentsline {chapter}{\numberline {7}Conclusions}{31}{}%
+\contentsline {chapter}{\numberline {A}Design Calculations}{32}{}%
+\contentsline {section}{\numberline {A.1}Denavit-Hartenberg Model}{32}{}%
+\contentsline {section}{\numberline {A.2}Error-Propagation Model}{34}{}%
+\contentsline {chapter}{\numberline {B}Drawing Pack}{37}{}%
+\contentsline {chapter}{List of references}{66}{}%
