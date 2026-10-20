@@ -2,12 +2,11 @@
 
 \section{Concept Generation}
 
-The generalised error propagation model was used to derive the TPMs in the development of the joint design. These TPMs guided the research into various mechanical solutions, and different mechanisms were evaluated for implementation to ensure the final design could achieve the required TPMs. Three concepts were generated and evaluated against the FRs and the TPMs, as presented in this section.
+The TPMs derived during the requirement analysis guided the research into various mechanical solutions, and different mechanisms were evaluated for implementation to ensure the final design could achieve the required TPMs. Three concepts were generated and evaluated against the FRs and the TPMs, as presented in this section.
 
 \subsection{Concept One: PCMA Joint with a Locking Dial}
 
-Figure~\ref{fig:concept-1} below shows a PCMA joint with the following internal modifications to implement position-holding capabilities. In the center of the shaft, is a spacer between angular contact bearings, which will allow the shaft to rotate with minimal run-out. Bellville washers and preload nuts are used to secure the bearings in place. On one end, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held secure by the joint housing. This is done to ensure that the relative angular displacement of the shaft with respect to the joint housing is measured. The joint housing is held stationary by the base link and the joint shaft is rotated by the output link. The knob on the other end of the shaft is meant to loosen and/or tighten the preload nuts against the bearings to lock or release the shaft for the output link's rotation.
-
+Figure~\ref{fig:concept-1} below shows a PCMA joint with the following internal modifications to implement position-holding capabilities. In the center of the shaft is a spacer between two angular contact bearings, which will allow the shaft to rotate with minimal run-out. Bellville washers and preload nuts are used to secure the bearings in place. On one end, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held secure by the joint housing. This is done to ensure that the relative angular displacement of the shaft with respect to the joint housing is measured. The joint housing is held stationary by the base link and the joint shaft is rotated by the output link. The knob on the other end of the shaft is meant to loosen and/or tighten the preload nuts against the bearings to lock or release the shaft for the output link's rotation.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"../../../../../../Building the joint/Concept 1"}
@@ -18,7 +17,6 @@ Figure~\ref{fig:concept-1} below shows a PCMA joint with the following internal 
 \subsection{Concept Two: PCMA Joint with a Counterbalance Spring}
 
 Figure~\ref{fig:concept-3} illustrates a PCMA joint with external modifications to implement position-holding. The counterbalance spring produces a lifting force to the upper link via the upper and lower rods. Each rod is pin-connected to a cuff that can be fixed in position along the length of either link using a set screw, thereby holding the position of the joint. The spring between the upper and lower rods is used to increase the range of rotation for the joint. 
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{"../../../../../../Building the joint/Concept 3"}
@@ -28,9 +26,7 @@ Figure~\ref{fig:concept-3} illustrates a PCMA joint with external modifications 
 
 \subsection{Concept Three: PCMA Joint with an Electromagnetic Brake}
 
-Figure~\ref{fig:concept-2} depicts a PCMA with internal modifications to implement an
-electromagnetic brake. In the center of the shaft, two angular contact bearings are fitted in place with the bearing housing and pressed against a shoulder of the shaft by preload nuts and washers. On one side of the shaft, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held stationary by the joint housing. The base link is supported by the joint housing. The electromagnetic brake sits on the other side of the shaft and is also held stationary by the joint housing, however, the brake disc is free to rotate on the joint shaft. When the brake is energised, the air gap between the brake disc and friction plate opens up and the shaft is free to be rotated by the output link. When the brake's power supply is cut off, the air gap closes and the joint is held still.
-
+Figure~\ref{fig:concept-2} depicts a PCMA with internal modifications to implement an electromagnetic brake. In the center of the shaft, two angular contact bearings are fitted in place with the bearing housing and pressed against a shoulder of the shaft by preload nuts and washers. On one side of the shaft, the rotary encoder's shaft is connected to the joint's shaft via a rigid coupling and the encoder's body is held stationary by the joint housing. The base link is supported by the joint housing. The electromagnetic brake sits on the other side of the shaft and is also held stationary by the joint housing, however, the brake disc is free to rotate on the joint shaft. When the brake is energised, the air gap between the brake disc and friction plate opens up and the shaft is free to be rotated by the output link. When the brake's power supply is cut off, the air gap closes and the joint is held still.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"../../../../../../Building the joint/Concept 2"}
@@ -40,16 +36,17 @@ electromagnetic brake. In the center of the shaft, two angular contact bearings 
 
 \section{Concept Evaluation}
 
-The concepts presented in the previous section were determined to be feasible. A qualitative evaluation of the concepts is to be conducted for a full quantitative comparison. This section compares the concepts in terms of the following evaluation criteria (EC):
+The concepts presented in the previous section were determined to be feasible, therefore, a qualitative evaluation of the concepts is to be conducted for a full quantitative comparison. This section compares the concepts in terms of the following evaluation criteria (EC):
 \begin{enumerate}[label=EC\arabic*]
 	\item Load capacity: The ability of the joint design to carry the required holding torque (TPM\_03).
 	\item Operational articulation angle: The ability of the joint design to achieve the full required sweep without interference (TPM\_01).
 	\item Positional stability: The ability of the joint design to maintain position when the position-holding technology is in use (TPM\_02).
-	\item Component availability: The degree to which all required components are available in the mechanical workshop.
-	\item Construction simplicity: The number of distinct components and the ease of assembly and alignment during fabrication.
+	\item Component availability: The degree to which all required components are available in the mechanical workshop (TPM\_04, TPM\_05).
+	\item Construction simplicity: The number of distinct components and the ease of assembly and alignment during fabrication (TPM\_04, TPM\_05).
 \end{enumerate}
-EC1 was derived from TPM\_03 and determined to be the most important EC as the joint will be ineffective if it is unable to achieve the holding torque dictated by TPM\_03. EC2 was derived from TPM\_01 as the chosen joint design must not inhibit the PCMA's existing range of motion once implemented. EC3 was derived from TPM\_02  as any internal sources of error must be minimised to maximise the joint design's ability to maintain and/or improve the PCMA's accuracy. EC4 and EC5 was included as a practical design consideration given the manufacturing capabilities of the mechanical workshop and the project's timeline and budget (FR\_06 and FR\_07).
-\\\noindent Table~\ref{tab:concept_evaluation_portrait} below, presents a comparison of the generated concepts. To rate the concepts, one of them is marked as the DATUM and the other two are awarded a $+1$ if the other concept is stronger or $-1$ if it is weaker. Each rating is motivated in the table as well.
+EC1 was derived from TPM\_03 and determined to be the most important EC as the joint will be ineffective if it is unable to achieve the holding torque dictated by TPM\_03. EC2 was derived from TPM\_01 as the chosen joint design must not inhibit the PCMA's existing range of motion once implemented. EC3 was derived from TPM\_02  as any internal sources of error must be minimised to maximise the joint design's ability to maintain and/or improve the PCMA's accuracy. EC4 and EC5 was included as a practical design consideration given the manufacturing capabilities of the mechanical workshop and the project's timeline and budget in consideration of TPM\_04 and TPM\_05 (FR\_06 and FR\_07).
+
+Table~\ref{tab:concept_evaluation_portrait} below, presents a comparison of the generated concepts. To rate the concepts, one of them is marked as the DATUM and the other two are awarded a $+1$ if the other concept is stronger or $-1$ if it is weaker. Each rating is motivated in the table as well.
 
 \begingroup % Keeps the sizing commands isolated to this table
 \scriptsize 
@@ -91,37 +88,32 @@ EC1 was derived from TPM\_03 and determined to be the most important EC as the j
 	% ==========================================
 	
 	EC1 & Load capacity & 5 & -1 & 
-	The capability of the design achieving the exact holding torque required is entirely dependent on the operator's strength and consistency, otherwise the joint design is highly susceptible to slipping under load. & 
-	& 
-	Datum: The set screw mechanism on the support cuffs provides a friction-based hold, which establishes the baseline for evaluating the holding torque FR. & 
+	The capability of the design achieving the exact holding torque required is dependent on the operator's strength and consistency, otherwise the joint design is susceptible to slipping under load. & 
+	&  & 
 	+1 & 
-	An adequately specified electromagnetic brake can consistently deliver a static holding torque that meets the holding torque FR. This removes human reliability (in comparison with concept 1) and ensures reliable load capability when the joint is powered.\\ \hline
+	An apprporiately sized electromagnetic brake can deliver a consistent, static holding torque that meets the FR\_02. This removes human reliability (in comparison with concept 1) and ensures reliable load capability when the joint is powered.\\ \hline
 	
 	EC2 & Operational articulation angle & 5 & +1 & 
 	The locking mechanism is entirely internal. Because there are no external linkages, the joint can achieve its full required \SI{90}{\degree} sweep without any physical interference. & 
-	& 
-	Datum: The external arrangement of the upper and lower rods, including the spring casing, limit the joint's movement. This obstruction serves as the baseline limitation for the required  articulation sweep.& 
+	& & 
 	+1 & 
 	Similarly to concept 1, the electromagnetic brake is neatly integrated with the joint shaft, which allows for uninhibited articulation\\ \hline
 	
 	EC3 & Positional stability & 5 & -1 & 
-	Manually twisting the dial introduces asymmetric axial and radial loads onto the joint shaft. This can cause deflections that violate the run-out tolerance FR and degrade the PCMA's spatial accuracy.& 
-	& 
-	Datum: Fixing the joint's position by tightening set screws on the external cuffs introduces off-center loads to the joint shaft. This represents the baseline for positional deflection and run-out error.& 
+	Manually twisting the dial introduces asymmetric axial and radial loads onto the joint shaft. This can cause deflections that violate the FR\_01 and FR\_05 and degrade the PCMA's spatial accuracy.& 
+	& & 
 	+1 & 
-	The electromagnetic brake applies a uniform, symmetric clamping force between the brake disc and friction plate. This eliminates manual influence during the locking process, as well as, minimises parasitic deflection and protects the system's positional accuracy. \\ \hline
+	The electromagnetic brake applies a uniform, symmetric clamping force between the brake disc and friction plate. This eliminates manual influence during the locking process and minimises parasitic deflection and protects the system's positional accuracy. \\ \hline
 	
 	EC4 & Component availabilty & 5 & +1 & 
 	The required components (threaded shafts, preload nuts, bellville washers) are items that either readily available or easily machined in the university workshop. & 
-	& 
-	Datum: The design relies on standard mechanical items such as springs, rods, and set screws, which defines the baseline for material availability due these components being accessible in the mechanical workshop. & 
+	& & 
 	0 & 
 	While electromagnetic brakes are commercially available, specific ordering is required, lead times, and budget allocation compared to the raw materials used  in the datum design.\\ \hline
 	
 	EC5 & Construction simplicity & 5 & 0 & 
 	The mechanical assembly is relatively straightforward and on the level of simplicity as the datum design. However, achieving accurate bearing alignment under varying manual requires extra care. & 
-	& 
-	Datum: Assembling the external support cuffs, rods, and pin-connections require a standard level of manual alignment and fabrication, setting the baseline for manufacturing complexity. & 
+	&  & 
 	-1 & 
 	This is the most complex design to implement. It requires precise mechanical calibration of the encoder, as well as integration of electrical wiring and control circuitry for the solenoid.\\ \hline
 	
@@ -139,10 +131,9 @@ Based on the qualitative evaluation presented under Section 4.2., Concept 3 is s
 
 The motivation behind selecting this concept is its superior performance across the most critical functional criteria, specifically load capacity (EC1) and positional stability (EC3).
 
-The electromagnetic brake provides a consistent and reliable static hold, in contrast to the manual locking dial which relies heavilty on human reliability and strength. When de-energised, the electromagnetic brake is able to successfully meet the strict holding force requirement by applying a uniform clamping force between the brake disc and friction plate. The uniform clamping eliminates off-center loads and minimises parasitic deflections, thereby preserving the tight run-out tolerances required for the PCMA's spatial accuracy. In addition to this, the electromagnet is intergrated internally on the joint shaft, ensuring that the joint design does not impede the joint's physical movement. This allows te arm to achieve the full required \SI{90}{\degree} operational articulation sweep without interference (EC2).
+The electromagnetic brake provides a consistent and reliable static hold, in contrast to the manual locking dial which relies heavily on human reliability and strength. When de-energised, the electromagnetic brake is able to successfully meet the strict holding force requirement by applying a uniform clamping force between the brake disc and friction plate. The uniform clamping eliminates off-center loads and minimises parasitic deflections, thereby preserving tight run-out tolerances required for the PCMA's spatial accuracy. In addition to this, the electromagnet is intergrated internally on the joint shaft, ensuring that the joint design does not impede the joint's physical movement. This allows the arm to achieve the required \SI{90}{\degree} operational articulation sweep without interference (EC2).
 
 To confirm that the chosen selected concept is well suited to perform the functional requirements in Table~\ref{tab:concept_evaluation_portrait}, Table~\ref{tab:concept_functional_mapping} below, identifies the components to fulfilling the respective functions.
-
 \begin{xltabular}{\textwidth}{|>{\raggedright\arraybackslash}p{3cm}|>{\raggedright\arraybackslash}p{4cm}|X|}
 	\caption{Concept Functional Mapping}
 	\label{tab:concept_functional_mapping} \\
@@ -174,32 +165,23 @@ To confirm that the chosen selected concept is well suited to perform the functi
 
 \section{Design Refinement}
 
-The conceptual design of the electromagnetic joint was refined into a 3D CAD assembly to verify spatial feasibility, component scaling, and integration into the wider system of interest, as seen in Figure~\ref{fig:rough-joint-design}.
-
+The conceptual design of the electromagnetic joint was refined into a 3D CAD assembly to verify spatial feasibility and integration into the wider system of interest, as seen in Figure~\ref{fig:screenshot-2026-10-20-203105}.
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{0.2\textwidth}
-		\centering
-		\includegraphics[width=\linewidth]{"C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProject478/Building the joint/Joint pictures/Screenshot 2026-08-19 140827.jpg"}
-	\end{minipage}\hspace{1cm}
-	\begin{minipage}{0.45\textwidth}
-		\centering
-		\includegraphics[width=\linewidth]{"C:/Users/matot/OneDrive - Stellenbosch University/2026/MechatronicsProject478/Building the joint/Joint pictures/Screenshot 2026-08-19 140943.jpg"}
-	\end{minipage}
+	\includegraphics[width=0.9\linewidth]{"../../../../../../Building the joint/Joint pictures/Screenshot 2026-10-20 203105"}
 	\caption{Selected Concept Design}
-	\label{fig:rough-joint-design}
+	\label{fig:screenshot-2026-10-20-203105}
 \end{figure}
+The design was modelled to ensure that the main components are correctly sized and positioned to integrate seamlessly within the PCMA's physical constraints. The model also ensures that the means of operation and load paths are clearly defined. This ensures the design does not impede the required \SI{90}{\degree} operational articulation sweep.The primary mechanical requirement for the refined mechanism is to deliver a relaible static holding torque of \SI{7.725}{Nm}.
 
-The design was modelled to ensure that the main components are correctly sized and positioned to integrate seamlessly within the PCMA's physical constraints. The model also ensures that the means of operation and load paths are clearly defined. This ensures the design does not impede the required \SI{90}{\degree} operational articulation sweep.
+To achieve this, the electromagnetic brake is held stationary by the joint housing, with a loose fit on the joint shaft. The brake disc is fixed to the rotating shaft via a key and the friction plate is connected to the pressure tabs on the elctromagnetic brake and is held stationary as a result. Under normal operation, the electromagnet exerts a force on the friction, which retracts friction plate via the pressure tabs in the electromagnetic brake assembly. This creates an air gap between the brake disc and friction plate to allow the shaft to rotate freely about its bearings. The shaft is rotated by a lightweight output link\footnote{The output link represents the distal link of the PCMA arm.}, which is connected to the shaft through a dowel pin.
 
-The primary mechanical requirement for the refined mechanism is to deliver a relaible static holding torque of \SI{7.725}{Nm}. To achieve this, the electromagnetic brake is held stationary by the joint housing, with a loose fit on the same shaft as the rest of the joint. Under normal measurement operation, the electromagnet is energised with an operating current of \SI{12}{A}. The brake disc is fixed to rotate with the shaft via a key and the friction plate is connected to the pressure tabs on the elctromagnetic brake and is held stationary as a result. The force exerted as a result, retracts the pressure tabs and friction plate, thereby creating an air gap between the brake disc and friction plate to allow the shaft to rotate freely its bearings. The shaft is rotated by a lightweight output link\footnote{The output link represents the distal link of the PCMA arm.}, which is connected to the shaft through a dowel pin.
+The position-holding capabilites of the brake are activated by shutting off power to the electromagnet. The pressure tabs return to their resting position and force the friction plate against the brake disc. This is how the umiform clamping force is physically implemented to stop the shaft from rotating, thereby holding the joint's position. This configuration also ensures uniform application of the holding torque to minimise parasitic radial deflections.
 
-The position-holding capabilites of the brake are activated by shutting of power to the electromagnet. The pressure tabs return to their resting position and force the friction plate against the brake disc. This is how the umiform clamping force is physically implemented to stop the shaft from rotating, thereby holding the joint's position. This configuration ensure uniform application of the holding torque to minimise parasitic radial deflections. This further ensures that the run-out tolrence is maintained for the PCMA's spatial accuracy.
+The design also accomodates the necessary sensing and structural support subsystems. A high-resolution rotary encoder is connected to the opposite end of the joint shaft via a rigid coupling. The encoder's body is supported by the joint housing, which encases the joint assembly and held stationary by the base link\footnote{The base link represents the proximal link of the PCMA arm.}. This ensures that any angular displacement of the shaft, relative to the stationary joint housing, is accurately captured and transmitted to the control circuitry. The shaft is supported by two roller bearings, which were chosen over angular contact bearings due to their cost-effectiveness and market availability in comparison. These bearings are mounted onto the shaft with an interference fit and shaft collars to prevent axial slipping. In addition to this, the shaft was designed with shoulders to maintain spacing, while the bearing housing was integrated into the joint housing to further eliminate axial play.
 
-The design also accomodates the necessary sensing and structural support subsystems. A high-resolution rotary encoder is connected to the opposite end of the joint shaft via a rigid coupling. The encoder's body is secured to the joint housing, which encases the entire joint assembly and held stationary by the base link\footnote{The base link represents the proximal link of the PCMA arm.}. This ensures that any angular displacement of the shaft, relative to the stationary joint housing, is accurately captured and transmitted to the control circuitry. The shaft is supported by two roller bearings, which were chosen over angular contact bearings due to their cost-effectiveness and availability in the market in comparison. These bearings are mounted onto the shaft with an interference fit and shaft collars to prevent axial slipping. In addition to this, the shaft was designed with shoulders to maintain spacing, while the bearing housing was integrated into the joint housing to further eliminate axial play.
-
-Below is a parts list that corresponds to the refined joint subsystem in Figure~\ref{fig:rough-joint-design}, excluding standard/trivial fasteners:
-\begin{table}[htbp]
+Below is a parts list that corresponds to the refined joint subsystem in Figure~\ref{fig:screenshot-2026-10-20-203105}, excluding standard/trivial fasteners:
+\begin{table}[H]
 	\centering
 	\caption{Refined Design Parts List}
 	\label{tab:parts_list}
@@ -213,12 +195,9 @@ Below is a parts list that corresponds to the refined joint subsystem in Figure~
 		4 & Shaft collars & 2 \\ \hline
 		5 & Bearing housing & 2 \\ \hline
 		6 & Electromagnetic brake assembly & 2 \\ \hline
-		7 & Rigid shaft coupling & 1 \\ \hline
-		8 & Rotary encoder & 1 \\ \hline
-		9 & Base link & 1 \\ \hline
-		10 & Joint housing & 1 \\ \hline
-		11 & Friction plate & 1 \\ \hline
-		12 & Brake disc & 1 \\
+		7 & Rotary encoder & 1 \\ \hline
+		8 & Base link & 1 \\ \hline
+		9 & Joint housing & 1 \\
 		\hline
 	\end{tabularx}
 \end{table}
