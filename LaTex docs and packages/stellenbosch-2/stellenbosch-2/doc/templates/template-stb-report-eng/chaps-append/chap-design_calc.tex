@@ -1,4 +1,94 @@
 \chapter{Design Calculations}
 \label{ch:design_calculations}
 
-% Insert detailed kinematic/electromagnetic derivations, calculations, MATLAB/Python scripts, etc.
+This appendix presents the quantitative structural and electromagnetic sizing calculations for the PCMA joint mechanism.
+
+\section{Articulating Link Mass and Holding Torque Verification}
+\label{sec:link_mass_calc}
+
+To verify whether TPM\_03 remains valid for the finalized joint geometry, the mass of the articulating link assembly, comprising the aluminium link pipe, probe hub, and steel measuring probe, was calculated, under Equation~\ref{eq:Articulation_link_weight_app} below. An aluminium density of $\rho_{\text{Al}} = \SI{2700}{kg/m^3}$ and a steel density of $\rho_{\text{steel}} = \SI{7850}{kg/m^3}$ was assumed, using the FBD and safety factor ($\text{SF} = 1.5$) established under Section~3.4.3 \citep{Hibbler:2017}.
+
+\begin{equation}
+	\label{eq:Articulation_link_weight_app}
+	\begin{aligned}
+		m_{\text{link}} &= \rho_{\text{Al}} \cdot V_{\text{pipe}} + \rho_{\text{Al}} \cdot V_{\text{hub}} + \rho_{\text{steel}} \cdot V_{\text{probe}} \\
+		&= \rho_{\text{Al}} \left[ \pi (r_o^2 - r_i^2) L_{\text{pipe}} + \pi (r_{\text{top}}^2 + r_{\text{bottom}}^2) L_{\text{hub}} \right] + \rho_{\text{steel}} \left[ \pi r_{\text{probe}}^2 L_{\text{probe}} \right] \\
+		&= 2700 \cdot \Big[ \pi(0.016^2 - 0.013^2)(0.55) + \pi(0.017^2 + 0.013^2)(0.01) \Big] \\
+		&\quad + 7850 \cdot \Big[ \pi(0.005^2)(0.1) \Big] \\
+		&= \SI{0.4659}{kg} \\
+		\therefore T_{\text{holding, verified}} &= \text{SF} \cdot m_{\text{link}} \cdot g \cdot l_{\text{link}} \\
+		&= (1.5)(0.4659\,\mathrm{kg})(9.81\,\mathrm{m/s^2})(0.325\,\mathrm{m}) \\
+		&= \SI{2.228}{N\cdot m}
+	\end{aligned}
+\end{equation}
+
+Although Equation~\ref{eq:Articulation_link_weight_app} confirms that the physical link mass results in a required holding torque of \SI{2.228}{N.m}, the joint brake was conservatively sized against the upper-bound specification requirement of $T_{\text{holding}} = \SI{7.725}{N.m}$.
+
+\section{Electromagnetic Brake Sizing and Axial Clamping Force}
+\label{sec:brake_sizing_calc}
+
+An outer diameter of $d_o = \SI{0.1}{m}$ and inner bore diameter of $d_i = \SI{0.022}{m}$ were chosen for the brake disc and friction plate interface based on the material available in the workshop and mechatronics laboratory, namely the mild steel piping and bars. 
+
+Assuming uniform contact pressure across the rigid wood-on-steel friction interface ($\mu = 0.35$), the required axial clamping force $F_{\text{clamping}}$ to hold $T_{\text{holding}} = \SI{7.725}{N.m}$ is derived from Shigley's uniform pressure disk brake model \citep{Shigley:2015}:
+
+\begin{equation}
+	\label{eq:F_holding_app}
+	\begin{aligned}
+		T_{\text{holding}} &= \frac{2}{3} \mu F_{\text{clamping}} \left( \frac{r_o^3 - r_i^3}{r_o^2 - r_i^2} \right) \\[1ex]
+		\Rightarrow F_{\text{clamping}} &= \frac{3 \cdot T_{\text{holding}}}{2 \cdot \mu }\left( \frac{r_o^3 - r_i^3}{r_o^2 - r_i^2} \right) \\
+		&= \frac{3 \cdot (7.725)}{2 \cdot (0.35) } \left( \frac{0.050^2 - 0.011^2}{0.050^3 - 0.011^3} \right)\\
+		&= \SI{636.88}{N}
+	\end{aligned}
+\end{equation}
+
+\section{Circuit Sizing and Electromagnet Winding Derivations}
+\label{app:design_calc}
+
+\subsection{Component Voltage, Current, and Power Distribution}
+Table~\ref{tab:circuit_operating_params} details the operating parameters (obtained from the component's respective datasheets) across each node during active steady-state operation at $I_{\text{total}} = 8\text{ A}$.
+
+\begin{table}[h]
+	\centering
+	\caption{Electrical Operating Parameters Across Subsystem Nodes}
+	\label{tab:circuit_operating_params}
+	\resizebox{\linewidth}{!}{%
+		\begin{tabular}{lccc}
+			\hline
+			\textbf{Subsystem / Component} & \textbf{Node Voltage ($V$)} & \textbf{Operating Current} & \textbf{Power ($W$)} \\ \hline
+			STM32 GPIO Signal               & $3.3\text{ V}_{\text{DC}}$    & $2.6\text{ mA}$            & $8.6\text{ mW}$      \\
+			2N3904 Pre-Driver Base         & $0.7\text{ V}_{\text{BE}}$    & $2.6\text{ mA}$            & $1.8\text{ mW}$      \\
+			2N3904 Collector ($V_{CE}$)    & $0.2\text{ V}_{\text{sat}}$   & $5.4\text{ mA}$            & $1.1\text{ mW}$      \\
+			IRF640N Gate ($V_{GS}$)        & $12.0\text{ V}_{\text{DC}}$   & $< 1\text{ mA}$            & $< 10\text{ mW}$     \\
+			Solenoids (4$\times$ Parallel)  & $24.0\text{ V}_{\text{DC}}$   & $8.0\text{ A}$ (total)     & $192.0\text{ W}$     \\
+			XL7015 DC-DC Converter         & $24.0\text{ V}_{\text{DC}}$   & $0.12\text{ A}$            & $2.88\text{ W}$      \\
+			GTS06 Optical Encoder          & $5.0\text{ V}_{\text{DC}}$    & $60\text{ mA}$             & $0.30\text{ W}$      \\
+			IRF640N MOSFET Drain-Source    & $1.2\text{ V}_{\text{drop}}$  & $8.0\text{ A}$             & $9.60\text{ W}$      \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+\subsection{Electromagnet Winding Design based on Clamping Force}
+To determine the required turn count ($N$) per solenoid, the total magnetic force ($F_{\text{mag}}$) generated by the electromagnet is equated directly to the required normal clamping force ($F_{\text{clamping}}$) of the brake.
+
+\subsubsection{Air Gap Magnetic Flux Density ($B$)}
+The magnetic force exerted across the effective cross-sectional area of the electromagnetic brake $A_e = \pi(0.1)^2 = \SI{31.42e-3}{m^2}$ with a working air gap $g = 0.3\text{ mm} = 3 \times 10^{-4}\text{ m}$ is expressed by Maxwell's stress tensor from Equation~\ref{eq:24rwkg} under Section 2.4.2.
+
+Solving for the required magnetic flux density $B$, under Equation~\ref{eq:kvbf}:
+\begin{equation}
+	\label{eq:kvbf}
+	B = \sqrt{\frac{2 \mu_0 \cdot \mathcal{F}}{A_e}} = \sqrt{\frac{2 \cdot (4\pi \times 10^{-7}\text{ H/m}) \cdot 636.88\text{ N}}{31.42 \times 10^{-3}\text{ m}^2}} \approx 0.2257\text{ T}
+\end{equation}
+
+\subsubsection{Turn Sizing ($N$) per Solenoid}
+Neglecting iron core reluctance ($\mu_{\text{core}} \gg \mu_0$), the total Magnetomotive Force (MMF) required across the air gap $g$ for a parallel circuit setup is stated under Equation~\ref{eq:24rwkg} under Section 2.4.2, where $\mathcal{F}=F_{\text{clamping}}$.
+
+Therefore, solving for the minimum required turns per solenoid, as seen in Equation~\ref{eq:jvzljnb}:
+\begin{equation}
+	\label{eq:jvzljnb}
+	N_{\text{solenoid}} = \sqrt{\frac{\mathcal{F}(2g^2)}{kI_{\text{total}^2}\mu_0A_g}} = \sqrt{\frac{636.88[2(3\times10^{-3})^2]}{4(8)^2(4\pi \times10^{-7})(\pi(0.015)^2)}}\approx \SI{225}{\text{coils per solenoid}}
+\end{equation}
+
+Applying a $15\%$ safety factor to compensate for magnetic flux leakage and core reluctance losses:
+\begin{equation}
+	N_{\text{design}} = \lceil 225 \times 1.15 \rceil = 259\text{ turns per solenoid}
+\end{equation}

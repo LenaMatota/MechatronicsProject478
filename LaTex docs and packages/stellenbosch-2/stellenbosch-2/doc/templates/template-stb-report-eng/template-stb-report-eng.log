@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 OCT 2026 17:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 OCT 2026 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,6 +1622,12 @@ Overfull \hbox (2.25754pt too wide) in paragraph at lines 16--16
 e FaroArm Working 
  []
 
+
+Overfull \hbox (6.34682pt too wide) in paragraph at lines 31--31
+ [][] []\TU/Cambria(0)/m/n/12 Wiring and Interconnect Diagram for the Full-Scal
+e Joint Mechanism [][]  
+ []
+
 )
 \tf@lof=\write4
 \openout4 = `template-stb-report-eng.lof'.
@@ -2180,37 +2186,37 @@ File: ../../../../../../../../../Downloads/screenshot001 Fmag1sat.png Graphic f
 ile (type bmp)
 <../../../../../../../../../Downloads/screenshot001 Fmag1sat.png>
 
-Underfull \hbox (badness 4429) in paragraph at lines 265--265
+Underfull \hbox (badness 4429) in paragraph at lines 267--267
 []\TU/Cambria(0)/m/n/10.95 Figure 2.10: |Progression of Magnetic Flux Saturatio
 n and Hysteresis Domain
  []
 
 
-Overfull \hbox (11.27014pt too wide) in paragraph at lines 260--267
-\TU/Cambria(0)/m/n/12 Ferromagnetic core materials exhibit a non-linear B-H mag
-netization relationship
+Overfull \hbox (29.27014pt too wide) in paragraph at lines 263--269
+[]\TU/Cambria(0)/m/n/12 Ferromagnetic core materials exhibit a non-linear B-H m
+agnetization relationship
  []
 
 
-Overfull \hbox (15.08391pt too wide) in paragraph at lines 260--267
+Overfull \hbox (15.08391pt too wide) in paragraph at lines 263--269
 \TU/Cambria(0)/m/n/12 governed by the alignment of internal magnetic domains in
  the metal, as illustrated
  []
 
 [15]
-Overfull \hbox (8.11092pt too wide) in paragraph at lines 268--269
+Overfull \hbox (8.11092pt too wide) in paragraph at lines 270--271
 \TU/Cambria(0)/m/n/12 the applied field ([]). Beyond $[][]$, further increases 
 in coil excitation ($[][]$) produce
  []
 
 
-Overfull \hbox (24.51482pt too wide) in paragraph at lines 270--271
+Overfull \hbox (24.51482pt too wide) in paragraph at lines 272--273
 \TU/Cambria(0)/m/n/12 field corresponding to the coercive force at point $[][]$
  ([]). To ensure rapid mechanical
  []
 
 
-Overfull \hbox (8.62654pt too wide) in paragraph at lines 270--271
+Overfull \hbox (8.62654pt too wide) in paragraph at lines 272--273
 \TU/Cambria(0)/m/n/12 narrow hysteresis loop, characterized by low coercive for
 ce ($[][] [] []$) and minimal
  []
@@ -2219,7 +2225,7 @@ File: ../../../../../../../../../Downloads/screenshot001 Fmag1sat2.png Graphic
 file (type bmp)
 <../../../../../../../../../Downloads/screenshot001 Fmag1sat2.png>
 
-Overfull \hbox (1.5136pt too wide) in paragraph at lines 274--282
+Overfull \hbox (1.5136pt too wide) in paragraph at lines 276--284
 \TU/Cambria(0)/m/n/12 to allow higher current $[]$, but increases total coil vo
 lume and thermal dissipation
  []
@@ -2957,154 +2963,275 @@ gical, top-down fashion
 File: ../../../../../../../../../Downloads/Screenshot 2026-10-21 103108.png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Screenshot 2026-10-21 103108.png>
+
+Overfull \hbox (15.57982pt too wide) in paragraph at lines 7--13
+\TU/Cambria(0)/m/n/12 Figure 5.1[] shows the 3D CAD assembly of the electromagn
+etic brake joint produced
+ []
+
 [32
 
 
 
 
 ]
-Overfull \hbox (20.82896pt too wide) in paragraph at lines 14--16
-\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure 5.1[]. The diff
-erent views and dimensions
+Overfull \hbox (42.8349pt too wide) in paragraph at lines 14--15
+\TU/Cambria(0)/m/n/12 Appendix C[] detail the physical mounting interfaces with
+ external structural components,
  []
 
 
-Overfull \hbox (13.8257pt too wide) in paragraph at lines 14--16
-\TU/Cambria(0)/m/n/12 of the engineering drawing depict the position of physica
-l interfaces with elements
+Overfull \hbox (34.2046pt too wide) in paragraph at lines 16--18
+[]\TU/Cambria(0)/m/n/12 Material selection for the joint assembly is governed b
+y two competing engineering
  []
 
 
-Overfull \hbox (9.94983pt too wide) in paragraph at lines 14--16
-\TU/Cambria(0)/m/n/12 external to the NSoI and the spatial constraints for the 
-respective system elements
+Overfull \hbox (12.99406pt too wide) in paragraph at lines 16--18
+\TU/Cambria(0)/m/n/12 requirements, which include minimizing moving inertia and
+ maximizing magnetic
  []
 
 
-Overfull \hbox (10.30617pt too wide) in paragraph at lines 14--16
-\TU/Cambria(0)/m/n/12 inside the NSoI. The overall configuration uses an electr
-omagnetic brake mounted
+Overfull \hbox (20.93312pt too wide) in paragraph at lines 18--19
+\TU/Cambria(0)/m/n/12 a high strength-to-weight ratio that reduces the overall 
+weight of the extended
  []
 
 
-Overfull \hbox (37.5985pt too wide) in paragraph at lines 14--16
-\TU/Cambria(0)/m/n/12 electromagnetic brake assembly interfaces directly with t
-he shaft. The electromagnetic
+Overfull \hbox (22.35675pt too wide) in paragraph at lines 19--20
+[]\TU/Cambria(0)/m/n/12 A mild steel alloy, also readily availble in the worksh
+op, was chosen specifically
  []
 
 
-Overfull \hbox (21.4218pt too wide) in paragraph at lines 17--18
-[]\TU/Cambria(0)/m/n/12 The load path originates at the weight of the articulat
-ion link, which is transfered
+Overfull \hbox (2.07535pt too wide) in paragraph at lines 19--20
+\TU/Cambria(0)/m/n/12 plate. Ferromagnetic mild steel exhibits high magnetic pe
+rmeability ($[][] []
  []
 
 
-Overfull \hbox (4.78737pt too wide) in paragraph at lines 19--20
-\TU/Cambria(0)/m/n/12 link, accounting for the probe hub and probe, were calcul
-ated under Equation 5.1[]
- []
-
-
-Overfull \hbox (17.91579pt too wide) detected at line 33
-[][][]
+Overfull \hbox (6.09184pt too wide) in paragraph at lines 19--20
+\TU/Cambria(0)/m/n/12 magnetic field lines to flow easily and densely through t
+he steel component.
  []
 
 [33]
-Overfull \hbox (13.5761pt too wide) in paragraph at lines 41--42
-[]\TU/Cambria(0)/m/n/12 This configuration was chosen because it provides a rel
-iable, uniform clamping
+Overfull \hbox (1.52934pt too wide) in paragraph at lines 20--21
+\TU/Cambria(0)/m/n/12 brass key transmits torque to the shaft without inducing 
+magnetic leakage. 
  []
 
 
-Overfull \hbox (28.40074pt too wide) in paragraph at lines 43--44
-\TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
-ng of [][], corrsponding
+Overfull \hbox (48.13234pt too wide) in paragraph at lines 23--24
+[]\TU/Cambria(0)/m/n/12 The overall configuration uses the designed electromagn
+etic brake assemblymounted
  []
 
 
-Overfull \hbox (12.21375pt too wide) in paragraph at lines 47--48
-\TU/Cambria(0)/m/n/12 The purpose of the switching circuit is to bridge the sig
-nificant power gap between
+Overfull \hbox (51.95982pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 into the stationary joint housing. The joint housing clam
+ps down onto the electromagnetic
  []
 
 
-Overfull \hbox (45.9526pt too wide) in paragraph at lines 47--48
-\TU/Cambria(0)/m/n/12 circuitry is required to safely step down power for the l
-ogic and allow the microcontroller
+Overfull \hbox (5.94128pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 allows the encoder shaft to rotate with the joint shaft, 
+to measure relative angular
  []
 
 
-Overfull \hbox (3.29576pt too wide) in paragraph at lines 47--48
-\TU/Cambria(0)/m/n/12 to switch the electromagnet without sustaining damage. Fi
-gure 5.2[] below shows
+Overfull \hbox (8.685pt too wide) in paragraph at lines 23--24
+\TU/Cambria(0)/m/n/12 welded, mild-steel cover, laser-cut mild steel friction p
+late (laser-cut by Fabrinox),
+ []
+
+
+Overfull \hbox (6.39174pt too wide) in paragraph at lines 25--26
+[]\TU/Cambria(0)/m/n/12 The mechanical load path originates at the articulating
+ link assembly ($[][] []
+ []
+
+
+Overfull \hbox (24.43268pt too wide) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 verified link holding torque is calculated as $[][] [] []
+[][][][] [][][]$ (Equation B.1[]
+ []
+
+
+Overfull \hbox (23.43457pt too wide) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 calculations following the determination of $[][]$ will u
+se the initially set [][].
+ []
+
+
+Overfull \hbox (9.86218pt too wide) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 The torque is countered across the friction interface bet
+ween the rotating wooden
+ []
+
+
+Overfull \hbox (18.32707pt too wide) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 clamping force generated across this interface is $[][] [
+] [][][][][][] []$ (Equation B.2[]
+ []
+
+
+Overfull \hbox (9.63905pt too wide) in paragraph at lines 25--26
+\TU/Cambria(0)/m/n/12 combined electromagnetic clamping force of [][] (well exc
+eeding the [][]
+ []
+
+
+Overfull \hbox (17.1343pt too wide) in paragraph at lines 27--28
+[]\TU/Cambria(0)/m/n/12 This coaxial configuration helps maintain a uniform cla
+mping force distribution
+ []
+
+
+Overfull \hbox (21.06842pt too wide) in paragraph at lines 27--28
+\TU/Cambria(0)/m/n/12 that minimizes parasitic shaft deflections. Additionally,
+ housing the brake internally
+ []
+
+
+Overfull \hbox (38.42531pt too wide) in paragraph at lines 33--34
+\TU/Cambria(0)/m/n/12 the low-power control and data management logic and the h
+igh-power electromagnetic
+ []
+
+
+Overfull \hbox (15.261pt too wide) in paragraph at lines 33--34
+[][][]$\TU/Cambria(0)/m/n/12 . In contrast, the full-scale electromagnetic join
+t brake requires an operating
  []
 
 [34]
-File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
-e bmp)
-<../../../../../../../../../Downloads/Wiring Diagram.png>
+File: ../../../../../../../../../Downloads/Wiring Diagram (5).png Graphic file 
+(type bmp)
+<../../../../../../../../../Downloads/Wiring Diagram (5).png>
 
-Overfull \hbox (2.36064pt too wide) in paragraph at lines 56--57
-\TU/Cambria(0)/m/n/12 implemented. Its purpose is to reduce the [][] supply to 
-a safe operating voltage
+Overfull \hbox (52.47424pt too wide) in paragraph at lines 35--44
+\TU/Cambria(0)/m/n/12 within the electromagnet. Choosing between a parallel or 
+series electrical interconnection
  []
 
 
-Overfull \hbox (22.81897pt too wide) in paragraph at lines 58--59
-\TU/Cambria(0)/m/n/12 metal-oxide-semiconductor field-effect transistor (MOSFET
-) is utilised as a low-side
+Overfull \hbox (25.73521pt too wide) in paragraph at lines 44--45
+\TU/Cambria(0)/m/n/12 the full line current of $[][]$ flows sequentially throug
+h every solenoid. Achieving
  []
 
 
-Overfull \hbox (41.76215pt too wide) in paragraph at lines 58--59
-\TU/Cambria(0)/m/n/12 signal from the microcontroller[] and use it to safely tu
-rn the high-current electromagnet
+Overfull \hbox (27.38394pt too wide) in paragraph at lines 44--45
+[][]$ \TU/Cambria(0)/m/n/12 at $[][]$ requires an extremely low coil resistance
+ ($[][] [] [][][][] []$), demanding
  []
 
 
-Overfull \hbox (21.42265pt too wide) in paragraph at lines 60--61
-\TU/Cambria(0)/m/n/12 and protective of the MOSFET, including the [][] gate res
-istor, the [][] pull-down
+Overfull \hbox (0.83502pt too wide) in paragraph at lines 44--45
+\TU/Cambria(0)/m/n/12 ($[][] [] [][]$ per coil), resulting in a manageable coil
+ resistance requirement
+ []
+
+
+Overfull \hbox (0.2593pt too wide) in paragraph at lines 45--46
+\TU/Cambria(0)/m/n/12 failure in a single solenoid winding disrupts the current
+ path for the entire
+ []
+
+
+Overfull \hbox (20.12624pt too wide) in paragraph at lines 45--46
+\TU/Cambria(0)/m/n/12 each solenoid operates independently. If one coil open-ci
+rcuits, the remaining
  []
 
 [35]
-Overfull \hbox (12.5304pt too wide) in paragraph at lines 66--67
+Overfull \hbox (7.05841pt too wide) in paragraph at lines 48--49
+\TU/Cambria(0)/m/n/12 Therefore, the parallel configuration was selected for th
+e full-scale joint assembly. 
+ []
+
+
+Overfull \hbox (12.74303pt too wide) in paragraph at lines 56--57
+\TU/Cambria(0)/m/n/12 catastrophic damage. To bridge this voltage threshold usi
+ng components available
+ []
+
+
+Overfull \hbox (20.89514pt too wide) in paragraph at lines 58--59
+[]\TU/Cambria(0)/m/n/12 The STM32 GPIO signal drives the base of the 2N3904 thr
+ough a current-limiting
+ []
+
+
+Overfull \hbox (2.82393pt too wide) in paragraph at lines 58--59
+\TU/Cambria(0)/m/n/12 supply rail via a pull-up resistor ($[][] [] [][][][][]$)
+, delivering $[][] [] [][][][][]$ directly
+ []
+
+
+Overfull \hbox (4.92575pt too wide) in paragraph at lines 66--67
+\TU/Cambria(0)/m/n/12 pin and the base of the 2N3904 NPN transistor. Sizing thi
+s resistor restricts
+ []
+
+[36]
+Overfull \hbox (26.7366pt too wide) in paragraph at lines 70--72
+\TU/Cambria(0)/m/n/12 which safely complies with the STM32 absolute maximum out
+put pin threshold
+ []
+
+
+Overfull \hbox (85.33195pt too wide) in paragraph at lines 85--86
+[]\TU/Cambria(0)/m/n/12 For real-time spatial positioning and angular displacem
+ent tracking, the GTS06-OC-RA1000B
+ []
+
+
+Overfull \hbox (33.69948pt too wide) in paragraph at lines 87--88
+[]\TU/Cambria(0)/m/n/12 Complete thermal dissipation modeling, component voltag
+e/current distributions,
+ []
+
+
+Overfull \hbox (12.5304pt too wide) in paragraph at lines 91--92
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
  []
 
 
-Overfull \hbox (23.84602pt too wide) in paragraph at lines 66--67
+Overfull \hbox (23.84602pt too wide) in paragraph at lines 91--92
 \TU/Cambria(0)/m/n/12 (encoder), and the control software for reliable operatio
 n. The software architecture
  []
 
 
-Overfull \hbox (9.22037pt too wide) in paragraph at lines 66--67
+Overfull \hbox (9.22037pt too wide) in paragraph at lines 91--92
 \TU/Cambria(0)/m/n/12 hierachy to manage real-time monitoring and actuation pro
 cesses. This hierarchy
  []
 
-
-Overfull \hbox (37.08598pt too wide) in paragraph at lines 71--72
+[37]
+Overfull \hbox (37.08598pt too wide) in paragraph at lines 96--97
 \TU/Cambria(0)/m/n/12 angular displacement data from the microcontroller for lo
 gging and visualisation. 
  []
 
 
-Overfull \hbox (18.09758pt too wide) in paragraph at lines 74--75
+Overfull \hbox (18.09758pt too wide) in paragraph at lines 99--100
 []\TU/Cambria(0)/m/n/12 To fulfill the system’s FRs, the microcontroller’s pino
 ut is configured to interface
  []
 
 
-Overfull \hbox (20.48195pt too wide) in paragraph at lines 76--77
+Overfull \hbox (20.48195pt too wide) in paragraph at lines 101--102
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
  []
 
-[36]
-Overfull \hbox (20.88268pt too wide) in paragraph at lines 78--79
+
+Overfull \hbox (20.88268pt too wide) in paragraph at lines 103--104
 []\TU/Cambria(0)/m/n/12 The control strategy implemented for the electromagneti
 c brake is an open-loop,
  []
@@ -3112,7 +3239,7 @@ c brake is an open-loop,
 File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Software_Flowchart.png>
-) [37] [38]
+[38]) [39]
 \openout2 = `chaps-main/chap-design_evaluation_and_testing.aux'.
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
@@ -3124,24 +3251,12 @@ validate its core operating
  []
 
 
-Overfull \hbox (22.06609pt too wide) in paragraph at lines 5--6
-\TU/Cambria(0)/m/n/12 functions. As a result, instead of building the full-scal
-e joint assembly, a scaled-down
- []
-
-
-Overfull \hbox (2.39284pt too wide) in paragraph at lines 7--8
-[]\TU/Cambria(0)/m/n/12 Due to project constraints, inculuding an extended theo
-rectical design phase,
- []
-
-
 Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
 \TU/Cambria(0)/m/n/12 The resulting design implementation of the prototype resu
 lted in a four-solenoid
  []
 
-) [39
+) [40
 
 
 
@@ -3151,7 +3266,7 @@ lted in a four-solenoid
 
  (./chaps-main/chap-conclusion.tex
 Chapter 7.
-) [40
+) [41
 
 
 
@@ -3161,7 +3276,7 @@ Chapter 7.
 
  (./chaps-append/chap-bom.tex
 Appendix A.
-) [41
+) [42
 
 
 
@@ -3171,12 +3286,81 @@ Appendix A.
 
  (./chaps-append/chap-design_calc.tex
 Appendix B.
-) [42
+
+Overfull \hbox (72.35988pt too wide) in paragraph at lines 6--6
+[]\TU/Cambria(0)/b/n/17.28 Articulating Link Mass and Holding Torque Verificati
+on 
+ []
+
+
+Overfull \hbox (3.66725pt too wide) in paragraph at lines 9--10
+\TU/Cambria(0)/m/n/12 probe hub, and steel measuring probe, was calculated, und
+er Equation B.1[] below.
+ []
+
+
+Overfull \hbox (6.08868pt too wide) in paragraph at lines 9--10
+[][][][] [][][][]$ \TU/Cambria(0)/m/n/12 was assumed, using the FBD and safety 
+factor ($[] [] [][][]$) established
+ []
+
+
+Overfull \hbox (30.2485pt too wide) detected at line 23
+[][][]
+ []
+
+
+Overfull \hbox (15.88625pt too wide) in paragraph at lines 25--26
+[]\TU/Cambria(0)/m/n/12 Although Equation B.1[] confirms that the physical link
+ mass results in a required
+ []
+
+
+Overfull \hbox (26.69048pt too wide) in paragraph at lines 27--27
+[]\TU/Cambria(0)/b/n/17.28 Electromagnetic Brake Sizing and Axial Clamping
+ []
+
+[43
 
 
 
 
 ]
+Overfull \hbox (2.90948pt too wide) in paragraph at lines 32--33
+\TU/Cambria(0)/m/n/12 interface ($[] [] [][][][]$), the required axial clamping
+ force $[][]$ to hold $[][] []
+ []
+
+
+Overfull \hbox (63.65517pt too wide) in paragraph at lines 44--44
+[]\TU/Cambria(0)/b/n/17.28 Circuit Sizing and Electromagnet Winding Derivations
+ 
+ []
+
+
+Overfull \hbox (14.61351pt too wide) in paragraph at lines 70--70
+[]\TU/Cambria(0)/b/n/14.4 Electromagnet Winding Design based on Clamping Force 
+
+ []
+
+
+Overfull \hbox (5.05531pt too wide) in paragraph at lines 71--72
+\TU/Cambria(0)/m/n/12 ($[][]$) generated by the electromagnet is equated direct
+ly to the required normal
+ []
+
+[44]
+Overfull \hbox (51.66882pt too wide) in paragraph at lines 74--75
+\TU/Cambria(0)/m/n/12 The magnetic force exerted across the effective cross-sec
+tional area of the electromagnetic
+ []
+
+
+Overfull \hbox (38.0116pt too wide) detected at line 89
+[][][] [] [] [] [] [] [][][] []
+ []
+
+) [45]
 \openout2 = `chaps-append/chap-drawing_pack.aux'.
 
  (./chaps-append/chap-drawing_pack.tex
@@ -3202,7 +3386,7 @@ Overfull \hbox (20.35524pt too wide) in alignment at lines 35--35
  [] [] [] [] [] 
  []
 
-[43
+[46
 
 
 
@@ -3220,116 +3404,116 @@ File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
 <use chaps-append/Updated drawing pack.pdf, page 1>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
 <use chaps-append/Updated drawing pack.pdf, page 1>
- [44
-
-
-]
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 2>
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 2>
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 2>
- [45
-
-]
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 3>
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 3>
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 3>
- [46
-
-]
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 4>
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 4>
-File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 4>
  [47
 
+
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 5>
+<use chaps-append/Updated drawing pack.pdf, page 2>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 5>
+<use chaps-append/Updated drawing pack.pdf, page 2>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 5>
+<use chaps-append/Updated drawing pack.pdf, page 2>
  [48
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 6>
+<use chaps-append/Updated drawing pack.pdf, page 3>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 6>
+<use chaps-append/Updated drawing pack.pdf, page 3>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 6>
+<use chaps-append/Updated drawing pack.pdf, page 3>
  [49
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 7>
+<use chaps-append/Updated drawing pack.pdf, page 4>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 7>
+<use chaps-append/Updated drawing pack.pdf, page 4>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 7>
+<use chaps-append/Updated drawing pack.pdf, page 4>
  [50
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 8>
+<use chaps-append/Updated drawing pack.pdf, page 5>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 8>
+<use chaps-append/Updated drawing pack.pdf, page 5>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 8>
+<use chaps-append/Updated drawing pack.pdf, page 5>
  [51
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 9>
+<use chaps-append/Updated drawing pack.pdf, page 6>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 9>
+<use chaps-append/Updated drawing pack.pdf, page 6>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 9>
+<use chaps-append/Updated drawing pack.pdf, page 6>
  [52
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 10>
+<use chaps-append/Updated drawing pack.pdf, page 7>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 10>
+<use chaps-append/Updated drawing pack.pdf, page 7>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 10>
+<use chaps-append/Updated drawing pack.pdf, page 7>
  [53
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 11>
+<use chaps-append/Updated drawing pack.pdf, page 8>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 11>
+<use chaps-append/Updated drawing pack.pdf, page 8>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 11>
+<use chaps-append/Updated drawing pack.pdf, page 8>
  [54
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 12>
+<use chaps-append/Updated drawing pack.pdf, page 9>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 12>
+<use chaps-append/Updated drawing pack.pdf, page 9>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 12>
+<use chaps-append/Updated drawing pack.pdf, page 9>
  [55
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 13>
+<use chaps-append/Updated drawing pack.pdf, page 10>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 13>
+<use chaps-append/Updated drawing pack.pdf, page 10>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
-<use chaps-append/Updated drawing pack.pdf, page 13>
+<use chaps-append/Updated drawing pack.pdf, page 10>
  [56
+
+]
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 11>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 11>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 11>
+ [57
+
+]
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 12>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 12>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 12>
+ [58
+
+]
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 13>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 13>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 13>
+ [59
 
 ]
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
@@ -3338,7 +3522,7 @@ File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
 <use chaps-append/Updated drawing pack.pdf, page 14>
 File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
 <use chaps-append/Updated drawing pack.pdf, page 14>
- [57
+ [60
 
 ])
 \openout2 = `chaps-append/chap-project_schedule.aux'.
@@ -3346,7 +3530,7 @@ File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
 
 (./chaps-append/chap-project_schedule.tex
 Appendix D.
-) [58
+) [61
 
 
 
@@ -3367,7 +3551,7 @@ ling bearings — radial
 
 Package natbib Warning: There were undefined citations.
 
-[59
+[62
 
 
 
@@ -3389,12 +3573,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20858 strings out of 467813
- 489072 string characters out of 5427149
- 1040595 words of memory out of 5000000
- 49484 multiletter control sequences out of 15000+600000
- 632457 words of font info for 149 fonts, out of 8000000 for 9000
+ 20937 strings out of 467813
+ 491728 string characters out of 5427149
+ 1041845 words of memory out of 5000000
+ 49543 multiletter control sequences out of 15000+600000
+ 634718 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,18n,115p,1537b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (74 pages).
+Output written on template-stb-report-eng.pdf (77 pages).

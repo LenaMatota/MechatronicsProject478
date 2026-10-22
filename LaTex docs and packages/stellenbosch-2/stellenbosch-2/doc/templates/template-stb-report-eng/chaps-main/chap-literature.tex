@@ -256,8 +256,10 @@ where $\mu_0 = 4\pi \times 10^{-7} \text{ H/m}$ is the permeability of free spac
 The electromagnetic clamping force, $F$, pulling the core faces together across the central gap interface is derived from the field energy density $u_m = \frac{B^2}{2\mu_0}$ stored within the volume of the air gap $V_g = A_c g$ \citep{HydraForceSolenoidManual}. Differentiating the field energy $W_m = u_m V_g = \frac{B^2 A_c g}{2\mu_0}$ with respect to gap displacement $g$ yields the Maxwell stress tensor force formulation, seen in Equation~\ref{eq:24rwkg} below \citep{HydraForceSolenoidManual}:
 \begin{equation}
 	\label{eq:24rwkg}
-	F = \frac{\partial W_m}{\partial g} = \frac{B^2 A_c}{2 \mu_0} = \frac{\mu_0 A_c (N I)^2}{2 g^2}
+	F = k\frac{\partial W_m}{\partial g} = k\frac{B^2 A_c}{2 \mu_0} = k\frac{\mu_0 A_c (N_{\text{solenoid}} I_{total})^2}{2 g^2}
 \end{equation}
+where $k$ is the number of solenoids used in under $A_c$, $N_{\text{solenoid}}$ is the number of coils for one solenoid, and $I_{total}$ is the total current used to power all the solenoids.
+
 Ferromagnetic core materials exhibit a non-linear B-H magnetization relationship governed by the alignment of internal magnetic domains in the metal, as illustrated in Figure~\ref{fig:screenshot001-fmag1sat} \citep{HydraForceSolenoidManual}.
 \begin{figure}[H]
 	\centering

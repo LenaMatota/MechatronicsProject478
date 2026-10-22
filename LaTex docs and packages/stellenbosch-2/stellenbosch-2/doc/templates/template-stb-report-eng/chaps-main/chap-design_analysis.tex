@@ -4,62 +4,87 @@ The design analysis of the electromagnetic brake joint is divided into four hier
 
 \section{Mechanical Design}
 
-Figure~\ref{fig:screenshot-2026-10-21-103108} below, shows the 3D CAD assembly of the electromagnetic brake produced as part of the design analysis after integration and refinement of the individual subsystem concepts.
+Figure~\ref{fig:screenshot-2026-10-21-103108} shows the 3D CAD assembly of the electromagnetic brake joint produced as part of the detailed design analysis following the integration and refinement of the subsystem concepts.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/Screenshot 2026-10-21 103108"}
+	\includegraphics[width=1\linewidth]{"../../../../../../../../../Downloads/Screenshot 2026-10-21 103108"}
 	\caption{Electromagnetic Brake Assembly}
 	\label{fig:screenshot-2026-10-21-103108}
 \end{figure}
-The top-level system elements are listed in the drawing's materials list and are marked with balloon numbers in Figure~\ref{fig:screenshot-2026-10-21-103108}. The different views and dimensions of the engineering drawing depict the position of physical interfaces with elements external to the NSoI and the spatial constraints for the respective system elements inside the NSoI.
-The overall configuration uses an electromagnetic brake mounted coaxially on the joint shaft. In the configuration, the base link and the output link are integrated with the internal actuation and sensing components. The joint is supported by two RS PRO \SI{20}{mm} ID 2-Row ball bearings mounted with an inteference fit and secured by RS PRO \SI{32}{mm} OD one-piece steel shaft collars to prevent axial slipping. The bearing housing is integrated directly into the stationary joint housing. The housing encases the internal mechanisms and is held rigid by the base link. On one side of the shaft, the GTS06-OC-RA1000B-2M optical encoder is fitted into a centered hole in the shaft and secured with a scrub screw to the flat surface of the encoder's shaft\footnote{See Appendix \#\# for more detailed drawings regarding the joint shaft  design.}. On the opposite end, the electromagnetic brake assembly interfaces directly with the shaft. The electromagnetic brake consist of solenoids, friction plate (laser-cut by Fabrinox), and a brake disc. All other components are fabricated from piping and flat bars that are welded and/or fastened together.
+The top-level system elements are listed in the drawing's parts list and are marked with balloon item numbers in Figure~\ref{fig:screenshot-2026-10-21-103108}.The engineering drawings in Appendix~\ref{app:drawing_pack} detail the physical mounting interfaces with external structural components, as well as the spatial clearance limits defined for the joint mechanism within the NSoI.
 
-The load path originates at the weight of the articulation link, which is transfered as torque through the shaft, and is ultimately countered by the electromagnetic force required to hold the link in position, when the electromaget's power is shut off.
+Material selection for the joint assembly is governed by two competing engineering requirements, which include minimizing moving inertia and maximizing magnetic performance:
+\begin{itemize}
+	\item An aluminium alloy, readily available in the workshop,  was chosen for the structural housing, joint shaft, bearing blocks, base link, and articulating link. With an assumed density of $\rho_{\text{Al}} = \SI{2700}{kg/m^3}$, aluminium provides a high strength-to-weight ratio that reduces the overall weight of the extended joint parts and minimises the twisting force caused by its own gravity. This enables precise manual arm manipulation without excessive user fatigue.
+	\item A mild steel alloy, also readily availble in the workshop, was chosen specifically for the electromagnet yoke, solenoid cores, pressure tabs, and friction plate. Ferromagnetic mild steel exhibits high magnetic permeability ($\mu_r \approx 2000$) and a high saturation flux density ($B_{\text{sat}} \approx \SI{1.6}{T}$). This allows the magnetic field lines to flow easily and densely through the steel component. It is also important to notes that, its low coercive force minimizes residual magnetism ($B_r$) upon power cutoff, which ensures immediate mechanical disengagement when the brake is de-energized.
+	\item A hardwood disc with an assumed $\mu = 0.6$ mating against mild steel, provides a high coefficient of static friction without cold-welding, while a brass key transmits torque to the shaft without inducing magnetic leakage.
+\end{itemize}
 
-Although TPM\_03 was already determined, the weight of the articulating link, accounting for the probe hub and probe, were calculated under Equation~\ref{eq:Articulation_link_weight} below, to verify if the TPM would still hold. Notes, a density of \SI{2700}{kg/m^3} was assumed for aluminium and the same safety factor and FBD under Section 3.4.3 was used\citep{Hibbler:2017}.
-\begin{equation}
-	\label{eq:Articulation_link_weight}
-	\begin{aligned}
-		m_{\text{link}} &= \rho_{\text{Al}} \cdot V_{\text{total}} \\
-		&= \rho_{\text{Al}} \cdot (V_{\text{pipe}} + V_{\text{probe hub}} + V_{\text{probe}}) \\
-		&= \rho_{\text{Al}} \cdot \left[ \underbrace{\pi (r_o^2 - r_i^2) \cdot L_{\text{pipe}}}_{\text{pipe volume}} + \underbrace{\pi(r_{\text{top}}^2 + r_{\text{bottom}}^2) \cdot L_{\text{probe hub}}}_{\text{probe hub volume}} + \underbrace{\pi r_{\text{probe}}^2 \cdot L_{\text{probe}}}_{\text{probe volume}} \right] \\
-		&= 2700 \cdot \Big[ \pi(0.016^2 - 0.013^2)(0.55) \\
-		&\quad + \pi(0.017^2 + 0.013^2)(0.01) + \pi(0.005^2)(0.1) \Big] \\
-		&= \SI{0.4659}{kg} \\[1ex]
-		\therefore T_{\text{holding}} &= \text{SF} \cdot m_{\text{link}} \cdot g \cdot l_{\text{link}} \\
-		&= (1.5)(0.4659)(9.81)(0.325) \\
-		&= \SI{2.228}{N.m}
-	\end{aligned}
-\end{equation}
-This Equation~\ref{eq:Articulation_link_weight} confirms that the TPM is valid, however, the load path is still determined using the \SI{7.725}{Nm}. Next step was to size the dimensions of the brake in order to accurately determine how much force it will need to produce. An arbitrary diameter of \SI{0.1}{m} was chosen was chosen for the brake disc and friction plate, as discussed in Section 2.4.1. This means that the force required to be actuated by the brake can be calculated using Equation~\ref{eq:F_holding} below:
-\begin{equation}
-	\label{eq:F_holding}
-	F_{\text{}}
-\end{equation}
-The friction plate was chosen to be mild steel and the brake disc to be wood. Their mating surfaces will be assumed to produce a friction coefficient of $\mu=0.6$
+The overall configuration uses the designed electromagnetic brake assemblymounted coaxially on the joint shaft with the rest of the joint components. The joint shaft is supported by two RS PRO \SI{20}{mm} ID double-row ball bearings mounted with an interference fit and secured with RS PRO \SI{32}{mm} OD one-piece steel shaft collars to prevent axial slipping. The bearing housing are integrated directly into the stationary joint housing. The joint housing clamps down onto the electromagnetic cover and holds the rotary encoder body stationary. The rotary encoder, a GTS06-OC-RA1000B-2M optical encoder (\SI{1000}{PPR}) is fitted into a centered axial borehole and clamped via a grub screw onto the encoder shaft flat. This allows the encoder shaft to rotate with the joint shaft, to measure relative angular displacement (refer to Drawing 24989142-01-00-00 in Appendix~\ref{app:drawing_pack}). On the opposite end, the electromagnetic brake assembly directly interfaces with the shaft. The assembly consists of the four solenoid yokes, four solenoid coils, a welded, mild-steel cover, laser-cut mild steel friction plate (laser-cut by Fabrinox), and wooden brake disc.
 
-This configuration was chosen because it provides a reliable, uniform clamping force that minimises parasitic deflections and preserves the run-out tolerances necessary for the PCMA's spatial accuracy. Addionally, by housing the brake internally, the design is able to achieve the full \SI{90}{\degree} operational articulation sweep.
+The mechanical load path originates at the articulating link assembly ($m_{\text{link}} = \SI{0.4659}{kg}$, including the link pipe, probe hub, and measuring probe). Gravity acting on this mass at an effective moment arm of $l_{\text{link}} = \SI{0.325}{m}$ generates a static gravitational torque. Accounting for a safety factor of $1.5$, the actual verified link holding torque is calculated as $T_{\text{holding, verified}} = \SI{2.228}{N.m}$ (Equation~\ref{eq:Articulation_link_weight_app} in Appendix~\ref{sec:link_mass_calc}). Because this holding torque is within bounds of the TPM\_03, calculations following the determination of $T_{\text{holding}}$ will use the initially set \SI{7.725}{Nm}. The torque is countered across the friction interface between the rotating wooden disc and the non-rotating mild steel friction plate. Operating under assumed uniform pressure with a friction coefficient of $\mu = 0.35$, the required axial clamping force generated across this interface is $F_{\text{clamping}} = \SI{636.88}{N}$ (Equation~\ref{eq:F_holding_app} in Appendix~\ref{sec:brake_sizing_calc}). When power is cut off, the mild steel pressure tabs deliver a combined electromagnetic clamping force of \SI{3550}{N} (well exceeding the \SI{383.18}{N} threshold), pushing the friction plate flush against the brake disc.
 
-To maintain structural integrity and positional stability during locking, the electromagnetic brake was sized to deliver a static holding of \SI{7.725}{Nm}, corrsponding to a electromagntive force of \SI{3 550}{N}. The freebody diagrams (FBDs) and design calculations supporting the mechanical operating conditions of the joint under Appendix \#\#.
+This coaxial configuration helps maintain a uniform clamping force distribution that minimizes parasitic shaft deflections. Additionally, housing the brake internally allows the joint to achieve its required \SI{90}{\degree} operational articulation sweep.
 
-\section{Electronic Design}
+Detailed Free Body Diagrams (FBDs), stress analysis derivations, and full numerical holding force calculations supporting these operational conditions are provided in Appendix~\ref{sec:link_mass_calc}.
 
-The purpose of the switching circuit is to bridge the significant power gap between the high-power electromagnet and the low-power control logic, as well the data management system. The stm32 Nucleo microcontroller outputs a low-current control signal, which is insufficient to directly drive the electromagnetic brake that requires a \SI{12}{A} operating current at \SI{24}{V_DC}. This means that peripheral circuitry is required to safely step down power for the logic and allow the microcontroller to switch the electromagnet without sustaining damage. Figure~\ref{fig:wiring-diagram} below shows a wiring diagram detailing these connections.
+\section{Electrical Design}
 
+The purpose of the switching circuit is to safely bridge the power gap between the low-power control and data management logic and the high-power electromagnetic brake. The STM32 Nucleo microcontroller operates on a $3.3\text{ V}$ logic level with general purpose input/output (GPIO) pins that supply a maximum current of $25\text{ mA}$. In contrast, the full-scale electromagnetic joint brake requires an operating current of $I_{\text{total}} = 8\text{ A}$ at $V_{\text{DC}} = 24\text{ V}$. A direct connection between these two components would cause catastrophic failure of the microcontroller. As a result, a dedicated power-stepping, gate-driving, and switching circuit is required to isolate the logic hardware, protect against inductive transients caused by the electromagnet's actuation, and efficiently switch the high-current coil load. 
+
+Figure~\ref{fig:wiring-diagram} details the physical architecture of the electrical subsystem.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/Wiring Diagram"}
-	\caption{Wiring Diagram}
+	\includegraphics[width=0.9\linewidth]{"../../../../../../../../../Downloads/Wiring Diagram (5)"}
+	\caption{Wiring and Interconnect Diagram for the Full-Scale Joint Mechanism}
 	\label{fig:wiring-diagram}
 \end{figure}
+To generate the required total clamping force, four identical solenoids are utilised within the electromagnet. Choosing between a parallel or series electrical interconnection significantly impacts circuit reliability, supply voltage requirements, and coil winding specifications:
+\begin{itemize}
+	\item Supply Voltage and Current Distribution: In a series connection, the $24\text{ V}$ supply voltage is divided equally across the four coils ($6\text{ V}$ per coil), while the full line current of $8\text{ A}$ flows sequentially through every solenoid. Achieving $8\text{ A}$ at $6\text{ V}$ requires an extremely low coil resistance ($R_{\text{coil}} = 0.75\,\Omega$), demanding thick gauge wire that is difficult to wind densely. As opposed to a parallel configuration, which delivers the full $24\text{ V}_{\text{DC}}$ across each solenoid. The $8\text{ A}$ total supply current divides equally among the four parallel branches ($I_{\text{sol}} = 2\text{ A}$ per coil), resulting in a manageable coil resistance requirement of $R_{\text{coil}} = 12\,\Omega$.
+	\item Redundancy and fault-finding: In a series configuration, an open-circuit failure in a single solenoid winding disrupts the current path for the entire brake system, leading to complete joint failure. In a parallel configuration, each solenoid operates independently. If one coil open-circuits, the remaining three solenoids continue to generate holding force.
+	\item Inductive Time Constant ($\tau = L/R$): A parallel connection maintains high single-coil resistance relative to inductance, which minimises current rise delays during actuation and ensures rapid flux buildup.
+\end{itemize}
+Therefore, the parallel configuration was selected for the full-scale joint assembly.
 
-To power the logic components, an XL7015 step-down buck converter is implemented. Its purpose is to reduce the \SI{24}{V} supply to a safe operating voltage suitable for the STM32 microcontroller and the rotary encoder.
+To supply the low-voltage control and feedback hardware from the primary $24\text{ V}_{\text{DC}}$ DC supply, an XL7015 step-down buck converter is integrated into the power rail. The XL7015 accepts an input voltage range of $0\text{--}80\text{ V}_{\text{DC}}$ and steps it down to a regulated $5\text{ V}$ output voltage that is suitable for powering the STM32 microcontroller board and the GTS06-OC-RA1000B optical rotary encoder. A high-efficiency DC-DC buck converter ($\eta \approx 85\text{--}90\%$) ensures stable voltage delivery during high-current load switching transients.
 
-To control the energisation of the brake, an Infineon IRF640NPBF N-channel metal-oxide-semiconductor field-effect transistor (MOSFET) is utilised as a low-side switch. The MOSFET acts as a digital relay. It's purpose is to take the control signal from the microcontroller\footnote{From the microcontroller, one of the pins is configured as a general pin input/output, which outputs control signal typically between \SI{20}{mA} and \SI{25}{mA} at an operating voltage level of \SI{3.3}{V}.} and use it to safely turn the high-current electromagnet on and off.
+To control the energization of the $24\text{ V} / 8\text{ A}$ electromagnetic coil array, an N-channel Power MOSFET is utilized in a low-side switching topology acting as a solid-state digital relay. 
 
-There are supporting components in the switching circuit which are critical and protective of the MOSFET, including the \SI{330}{\Omega} gate resistor, the \SI{10}{k\Omega} pull-down resistor, and the TO-220 flyback diode. The gate resistor is positioned between the microcontroller's signal pin and MOSFET gate. It's used to limit the sudden current flow needed to charge the MOSFET's internal capacitance in the event of switching the electromagnet on or off. This will prevent the microcontroller pin from burning out. The pull-down resistor is connected between MOSFET gate and drain. This allows the pull-down resistor to force the gate voltage to zero whenever the microcontroller is powering up, resetting, or outputting a floating signal. As a result, the MOSFET defaults to an "off" state, keeping the joint safely locked and preventing unintentional energisation. The flyback diode is placed in parallel across the electromagnetic coil. Its purpose is to minimise voltage spikes that could damage the MOSFET. When the electromagnet's current is suddenly cut off, the collapsing magnetic field generates a back electromotive force (EMF) due to its inductance. The back-emf would result is a high-voltage spike that exceeds the MOSFET's breakdown limit cause catastrophic failure. The diode provides a safe, low resistance path to dissipate the voltage spike.
+To control the actuation of the electromagnet, an N-channel Power MOSFET (Infineon IRF640N) is deployed in a high-side of the switching circuit acting as a solid-state digital relay.
 
-For the sensing subsystem, the GTS06-OC-RA1000B optical rotary encoder is connected into the logic power rails, with its signal lines that were connected directly to the microcontroller to transmit real-time angular displacement data. The associated electrical calculation sizing these components and evaluating the MOSFET's thermal dissipation are detailed in Appendix \#\#.
+Because the IRF640N requires a gate-to-source voltage ($V_{GS}$) of at least $10\text{ V}$ to achieve full channel enhancement and minimum on-state resistance, driving its gate directly from the STM32's native $3.3\text{ V}$ logic signal would operate the MOSFET in its linear region. This would cause excessive thermal runaway and catastrophic damage. To bridge this voltage threshold using components available in the laboratories under the Electrical and Electronics Department, a discrete 2N3904 NPN BJT level-shifter stage is integrated as a gate pre-driver.
+
+The STM32 GPIO signal drives the base of the 2N3904 through a current-limiting resistor of \SI{1}{k\ohm}. When turned off, the 2N3904's collector is pulled up to a $12\text{ V}$ supply rail via a pull-up resistor ($R_{PU} = 2.2\text{ k}\Omega$), delivering $V_{GS} \approx 9.84\text{ V}$ directly to the IRF640N gate. Driven at to saturation, the IRF640N operates at its rated static drain-to-source resistance $R_{DS(\text{on})} = 0.15\,\Omega$. At the full operating load of $I_{\text{total}} = 8\text{ A}$, the continuous conduction power dissipation $P_{\text{cond}}$ across the MOSFET is:
+\begin{equation}
+	P_{\text{cond}} = I_{\text{total}}^2 \cdot R_{DS(\text{on})} = (8\text{ A})^2 \cdot 0.15\,\Omega = 9.6\text{ W}
+\end{equation}
+To dissipate this heat continuously and maintain the junction temperature ($T_J$) safely below $175^\circ\text{C}$, the TO-220 packaged MOSFET is fitted with a dedicated aluminum heatsink ($R_{\text{th,sa}} \le 3.5^\circ\text{C/W}$).
+
+To maintain the circuit's operability, protect the microcontroller, and ensure reliable gate-driving levels, specific passive components are incorporated as shown in Figure~\ref{fig:wiring-diagram}:
+\begin{itemize}
+	\item A base-limiting resistor of \SI{1}{k\ohm} is placed between the STM32 GPIO signal pin and the base of the 2N3904 NPN transistor. Sizing this resistor restricts the continuous base current drawn from the microcontroller GPIO pin during active switching to as seen under Equation~\ref{eq:ajkva}:
+	\begin{equation}
+		\label{eq:ajkva}
+		I_B = \frac{V_{\text{GPIO}} - V_{BE}}{R_B} = \frac{3.3\text{ V} - 0.7\text{ V}}{1000\,\Omega} = 2.6\text{ mA}
+	\end{equation}
+	which safely complies with the STM32 absolute maximum output pin threshold of $25\text{ mA}$.
+	
+	\item A collector pull-Up resistor of $\SI{2.2}{k\ohm}$ is connected between the $24\text{ V}$ DC power supply and the 2N3904 collector node (which connects directly to the IRF640N MOSFET Gate). When the 2N3904 is turned off (GPIO LOW), this resistor pulls the MOSFET Gate voltage up toward the rail, which provides sufficient gate-to-source voltage ($V_{GS}$) to fully enhance the IRF640N power MOSFET into saturation.
+	
+	\item A gate pull-down resistor of $\SI{10}{k\ohm}$ is connected between the IRF640N MOSFET Gate and Ground (GND). In conjunction with collector pull-down resistor, it forms a voltage divider establishing an active gate drive voltage when the 2N3904 is off, as shown under Equation~\ref{eq:kvlbs}:
+	\begin{equation}
+		\label{eq:kvlbs}
+		V_{GS} = V_{\text{rail}} \cdot \left( \frac{R_{PD}}{R_{PU} + R_{PD}} \right) = 24\text{ V} \cdot \left( \frac{10\text{ k}\Omega}{2.2\text{ k}\Omega + 10\text{ k}\Omega} \right) \approx 19.67\text{ V}
+	\end{equation}
+	This maximizes channel conductivity while remaining safely within the IRF640N maximum absolute gate rating ($V_{GS(\text{max})} = \pm 20\text{ V}$). Additionally, during microcontroller boot or floating GPIO states, $R_{PD}$ keeps the gate referenced to Ground.
+	
+	\item An flyback diode is placed in parallel across the electromagnetic coil array terminals. When the MOSFET switches off to disengage the joint, the collapsing magnetic field in the coil induction induces a severe negative Back-Electromotive Force (Back-EMF) spike ($v_L = -L \frac{di}{dt}$). The flyback diode array provides a means of dissipating the $8\text{ A}$ inductive current without exceeding the MOSFET breakdown rating ($V_{(BR)DSS} = 200\text{ V}$).
+\end{itemize}
+
+For real-time spatial positioning and angular displacement tracking, the GTS06-OC-RA1000B optical rotary encoder ($1000\text{ PPR}$) is connected across the $5\text{ V}$ regulated by the DC-DC buck converter. Its A and B quadrature signal lines are routed directly to the STM32 timer input pins configured in encoder interface mode. 
+
+Complete thermal dissipation modeling, component voltage/current distributions, and solenoid winding derivations based on the required holding clamping force are presented in Appendix~\ref{app:design_calc}.
 
 \section{Software Design}
 
