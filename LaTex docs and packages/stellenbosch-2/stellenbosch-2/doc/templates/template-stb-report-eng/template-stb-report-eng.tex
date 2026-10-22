@@ -65,6 +65,8 @@
 \usepackage[table]{xcolor}%....................... Color setup + colortbl 
 \usepackage{subcaption}
 \usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage[bottom]{footmisc}
     
 %==== Extra defs for template ========================================
 \makeatletter
@@ -145,8 +147,10 @@
 \include{chaps-main/chap-conclusion}
 
 \appendix%------------------------------------------------------------
-\include{chaps-append/chap-maths}
-\include{chaps-append/chap-experiment}
+\include{chaps-append/chap-bom}              
+\include{chaps-append/chap-design_calc}     
+\include{chaps-append/chap-drawing_pack}     
+\include{chaps-append/chap-project_schedule} 
 
 \backmatter%----------------------------------------------------------
 \bibliography{bib/bib-sample}

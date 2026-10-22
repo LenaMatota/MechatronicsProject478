@@ -4,22 +4,19 @@
 L.~Engineering, ``The advantages of using a portable cmm arm in metrology,''
   {\em Leussink Engineering}, 2024.
 
+\bibitem{Shigley:2015}
+R.~G. Budynas and J.~K. Nisbett, {\em Shigley's Mechanical Engineering Design}.
+\newblock New York, NY, USA: McGraw-Hill Education, 10th~ed., 2015.
+
 \bibitem{Ibaraki:2023}
 S.~Ibaraki and R.~Saito, ``Novel kinematic model of articulated arm coordinate
   measuring machine with angular position measuremnt errors of rotary axes,''
   {\em CIRP Annals}, vol.~72, no.~1, pp.~449--452, 2023.
 
-\bibitem{Cuesta:2015}
-B.~Alvarez, E.~Cuesta, P.~Luque, D.~Mantaras, and D.~Muina, ``Dynamic
-  deformations in coordinate measuring arms using virtual simulation,'' {\em
-  Internation Journal of Simulation Modelling}, vol.~14, no.~4, pp.~609--620,
-  2015.
-
 \bibitem{Rim:2019}
-E.~Cuesta, D.~A. Mantaras, P.~Luque, B.~J. Alvarez, and D.~Muina, ``A
-  calibration method of portable coordinate measuring arms by using
-  artifacts,'' {\em MAPAN-Journal of Metrology Society of India}, vol.~34,
-  no.~1, pp.~1--11, 2019.
+C.-H. Rim, C.-M. Rim, J.-G. Kim, G.~Chen, and J.-S. Pak, ``A calibration method
+  of portable coordinate measuring arms by using artifacts: C. rim et al.,''
+  {\em Mapan}, vol.~34, no.~1, pp.~1--11, 2019.
 
 \bibitem{Hall:2010}
 L.~Hall and K.~Schreve, ``Error distribution of an articulated arm measurement
@@ -38,12 +35,26 @@ H.~Meagher, ``Measurement tool spotlight - portable measuring arms.'' OASIS
   multilateration,'' {\em The Scientific World Journal}, vol.~2014, no.~1,
   p.~681853, 2014.
 
+\bibitem{Alvarez:2015}
+B.~Alvarez, E.~Cuesta, P.~Luque, D.~Mantaras, and D.~Muina, ``Dynamic
+  deformations in coordinate measuring arms using virtual simulation,'' {\em
+  Internation Journal of Simulation Modelling}, vol.~14, no.~4, pp.~609--620,
+  2015.
+
+\bibitem{Faro:2024}
+{\em FaroArm Quantum X Series Series User Manual}, March 2024.
+
+\bibitem{HydraForceSolenoidManual}
+{HydraForce, Inc.}, {\em Solenoid Training Manual}.
+\newblock HydraForce, Inc., Lincolnshire, IL, USA, 1999.
+
 \bibitem{ISO492:2014}
 {International Organisation for Standardisation}, ``Rolling bearings --- radial
   bearings --- geometrical product specifications (gps) and tolerance values,''
   July 2014.
 
-\bibitem{Faro:2024}
-{\em FaroArm Quantum X Series Series User Manual}, March 2024.
+\bibitem{Hibbler:2017}
+R.~C. Hibbler, {\em Mechanics of Materials}.
+\newblock Pearson, 10th~ed., 2017.
 
 \end{thebibliography}

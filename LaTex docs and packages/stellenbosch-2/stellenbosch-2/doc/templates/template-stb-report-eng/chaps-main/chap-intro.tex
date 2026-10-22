@@ -3,14 +3,12 @@
 \section{Background}
 
 A portable coordinate measuring arm (PCMA) is a handheld metrology instrument used to capture three-dimensional (3D) coordinates directly from a physical object, as shown in Figure~\ref{fig:portable-coordinate-measuring-machine-arm} \citep{Leussink:2024}.
-
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{../../../../../portable-coordinate-measuring-machine-arm}
 	\caption{A portable coordinate measurement arm \citep{Leussink:2024}.}
 	\label{fig:portable-coordinate-measuring-machine-arm}
 \end{figure}
-
 PCMAs offer adaptable measurement capabilities across various engineering applications, including dimensional analysis, computer-aided design (CAD) inspection, reverse engineering, etc. \citep{Ibaraki:2023}. However, a primary limitation of conventional PCMAs is the absence of a position-holding mechanism. This leaves the arm vulnerable to positional instability and structural deformation during measurement or upon accidental impact \citep{Cuesta:2015}. In addition to this, the instability complicates calibration procedures, which strictly require the arm to remain as still as possible throughout data acquisition \citep{Rim:2019}.
 
 As a result, integrating the design of an effective position-holding mechanism into the arm's joint addresses these limitations while enhancing operational safety. Such a joint design improves the kinematic stability of the arm, eliminates positional drift, and reduces operator fatigue.
@@ -27,15 +25,13 @@ The aim of this project is to implement a position-holding mechanism on a PCMA t
 
 \section{Scope}
 
-In the process of determining D-H parameters, user manuals and available schematics will be used for information extraction. For the purposes of the project, the narrower system of interest (NSoI) is identified as the PCMA joint and the wider system of interest (WSoI)\footnote{The NSoI is the system being designed and the WSoI includes the NSoI and the elements that the WSoI interacts with, \citep{Callister:2011}}, as the NSoI, a reliable power source, as well as the preceding and succeeding link connected to joint, as seen in Figure~\ref{fig:system-context} below.
-
-\begin{figure}[h]
+In the process of determining D-H parameters, user manuals and available schematics will be used for information extraction. For the purposes of the project, the narrower system of interest (NSoI) is identified as the PCMA joint and the wider system of interest (WSoI)\footnote{The NSoI is the system being designed and the WSoI includes the NSoI and the elements that the WSoI interacts with, \citep{Callister:2011}}, as the NSoI, a reliable power source, as well as the preceding and succeeding link connected to joint in a controlled testing environment, as seen in Figure~\ref{fig:system-context} below.
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"../../../../../../../../../Downloads/System Context (2)"}
 	\caption{System Context}
 	\label{fig:system-context}
 \end{figure}
-
 In addition to this, due to project timelines, physical implementation of the proposed design will be restricted to constructing critical subsystems necessary to validate the core mechanical, electrical, and software functionality.
 
 \section{Motivation}

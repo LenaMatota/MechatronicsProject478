@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  20 OCT 2026 22:14
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 OCT 2026 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1254,8 +1254,25 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count357
 \@thisrulewidth=\dimen272
 )
+(c:/texlive/2026/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box77
+)
+(c:/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
+\FN@temptoken=\toks35
+\footnotemargin=\dimen273
+Package footmisc Info: Declaring symbol style bringhurst on input line 549.
+Package footmisc Info: Declaring symbol style chicago on input line 557.
+Package footmisc Info: Declaring symbol style wiley on input line 566.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 577.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 597.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
+.
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 115.
+h' as default language. on input line 117.
 
 (./template-stb-report-eng.aux (./chaps-front/chap-plagiarism.aux)
 (./chaps-front/chap-AI-use-2024.aux) (./chaps-front/chap-summary.aux)
@@ -1265,29 +1282,27 @@ h' as default language. on input line 115.
 (./chaps-main/chap-concept_development.aux)
 (./chaps-main/chap-design_analysis.aux)
 (./chaps-main/chap-design_evaluation_and_testing.aux)
-(./chaps-main/chap-conclusion.aux) (./chaps-append/chap-maths.aux
-
-LaTeX Warning: Label `fig:screenshot001' multiply defined.
-
-) (./chaps-append/chap-experiment.aux))
+(./chaps-main/chap-conclusion.aux) (./chaps-append/chap-bom.aux)
+(./chaps-append/chap-design_calc.aux) (./chaps-append/chap-drawing_pack.aux)
+(./chaps-append/chap-project_schedule.aux))
 \openout1 = `template-stb-report-eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1327,13 +1342,13 @@ LaTeX Font Info:    ... okay on input line 115.
 
 File: stb-logo-vert.pdf Graphic file (type pdf)
 <use stb-logo-vert.pdf>
-LaTeX Info: Redefining \microtypecontext on input line 115.
-Package microtype Info: Applying patch `item' on input line 115.
-Package microtype Info: Applying patch `toc' on input line 115.
-Package microtype Info: Applying patch `eqnum' on input line 115.
-Package microtype Info: Applying patch `footnote' on input line 115.
-Package microtype Info: Applying patch `verbatim' on input line 115.
-LaTeX Info: Redefining \microtypesetup on input line 115.
+LaTeX Info: Redefining \microtypecontext on input line 117.
+Package microtype Info: Applying patch `item' on input line 117.
+Package microtype Info: Applying patch `toc' on input line 117.
+Package microtype Info: Applying patch `eqnum' on input line 117.
+Package microtype Info: Applying patch `footnote' on input line 117.
+Package microtype Info: Applying patch `verbatim' on input line 117.
+LaTeX Info: Redefining \microtypesetup on input line 117.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1350,7 +1365,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 115.
+or `english'. on input line 117.
  (c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
 
@@ -1365,6 +1380,7 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
  [1
 
@@ -1443,7 +1459,7 @@ Overfull \hbox (6.4pt too wide) in alignment at lines 3--52
 ])
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 122.
+ 124.
  [5]
 \openout2 = `chaps-front/chap-ECSA.aux'.
 
@@ -1555,19 +1571,19 @@ ns to bring the project
  []
 
 )
-Overfull \hbox (4.12193pt too wide) in paragraph at lines 31--123
+Overfull \hbox (4.12193pt too wide) in paragraph at lines 31--125
 \TU/Cambria(0)/m/n/12 research skills. Independent literature reviews were cond
 ucted electromagnetic
  []
 
 
-Overfull \hbox (1.25279pt too wide) in paragraph at lines 31--123
+Overfull \hbox (1.25279pt too wide) in paragraph at lines 31--125
 \TU/Cambria(0)/m/n/12 actuator design, high-current switching circuits, and joi
 nt stiffness optimisation.
  []
 
 
-Overfull \hbox (9.48264pt too wide) in paragraph at lines 31--123
+Overfull \hbox (9.48264pt too wide) in paragraph at lines 31--125
 \TU/Cambria(0)/m/n/12 These were topics that extended beyond standard coursewor
 k. This self-acquired
  []
@@ -1580,7 +1596,13 @@ k. This self-acquired
 
 
 
-] (./template-stb-report-eng.toc [10
+] (./template-stb-report-eng.toc
+Overfull \hbox (11.87105pt too wide) in paragraph at lines 21--21
+ [][] []\TU/Cambria(0)/m/n/12 Electromagnet Actuator Construction and Parameter
+ Balance [][]  
+ []
+
+[10
 
 
 
@@ -1588,7 +1610,19 @@ k. This self-acquired
 \tf@toc=\write3
 \openout3 = `template-stb-report-eng.toc'.
 
- [11] (./template-stb-report-eng.lof)
+ [11] (./template-stb-report-eng.lof
+Overfull \hbox (27.54335pt too wide) in paragraph at lines 15--15
+ [][] []\TU/Cambria(0)/m/n/12 Numerical evaluation of kinematic poses and Jacob
+ian transformation 
+ []
+
+
+Overfull \hbox (2.25754pt too wide) in paragraph at lines 16--16
+ [][] []\TU/Cambria(0)/m/n/12 Spatial $[][]$ uncertainty distribution across th
+e FaroArm Working 
+ []
+
+)
 \tf@lof=\write4
 \openout4 = `template-stb-report-eng.lof'.
 
@@ -1616,53 +1650,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  (./chaps-main/chap-intro.tex
 Chapter 1.
-
-Overfull \hbox (13.00275pt too wide) in paragraph at lines 5--6
-\TU/Cambria(0)/m/n/12 A portable coordinate measuring arm (PCMA) is a handheld 
-metrology instrument
- []
-
 File: ../../../../../portable-coordinate-measuring-machine-arm.jpg Graphic file
  (type bmp)
 <../../../../../portable-coordinate-measuring-machine-arm.jpg>
 
-Overfull \hbox (4.06593pt too wide) in paragraph at lines 14--15
+Overfull \hbox (13.00275pt too wide) in paragraph at lines 5--11
+\TU/Cambria(0)/m/n/12 A portable coordinate measuring arm (PCMA) is a handheld 
+metrology instrument
+ []
+
+
+Package natbib Warning: Citation `Cuesta:2015' on page 1 undefined on input lin
+e 12.
+
+
+Overfull \hbox (4.06593pt too wide) in paragraph at lines 12--13
 []\TU/Cambria(0)/m/n/12 PCMAs offer adaptable measurement capabilities across v
 arious engineering
  []
 
 
-Overfull \hbox (35.54276pt too wide) in paragraph at lines 14--15
+Overfull \hbox (35.54276pt too wide) in paragraph at lines 12--13
 \TU/Cambria(0)/m/n/12 applications, including dimensional analysis, computer-ai
 ded design (CAD) inspection,
  []
 
 
-Overfull \hbox (21.78741pt too wide) in paragraph at lines 14--15
+Overfull \hbox (21.78741pt too wide) in paragraph at lines 12--13
 \TU/Cambria(0)/m/n/12 vulnerable to positional instability and structural defor
 mation during measurement
  []
 
 
-Overfull \hbox (11.28703pt too wide) in paragraph at lines 14--15
+Overfull \hbox (11.28703pt too wide) in paragraph at lines 12--13
 \TU/Cambria(0)/m/n/12 calibration procedures, which strictly require the arm to
  remain as still as possible
  []
 
 
-Overfull \hbox (3.99602pt too wide) in paragraph at lines 16--17
+Overfull \hbox (3.99602pt too wide) in paragraph at lines 14--15
 []\TU/Cambria(0)/m/n/12 As a result, integrating the design of an effective pos
 ition-holding mechanism
  []
 
 
-Overfull \hbox (3.7903pt too wide) in paragraph at lines 16--17
+Overfull \hbox (3.7903pt too wide) in paragraph at lines 14--15
 \TU/Cambria(0)/m/n/12 safety. Such a joint design improves the kinematic stabil
 ity of the arm, eliminates
  []
 
 
-Overfull \hbox (20.83534pt too wide) in paragraph at lines 20--21
+Overfull \hbox (20.83534pt too wide) in paragraph at lines 18--19
 \TU/Cambria(0)/m/n/12 PCMA to eliminate positional drift, enhance kinematic sta
 bility, and reduce operator
  []
@@ -1675,82 +1713,82 @@ bility, and reduce operator
 
 ]
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 30.
+(Font)              scaled to size 10.00107pt on input line 28.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 30.
+(Font)              scaled to size 7.00075pt on input line 28.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 30.
+(Font)              scaled to size 5.00053pt on input line 28.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 30.
+(Font)              scaled to size 9.99893pt on input line 28.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 30.
+(Font)              scaled to size 6.99925pt on input line 28.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 30.
-
-Overfull \hbox (29.66898pt too wide) in paragraph at lines 30--31
-\TU/Cambria(0)/m/n/12 In the process of determining D-H parameters, user manual
-s and available schematics
- []
-
+(Font)              scaled to size 4.99947pt on input line 28.
 File: ../../../../../../../../../Downloads/System Context (2).png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/System Context (2).png>
 
-Overfull \hbox (1.34796pt too wide) in paragraph at lines 39--40
+Overfull \hbox (29.66898pt too wide) in paragraph at lines 28--34
+\TU/Cambria(0)/m/n/12 In the process of determining D-H parameters, user manual
+s and available schematics
+ []
+
+
+Overfull \hbox (1.34796pt too wide) in paragraph at lines 35--36
 \TU/Cambria(0)/m/n/12 proposed design will be restricted to constructing critic
 al subsystems necessary
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 43--43
+Underfull \hbox (badness 5105) in paragraph at lines 39--39
 [][]\TU/Cambria(0)/m/n/10 In the context of PCMAs, ”in-line” refers to performi
 ng quality inspections and
  []
 
 
-Overfull \hbox (23.28078pt too wide) in paragraph at lines 43--44
+Overfull \hbox (23.28078pt too wide) in paragraph at lines 39--40
 \TU/Cambria(0)/m/n/12 PCMAs are becoming more popular than traditional coordina
 te measuring machines
  []
 
 
-Overfull \hbox (7.33118pt too wide) in paragraph at lines 43--44
+Overfull \hbox (7.33118pt too wide) in paragraph at lines 39--40
 \TU/Cambria(0)/m/n/12 applicability across multiple industries such as aerospac
 e, automotive, and heavy
  []
 
 [2]
-Overfull \hbox (11.17622pt too wide) in paragraph at lines 53--54
+Overfull \hbox (11.17622pt too wide) in paragraph at lines 49--50
 \TU/Cambria(0)/m/n/12 joint propagate through the kinematic chain, which affect
 s end-effector’s accuracy.
  []
 
 
-Overfull \hbox (13.19484pt too wide) in paragraph at lines 53--54
+Overfull \hbox (13.19484pt too wide) in paragraph at lines 49--50
 \TU/Cambria(0)/m/n/12 a generalised model based on an error model that was deve
 loped by a Stellenbosch
  []
 
 
-Overfull \hbox (18.35854pt too wide) in paragraph at lines 53--54
+Overfull \hbox (18.35854pt too wide) in paragraph at lines 49--50
 \TU/Cambria(0)/m/n/12 Alumnus, Leon Hall ([]). This will produce a validated jo
 int and testing methodology
  []
 
 
-Overfull \hbox (5.46933pt too wide) in paragraph at lines 64--65
+Overfull \hbox (5.46933pt too wide) in paragraph at lines 60--61
 []\TU/Cambria(0)/m/n/12 Chapter 2 presents a literature review discussing sourc
 es relevant to PCMA
  []
 
 
-Overfull \hbox (17.35066pt too wide) in paragraph at lines 64--65
+Overfull \hbox (17.35066pt too wide) in paragraph at lines 60--61
 \TU/Cambria(0)/m/n/12 joint design, position-holding technology, kinematic mode
 ling, error analysis,
  []
 
 [3]
-Overfull \hbox (6.14445pt too wide) in paragraph at lines 67--68
+Overfull \hbox (6.14445pt too wide) in paragraph at lines 63--64
 []\TU/Cambria(0)/m/n/12 Chapter 5 describes the design analysis of the chosen c
 oncept, with regards
  []
@@ -1797,33 +1835,33 @@ Overfull \hbox (9.48586pt too wide) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 9--9
-[][]\TU/Cambria(0)/m/n/10 Graduation inaccuracy refers to microscopic physical 
-imperfections in the spacing,
+Overfull \hbox (40.3346pt too wide) in paragraph at lines 9--10
+\TU/Cambria(0)/m/n/12 that calibration utilises the D-H method to model geometr
+ic coordinate transformations
  []
 
 
-Overfull \hbox (17.97131pt too wide) in paragraph at lines 9--10
-\TU/Cambria(0)/m/n/12 calibration utilises the D-H method to model geometric co
-ordinate transformations
+Overfull \hbox (17.05226pt too wide) in paragraph at lines 9--10
+\TU/Cambria(0)/m/n/12 data aqcusition methods that use laser-tracking multilate
+ration to achieve accurate
  []
 
 
-Overfull \hbox (12.90382pt too wide) in paragraph at lines 9--10
-\TU/Cambria(0)/m/n/12 data aqcusition methods that use laser-tracker multilaser
-ation to achieve accurate
+Overfull \hbox (16.3921pt too wide) in paragraph at lines 11--12
+[]\TU/Cambria(0)/m/n/12 Laser-tracking multilateration is a metrology technique
+ that determines spatial
  []
 
 
-Overfull \hbox (9.39381pt too wide) in paragraph at lines 9--10
-\TU/Cambria(0)/m/n/12 nominal coordinates across the arm’s working volume. In a
-ddition to this, Alvarez
+Overfull \hbox (13.00124pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 locations to a reflector on the end-effector ([]). In sim
+pler terms, exact straight-line
  []
 
 
-Overfull \hbox (2.48521pt too wide) in paragraph at lines 9--10
-\TU/Cambria(0)/m/n/12 et al. note that human factors introduce non-uniform cont
-act forces and variable
+Overfull \hbox (12.42679pt too wide) in paragraph at lines 11--12
+\TU/Cambria(0)/m/n/12 distances intersections, the system determines where the 
+probe’s true 3D position
  []
 
 [5
@@ -1832,91 +1870,361 @@ act forces and variable
 
 
 ]
-Overfull \hbox (2.35515pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 authors, including Alvarez et al. and Ibaraki and Saito, 
-focus solely on calculating
+Underfull \hbox (badness 2277) in paragraph at lines 13--13
+[][]\TU/Cambria(0)/m/n/10 Graduation inaccuracy refers to microscopic physical 
+imperfections in the spacing,
  []
 
 
-Overfull \hbox (8.60631pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 and compensating for the error computationally. There is 
-insufficient exploration
+Overfull \hbox (14.49562pt too wide) in paragraph at lines 13--14
+\TU/Cambria(0)/m/n/12 non-uniform contact forces and variable operating traject
+ories due to their manual
  []
 
 
-Overfull \hbox (4.5606pt too wide) in paragraph at lines 11--12
-\TU/Cambria(0)/m/n/12 into mechanical stablisation techniques to address the po
-sitional error observed.
+Overfull \hbox (0.10857pt too wide) in paragraph at lines 13--14
+\TU/Cambria(0)/m/n/12 operation. Through finite element analysis (FEA) and mult
+ibody dynamics, they
  []
 
 
-Overfull \hbox (11.1968pt too wide) in paragraph at lines 14--15
+Overfull \hbox (40.9554pt too wide) in paragraph at lines 13--14
+\TU/Cambria(0)/m/n/12 demonstrate that human-driven forces induce elastic, dyna
+mic, structural deformations
+ []
+
+
+Overfull \hbox (9.38675pt too wide) in paragraph at lines 13--14
+\TU/Cambria(0)/m/n/12 within the arm during probing. Due to the linearity of th
+ese deformations, Alvarez
+ []
+
+
+Overfull \hbox (5.17857pt too wide) in paragraph at lines 15--16
+\TU/Cambria(0)/m/n/12 calculating and compensating for the error computationall
+y. There is insufficient
+ []
+
+
+Overfull \hbox (4.70982pt too wide) in paragraph at lines 15--16
+\TU/Cambria(0)/m/n/12 error observed. Such an approach would prevent structural
+ elastic deformations
+ []
+
+
+Overfull \hbox (11.1968pt too wide) in paragraph at lines 18--19
 \TU/Cambria(0)/m/n/12 end-effector’s position and orientation relative to the s
 ystem of articulate linkages
  []
 
 
-Overfull \hbox (22.23912pt too wide) in paragraph at lines 14--15
+Overfull \hbox (22.23912pt too wide) in paragraph at lines 18--19
 \TU/Cambria(0)/m/n/12 it is connected to ([]). This is done by relating the end
 -effector’s reference coordinate
  []
 
 
-Overfull \hbox (7.72769pt too wide) in paragraph at lines 16--17
-\TU/Cambria(0)/m/n/12 PCMA. This PCMA was modelled as a serial kinematic chain 
-due to its architecture.
+Overfull \hbox (2.80334pt too wide) in paragraph at lines 18--19
+\TU/Cambria(0)/m/n/12 behind this investigation was that PCMA manufacturers did
+ not adopt a common
  []
 
 [6]
-Overfull \hbox (1.74582pt too wide) in paragraph at lines 30--32
-\TU/Cambria(0)/m/n/12 is the joint offset. These are known as D-H parameters. T
-ogether, in Equation 2.2[]
+Overfull \hbox (1.00842pt too wide) in paragraph at lines 22--23
+[]\TU/Cambria(0)/m/n/12 The PCMA was modelled as a serial kinematic chain based
+ on its architecture
  []
 
-File: ../../../../../../Concept design report/DH model of Faro arm.png Graphic 
-file (type bmp)
-<../../../../../../Concept design report/DH model of Faro arm.png>
-
-Overfull \hbox (8.27956pt too wide) in paragraph at lines 33--39
-[]\TU/Cambria(0)/m/n/12 The D-H model relevant to the joint-design project mode
-lled a Faro QuantumX
- []
-
-
-Overfull \hbox (8.37262pt too wide) in paragraph at lines 43--44
-\TU/Cambria(0)/m/n/12 From the derivation of the D-H model, the error progation
- model could be derived.
- []
-
-
-Overfull \hbox (32.60695pt too wide) in paragraph at lines 43--44
-\TU/Cambria(0)/m/n/12 known uncertainties move through an articulated system an
-d how those uncertainties
- []
-
-
-Overfull \hbox (32.0429pt too wide) in paragraph at lines 47--49
-\TU/Cambria(0)/m/n/12 derivation for Equation 2.3[] begins with a Taylor series
- expansion, which approximates
- []
-
+File: ../../../../../../../../../Downloads/screenshot001_d-h.png Graphic file (
+type bmp)
+<../../../../../../../../../Downloads/screenshot001_d-h.png>
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]|\TU/Cambria(0)/m/n/12 Length of link 1 from
+ []
+
+
+Overfull \hbox (24.14514pt too wide) in paragraph at lines 53--68
+\TU/Cambria(0)/m/n/12 internal electrically erasable programmable read-only mem
+ory (EEPROM) firmware
+ []
+
+
+Overfull \hbox (7.30592pt too wide) in paragraph at lines 53--68
+\TU/Cambria(0)/m/n/12 or stored within its proprietary device drivers ([]). How
+ever, they can be derived
+ []
+
+File: ../../../../../../../../../Downloads/DH model of Faro arm.png Graphic fil
+e (type bmp)
+<../../../../../../../../../Downloads/DH model of Faro arm.png>
+
+Overfull \hbox (24.34103pt too wide) in paragraph at lines 71--77
+\TU/Cambria(0)/m/n/12 joint or lying co-planar with the structural axes. As a r
+esult, there is no perpendicular
+ []
+
+
+Overfull \hbox (5.48555pt too wide) in paragraph at lines 71--77
+\TU/Cambria(0)/m/n/12 offset or lever arm that separates the adjacent rotationa
+l centerlines. By contrast,
+ []
+
+[8]
+Overfull \hbox (13.47043pt too wide) in paragraph at lines 117--119
+\TU/Cambria(0)/m/n/12 errors in $[][]$ represent a source of uncertainty, which
+ propagates to the end-effector,
+ []
+
+[9]
+Overfull \hbox (12.62291pt too wide) in paragraph at lines 120--121
+\TU/Cambria(0)/m/n/12 position uncertainty distribution of the PCMA’s end-effec
+tor across the workspace,
+ []
+
+
+Overfull \hbox (12.07129pt too wide) in paragraph at lines 124--125
+\TU/Cambria(0)/m/n/12 As mentioned in the previous section, an error propagatio
+n model was established
+ []
+
+
+Overfull \hbox (12.1356pt too wide) in paragraph at lines 124--125
+\TU/Cambria(0)/m/n/12 across the entire working volume. This mapping enabled th
+e derivation of optimal
+ []
+
+
+Overfull \hbox (13.978pt too wide) in paragraph at lines 124--125
+\TU/Cambria(0)/m/n/12 encoder performance measures through a requirements analy
+sis conducted under
+ []
+
+
+Overfull \hbox (6.18898pt too wide) in paragraph at lines 126--127
+\TU/Cambria(0)/m/n/12 depicting how known uncertainties move through an articul
+ated kinematic chain
+ []
+
+
+Overfull \hbox (10.69675pt too wide) in paragraph at lines 126--127
+\TU/Cambria(0)/m/n/12 and how these uncertainties affect the output positioning
+ error of the end-effector
+ []
+
+
+Overfull \hbox (27.46896pt too wide) in paragraph at lines 130--132
+\TU/Cambria(0)/m/n/12 the transformation matrix in Equation 2.1[]) and $[][]$ i
+s the input uncertainty covariance
+ []
+
+
+Overfull \hbox (3.19328pt too wide) in paragraph at lines 133--134
+\TU/Cambria(0)/m/n/12 covariance matrix, where $[]$ is the number of DOF, inten
+ded to model the variance
+ []
+
+
+Overfull \hbox (37.64774pt too wide) in paragraph at lines 142--144
+\TU/Cambria(0)/m/n/12 These parameter variances usually account for structural 
+deformations, manufacturing
+ []
+
+
+Overfull \hbox (25.82649pt too wide) in paragraph at lines 142--144
+\TU/Cambria(0)/m/n/12 tolerances, and environmentally-induced effects, such as 
+ambient thermal expansion
+ []
+
+
+Overfull \hbox (33.61906pt too wide) in paragraph at lines 147--149
+\TU/Cambria(0)/m/n/12 scales with a baseline angular standard deviation, typica
+lly set to an industry-standard
+ []
+
+[10]
+Overfull \hbox (16.30006pt too wide) in paragraph at lines 150--151
+[]\TU/Cambria(0)/m/n/12 The resulting end-effector covariance matrix $[][]$ cha
+racterizes the multi-variate
+ []
+
+
+Overfull \hbox (4.9804pt too wide) in paragraph at lines 150--151
+\TU/Cambria(0)/m/n/12 high statistical confidence, the expanded spatial uncerta
+inty at a $[][][]$ confidence
+ []
+
+
+Overfull \hbox (10.85387pt too wide) in paragraph at lines 158--159
+\TU/Cambria(0)/m/n/12 QuantumX, specifically the [][] arm, a posture sampling s
+cheme was implemented
+ []
+
+File: ../../../../../../../../../Downloads/Screenshot 2026-10-05 114515.png Gra
+phic file (type bmp)
+<../../../../../../../../../Downloads/Screenshot 2026-10-05 114515.png>
+File: ../../../../../../../../../Downloads/screenshot002.png Graphic file (type
+ bmp)
+<../../../../../../../../../Downloads/screenshot002.png>
+[11]
+File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
+ bmp)
+<../../../../../../../../../Downloads/screenshot003.png>
+File: ../../../../../../../../../Downloads/screenshot001-1.png Graphic file (ty
+pe bmp)
+<../../../../../../../../../Downloads/screenshot001-1.png>
+File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
+pe bmp)
+<../../../../../../../../../Downloads/screenshot001-2.png>
+
+Overfull \hbox (19.78835pt too wide) in paragraph at lines 181--199
+\TU/Cambria(0)/m/n/12 postures spanning the entire working volume. For each dis
+crete pose, the algorithm
+ []
+
+
+Overfull \hbox (1.89514pt too wide) in paragraph at lines 181--199
+\TU/Cambria(0)/m/n/12 evaluates forward kinematics to compute 3D Cartesian end-
+effector coordinates
+ []
+
 File: ../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Screenshot 2026-08-22 191504.jpg>
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 204.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 8.00085pt on input line 204.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 204.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 204.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 204.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 204.
 
-Overfull \hbox (4.74141pt too wide) in paragraph at lines 57--58
-\TU/Cambria(0)/m/n/12 closer to its base. The bright yellow regions show where 
-the arm is least accurate,
+Overfull \hbox (4.55437pt too wide) in paragraph at lines 200--206
+\TU/Cambria(0)/m/n/12 covariance matrix $[][]$, from which the 95% expanded spa
+tial uncertainty interval
+ []
+
+[12]
+Overfull \hbox (7.96515pt too wide) in paragraph at lines 207--208
+[]\TU/Cambria(0)/m/n/12 The spatial map demonstrates the posture-dependence of 
+kinematic accuracy
  []
 
 
-Overfull \hbox (10.07092pt too wide) in paragraph at lines 59--60
-\TU/Cambria(0)/m/n/12 also be used for the future developement of a full PCMA a
-rm with position-holding
+Overfull \hbox (24.6313pt too wide) in paragraph at lines 209--210
+[]\TU/Cambria(0)/m/n/12 Furthermore, the generalizability of this model enables
+ joint-locking simulations.
  []
 
-) [8] [9]
+
+Overfull \hbox (38.97414pt too wide) in paragraph at lines 209--210
+\TU/Cambria(0)/m/n/12 By setting targeted variance elements in $[][]$ to zero (
+simulating active position-holding),
+ []
+
+
+Overfull \hbox (16.41272pt too wide) in paragraph at lines 209--210
+\TU/Cambria(0)/m/n/12 the framework can evaluate trade-offs for optimized multi
+-DOF arm configurations
+ []
+
+
+Overfull \hbox (23.8363pt too wide) in paragraph at lines 215--216
+\TU/Cambria(0)/m/n/12 plate to maximize heat dissipation ([]). However, because
+ the PCMA joint mechanism
+ []
+
+[13]
+File: ../../../../../../../../../Downloads/screenshot001 Fbrake.png Graphic fil
+e (type bmp)
+<../../../../../../../../../Downloads/screenshot001 Fbrake.png>
+
+Overfull \hbox (4.53117pt too wide) in paragraph at lines 217--223
+[]\TU/Cambria(0)/m/n/12 According to Shigley’s Mechanical Engineering Design ([
+]), under the uniform
+ []
+
+
+Overfull \hbox (16.65846pt too wide) in paragraph at lines 217--223
+\TU/Cambria(0)/m/n/12 pressure assumption, the clamping force $[]$ applied by t
+he electromagnetic actuator,
+ []
+
+File: ../../../../../../../../../Downloads/screenshot001 Fmag.png Graphic file 
+(type bmp)
+<../../../../../../../../../Downloads/screenshot001 Fmag.png>
+
+Overfull \hbox (13.30357pt too wide) in paragraph at lines 232--238
+\TU/Cambria(0)/m/n/12 dictates how electrical power generates that force. Consi
+der a solenoidal magnetic
+ []
+
+
+Overfull \hbox (36.95723pt too wide) in paragraph at lines 239--240
+\TU/Cambria(0)/m/n/12 force (MMF), $[] [] [][]$ ([]). Assuming high magnetic pe
+rmeability for the ferromagnetic
+ []
+
+[14]
+Overfull \hbox (1.7054pt too wide) in paragraph at lines 256--257
+[]\TU/Cambria(0)/m/n/12 The electromagnetic clamping force, $[]$, pulling the c
+ore faces together across
+ []
+
+File: ../../../../../../../../../Downloads/screenshot001 Fmag1sat.png Graphic f
+ile (type bmp)
+<../../../../../../../../../Downloads/screenshot001 Fmag1sat.png>
+
+Underfull \hbox (badness 4429) in paragraph at lines 265--265
+[]\TU/Cambria(0)/m/n/10.95 Figure 2.10: |Progression of Magnetic Flux Saturatio
+n and Hysteresis Domain
+ []
+
+
+Overfull \hbox (11.27014pt too wide) in paragraph at lines 260--267
+\TU/Cambria(0)/m/n/12 Ferromagnetic core materials exhibit a non-linear B-H mag
+netization relationship
+ []
+
+
+Overfull \hbox (15.08391pt too wide) in paragraph at lines 260--267
+\TU/Cambria(0)/m/n/12 governed by the alignment of internal magnetic domains in
+ the metal, as illustrated
+ []
+
+[15]
+Overfull \hbox (8.11092pt too wide) in paragraph at lines 268--269
+\TU/Cambria(0)/m/n/12 the applied field ([]). Beyond $[][]$, further increases 
+in coil excitation ($[][]$) produce
+ []
+
+
+Overfull \hbox (24.51482pt too wide) in paragraph at lines 270--271
+\TU/Cambria(0)/m/n/12 field corresponding to the coercive force at point $[][]$
+ ([]). To ensure rapid mechanical
+ []
+
+
+Overfull \hbox (8.62654pt too wide) in paragraph at lines 270--271
+\TU/Cambria(0)/m/n/12 narrow hysteresis loop, characterized by low coercive for
+ce ($[][] [] []$) and minimal
+ []
+
+File: ../../../../../../../../../Downloads/screenshot001 Fmag1sat2.png Graphic 
+file (type bmp)
+<../../../../../../../../../Downloads/screenshot001 Fmag1sat2.png>
+
+Overfull \hbox (1.5136pt too wide) in paragraph at lines 274--282
+\TU/Cambria(0)/m/n/12 to allow higher current $[]$, but increases total coil vo
+lume and thermal dissipation
+ []
+
+[16]) [17]
 \openout2 = `chaps-main/chap-requirement_analysis.aux'.
 
  (./chaps-main/chap-requirement_analysis.tex
@@ -1943,7 +2251,7 @@ Overfull \hbox (3.14919pt too wide) in paragraph at lines 36--46
  [][] 
  []
 
-[10
+[18
 
 
 
@@ -1957,7 +2265,7 @@ d derived FRs, in which:
 File: ../../../../../../../../../Downloads/Functional decomposition (2).png Gra
 phic file (type bmp)
 <../../../../../../../../../Downloads/Functional decomposition (2).png>
-[11]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\TU/Cambria(0)/m/n/12 FR_-01, FR_-05,
  []
@@ -1999,7 +2307,7 @@ Overfull \hbox (8.29329pt too wide) in paragraph at lines 97--98
 ide detailed calculations
  []
 
-[12]
+[20]
 Overfull \hbox (4.55421pt too wide) in paragraph at lines 105--106
 \TU/Cambria(0)/m/n/12 Minute bearing play and shaft imperfections can cause the
  joint to wobble during
@@ -2027,7 +2335,7 @@ File: ../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.1
 2.jpeg Graphic file (type bmp)
 <../../../../../../../../../Downloads/WhatsApp Image 2026-10-05 at 15.19.12.jpe
 g>
-[13]
+[21]
 Overfull \hbox (14.55539pt too wide) in paragraph at lines 137--139
 \TU/Cambria(0)/m/n/12 By achieving this holding torque, the position-holding me
 chanism will successfully
@@ -2064,18 +2372,18 @@ Overfull \hbox (2.22401pt too wide) in paragraph at lines 149--151
  []
 
 )
-Overfull \hbox (42.05553pt too wide) in paragraph at lines 158--141
+Overfull \hbox (42.05553pt too wide) in paragraph at lines 158--143
 \TU/Cambria(0)/m/n/12 preserve long-term mechanical reliability. This will prev
 ent joint play and measurement
  []
 
 
-Overfull \hbox (7.33618pt too wide) in paragraph at lines 158--141
+Overfull \hbox (7.33618pt too wide) in paragraph at lines 158--143
 \TU/Cambria(0)/m/n/12 duty cycles. Instead, the baseline requirement, $[][] [] 
 [][][][]$, is established
  []
 
-[14] [15]
+[22] [23]
 \openout2 = `chaps-main/chap-concept_development.aux'.
 
  (./chaps-main/chap-concept_development.tex
@@ -2089,7 +2397,7 @@ re evaluated for implementation
 File: ../../../../../../Building the joint/Concept 1.jpg Graphic file (type bmp
 )
 <../../../../../../Building the joint/Concept 1.jpg>
-[16
+[24
 
 
 
@@ -2118,7 +2426,7 @@ Overfull \hbox (38.51624pt too wide) in paragraph at lines 29--36
 o implement an electromagnetic
  []
 
-[17] [18]
+[25] [26]
 Overfull \hbox (18.09184pt too wide) in paragraph at lines 47--48
 \TU/Cambria(0)/m/n/12 maximise the joint design’s ability to maintain and/or im
 prove the PCMA’s accuracy.
@@ -2517,13 +2825,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \TU/Cambria(0)/m/n/8 control circuitry for
  []
 
-[19]
+[27]
 Overfull \hbox (14.45123pt too wide) in paragraph at lines 134--135
 \TU/Cambria(0)/m/n/12 and strength. When de-energised, the electromagnetic brak
 e is able to successfully
  []
 
-[20]
+[28]
 Overfull \hbox (0.87923pt too wide) in paragraph at lines 136--137
 \TU/Cambria(0)/m/n/12 functional requirements in Table 4.1[], Table 4.2[] below
 , identifies the components
@@ -2593,7 +2901,7 @@ File: ../../../../../../Building the joint/Joint pictures/Screenshot 2026-10-20
  203105.png Graphic file (type bmp)
 <../../../../../../Building the joint/Joint pictures/Screenshot 2026-10-20 2031
 05.png>
-[21]
+[29]
 Overfull \hbox (18.73247pt too wide) in paragraph at lines 175--176
 \TU/Cambria(0)/m/n/12 sized and positioned to integrate seamlessly within the P
 CMA’s physical constraints.
@@ -2623,13 +2931,13 @@ Overfull \hbox (1.11217pt too wide) in paragraph at lines 179--180
 ures uniform application
  []
 
-[22]
+[30]
 Overfull \hbox (19.39244pt too wide) in paragraph at lines 183--203
 []\TU/Cambria(0)/m/n/12 Below is a parts list that corresponds to the refined j
 oint subsystem in Figure 4.4[],
  []
 
-) [23]
+) [31]
 \openout2 = `chaps-main/chap-design_analysis.aux'.
 
  (./chaps-main/chap-design_analysis.tex
@@ -2646,139 +2954,157 @@ Overfull \hbox (1.44759pt too wide) in paragraph at lines 3--4
 gical, top-down fashion
  []
 
-File: ../../../../../../../../../Downloads/screenshot001.png Graphic file (type
- bmp)
-<../../../../../../../../../Downloads/screenshot001.png>
-[24
+File: ../../../../../../../../../Downloads/Screenshot 2026-10-21 103108.png Gra
+phic file (type bmp)
+<../../../../../../../../../Downloads/Screenshot 2026-10-21 103108.png>
+[32
 
 
 
 
 ]
-Overfull \hbox (21.661pt too wide) in paragraph at lines 15--16
-\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure A.1[]. The diff
+Overfull \hbox (20.82896pt too wide) in paragraph at lines 14--16
+\TU/Cambria(0)/m/n/12 are marked with balloon numbers in Figure 5.1[]. The diff
 erent views and dimensions
  []
 
 
-Overfull \hbox (13.8257pt too wide) in paragraph at lines 15--16
+Overfull \hbox (13.8257pt too wide) in paragraph at lines 14--16
 \TU/Cambria(0)/m/n/12 of the engineering drawing depict the position of physica
 l interfaces with elements
  []
 
 
-Overfull \hbox (9.94983pt too wide) in paragraph at lines 15--16
+Overfull \hbox (9.94983pt too wide) in paragraph at lines 14--16
 \TU/Cambria(0)/m/n/12 external to the NSoI and the spatial constraints for the 
 respective system elements
  []
 
 
-Overfull \hbox (28.10672pt too wide) in paragraph at lines 17--18
-\TU/Cambria(0)/m/n/12 supported by two RS PRO [][] ID 2-Row ball bearings mount
-ed with an inteference
+Overfull \hbox (10.30617pt too wide) in paragraph at lines 14--16
+\TU/Cambria(0)/m/n/12 inside the NSoI. The overall configuration uses an electr
+omagnetic brake mounted
  []
 
 
-Overfull \hbox (3.26588pt too wide) in paragraph at lines 17--18
-\TU/Cambria(0)/m/n/12 electromagnetic brake consist of solenoids, friction plat
-e (laser-cut by Fabrinox),
+Overfull \hbox (37.5985pt too wide) in paragraph at lines 14--16
+\TU/Cambria(0)/m/n/12 electromagnetic brake assembly interfaces directly with t
+he shaft. The electromagnetic
  []
 
 
-Overfull \hbox (13.5761pt too wide) in paragraph at lines 19--20
+Overfull \hbox (21.4218pt too wide) in paragraph at lines 17--18
+[]\TU/Cambria(0)/m/n/12 The load path originates at the weight of the articulat
+ion link, which is transfered
+ []
+
+
+Overfull \hbox (4.78737pt too wide) in paragraph at lines 19--20
+\TU/Cambria(0)/m/n/12 link, accounting for the probe hub and probe, were calcul
+ated under Equation 5.1[]
+ []
+
+
+Overfull \hbox (17.91579pt too wide) detected at line 33
+[][][]
+ []
+
+[33]
+Overfull \hbox (13.5761pt too wide) in paragraph at lines 41--42
 []\TU/Cambria(0)/m/n/12 This configuration was chosen because it provides a rel
 iable, uniform clamping
  []
 
-[25]
-Overfull \hbox (28.40074pt too wide) in paragraph at lines 21--22
+
+Overfull \hbox (28.40074pt too wide) in paragraph at lines 43--44
 \TU/Cambria(0)/m/n/12 electromagnetic brake was sized to deliver a static holdi
 ng of [][], corrsponding
  []
 
 
-Overfull \hbox (12.21375pt too wide) in paragraph at lines 25--26
+Overfull \hbox (12.21375pt too wide) in paragraph at lines 47--48
 \TU/Cambria(0)/m/n/12 The purpose of the switching circuit is to bridge the sig
 nificant power gap between
  []
 
 
-Overfull \hbox (45.9526pt too wide) in paragraph at lines 25--26
+Overfull \hbox (45.9526pt too wide) in paragraph at lines 47--48
 \TU/Cambria(0)/m/n/12 circuitry is required to safely step down power for the l
 ogic and allow the microcontroller
  []
 
 
-Overfull \hbox (3.29576pt too wide) in paragraph at lines 25--26
+Overfull \hbox (3.29576pt too wide) in paragraph at lines 47--48
 \TU/Cambria(0)/m/n/12 to switch the electromagnet without sustaining damage. Fi
 gure 5.2[] below shows
  []
 
+[34]
 File: ../../../../../../../../../Downloads/Wiring Diagram.png Graphic file (typ
 e bmp)
 <../../../../../../../../../Downloads/Wiring Diagram.png>
 
-Overfull \hbox (2.36064pt too wide) in paragraph at lines 34--35
+Overfull \hbox (2.36064pt too wide) in paragraph at lines 56--57
 \TU/Cambria(0)/m/n/12 implemented. Its purpose is to reduce the [][] supply to 
 a safe operating voltage
  []
 
 
-Overfull \hbox (22.81897pt too wide) in paragraph at lines 36--37
+Overfull \hbox (22.81897pt too wide) in paragraph at lines 58--59
 \TU/Cambria(0)/m/n/12 metal-oxide-semiconductor field-effect transistor (MOSFET
 ) is utilised as a low-side
  []
 
 
-Overfull \hbox (41.76215pt too wide) in paragraph at lines 36--37
+Overfull \hbox (41.76215pt too wide) in paragraph at lines 58--59
 \TU/Cambria(0)/m/n/12 signal from the microcontroller[] and use it to safely tu
 rn the high-current electromagnet
  []
 
 
-Overfull \hbox (21.42265pt too wide) in paragraph at lines 38--39
+Overfull \hbox (21.42265pt too wide) in paragraph at lines 60--61
 \TU/Cambria(0)/m/n/12 and protective of the MOSFET, including the [][] gate res
 istor, the [][] pull-down
  []
 
-[26]
-Overfull \hbox (12.5304pt too wide) in paragraph at lines 44--45
+[35]
+Overfull \hbox (12.5304pt too wide) in paragraph at lines 66--67
 \TU/Cambria(0)/m/n/12 In mechatronics systems, such as the electromagnetic brak
 e system, it is necessary
  []
 
 
-Overfull \hbox (23.84602pt too wide) in paragraph at lines 44--45
+Overfull \hbox (23.84602pt too wide) in paragraph at lines 66--67
 \TU/Cambria(0)/m/n/12 (encoder), and the control software for reliable operatio
 n. The software architecture
  []
 
 
-Overfull \hbox (9.22037pt too wide) in paragraph at lines 44--45
+Overfull \hbox (9.22037pt too wide) in paragraph at lines 66--67
 \TU/Cambria(0)/m/n/12 hierachy to manage real-time monitoring and actuation pro
 cesses. This hierarchy
  []
 
 
-Overfull \hbox (37.08598pt too wide) in paragraph at lines 49--50
+Overfull \hbox (37.08598pt too wide) in paragraph at lines 71--72
 \TU/Cambria(0)/m/n/12 angular displacement data from the microcontroller for lo
 gging and visualisation. 
  []
 
 
-Overfull \hbox (18.09758pt too wide) in paragraph at lines 52--53
+Overfull \hbox (18.09758pt too wide) in paragraph at lines 74--75
 []\TU/Cambria(0)/m/n/12 To fulfill the system’s FRs, the microcontroller’s pino
 ut is configured to interface
  []
 
-[27]
-Overfull \hbox (20.48195pt too wide) in paragraph at lines 54--55
+
+Overfull \hbox (20.48195pt too wide) in paragraph at lines 76--77
 \TU/Cambria(0)/m/n/12 dedicated hardware circuitry to autonomously track the hi
 gh-frequency quadrature
  []
 
-
-Overfull \hbox (20.88268pt too wide) in paragraph at lines 56--57
+[36]
+Overfull \hbox (20.88268pt too wide) in paragraph at lines 78--79
 []\TU/Cambria(0)/m/n/12 The control strategy implemented for the electromagneti
 c brake is an open-loop,
  []
@@ -2786,7 +3112,7 @@ c brake is an open-loop,
 File: ../../../../../../../../../Downloads/Software_Flowchart.png Graphic file 
 (type bmp)
 <../../../../../../../../../Downloads/Software_Flowchart.png>
-[28]) [29]
+) [37] [38]
 \openout2 = `chaps-main/chap-design_evaluation_and_testing.aux'.
 
  (./chaps-main/chap-design_evaluation_and_testing.tex
@@ -2815,7 +3141,7 @@ Overfull \hbox (4.32117pt too wide) in paragraph at lines 11--12
 lted in a four-solenoid
  []
 
-) [30
+) [39
 
 
 
@@ -2825,95 +3151,37 @@ lted in a four-solenoid
 
  (./chaps-main/chap-conclusion.tex
 Chapter 7.
-) [31
+) [40
 
 
 
 
 ]
-\openout2 = `chaps-append/chap-maths.aux'.
+\openout2 = `chaps-append/chap-bom.aux'.
 
- (./chaps-append/chap-maths.tex
+ (./chaps-append/chap-bom.tex
 Appendix A.
-
-Overfull \hbox (27.14406pt too wide) in paragraph at lines 4--5
-\TU/Cambria(0)/m/n/12 they can be derived from physical dimensions in the produ
-ct specifications document
- []
-
-[32
+) [41
 
 
 
 
 ]
-Overfull \hbox (5.37434pt too wide) in paragraph at lines 30--31
-[]\TU/Cambria(0)/m/n/12 +[][] means the joint axes are perpendicular to each ot
-her in a positive
- []
+\openout2 = `chaps-append/chap-design_calc.aux'.
 
-
-Overfull \hbox (5.08522pt too wide) in paragraph at lines 32--33
-[]\TU/Cambria(0)/m/n/12 -[][] means the joint axes are perpendicular to each ot
-her in a negative
- []
-
-
-Overfull \hbox (2.86893pt too wide) in paragraph at lines 37--38
-[]\TU/Cambria(0)/m/n/12 Note that there is a rotational angle, $[][]$, which is
- the relative rotation between
- []
-
-[33]
-Overfull \hbox (3.51233pt too wide) in paragraph at lines 81--82
-[]\TU/Cambria(0)/m/n/12 The D-H parameters are input into the error propagation
- model to determine
- []
-
-File: ../../../../../../../../../Downloads/Screenshot 2026-10-05 114515.png Gra
-phic file (type bmp)
-<../../../../../../../../../Downloads/Screenshot 2026-10-05 114515.png>
-
-Overfull \hbox (24.33952pt too wide) in paragraph at lines 85--91
-\TU/Cambria(0)/m/n/12 The purpose of the error-propagation model is to determin
-e the position uncertainty
- []
-
-File: ../../../../../../../../../Downloads/screenshot002.png Graphic file (type
- bmp)
-<../../../../../../../../../Downloads/screenshot002.png>
-
-Overfull \hbox (39.83841pt too wide) in paragraph at lines 96--97
- [][] 
- []
-
-[34]
-File: ../../../../../../../../../Downloads/screenshot003.png Graphic file (type
- bmp)
-<../../../../../../../../../Downloads/screenshot003.png>
-
-Overfull \hbox (39.83841pt too wide) in paragraph at lines 104--105
- [][] 
- []
-
-File: ../../../../../../../../../Downloads/screenshot001-1.png Graphic file (ty
-pe bmp)
-<../../../../../../../../../Downloads/screenshot001-1.png>
-File: ../../../../../../../../../Downloads/screenshot001-2.png Graphic file (ty
-pe bmp)
-<../../../../../../../../../Downloads/screenshot001-2.png>
-[35])
-Overfull \hbox (0.83977pt too wide) in paragraph at lines 129--148
-[]\TU/Cambria(0)/m/n/12 From here, a distrbution of the position uncertainty is
- plotted to show where
- []
-
-[36]
-\openout2 = `chaps-append/chap-experiment.aux'.
-
- (./chaps-append/chap-experiment.tex
+ (./chaps-append/chap-design_calc.tex
 Appendix B.
-[37
+) [42
+
+
+
+
+]
+\openout2 = `chaps-append/chap-drawing_pack.aux'.
+
+ (./chaps-append/chap-drawing_pack.tex
+Appendix C.
+[43
 
 
 
@@ -2931,243 +3199,243 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 3>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 3>
- [38
-
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
- [39
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
- [40
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
- [41
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
- [42
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
- [43
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
  [44
 
+
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 4>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 4>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+<use Updated drawing pack.pdf, page 4>
  [45
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 5>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 5>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+<use Updated drawing pack.pdf, page 5>
  [46
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 6>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 6>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+<use Updated drawing pack.pdf, page 6>
  [47
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 7>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 7>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+<use Updated drawing pack.pdf, page 7>
  [48
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 8>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 8>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+<use Updated drawing pack.pdf, page 8>
  [49
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 9>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 9>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+<use Updated drawing pack.pdf, page 9>
  [50
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 10>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 10>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+<use Updated drawing pack.pdf, page 10>
  [51
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 17>
+<use Updated drawing pack.pdf, page 11>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 17>
+<use Updated drawing pack.pdf, page 11>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 17>
-
-[52
+<use Updated drawing pack.pdf, page 11>
+ [52
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 18>
+<use Updated drawing pack.pdf, page 12>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 18>
+<use Updated drawing pack.pdf, page 12>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 18>
+<use Updated drawing pack.pdf, page 12>
  [53
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
+<use Updated drawing pack.pdf, page 13>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
+<use Updated drawing pack.pdf, page 13>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
+<use Updated drawing pack.pdf, page 13>
  [54
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 14>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 14>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
+<use Updated drawing pack.pdf, page 14>
  [55
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 15>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 15>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
+<use Updated drawing pack.pdf, page 15>
  [56
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 16>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 16>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
+<use Updated drawing pack.pdf, page 16>
  [57
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 17>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
+<use Updated drawing pack.pdf, page 17>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
- [58
+<use Updated drawing pack.pdf, page 17>
+
+[58
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 18>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 18>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
+<use Updated drawing pack.pdf, page 18>
  [59
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 19>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 19>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
+<use Updated drawing pack.pdf, page 19>
  [60
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 20>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 20>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
+<use Updated drawing pack.pdf, page 20>
  [61
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 21>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 21>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
+<use Updated drawing pack.pdf, page 21>
  [62
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 22>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 22>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
+<use Updated drawing pack.pdf, page 22>
  [63
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 23>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 23>
 File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
+<use Updated drawing pack.pdf, page 23>
  [64
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 24>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 24>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 24>
+ [65
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 25>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 25>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 25>
+ [66
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 26>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 26>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 26>
+ [67
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 27>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 27>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 27>
+ [68
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 28>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 28>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 28>
+ [69
+
+]
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+File: Updated drawing pack.pdf Graphic file (type pdf)
+<use Updated drawing pack.pdf, page 29>
+ [70
 
 ]
 File: Updated drawing pack.pdf Graphic file (type pdf)
@@ -3176,28 +3444,36 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 30>
 File: Updated drawing pack.pdf Graphic file (type pdf)
 <use Updated drawing pack.pdf, page 30>
- [65
+ [71
 
 ])
-(./template-stb-report-eng.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
-[]\TU/Cambria(0)/m/n/10.95 E. Cuesta, D. A. Mantaras, P. Luque, B. J. Alvarez, 
-and D. Muina, “A
- []
+\openout2 = `chaps-append/chap-project_schedule.aux'.
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 37--40
+(./chaps-append/chap-project_schedule.tex
+Appendix D.
+) [72
+
+
+
+
+] (./template-stb-report-eng.bbl
+Underfull \hbox (badness 1057) in paragraph at lines 34--37
 []\TU/Cambria(0)/m/n/10.95 “Articulated arm coordinate measuring machine calibr
 ation by laser tracker
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 42--45
+Underfull \hbox (badness 3407) in paragraph at lines 52--55
 []\TU/Cambria(0)/m/n/10.95 International Organisation for Standardisation, “Rol
 ling bearings — radial
  []
 
-) [66
+)
+
+Package natbib Warning: There were undefined citations.
+
+[73
 
 
 
@@ -3210,24 +3486,21 @@ ling bearings — radial
 (./chaps-main/chap-concept_development.aux)
 (./chaps-main/chap-design_analysis.aux)
 (./chaps-main/chap-design_evaluation_and_testing.aux)
-(./chaps-main/chap-conclusion.aux) (./chaps-append/chap-maths.aux)
-(./chaps-append/chap-experiment.aux))
+(./chaps-main/chap-conclusion.aux) (./chaps-append/chap-bom.aux)
+(./chaps-append/chap-design_calc.aux) (./chaps-append/chap-drawing_pack.aux)
+(./chaps-append/chap-project_schedule.aux))
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 20512 strings out of 467813
- 476354 string characters out of 5427149
- 1034772 words of memory out of 5000000
- 49169 multiletter control sequences out of 15000+600000
- 631879 words of font info for 142 fonts, out of 8000000 for 9000
+ 20880 strings out of 467813
+ 489657 string characters out of 5427149
+ 1041401 words of memory out of 5000000
+ 49507 multiletter control sequences out of 15000+600000
+ 632449 words of font info for 148 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,17n,115p,1738b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,115p,1537b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (81 pages).
+Output written on template-stb-report-eng.pdf (88 pages).

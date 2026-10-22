@@ -7,26 +7,33 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces A portable coordinate measurement arm \citep {Leussink:2024}.}}{1}{}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces System Context}}{2}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces D-H Model of the Faro Quantum X Arm}}{7}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Uncertainty Distribution Across Sampled Workspace}}{8}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces D-H Parameters Modelling a Pitching (Joint 2) and Rolling Joint (Joint 3)}}{8}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces D-H Model of the FaroArm QuantumX Arm}}{9}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Error-Propagation Variable Input}}{11}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Error-Propagation Encoder Covariance Input}}{12}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Joint Sweep Discetisation}}{12}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Numerical evaluation of kinematic poses and Jacobian transformation across the sampled workspace.}}{12}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Spatial $U_{95}$ uncertainty distribution across the FaroArm Working Volume}}{13}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Disk Friction Member \citep {Shigley:2015}}}{14}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Solenoid }}{14}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Progression of Magnetic Flux Saturation and Hysteresis Domain Alignment}}{16}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Depicting the Increase and Decrease of Magnetic Force}}{17}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Top Level Functional Decomposition}}{12}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces FBD of one of the Faro QuantumX links}}{14}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Top Level Functional Decomposition}}{20}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces FBD of one of the Faro QuantumX links}}{22}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces PCMA Joint with Locking Dial}}{17}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces PCMA Joint with Couunterbalance Spring}}{17}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces PCMA Joint with Electromagnetic Brake}}{18}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Selected Concept Design}}{22}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces PCMA Joint with Locking Dial}}{25}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces PCMA Joint with Couunterbalance Spring}}{25}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces PCMA Joint with Electromagnetic Brake}}{26}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Selected Concept Design}}{30}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Electromagnetic Brake Assembly}}{25}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wiring Diagram}}{26}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Software Design of the PCMA Operation}}{28}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Electromagnetic Brake Assembly}}{33}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wiring Diagram}}{35}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Software Design of the PCMA Operation}}{37}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Error-Propagation Variable Input}}{34}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Error-Propagation Encoder Covariance Input}}{35}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Joint Sweep Sample}}{35}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Evaluation of poses in the sampled working space}}{36}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

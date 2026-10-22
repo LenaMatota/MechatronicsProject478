@@ -4,16 +4,22 @@
 
 As earlier stated, PCMAs are precise, handheld metrology instruments used to capture 3D measurements directly from physical objects. These devices are built with components that operate similarly to an elbow, forearm, and wrist \citep{Meagher:2016}. Typically, an arm operates with six to eight degrees-of-freedom (DOF) to reach inaccessible areas. The measurement accuracy of a PCMA relies heavily on a high-precision probe as an end-effector and high-resolution angular encoders located at each rotating joint \citep{Meagher:2016}. When an operator touches an object through the probe, the arm's movement is tracked in real time by the angular encoders \citep{Leussink:2024}. These measurements are used calculate and plot the exact 3D coordinates of the object within the PCMA's reference coordinate system \citep{Leussink:2024}. More advanced PCMA models may include internal temperature sensors to compensate for environmental temperature changes. They may also incorporate laser-line scanners for non-contact, high-frequency data capture \citep{Meagher:2016}.
 
-It is noted that PCMAs offer significant advantages in flexibility and portability, however, their measurement accuracy is dependent on a rigorous calibration procedure \citep{Brau:2014}. This procedure is used to identify D-H parameters (which will be discussed further Section 2.2) and account for them to improve the accuracy of the PCMA, allowing the PCMA's internal software to compensate for error in end-effector measurement results \citep{Cuesta:2015}. Without proper calibration, the inherent positioning error in the multi-joint arm would exacerbate the arm's measurement uncertainty. This would result in significantly less accuracy in PCMAs \citep{Cuesta:2015}.
+It is noted that PCMAs offer significant advantages in flexibility and portability, however, their measurement accuracy is dependent on a rigorous calibration procedure \citep{Brau:2014}. This procedure is used to identify D-H parameters (which will be discussed further Section 2.2) and account for them to improve the accuracy of the PCMA, allowing the PCMA's internal software to compensate for error in end-effector measurement results \citep{Alvarez:2015}. Without proper calibration, the inherent positioning error in the multi-joint arm would exacerbate the arm's measurement uncertainty. This would result in significantly less accuracy in PCMAs \citep{Alvarez:2015}.
 
-A few authors have highlighted several methodologies and challenges in PCMA calibration to address structural limitations. Alvarez et al. explains that calibration utilises the D-H method to model geometric coordinate transformations between consecutive reference systems. They make use of non-linearisation alogrithms to minimise measurement errors. Their research features novel data aqcusition methods that use laser-tracker multilaseration to achieve accurate nominal coordinates across the arm's working volume. In addition to this, Alvarez et al. note that human factors introduce non-uniform contact forces and variable operating trajectories due to their manual operation. Through finite element analysis (FEA) and multibody dynamics, they demonstrate that human-driven forces induce elastic, dynamic, structural deformations within the arm during probing. Due to the linearity of these deformations, Alvarez et al. conclude that calibration models must account for applied pressure in order to improve overall accuracy. Ibaraki and Saito note that overall measurement uncertainty of PCMAs is aggrevated by angular position errors within the rotary axes, which often stem from graduation errors\footnote{Graduation inaccuracy refers to microscopic physical imperfections in the spacing, placement, or width of the measurement lines (graduations) inscribed on a rotary encoder's internal scale.} of the rotary encoder scale. To minimise this effect, Ibaraki and Saito employ the single point articulation test (SPAT) test and modify it with 3D displacement sensors to dynamically identify these angular errors. 
+A few authors have highlighted several methodologies and challenges in PCMA calibration to address structural limitations. Alvarez et al. \citep{Alvarez:2015} explains that calibration utilises the D-H method to model geometric coordinate transformations between consecutive reference systems. They make use of non-linearisation algorithms to minimise measurement errors. Their research features novel data aqcusition methods that use laser-tracking multilateration to achieve accurate nominal coordinates across the arm's working volume.
 
-Despite these advancements, the proposed solutions of the aforementioned authors, including Alvarez et al. and Ibaraki and Saito, focus solely on calculating and compensating for the error computationally. There is insufficient exploration into mechanical stablisation techniques to address the positional error observed. Such an approach would prevent structural elastic deformations at the source, instead of relying on post-measurement software correction. 
+Laser-tracking multilateration is a metrology technique that determines spatial position by measuring interferometric distances from multiple fixed tracking locations to a reflector on the end-effector \citep{Alvarez:2015}. In simpler terms, exact straight-line distances can be determined by the splitting and recombination of the laser at fixed stations to a reflector on the probe \citep{Alvarez:2015}. By computing where these distances intersections, the system determines where the probe's true 3D position in space is with micrometric accuracy \citep{Alvarez:2015}. This creates a reference map to identify and correct errors in the PCMA's internal D-H kinematic model \citep{Alvarez:2015}.
+
+In addition to this, Alvarez et al. \citep{Alvarez:2015} note that human factors introduce non-uniform contact forces and variable operating trajectories due to their manual operation. Through finite element analysis (FEA) and multibody dynamics, they demonstrate that human-driven forces induce elastic, dynamic, structural deformations within the arm during probing. Due to the linearity of these deformations, Alvarez et al. \citep{Alvarez:2015} conclude that calibration models must account for applied pressure in order to improve overall accuracy. Ibaraki and Saito \citep{Ibaraki:2023} note that overall measurement uncertainty of PCMAs is aggrevated by angular position errors within the rotary axes, which often stem from graduation errors\footnote{Graduation inaccuracy refers to microscopic physical imperfections in the spacing, placement, or width of the measurement lines (graduations) inscribed on a rotary encoder's internal scale.} of the rotary encoder scale. To minimise this effect, Ibaraki and Saito \citep{Ibaraki:2023} employ the single point articulation test (SPAT) and modify it with 3D displacement sensors to dynamically identify these angular errors. 
+
+Despite these advancements, the proposed solutions of the aforementioned authors, including Alvarez et al. \citep{Alvarez:2015} and Ibaraki and Saito \citep{Ibaraki:2023}, focus solely on calculating and compensating for the error computationally. There is insufficient exploration into mechanical stablisation techniques to address the positional error observed. Such an approach would prevent structural elastic deformations at the source, instead of relying on post-measurement software correction. 
 
 \section{The Denavit-Hartenberg (D-H) Model}
-A Denavit-Hartenburg (D-H) model is a tranformation matrix that models an end-effector's position and orientation relative to the system of articulate linkages it is connected to \citep{Hall:2010}. This is done by relating the end-effector's reference coordinate system to the last linkage's reference coordinate system through the matrix \citep{Hall:2010}. Hall and Schreve \citep{Hall:2010} conducted a full investigation of measurement error in PCMAs, which also accounted for spatial error using a modified D-H model. The motivation behind this investigation was that PCMA manufacturers did not adopt a common standard that properly governed their products' accuracy \citep{Hall:2010}. It was found that there was a descrepancy betweem the advertised PCMA accuracy to the actual PCMA accuracy as manufacturers did not account for spatial dependancy in their product \citep{Hall:2010}.
+A Denavit-Hartenburg (D-H) model is a tranformation matrix that models an end-effector's position and orientation relative to the system of articulate linkages it is connected to \citep{Hall:2010}. This is done by relating the end-effector's reference coordinate system to the last linkage's reference coordinate system through the matrix \citep{Hall:2010}. Hall \citep{Hall:2010} conducted a full investigation of measurement error in PCMAs, which also accounted for spatial error using a modified D-H model. The motivation behind this investigation was that PCMA manufacturers did not adopt a common standard that properly governed their products' accuracy \citep{Hall:2010}. It was found that there was a descrepancy betweem the advertised PCMA accuracy to the actual PCMA accuracy as manufacturers did not account for spatial dependancy in their product \citep{Hall:2010}.
 
-The first step of the project was derive a D-H model, based on a six-DOFs PCMA.  This PCMA was modelled as a serial kinematic chain due to its architecture. The end effector's position is seen in Equation~\ref{eq:dh-model}:
+The first step of the project was to derive a D-H model, based on the FaroArm QuantumX, which is a six DOFs PCMA. The relative coordinate systems for each joint along the length of the arm is defined using a Cartesian coordinate system ($X$, $Y$, $Z$), where rotations and translations follow the right-hand rule (RHR)\footnote{The RHR dictates that if you align your right thumb (representing the positive $Z_i$-axis) with the positive direction of rotation, your index finger will point along the positive $X$-axis and your middle finger will bend toward the positive $Y$-axis.} \citep{Hall:2010}. In this system, the $Z$-axis is assigned directly along the joint's axis of rotation \citep{Hall:2010}. The $X$-axis is drawn along the common normal which refers to the shortest, perpendicular line between the previous and current $Z$-axes \citep{Hall:2010}.
+
+The PCMA was modelled as a serial kinematic chain based on its architecture using this coordinate system. The end effector's position is seen in Equation~\ref{eq:dh-model}:
 \begin{equation}
 	\label{eq:dh-model}
 	T_6^0 = A_1 \cdot A_2 \cdot A_3 \cdot A_4 \cdot A_5 \cdot A_6
@@ -22,44 +28,259 @@ wherein, each $A_i$ models the position of each joint relative to the previous j
 \begin{equation}
 	\label{eq:A-dh}
 	A_i=\begin{bmatrix}
-		\cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\theta_i\cos\alpha_i & a_i\cos\theta_i \\
-		\sin\theta_i & \cos\theta_i\sin\alpha_i & -\cos\theta_i\sin\alpha_i & a_i\sin\theta_i \\
+		\cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\theta_i\sin\alpha_i & a_i\cos\theta_i \\
+		\sin\theta_i & \cos\theta_i\cos\alpha_i & -\cos\theta_i\sin\alpha_i & a_i\sin\theta_i \\
 		0 & \sin\alpha_i & \cos\alpha_i & d_i \\
 		0 & 0 & 0 & 1
 	\end{bmatrix}
 \end{equation}
-where $a_i$ is the joint length, $\theta_i$ is the rotational angle, $\alpha_i$ is the twist angle, and $d_i$ is the joint offset. These are known as D-H parameters. Together, in Equation~\ref{eq:A-dh} shown above, they define how a link translates and rotates from one joint's frame of reference to the next.
-
-The D-H model relevant to the joint-design project modelled a Faro QuantumX arm as seen in Figure~\ref{fig:dh-model-of-faro-arm} below.
+where \citep{Hall:2010}:
+\begin{itemize}
+	\item $a_i$ is the joint length, which is the shortest distance between the $Z_{i-1}$ axis and the $Z_i$ axis measured along the common normal axis ($X_i$).
+	\item $\theta_i$ is the rotational angle, which the angle from the $X_{i-1}$ axis to the $X_i$ axis, measured about the $Z_{i-1}$ axis using the RHR.
+	\item $\alpha_i$ is the twist angle, which is the angle from the $Z_i$ axis to the $Z_i$ axis, measured about the common normal axis ($X_i$) using the RHR.
+	\item $d_i$ the joint offset, which is the distance from the origin of joint $i-1$ to the origin of joint $i$, measured along the $Z_{i-1}$ axis.
+\end{itemize}
+Figure~\ref{fig:screenshot001d-h} below illustrates these parameters and their geometric relationships on two (for legibility) of the joints on the FaroArm QuantumX.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"../../../../../../Concept design report/DH model of Faro arm"}
-	\caption{D-H Model of the Faro Quantum X Arm}
+	\includegraphics[width=0.3\linewidth]{../../../../../../../../../Downloads/screenshot001_d-h}
+	\caption{D-H Parameters Modelling a Pitching (Joint 2) and Rolling Joint (Joint 3)}
+	\label{fig:screenshot001d-h}
+\end{figure}
+It is important to note that the twist angle, $\alpha_i$, is omitted from the visual layout to maintain legibility. This is because the relative orientation between $Z_{i-1}$ and $Z_i$ is fixed according to the principals of the model \citep{Hall:2010}. Together, in Equation~\ref{eq:A-dh} shown above, they define how a link translates and rotates from one joint's frame of reference to the next.
+
+The D-H parameters can now be determined for the PCMA. The nominal D-H parameters of the arm are not published as they are stored in the device's internal electrically erasable programmable read-only memory (EEPROM) firmware or stored within its proprietary device drivers \citep{Faro:2024}. However, they can be derived from the physical dimensions in the product specifications document due to the analogous structure of the FaroArm QuantumX family \citep{Faro:2024}. The specific length chosen was the three-meter arm and its D-H parameters are tabulated under Table~\ref{tab:SID_table} below \citep{Faro:2024}:
+\begin{table}[H]
+	\centering
+	\caption{Denavit-Hartenberg Parameters for the FaroArm Model}
+	\label{tab:SID_table}
+	\begin{tabular}{|c|c|c|c|p{6.5cm}|}
+		\hline
+		\textbf{Link $i$} & \textbf{$a_i$ (mm)} & \textbf{$\alpha_i$} & \textbf{$d_i$ (mm)} & \textbf{$d_i$ Notes} \\ \hline
+		1 & 0 & +\SI{90}{\degree} & 283 & Offset as a result of the base \\ \hline
+		2 & 0 & -\SI{90}{\degree} & 755 & Length of link 1 from position-sensitive detector \\ \hline
+		3 & 0 & +\SI{90}{\degree} & 0 & Intersecting elbow axes\footnotemark \\ \hline
+		4 & 0 & -\SI{90}{\degree} & 569 & Length of link 2 from PSD \\ \hline
+		5 & 0 & +\SI{90}{\degree} & 0 & Intersecting wrist axes\footnotemark \\ \hline
+		6 & 0 & -\SI{90}{\degree} & 220 & End-effector length \\ \hline
+	\end{tabular}
+\end{table}
+\footnotetext[1]{Physically, this represents the twist and hinge encoders of the elbow working together as a multi-axis pivot, instead of being separated by a distinct tubular segment.}
+\footnotetext[2]{There is a physical housing that connects the encoders, which reduces the link length to zero, creating a joint-link behavior before the end-effector offset.}
+As shown by Table~\ref{tab:SID_table}, for the arm under analysis, $a_i=0$ across all links. This is due to every consecutive pair of joints intersecting directly at a single joint or lying co-planar with the structural axes. As a result, there is no perpendicular offset or lever arm that separates the adjacent rotational centerlines. By contrast, there are non-zero values for some of the joint offsets ($d_i$) to represent where a physical extension occurs along the joint axis. The D-H model resulting from these values can be seen in Figure~\ref{fig:dh-model-of-faro-arm} below.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"../../../../../../../../../Downloads/DH model of Faro arm"}
+	\caption{D-H Model of the FaroArm QuantumX Arm}
 	\label{fig:dh-model-of-faro-arm}
 \end{figure}
-The full derivation of the D-H model is documented in Appendix A.1.
+By substituting the tabulated D-H parameters, the following joint positions can be determined by Equation~\ref{eq:dh_As}
+\begin{align}
+	A_1 &= \begin{bmatrix}
+		\cos\theta_1 & 0 & \sin\theta_1 & 0 \\
+		\sin\theta_1 & 0 & -\cos\theta_1 & 0 \\
+		0 & 1 & 0 & 283 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix}, &
+	A_2 &= \begin{bmatrix}
+		\cos\theta_2 & 0 & -\sin\theta_2 & 0 \\
+		\sin\theta_2 & 0 & \cos\theta_2 & 0 \\
+		0 & -1 & 0 & 755 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix} \nonumber \\[1em]
+	A_3 &= \begin{bmatrix}
+		\cos\theta_3 & 0 & \sin\theta_3 & 0 \\
+		\sin\theta_3 & 0 & -\cos\theta_3 & 0 \\
+		0 & 1 & 0 & 0 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix}, &
+	A_4 &= \begin{bmatrix}
+		\cos\theta_4 & 0 & -\sin\theta_4 & 0 \\
+		\sin\theta_4 & 0 & \cos\theta_4 & 0 \\
+		0 & -1 & 0 & 569 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix} \nonumber \\[1em]
+	A_5 &= \begin{bmatrix}
+		\cos\theta_5 & 0 & \sin\theta_5 & 0 \\
+		\sin\theta_5 & 0 & -\cos\theta_5 & 0 \\
+		0 & 1 & 0 & 0 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix}, &
+	A_6 &= \begin{bmatrix}
+		\cos\theta_6 & 0 & -\sin\theta_6 & 0 \\
+		\sin\theta_6 & 0 & \cos\theta_6 & 0 \\
+		0 & -1 & 0 & 220 \\
+		0 & 0 & 0 & 1
+	\end{bmatrix}
+	\label{eq:dh_As}
+\end{align}
+Note that under normal kinematic modelling assumptions, the parameters $a_i$, $\alpha_i$, and $d_i$ are treated as constants determined by fixed mechanical geometry. This would include tubing, piping, bearing housings, etc. Alternatively, the joint angle, $\theta_i$, is the only kinematic variable because it is measured dynamically during operation via sensory equipment, such as rotary encoders. As a result, in an idealised kinematic model, encoder resolution, noise, and quantisation errors in $\theta_i$ represent a source of uncertainty, which propagates to the end-effector, through the kinematic chain.
+
+The $A_i$ matrices are input into the error propagation model to determine the position uncertainty distribution of the PCMA's end-effector across the workspace, using Equation~\ref{eq:dh-model}. These calculations can be cumbersome if done by hand, however, MATLAB was chosen to compute them which will be discussed in the following section.
 
 \section{The Error Propagation Model}
-From the derivation of the D-H model, the error progation model could be derived. Hall and Schreve \citep{Hall:2010} explain that the model is a mathematical depiction of how known uncertainties move through an articulated system and how those uncertainties affect the output position of the end-effector. The output-position uncertainty is calculated using Equation~\ref{eq:errorP} below:
+
+As mentioned in the previous section, an error propagation model was established to quantify the kinematic spatial accuracy of the PCMA and map its uncertainty across the entire working volume. This mapping enabled the derivation of optimal encoder performance measures through a requirements analysis conducted under Chapter 3.
+
+As explained by Hall \citep{Hall:2010}, this model serves as a mathematical framework depicting how known uncertainties move through an articulated kinematic chain and how these uncertainties affect the output positioning error of the end-effector \citep{Hall:2010}. The output-position uncertainty is calculated using Equation~\ref{eq:errorP}:
 \begin{equation}
 	\label{eq:errorP}
-	\Lambda_F=J(x)\cdot\Lambda_x J(x)^T
+	\Lambda_F = J(x) \cdot \Lambda_x \cdot J(x)^T
 \end{equation}
-, where $J(x)$ is the Jacobian matrix of the end-effector's position and $\Lambda_x$ is a matrix of the known uncertainty of the encoder at each respective joint. The derivation for Equation~\ref{eq:errorP} begins with a Taylor series expansion, which approximates the articulated system's behaviour near a known point using first-order terms only, which produces the Jacobian matrix. Higher-order terms are negligibly small. The Jacobian matrix is then used to scale the known uncertainties $\Lambda_x$ and calculate the unknown uncertainty of the end-effector, $\Lambda_F$.
+where $J(x)$ is the Jacobian matrix of the end-effector's position (derived from the transformation matrix in Equation~\ref{eq:dh-model}) and $\Lambda_x$ is the input uncertainty covariance matrix \citep{Hall:2010}.
 
-The limitation found to this model was that the uncertainty of end-effector could be calculated for only one pose of the articulated system at a time. For the purposes of this project, the error propogation model was generalised by taking a sample of the working volume of the Faro QuantumX arm and computing the uncertainty of the end-effector across the sampled working volume. The software used to conduct these computations was MATLAB, which was also used to plot the distribution of uncertainty across a sampled workspace, which can be seen in Figure~\ref{fig:screenshot-2026-08-22-191504} below.
+Under nominal conditions, $\Lambda_x$ is a comprehensive $(4n \times 4n)$ block-diagonal covariance matrix, where $n$ is the number of DOF, intended to model the variance across all D-H parameters (including $a_i$, $\theta_i$, $\alpha_i$, and $d_i$), as shown in Equation~\ref{eq:full-cov} \citep{Hall:2010}:
+\begin{equation}
+	\label{eq:full-cov}
+	\Lambda_x = \operatorname{diag}(\bm{\Sigma}_1, \bm{\Sigma}_2, \dots, \bm{\Sigma}_n) \quad \text{where} \quad \bm{\Sigma}_i = \begin{bmatrix}
+		\sigma_{a_i}^2 & \sigma_{a_i, d_i} & \sigma_{a_i, \alpha_i} & \sigma_{a_i, \theta_i} \\
+		\sigma_{d_i, a_i} & \sigma_{d_i}^2 & \sigma_{d_i, \alpha_i} & \sigma_{d_i, \theta_i} \\
+		\sigma_{\alpha_i, a_i} & \sigma_{\alpha_i, d_i} & \sigma_{\alpha_i}^2 & \sigma_{\alpha_i, \theta_i} \\
+		\sigma_{\theta_i, a_i} & \sigma_{\theta_i, d_i} & \sigma_{\theta_i, \alpha_i} & \sigma_{\theta_i}^2
+	\end{bmatrix}
+\end{equation}
+These parameter variances usually account for structural deformations, manufacturing tolerances, and environmentally-induced effects, such as ambient thermal expansion altering link lengths ($a_i, d_i$) or joint alignments ($\alpha_i$) that diminish a PCMA's accuracy \citep{Hall:2010}. However, as stated under Section 1.3, it is assumed that the PCMA operates within a controlled testing environment, thereby maintaining $a_i$, $d_i$, and $\alpha_i$ as constant deterministic values ($\sigma_{a_i}^2 = \sigma_{d_i}^2 = \sigma_{\alpha_i}^2 = 0$) \citep{Hall:2010}. As a result, the input covariance matrix simplifies to a reduced $(n \times n)$ joint angle covariance matrix, $\Lambda_\theta$:
+\begin{equation}
+	\label{eq:reduced-cov}
+	\Lambda_\theta = \text{diag}(\sigma_{\theta_1}^2, \sigma_{\theta_2}^2, \dots, \sigma_{\theta_n}^2)
+\end{equation}
+By assuming independent and identically distributed joint encoder errors, $\Lambda_\theta$ scales with a baseline angular standard deviation, typically set to an industry-standard nominal value of $\sigma_\theta = 6\text{ arcsec}$.
+
+The resulting end-effector covariance matrix $\Lambda_F$ characterizes the multi-variate variance of the position vector $[X, Y, Z]^T$ \citep{Hall:2010}. From $\Lambda_F$, the standard deviation along principal axes ($\sigma_F = \sqrt{\text{tr}(\Lambda_F)}$) is extracted. To express boundaries with high statistical confidence, the expanded spatial uncertainty at a $95\%$ confidence level ($U_{95}$) is evaluated as:
+\begin{equation}
+	U_{95} = k \cdot \sigma_F
+\end{equation}
+where $k = 2$ corresponds to the coverage factor for a normal distribution.
+
+\subsection{MATLAB Uncertainty Mapping}
+
+A key constraint of Equation~\ref{eq:errorP} is that the spatial positioning uncertainty is posture-dependent and yields an error value for only one discrete pose of the PCMA at a time. To evaluate the global kinematic performance of the FaroArm QuantumX, specifically the \SI{3}{m} arm, a posture sampling scheme was implemented in MATLAB across the wokring volume.
+
+The workspace mapping algorithm follows a structured numerical pipeline, starting with the kinematic parameterization and setup. As shown in Figure~\ref{fig:screenshot001}, the code begins by loading the nominal D-H parameters ($a_i, d_i, \alpha_i$) of the 6-DOF FaroArm QuantumX.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../../../../../../../../Downloads/Screenshot 2026-10-05 114515}
+	\caption{Error-Propagation Variable Input}
+	\label{fig:screenshot001}
+\end{figure}
+The next step is to initialise the covariance matrix. As aforementioned, by assuming independent angular measurement errors with equal variance across all joints, the joint covariance matrix $\Lambda_\theta$ can be defined using an identity matrix scaled by the encoder variance. As seen in Figure~\ref{fig:screenshot002}, an industry-standard nominal encoder accuracy of \SI{6}{arcsec} ($\sigma_\theta = 6''$) is specified.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../../../../../../../../Downloads/screenshot002}
+	\caption{Error-Propagation Encoder Covariance Input}
+	\label{fig:screenshot002}
+\end{figure}
+The next step is to discretise the working volume and evaluate the poses the volume. To sample the reachable envelope, allowable angular ranges ($\theta_1 \dots \theta_6$) are discretized into uniform step increments, as shown in Figure~\ref{fig:screenshot003}. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../../../../../../../../Downloads/screenshot003}
+	\caption{Joint Sweep Discetisation}
+	\label{fig:screenshot003}
+\end{figure}
+These discrete joint-angle combinations generate a gridI'm uss of spatial postures spanning the entire working volume. For each discrete pose, the algorithm evaluates forward kinematics to compute 3D Cartesian end-effector coordinates and determines the analytical Jacobian matrix $J(x)$, as shown in Figure~\ref{fig:poses_evaluation}.
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.38\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{../../../../../../../../../Downloads/screenshot001-1}
+		\caption{}
+		\label{fig:screenshot001-1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{../../../../../../../../../Downloads/screenshot001-2}
+		\caption{}
+		\label{fig:screenshot001-2}
+	\end{subfigure}
+	\caption{Numerical evaluation of kinematic poses and Jacobian transformation across the sampled workspace.}
+	\label{fig:poses_evaluation}
+\end{figure}
+Next, Equation~\ref{eq:errorP} is evaluated at every spatial node yields the end-effector covariance matrix $\Lambda_F$, from which the 95\% expanded spatial uncertainty interval ($U_{95}$) is computed. The resulting spatial map is illustrated in Figure~\ref{fig:uncertainty_distribution}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"../../../../../../../../../Downloads/Screenshot 2026-08-22 191504"}
-	\caption{Uncertainty Distribution Across Sampled Workspace}
-	\label{fig:screenshot-2026-08-22-191504}
+	\caption{Spatial $U_{95}$ uncertainty distribution across the FaroArm Working Volume}
+	\label{fig:uncertainty_distribution}
 \end{figure}
-The dark blue regions show where the arm is most accurate, which is at approximately \SI{56}{microns} of uncertainty. This occurs when the arm is folded closer to its base. The bright yellow regions show where the arm is least accurate, up to \SI{74}{microns}. This occurs at the outer edges of the workspace where the arm is fully extended.
+The spatial map demonstrates the posture-dependence of kinematic accuracy across the working envelope. Optimal performance occurs when the arm is folded near its base (highlighted in deep blue), achieving a minimum $U_{95}$ spatial uncertainty of approximately \SI{56}{\micro\meter}. Conversely, high kinematic leverage at full reach amplifies angular encoder noise, increasing $U_{95}$ to a maximum of \SI{74}{\micro\meter} at the outer boundary (highlighted in bright yellow).
 
-The full capabilities of the code also include a section in which certain joints can be locked and the effect of the locked joints can be computed and plotted on a graph similar to the one found in Figure~\ref{fig:screenshot-2026-08-22-191504}. This means that the software can also be used for the future developement of a full PCMA arm with position-holding implementation at optimal joint locations.
+Furthermore, the generalizability of this model enables joint-locking simulations. By setting targeted variance elements in $\Lambda_\theta$ to zero (simulating active position-holding), the framework can evaluate trade-offs for optimized multi-DOF arm configurations in future PCMA developments.
 
-\section{Prior Knowledge}
+\section{Electromagnetic Brake Design Theory}
 
+\subsection{Brake Design Theory}
 
-\section{Testing Design}
+The design of a manual position-holding joint mechanism for a PCMA integrates principles from brake design theory, electromagnetic field dynamics, physical actuator construction, and electronic switching circuits based on the chosen concept (as will be discussed in Chapter 4). In standard industrial machinery, brake design must accommodate heavy thermal loads generated by continuous friction, requiring large surface area ratios between the brake disc and friction plate to maximize heat dissipation \citep{Shigley:2015}. However, because the PCMA joint mechanism operates statically or quasi-statically, heat dissipation constraints can be safely neglected. The joint brake is engaged mainly to hold a fixed position against gravity or support manual operation, instead of continuously decelerating a high-inertia motorized system. As a result, the area ratio between the brake disc and the friction plate can be made $1:1$ without thermal failure risks \citep{Shigley:2015}.
 
+According to Shigley's Mechanical Engineering Design \citep{Shigley:2015}, under the uniform pressure assumption, the clamping force $F$ applied by the electromagnetic actuator, seen in Figure~\ref{fig:screenshot001-fbrake}, distributes a uniform pressure $p$ across the annular friction interface, shown by Equation~\ref{eq:uniformP}:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{"../../../../../../../../../Downloads/screenshot001 Fbrake"}
+	\caption{Disk Friction Member \citep{Shigley:2015}}
+	\label{fig:screenshot001-fbrake}
+\end{figure}
+\begin{equation}
+	\label{eq:uniformP}
+	F=\frac{\pi p_a}{4}\cdot(D^2-d^2)
+\end{equation}
+where $r_o$ is the outer radius, $r_i$ is the inner radius, and $F$ is the force applied by the actuation of the brake.
+
+\subsection{Electromagnetic Field Dynamics and Force Generation}
+
+Once the required axial holding force is determined, electromagnetic theory dictates how electrical power generates that force. Consider a solenoidal magnetic circuit comprising two aligned cylindrical ferromagnetic cores (pole pieces) of cross-sectional area $A_c$, separated by a narrow axial working air gap $g$ and energized by a continuous helical coil with $N$ total turns carrying current $I$, as seen in Figure~\ref{fig:screenshot001-fmag} \citep{HydraForceSolenoidManual}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"../../../../../../../../../Downloads/screenshot001 Fmag"}
+	\caption{Solenoid }
+	\label{fig:screenshot001-fmag}
+\end{figure}
+Applying Ampère's Law around the closed magnetic flux path (represented by the dashed lines looping through both cores) yields the total magnetomotive force (MMF), $\mathcal{F} = N I$ \citep{HydraForceSolenoidManual}. Assuming high magnetic permeability for the ferromagnetic core ($\mu_r \gg 1$), the reluctance of the iron cores ($\mathcal{R}_{\text{core}} = \frac{l_{\text{core}}}{\mu_0 \mu_r A_c}$) is negligible compared to the reluctance of the non-magnetic working air gap ($\mathcal{R}_g = \frac{g}{\mu_0 A_c}$) \citep{HydraForceSolenoidManual}. The total circuit reluctance is thus dominated by the gap, calculated by Equation~\ref{eq:Reluctance} \citep{HydraForceSolenoidManual}:
+\begin{equation}
+	\label{eq:Reluctance}
+	\mathcal{R}_{\text{total}} \approx \mathcal{R}_g = \frac{g}{\mu_0 A_c}
+\end{equation}
+The total magnetic flux $\Phi$ traversing the axial air gap between the adjacent north (N) and south (S) pole faces is expressed via Hopkinson's Law ($\mathcal{F} = \Phi \mathcal{R}_{\text{total}}$), expressed by Equation~\ref{eq:phi} \citep{HydraForceSolenoidManual}:
+\begin{equation}
+	\label{eq:phi}
+	\Phi = \frac{N I}{\mathcal{R}_g} = \frac{\mu_0 A_c N I}{g}
+\end{equation}
+As a result, the uniform magnetic flux density $B$ established within the working air gap is defined by Equation~\ref{eq:flux} below \citep{HydraForceSolenoidManual}:
+\begin{equation}
+	\label{eq:flux}
+	B = \frac{\Phi}{A_c} = \frac{\mu_0 N I}{g}
+\end{equation}
+where $\mu_0 = 4\pi \times 10^{-7} \text{ H/m}$ is the permeability of free space \citep{HydraForceSolenoidManual}. 
+
+The electromagnetic clamping force, $F$, pulling the core faces together across the central gap interface is derived from the field energy density $u_m = \frac{B^2}{2\mu_0}$ stored within the volume of the air gap $V_g = A_c g$ \citep{HydraForceSolenoidManual}. Differentiating the field energy $W_m = u_m V_g = \frac{B^2 A_c g}{2\mu_0}$ with respect to gap displacement $g$ yields the Maxwell stress tensor force formulation, seen in Equation~\ref{eq:24rwkg} below \citep{HydraForceSolenoidManual}:
+\begin{equation}
+	\label{eq:24rwkg}
+	F = \frac{\partial W_m}{\partial g} = \frac{B^2 A_c}{2 \mu_0} = \frac{\mu_0 A_c (N I)^2}{2 g^2}
+\end{equation}
+Ferromagnetic core materials exhibit a non-linear B-H magnetization relationship governed by the alignment of internal magnetic domains in the metal, as illustrated in Figure~\ref{fig:screenshot001-fmag1sat} \citep{HydraForceSolenoidManual}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/screenshot001 Fmag1sat"}
+	\caption{Progression of Magnetic Flux Saturation and Hysteresis Domain Alignment}
+	\label{fig:screenshot001-fmag1sat}
+\end{figure}
+Starting from an unmagnetized state at the origin ($0$), magnetic domains are randomly oriented, yielding zero net flux density ($B = 0$) \citep{HydraForceSolenoidManual}. As the magnetomotive force increases, domains rotate and align with the field, tracing the initial magnetization curve up to point $P_1$. At $P_1$, magnetic saturation ($B_{\text{sat}}$) is achieved, where virtually all magnetic domains are fully aligned parallel to the applied field \citep{HydraForceSolenoidManual}. Beyond $P_1$, further increases in coil excitation ($NI$) produce diminishing returns in flux density ($\Phi_{\text{max}} = B_{\text{sat}} A_c$), placing a theoretical upper limit on the achievable electromagnetic clamping force $F \propto B^2 A_c / (2\mu_0)$ \citep{HydraForceSolenoidManual}.
+
+When the excitation current is subsequently removed, the core does not return to origin $0$ \citep{HydraForceSolenoidManual}. Instead, residual domain alignment causes a non-zero residual magnetic flux density ($B_r$) to persist along the vertical axis. This would create an unwanted residual clamping force that prevents immediate release of the PCMA joint brake \citep{HydraForceSolenoidManual}. Demagnetizing the core requires applying a reverse field corresponding to the coercive force at point $P_4$ \citep{HydraForceSolenoidManual}. To ensure rapid mechanical disengagement upon de-energization, low-carbon soft magnetic steel with a narrow hysteresis loop, characterized by low coercive force ($P_4 \to 0$) and minimal remanence ($B_r \to 0$), must be selected for the core and yoke elements \citep{HydraForceSolenoidManual}.
+
+\subsection{Electromagnet Actuator Construction and Parameter Balance}
+
+To bridging theoretical equations with physical construction, Chapters 4 and 5 of the HydraForce Solenoid Training Manual \citep{HydraForceSolenoidManual} outline the core parameter trade-offs required to maximize magneto-motive force ($NI$) within tight spatial constraints. Increasing the coil turn count $N$ increases wire resistance $R$, which in turn reduces the current $I$ drawn from a fixed voltage supply ($V = IR$), seen in Figure~\ref{fig:screenshot001-fmag1sat2} below.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/screenshot001 Fmag1sat2"}
+	\caption{Depicting the Increase and Decrease of Magnetic Force}
+	\label{fig:screenshot001-fmag1sat2}
+\end{figure}
+In contrast, increasing wire diameter lowers resistance $R$ to allow higher current $I$, but increases total coil volume and thermal dissipation requirements ($P = I^2 R$). Furthermore, as current flows through the copper windings, the rising temperature increases electrical resistance according to Equation~\ref{eq:R-calcs}:
+\begin{equation}
+	\label{eq:R-calcs}
+	R_T = R_{20} \left[ 1 + 0.00393 (T - 20^\circ\text{C}) \right]
+\end{equation}
+where $R_{20}$ is the coil resistance at $20^\circ\text{C}$ and $T$ is the operating temperature in degrees Celsius. Practical component selection requires the outer yoke or shell to be constructed from low-carbon steel due to its high magnetic permeability and minimal residual magnetism retention. Flat-face armatures are preferred over conical or proportional shapes because they maximize holding force at near-zero air gaps ($g \to 0$).
