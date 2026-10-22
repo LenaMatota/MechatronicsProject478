@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 OCT 2026 16:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.8)  22 OCT 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3181,270 +3181,164 @@ Appendix B.
 
  (./chaps-append/chap-drawing_pack.tex
 Appendix C.
+
+Overfull \hbox (18.83342pt too wide) in paragraph at lines 4--5
+\TU/Cambria(0)/m/n/12 the Portable Coordinate Measurement Arm (PCMA) electromag
+netic joint assembly
+ []
+
+
+Overfull \hbox (30.5139pt too wide) in alignment at lines 16--16
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 35--35
+[]|\TU/Cambria(0)/b/n/10.95 Electromagnetic Brake Joint
+ []
+
+
+Overfull \hbox (20.35524pt too wide) in alignment at lines 35--35
+ [] [] [] [] [] 
+ []
+
 [43
 
 
 
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 3>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 3>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 3>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 3>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 3>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 1>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 1>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 1>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 1>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 1>
  [44
 
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 4>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 2>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 2>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 2>
  [45
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 5>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 3>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 3>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 3>
  [46
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 6>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 4>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 4>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 4>
  [47
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 7>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 5>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 5>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 5>
  [48
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 8>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 6>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 6>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 6>
  [49
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 9>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 7>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 7>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 7>
  [50
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 10>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 8>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 8>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 8>
  [51
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 11>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 9>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 9>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 9>
  [52
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 12>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 10>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 10>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 10>
  [53
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 13>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 11>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 11>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 11>
  [54
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 14>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 12>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 12>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 12>
  [55
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 15>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 13>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 13>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 13>
  [56
 
 ]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 16>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 14>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 14>
+File: chaps-append/Updated drawing pack.pdf Graphic file (type pdf)
+<use chaps-append/Updated drawing pack.pdf, page 14>
  [57
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 17>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 17>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 17>
-
-[58
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 18>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 18>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 18>
- [59
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 19>
- [60
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 20>
- [61
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 21>
- [62
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 22>
- [63
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 23>
- [64
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 24>
- [65
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 25>
- [66
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 26>
- [67
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 27>
- [68
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 28>
- [69
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 29>
- [70
-
-]
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 30>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 30>
-File: Updated drawing pack.pdf Graphic file (type pdf)
-<use Updated drawing pack.pdf, page 30>
- [71
 
 ])
 \openout2 = `chaps-append/chap-project_schedule.aux'.
@@ -3452,7 +3346,7 @@ File: Updated drawing pack.pdf Graphic file (type pdf)
 
 (./chaps-append/chap-project_schedule.tex
 Appendix D.
-) [72
+) [58
 
 
 
@@ -3473,7 +3367,7 @@ ling bearings — radial
 
 Package natbib Warning: There were undefined citations.
 
-[73
+[59
 
 
 
@@ -3495,12 +3389,12 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20880 strings out of 467813
- 489657 string characters out of 5427149
- 1041401 words of memory out of 5000000
- 49507 multiletter control sequences out of 15000+600000
- 632449 words of font info for 148 fonts, out of 8000000 for 9000
+ 20858 strings out of 467813
+ 489072 string characters out of 5427149
+ 1040595 words of memory out of 5000000
+ 49484 multiletter control sequences out of 15000+600000
+ 632457 words of font info for 149 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,17n,115p,1537b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,18n,115p,1537b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template-stb-report-eng.pdf (88 pages).
+Output written on template-stb-report-eng.pdf (74 pages).

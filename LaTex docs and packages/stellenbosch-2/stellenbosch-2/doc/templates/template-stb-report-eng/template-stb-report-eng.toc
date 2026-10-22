@@ -53,5 +53,5 @@
 \contentsline {chapter}{\numberline {A}Bill of Materials}{41}{}%
 \contentsline {chapter}{\numberline {B}Design Calculations}{42}{}%
 \contentsline {chapter}{\numberline {C}Drawing Pack}{43}{}%
-\contentsline {chapter}{\numberline {D}Project Schedule}{72}{}%
-\contentsline {chapter}{List of references}{73}{}%
+\contentsline {chapter}{\numberline {D}Project Schedule}{58}{}%
+\contentsline {chapter}{List of references}{59}{}%
