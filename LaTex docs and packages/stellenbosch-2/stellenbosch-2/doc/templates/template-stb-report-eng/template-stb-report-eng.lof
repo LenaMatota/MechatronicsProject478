@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Numerical evaluation of kinematic poses and Jacobian transformation across the sampled workspace.}}{12}{}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Spatial $U_{95}$ uncertainty distribution across the FaroArm Working Volume}}{13}{}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Disk Friction Member \citep {Shigley:2015}}}{14}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Solenoid }}{14}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Solenoid }}{15}{}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Progression of Magnetic Flux Saturation and Hysteresis Domain Alignment}}{16}{}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Depicting the Increase and Decrease of Magnetic Force}}{17}{}%
 \addvspace {10\p@ }
@@ -31,9 +31,23 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Wiring and Interconnect Diagram for the Full-Scale Joint Mechanism}}{35}{}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Software Design of the PCMA Operation}}{39}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Built Electromagnet Subsystem for Experimental Testing}}{40}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces FBD to Determine $F_{e(\text {new})}$}}{41}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Measured DC Resistance Verification of Solenoid Windings}}{42}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Physical Benchtop Multimeter and Power Supply Verification Readings}}{43}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Replicated Switching Circuits in Parallel Configuration}}{44}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Strain Gauge Applicator Kit}}{45}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Electromagnet Testing Setup}}{46}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces LTSpice Model}}{57}{}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces LTspice Simulation: Input GPIO Signal Current $I(V1)$ vs. Amplified Solenoid Load Current $I(R3) = \SI {831.75}{mA}$}}{59}{}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces LTspice Simulation: Inductive Coil Current Transient $I(L1)$ During Switching Operations}}{59}{}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces LTspice Simulation: TIP41C Saturation Voltage $V_{CE} = \SI {800.72}{mV}$ and Collector Current $I_C = \SI {831.75}{mA}$ at $t = \SI {26.56}{ms}$}}{60}{}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces LTspice Simulation: Active Power Dissipation Trace across TIP41C Transistor ($P_D \approx \SI {666.82}{mW}$)}}{60}{}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces \relax }}{77}{}%
 \addvspace {10\p@ }

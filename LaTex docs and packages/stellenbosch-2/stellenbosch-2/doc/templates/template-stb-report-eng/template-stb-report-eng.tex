@@ -27,8 +27,7 @@
     \usepackage{bm}%.............................. Bold math fonts
 \fi
 \normalfont
-\usepackage{microtype}
-\usepackage[none]{hyphenat}
+\usepackage[expansion=false, protrusion=true]{microtype}
 \usepackage{float}
 \usepackage{enumitem}
 \usepackage[table]{xcolor}
@@ -61,12 +60,14 @@
 \usepackage{tabularx}
 \usepackage{xltabular}
 \usepackage{graphicx}%............................ Included graphics
+\graphicspath{{chaps-main/}{chaps-append/}} % <--- ADD THIS LINE
 \usepackage[font=small]{caption}%................. Customize captions  
 \usepackage[table]{xcolor}%....................... Color setup + colortbl 
 \usepackage{subcaption}
 \usepackage{booktabs}
 \usepackage{threeparttable}
 \usepackage[bottom]{footmisc}
+\usepackage{pdflscape}
     
 %==== Extra defs for template ========================================
 \makeatletter
@@ -144,6 +145,7 @@
 \include{chaps-main/chap-concept_development}
 \include{chaps-main/chap-design_analysis}
 \include{chaps-main/chap-design_evaluation_and_testing}
+\include{chaps-main/chap-eol}
 \include{chaps-main/chap-conclusion}
 
 \appendix%------------------------------------------------------------

@@ -92,3 +92,145 @@ Applying a $15\%$ safety factor to compensate for magnetic flux leakage and core
 \begin{equation}
 	N_{\text{design}} = \lceil 225 \times 1.15 \rceil = 259\text{ turns per solenoid}
 \end{equation}
+
+\section{Electromagnet Actuation Force and Winding Derivations}
+\label{app:winding_calc}
+
+\subsection{Mechanical Actuation Force Threshold ($F_{e(\text{new})}$)}
+Physical actuation of the electromagnetic brake requires deflecting the mild steel pressure tabs by $g = \SI{3}{mm} = \SI{0.003}{m}$. Modeling each pressure tab as a cantilever beam, the required tip deflection force is:
+\begin{equation}
+	F_{e(\text{new})} = \frac{3 g E I}{L^3}
+\end{equation}
+
+Given Young's modulus $E = \SI{210}{GPa}$, length $L = \SI{0.029077}{m}$, width $b = \SI{0.020}{m}$, and thickness $t = \SI{0.001}{m}$, the second moment of area $I$ is calculated as:
+\begin{equation}
+	I = \frac{1}{12} b t^3 = \frac{1}{12} (0.020\text{ m})(0.001\text{ m})^3 = 1.667 \times 10^{-12}\text{ m}^4
+\end{equation}
+
+Substituting these parameters yields the revised minimum actuation force threshold:
+\begin{equation}
+	F_{e(\text{new})} = \frac{3(0.003\text{ m})(210 \times 10^9\text{ Pa})(1.667 \times 10^{-12}\text{ m}^4)}{(0.029077\text{ m})^3} \approx \SI{128.1}{N}
+\end{equation}
+
+Dividing across $N_{\text{sol}} = 4$ solenoids gives the minimum required force per individual coil:
+\begin{equation}
+	F_{\text{sol}} = \frac{F_{e(\text{new})}}{4} = \frac{128.1\text{ N}}{4} \approx \SI{32.03}{N}
+\end{equation}
+
+\subsection{Air Gap Flux Density ($B$) and Required Magnetomotive Force ($\mathcal{F}$)}
+Using Maxwell's stress tensor, the magnetic flux density $B$ required to generate $F_{\text{sol}} = \SI{32.03}{N}$ across an effective pole area $A_p = 1.8 \times 10^{-4}\text{ m}^2$ is:
+\begin{equation}
+	B = \sqrt{\frac{2 \mu_0 F_{\text{sol}}}{A_p}} = \sqrt{\frac{2 (4\pi \times 10^{-7}\text{ H/m})(32.03\text{ N})}{1.8 \times 10^{-4}\text{ m}^2}} \approx \SI{0.669}{T}
+\end{equation}
+
+Neglecting iron core reluctance ($\mu_{\text{core}} \gg \mu_0$), the Magnetomotive Force ($\mathcal{F}$) required across an air gap $g = \SI{0.5}{mm} = 5 \times 10^{-4}\text{ m}$ is:
+\begin{equation}
+	\mathcal{F} = N \cdot I_{\text{sol}} = \frac{B \cdot g}{\mu_0} = \frac{(0.669\text{ T})(5 \times 10^{-4}\text{ m})}{4\pi \times 10^{-7}\text{ H/m}} \approx 266.2\text{ A}\cdot\text{turns}
+\end{equation}
+
+\subsection{Theoretical vs. As-Built Turn Sizing Comparison}
+
+The equivalent resistance and inductance parameters of the individual solenoids and the total electromagnet were derived to configure the LTspice simulation. The static DC resistance of a single solenoid is determined by Equation~\ref{eq:R_sol1}:
+\begin{equation}
+	\label{eq:R_sol1}
+	R_{\text{sol}} = \rho \frac{l_w}{A_w}
+\end{equation}
+where $\rho = \SI{17.02}{n\Omega/m}$ is the electrical resistivity of copper at room temperature, $l_w$ is the total length of wire, and $A_w$ is the cross-sectional area of the wire conductor. The self-inductance of a single solenoid is determined by Equation~\ref{eq:L_sol1}:
+\begin{equation}
+	\label{eq:L_sol1}
+	L_{\text{sol}} = \frac{\mu N_{\text{solenoid}}^2 A_c}{l_c}
+\end{equation}
+where $\mu = \mu_0 \mu_r$ is the magnetic permeability of the mild steel solenoid core (assuming $\mu_r \approx 2000$ for the steel core), $A_c$ is the cross-sectional area of the core, and $l_c$ is the magnetic path length. For calculation purposes, the conductor length $l_w$ and magnetic path length $l_c$ were assumed equal.
+
+The theoretical resistance and inductance values for a single solenoid, as well as the equivalent values for the four-solenoid parallel array, are derived in Equation~\ref{eq:R_sol1_and_L_sol1}:
+\begin{align}
+	\label{eq:R_sol1_and_L_sol1}
+	R_{\text{sol}} &= (17.02 \times 10^{-9})\frac{2\pi(0.015)\left[\frac{2(100)}{0.28}\right]}{\pi(140 \times 10^{-6})^2} \approx \SI{18.61}{\Omega} \\
+	\mu &= \mu_0 \mu_r = (4\pi \times 10^{-7})(2000) \approx \SI{2.513e-3}{H/m} \\
+	L_{\text{sol}} &= \frac{(2.513 \times 10^{-3})(715)^2 \left[\pi (0.015)^2\right]}{2\pi(0.015)\left[\frac{2(100)}{0.28}\right]} \approx \SI{13.49}{mH} \\
+	R_{\text{eq,calc}} &= \frac{R_{\text{sol}}}{4} = \frac{\SI{18.61}{\Omega}}{4} = \SI{4.65}{\Omega} \\
+	L_{\text{eq,calc}} &= \frac{L_{\text{sol}}}{4} = \frac{\SI{13.49}{mH}}{4} \approx \SI{3.37}{mH}
+\end{align}
+
+\section{LTspice Circuit Simulations and Experimental Validation}
+\label{app:circuit_simulations}
+
+To verify the switching response, component stress limits, and signal amplification of the switching circuit before to hardware implementation, transient analysis simulations were executed in LTspice, as seen by Figure~\ref{fig:LTSpice_SIM}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{LTspice model of Switching Circuit.jpg}
+	\caption{LTSpice Model}
+	\label{fig:LTSpice_SIM}
+\end{figure}
+
+\subsection{Switching Circuit Component Sizing Derivations}
+\label{app:switching_calc}
+
+To drive the electromagnetic load from a \SI{3.3}{V} STM32 GPIO signal without exceeding pin current thresholds, a low-side Darlington driver stage pairing a 2N3904 BJT with a TIP41C power transistor was sized.
+
+\subsubsection{TIP41C Forced Saturation Sizing}
+To maintain low collector-emitter saturation voltage ($V_{CE(\text{sat})} \le \SI{1.0}{V}$) at a maximum load current of $I_C = \SI{831.75}{mA}$, a forced saturation gain of $\beta_2 = 15$ was enforced. The required base drive current $I_{B2}$ for the TIP41C is:
+\begin{equation}
+	I_{B2} = \frac{I_C}{\beta_2} = \frac{\SI{831.75}{mA}}{15} = \SI{55.45}{mA}
+\end{equation}
+
+\subsubsection{2N3904 and Base Resistor ($R_B$) Sizing}
+The 2N3904 amplifies the GPIO input current to deliver $I_{C1} = I_{B2} = \SI{55.45}{mA}$. Applying a forced gain of $\beta_1 = 20$ for the 2N3904 yields the required GPIO input current:
+\begin{equation}
+	I_{B1} = \frac{I_{C1}}{\beta_1} = \frac{\SI{55.45}{mA}}{20} \approx \SI{2.77}{mA}
+\end{equation}
+
+The base current-limiting resistor $R_B$ is calculated using Kirchhoff's Voltage Law across the \SI{3.3}{V} logic signal ($V_{\text{GPIO}}$) and base-emitter drop ($V_{BE1} = \SI{0.70}{V}$):
+\begin{equation}
+	R_B = \frac{V_{\text{GPIO}} - V_{BE1}}{I_{B1}} = \frac{\SI{3.3}{V} - \SI{0.70}{V}}{\SI{2.77}{mA}} \approx \SI{938.6}{\Omega}
+\end{equation}
+Selecting a standard nominal resistor of $R_B = \SI{1.0}{k\Omega}$ limits the microcontroller pin current to a safe value of $I_{\text{GPIO}} = \SI{2.60}{mA}$.
+
+\subsubsection{Transistor Power Dissipation ($P_D$)}
+Total continuous power dissipation in the TIP41C during active conduction is calculated as:
+\begin{equation}
+	\begin{aligned}
+		P_{\text{D(TIP41C)}} &= (V_{CE(\text{sat})} \cdot I_C) + (V_{BE2} \cdot I_{B2}) \\
+		&= (0.801\text{ V})(0.832\text{ A}) + (1.10\text{ V})(0.055\text{ A}) \approx \SI{0.727}{W}
+	\end{aligned}
+\end{equation}
+This confirms that continuous thermal dissipation stays well within safe limits when fitted with standard TO-220 aluminum heatsinks.
+
+\subsection{Signal Amplification and Collector Current Response}
+Figure~\ref{fig:signal-amplification-from-input-to-electromagnet} illustrates the current amplification from the microcontroller GPIO signal input (modelled as the V1 voltage supply) to the electromagnet load. The input signal current $I(V1)$ remains below \SI{1}{mA}, while the switching transistor delivers a steady load current of $I(R3) = \SI{831.75}{mA}$ through the solenoid array.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Signal amplification from input to electromagnet.jpg}
+	\caption{LTspice Simulation: Input GPIO Signal Current $I(V1)$ vs. Amplified Solenoid Load Current $I(R3) = \SI{831.75}{mA}$}
+	\label{fig:signal-amplification-from-input-to-electromagnet}
+\end{figure}
+
+\subsection{Inductive Switching Response and Coil Current Decay}
+Figure~\ref{fig:electromagnetic-inductance} demonstrates the transient current behavior $I(L1)$ across the electromagnet coil inductance. Upon turn-off, the freewheeling 1N4007 flyback diode provides a safe recirculation path for the collapsing magnetic field energy, clamping inductive Back-EMF spikes and protecting the TIP41C collector-emitter junction.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Electromagnetic Inductance.jpg}
+	\caption{LTspice Simulation: Inductive Coil Current Transient $I(L1)$ During Switching Operations}
+	\label{fig:electromagnetic-inductance}
+\end{figure}
+
+\subsection{Transistor Collector-Emitter Saturation Voltage ($V_{CE}$)}
+Figure~\ref{fig:vce-across-tip41c-transistor-and-ic-from-electromagnet} details the collector-emitter voltage $V(n003)$ and collector current $I(R3)$ across the TIP41C power transistor. At a cursor timestamp of $t = \SI{26.56}{ms}$, the simulation confirms full saturation with $V_{CE} = \SI{800.72}{mV}$ (\SI{0.801}{V}) at $I_C = \SI{831.75}{mA}$. This aligns closely with the physical benchtop multimeter measurement of $V_{CE(\text{sat})} = \SI{0.95}{V}$ recorded in Figure~\ref{fig:20261013114913}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Vce across TIP41C transistor and IC from electromagnet.png}
+	\caption{LTspice Simulation: TIP41C Saturation Voltage $V_{CE} = \SI{800.72}{mV}$ and Collector Current $I_C = \SI{831.75}{mA}$ at $t = \SI{26.56}{ms}$}
+	\label{fig:vce-across-tip41c-transistor-and-ic-from-electromagnet}
+\end{figure}
+
+\subsection{Power Dissipation in TIP41C Power Transistor}
+Figure~\ref{fig:power-dissipation-in-tip41c} evaluates total instant power dissipation across the TIP41C transistor, calculated as $P_D = V_{CE} \cdot I_C + V_{BE} \cdot I_B$. The continuous power dissipation settles at $P_{\text{D(TIP41C)}} \approx \SI{666.82}{mW}$ (\SI{0.667}{W}) during steady-state conduction. This verifies that operating the driver continuously at nominal current will not exceed the package thermal threshold when fitted with standard TO-220 aluminum heatsinks.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Power dissipation in TIP41C.jpg}
+	\caption{LTspice Simulation: Active Power Dissipation Trace across TIP41C Transistor ($P_D \approx \SI{666.82}{mW}$)}
+	\label{fig:power-dissipation-in-tip41c}
+\end{figure}
+

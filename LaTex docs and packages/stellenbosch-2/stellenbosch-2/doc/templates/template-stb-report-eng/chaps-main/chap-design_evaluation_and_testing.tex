@@ -8,41 +8,170 @@ Due to project constraints, including an extended theorectical design phase, mat
 
 \subsection{Mechanical Implementation of Electromagnet}
 
-The resulting design implementation of the prototype resulted in a four-solenoid configuration, wound with copper wire with a \SI{0.28}{mm} diameter, as seen in Figure~\ref{fig:20261016102031} below.
+The resulting design implementation of the electromagnet resulted in a four-solenoid configuration, wound with enamelled copper wire with a \SI{0.28}{mm} diameter, as seen in Figure~\ref{fig:side-by-side-images} below.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"../../../../../../Lena's skripsie vlog/20261016_102031"}
-	\caption{}
-	\label{fig:20261016102031}
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{"../../../../../../Lena's skripsie vlog/20261016_102031"}
+		\caption{Electromagnet Components}
+		\label{fig:20261016102031}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{"../../../../../../../../../Downloads/screenshot001 As builtpng"}
+		\caption{As-built mechanical housing integration}
+		\label{fig:screenshot001-as-builtpng}
+	\end{subfigure}
+	\caption{Built Electromagnet Subsystem for Experimental Testing}
+	\label{fig:side-by-side-images}
 \end{figure}
-\begin{figure}
+Due to the project budget and procurement timeline constraints, the appropriate copper wire was unattainable and enamelled copper wire with a diameter of \SI{0.28}{mm} and a maximum operating current of \SI{0.22}{A} was selected. Each solenoid had two layers of coils spanning a length of at least \SI{10}{cm}. The winding density was limited to two layers due to the tolerances between the solenoid core and yoke (See Appendix~\ref{app:drawing_pack}). This means that the approximate number of coils on each solenoid was determined using Equation~\ref{eq:dvslb} below:
+\begin{equation}
+	\label{eq:dvslb}
+	N_{solenoid}=\frac{2L_{solenoid}}{d_{wire}}=\frac{2(100)}{0.28}\approx \SI{715}{\text{coils per solenoid}}
+\end{equation}
+The next step was to evaluate whether the electromagnet could actuate given its reduced capacity. In this case, the force required to deflect the pressure tabs was analysed. Because physical actuation of the electromagnet is dependent directly on the flexure of these tabs, the mechanical assembly was evaluated using the FBD shown in Figure~\ref{fig:fbdexp} below:
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"../../../../../../../../../Downloads/screenshot001 As builtpng"}
-	\caption{}
-	\label{fig:screenshot001-as-builtpng}
+	\includegraphics[width=0.7\linewidth]{../../../../../../../../../Downloads/FBDexp}
+	\caption{FBD to Determine $F_{e(\text{new})}$}
+	\label{fig:fbdexp}
+\end{figure}
+Given their structural boundary conditions, the pressure tabs were modelled as cantilever beams. This allows the tip deflection equation $g = \frac{F_{e(\text{new})} L^3}{3 E I}$ to be enforced, where $g$ equates to the deflection of the pressure tabs. Assuming a Young's modulus of $E = \SI{210}{GPa}$ for the mild steel tab material, the minimum actuation force $F_{e(\text{new})}$ was calculated using Equation~\ref{eq:jhbVG}:
+\begin{equation}
+	\label{eq:jhbVG}
+	F_{e(\text{new})} = \frac{3 g E I}{L^3} = \frac{3(0.003)(210 \times 10^9)\left(\frac{1}{12}(0.02)(0.001)^3\right)}{(0.029077)^3} = \SI{128.1}{N}
+\end{equation}
+This calculated value of $F_{e(\text{new})} = \SI{128.1}{N}$ establishes the revised minimum electromagnetic attraction threshold required to achieve physical brake actuation.
+
+Determining the actual actuation threshold based on mechanical tab deflection rather than the calculated solenoid coil count was necessary due to power uncertainty in the coil windings. While the manufacturer datasheet specifies an absolute continuous operating current limit of \SI{0.22}{A}, it provides no maximum power dissipation rating. Therefore, the actual $I^2 R$ thermal losses within the electromagnet were uncertain. In practice, magnet wire can momentarily sustain significantly higher current levels than its nominal continuous rating during short-duration pulses before thermal breakdown occurs. As will be discussed in the electrical implementation section below, this allowable current overrun enabled the electromagnet to be driven well above its nominal datasheet limit to achieve the required actuation force. This shifted the system's primary design constraint from turn count geometry to switching circuit thermal management.
+
+\subsection{Electrical Implementation of the Electromagnet}
+
+The primary objective of the built switching circuit is to safely interface the \SI{3.3}{V} logic signals from the STM32 Nucleo microcontroller with the high-current electromagnetic brake. The theoretical circuit resistance and impedance were evaluated against physical measurements detailed in Appendix~\ref{app:winding_calc}. The measured individual solenoid resistance ($R_{\text{sol}} \approx \SI{17.4}{\Omega}$) yields an equivalent parallel array resistance of $R_{\text{eq}} \approx \SI{5.6}{\Omega}$, as shown in Figure~\ref{fig:side-by-side-resistance} below.
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{"../../../../../../Lena's skripsie vlog/20261016_100842"}
+		\caption{Individual Solenoid Resistance ($R_{\text{sol}} \approx \SI{17.4}{\Omega}$)}
+		\label{fig:20261016100842}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.36\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{"../../../../../../Lena's skripsie vlog/20261012_141000"}
+		\caption{Total Resistance Across Electromagnet ($R_{\text{eq}} \approx \SI{5.6}{\Omega}$)}
+		\label{fig:20261012141000}
+	\end{subfigure}
+	\caption{Measured DC Resistance Verification of Solenoid Windings}
+	\label{fig:side-by-side-resistance}
+\end{figure}
+To provide sufficient current gain ($\beta_{\text{total}} = \beta_1 \cdot \beta_2$) and drive the electromagnetic load from a single microcontroller GPIO pin, an amplifier circuit using a Darlington pair configuration was designed. The stage pairs a small-signal 2N3904 NPN BJT with a high-power TIP41C NPN transistor.
+
+The driver topology was simulated in LTspice prior to physical prototyping. As documented in Appendix~\ref{app:circuit_simulations}, the simulation verified key operational parameters, including:
+\begin{itemize}
+	\item Signal Amplification: An input control signal drawn from the STM32 GPIO pin (modelled by the $V1=3.3$ voltage supply) effectively controls a load current of $I_C \approx \SI{831.75}{mA}$ through the electromagnet coils (see Figure~\ref{fig:signal-amplification-from-input-to-electromagnet}).
+	\item Collector-Emitter Saturation: The TIP41C power transistor operates deep in saturation, yielding a simulated collector-emitter saturation voltage of $V_{CE(\text{sat})} \approx \SI{800.72}{mV}$ (\SI{0.801}{V}) at an operational load current of \SI{831.75}{mA} (see Figure~\ref{fig:vce-across-tip41c-transistor-and-ic-from-electromagnet}).
+	\item Power Dissipation Sizing: Total power dissipation across the TIP41C transistor during active conduction was simulated at $P_{\text{D(TIP41C)}} \approx \SI{666.82}{mW}$ (\SI{0.667}{W}), confirming that small TO-220 aluminum heatsinks are sufficient to prevent thermal runaway under continuous nominal operation (see Figure~\ref{fig:power-dissipation-in-tip41c}).
+\end{itemize}
+
+The measurements seen in Figure~\ref{fig:bench_measurements} were recorded prior to connecting the electromagnet to validate the simulation results. The multimeter measurements confirmed an active GPIO logic drive voltage of $V_{\text{GPIO}} = \SI{3.28}{V}$ and a collector-emitter saturation drop of $V_{CE(\text{sat})} = \SI{0.95}{V}$ across the TIP41C. The system was powered via a GW Instek SPD-3606 dual-range DC power supply supplying $\SI{0.80}{A}$ at $\SI{5.80}{V}$ during initial stage verification.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.2\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{20261013_114920.jpg}
+		\caption{GPIO Logic Input Voltage ($V_{\text{GPIO}} = \SI{3.28}{V}$)}
+		\label{fig:20261013114920}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.2\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{20261013_114913.jpg}
+		\caption{TIP41C Saturation Voltage ($V_{CE(\text{sat})} = \SI{0.95}{V}$)}
+		\label{fig:20261013114913}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{20261013_114923.jpg}
+		\caption{DC Power Supply Output Reading}
+		\label{fig:20261013114923}
+	\end{subfigure}
+	\caption{Physical Benchtop Multimeter and Power Supply Verification Readings}
+	\label{fig:bench_measurements}
 \end{figure}
 
-This specific wire has a significanly reduced maximum current limit compared to the copper wire required for the \SI{6}{A} rating specified in the theoretcial design.
+\subsubsection{Heatsinking, Parallel Driver Replication, and Actuation at \SI{4.05}{A}}
+During initial testing of the single Darlington switching stage, aluminum heatsinks were mounted to the TO-220 packages of the TIP41C power transistors to assist with thermal dissipation. Although the driver transistors remained cool during low-current energization tests, the electromagnetic field strength generated at the nominal wire limit ($I_{\text{total}} \le \SI{0.88}{A}$) was insufficient to overcome the bending stiffness of the pressure tabs and achieve physical brake actuation.
 
-\subsection{Electrical Design of Prototype}
+To increase the total current delivered to the coil array without exceeding the thermal or collector current ratings ($I_{C(\text{max})} = \SI{6}{A}$) of an individual TIP41C transistor, the switching circuit was replicated and connected in a parallel switching configuration, as seen in Figure~\ref{fig:20261016091118} below.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.45\linewidth]{20261016_091118.jpg}
+	\caption{Replicated Switching Circuits in Parallel Configuration}
+	\label{fig:20261016091118}
+\end{figure}
+This configuration allowed the circuits to share the thermal load and enabled a significantly higher current to be drawn through the electromagnet array.
 
-% Discuss the physical wiring of the switching circuit. 
-% Detail the 24 V supply routing, the XL7015 buck converter stability, and the physical placement of the IRF640N MOSFET and freewheeling diode.
+When the power supply current was progressively increased to $I_{\text{total}} = \SI{4.05}{A}$ (corresponding to a branch current of $I_{\text{sol}} \approx \SI{1.01}{A}$ per solenoid), the generated electromagnetic attraction force initiated visible mechanical clamping of the brake assembly; however, it remained insufficient to achieve full structural deflection of the pressure tabs. A comprehensive evaluation of this mechanical deflection behavior and its implications is presented in Section 6.2.1.
 
-\subsection{Software Design of Prototype}
+\subsection{Software Implementation and Duty Cycle Control}
 
-% Discuss the process of flashing the STM32 Nucleo. 
-% Evaluate the real-world responsiveness of the TIM2 hardware timer tracking the quadrature pulses and the EXTI hardware interrupt.
+The firmware architecture developed for the STM32 Nucleo microcontroller was retained from the main control framework, with data acquisition routines removed due to the absence of the rotary encoder on the electromagnet. To mitigate severe thermal loading and $I^2 R$ power dissipation during $I_{\text{total}} = \SI{4.05}{A}$ actuation tests, an intermittent pulse-width control scheme was implemented in software. By configuring extended off-state intervals relative to actuation pulses, the duty-cycled control sequence provided sufficient dwell time for both the solenoid windings and TIP41C power transistors to cool down between test cycles, ensuring safe and repeatable physical operation.
 
 \section{Safety and Performance Testing}
 
-% Introduce the experimental testing protocols detailed in the safety report.
+Experimental validation of the electromagnet was conducted in the Mechatronics Laboratory in accordance with Stellenbosch University safety regulations. Prior to testing, a formal risk assessment was executed, covering electrical insulation checks, emergency stop functionality, and high-current driver thermal limit.
+
+\subsection{Strain Gauge Application and Experimental Setup}
+To measure structural strain on the pressure tabs and evaluate holding torque, foil strain gauges (\SI{350}{\Omega}) were mounted in a full-bridge configuration. The installation procedure followed standard surface preparation guidelines with the use of the strain gauge applicator kit, shown in Figure~\ref{fig:screenshot001sga} below:
+\begin{enumerate}
+	\item A clean glass sheet was utilized as the primary working surface to prevent contamination. The mild steel pressure tabs were degreased with isopropyl alcohol and gause.
+	\item The mounting zone was conditioned using an acid solution to remove oxide layers, followed by an alkali neutralizer to stabilize the surface pH.
+	\item Catalyst was applied to the strain gauge backing. The gauge was aligned and bonded using M-Bond 200 cyanoacrylate adhesive, with uniform pressure applied via a Teflon strip for 60 seconds.
+	\item The celo tape was used as a means of moving the strain gauge from its packaging to the mounting surface.
+\end{enumerate}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../../../../../../../../Downloads/screenshot001SGA}
+	\caption{Strain Gauge Applicator Kit}
+	\label{fig:screenshot001sga}
+\end{figure}
+
+The physical test setup connected the electromagnet, the replicated parallel Darlington switching circuit, a GW Instek SPD-3606 DC power supply, an emergency stop button, and a Vishay P3 Strain Indicator and Recorder for signal acquisition, as seen in Figure~ref{fig:screenshot001tsu} below.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{../../../../../../../../../Downloads/screenshot001TSU}
+	\caption{Electromagnet Testing Setup}
+	\label{fig:screenshot001tsu}
+\end{figure}
+
 
 \subsection{Holding Force Verification}
+Performance testing was conducted by progressively increasing the current delivered to the electromagnet. 
 
-% Detail the load testing methodology used to verify that the electromagnet successfully achieves the 128 N holding force requirement across the joint without slipping.
+Upon triggering the STM32 GPIO signal, electromagnetic excitation resulted in visible initial movement of the friction plate. However, the generated attraction force was insufficient to achieve the full \SI{3}{mm} flexure required to completely close the air gap and pull the friction flat firmly against the opening of the electromagnet. Consequently, structural strain could not be transferred to the pressure tabs under electromagnetic actuation alone.
 
-\subsection{Electrical Safety and Thermal Limits}
+To verify whether the DAQ channel was functioning correctly, manual downward pressure was applied directly onto the pressure tabs. The Vishay P3 display was monitored during manual deflection; however, no change in the initial zero-strain offset ($\varepsilon_0$) was recorded. This confirmed that the lack of strain output during electrical actuation was due to incomplete mechanical deflection across the air gap rather than a signal processing or acquisition fault.
 
-% Detail the physical multimetre measurements verifying the 6 A operating current. 
-% Discuss the thermal dissipation of the MOSFET and the effectiveness of the freewheeling diode in mitigating back-EMF during physical switching events.
+\subsection{Discussion}
+The physical testing successfully validated the functional logic of the STM32-driven switching circuit, the signal amplification capability of the 2N3904, and the current-sharing performance of the parallel TIP41C transistors. Under a total current of $I_{\text{total}} = \SI{4.05}{A}$, the electromagnetic field was strong enough to produce visible mechanical clamping. 
+
+However, full physical mechanical actuation (complete closure of the \SI{3}{mm} air gap) and strain acquisition were limited by a combination of electromechanical and thermal constraints:
+
+\begin{itemize}
+	\item Pressure tab bending stiffness and material elasticity: The required \SI{3}{mm} deflection distance, combined with the high bending stiffness of the mild steel pressure tabs, imposed a steep mechanical actuation threshold ($F_{e(\text{new})} = \SI{128.1}{N}$). Utilizing a material with a lower modulus of elasticity ($E < \SI{210}{GPa}$) or a higher elastic yield limit would have significantly reduced the required attraction force, allowing full physical deflection under lower magnetic excitation.
+	
+	\item Solenoid yoke and core clearance: The number of active coil turns was constrained by tolerances between the solenoid yoke and core. The tight inner and outer diameter manufacturing tolerances between the solenoid cores, solenoid yokes, and electromagnet cover restricted winding density to only two layers ($N \approx 715\text{ turns}$ theoretical maximum). Designing yokes with larger internal diameter tolerances would allow additional coil layers to be added, directly increasing the total magnetomotive force ($\mathcal{F} = N \cdot I$).
+	
+	\item Wire gauge and operating current rating: Budget and timeline constraints necessitated the use of an enamel-coated copper wire with a fine conductor diameter of \SI{0.28}{mm} and a datasheet continuous rating of only \SI{0.22}{A}. Using a larger gauge copper wire with a higher continuous current rating would have permitted substantially higher sustained magnetic flux generation without risking thermal degradation.
+	
+	\item Thermal dissipation and circuit component limits: Operating the electromagnet at $I_{\text{total}} = \SI{4.05}{A}$ generated severe $I^2 R$ thermal loading ($\approx \SI{305}{W}$ total power dissipation across the coil array). While software duty-cycling and the use of heat-sinks successfully protected the solenoid insulation and TIP41C transistors from thermal breakdown respectively, the short actuation pulses restricted static load testing. Utilizing power transistors with higher thermal and continuous collector current ratings, alongside enhanced active heat sinking, would enable longer continuous duty cycles[cite: 22].
+\end{itemize}
+
+In summary, while full mechanical deflection and static holding torque readings could not be achieved due to the aforementioned constraints, the testing successfully confirmed the core electromechanical operating logic, switching circuit scalability, and safety protocols under laboratory conditions.

@@ -30,10 +30,10 @@ Detailed Free Body Diagrams (FBDs), stress analysis derivations, and full numeri
 
 \section{Electrical Design}
 
-The purpose of the switching circuit is to safely bridge the power gap between the low-power control and data management logic and the high-power electromagnetic brake. The STM32 Nucleo microcontroller operates on a $3.3\text{ V}$ logic level with general purpose input/output (GPIO) pins that supply a maximum current of $25\text{ mA}$. In contrast, the full-scale electromagnetic joint brake requires an operating current of $I_{\text{total}} = 8\text{ A}$ at $V_{\text{DC}} = 24\text{ V}$. A direct connection between these two components would cause catastrophic failure of the microcontroller. As a result, a dedicated power-stepping, gate-driving, and switching circuit is required to isolate the logic hardware, protect against inductive transients caused by the electromagnet's actuation, and efficiently switch the high-current coil load. 
+The purpose of the switching circuit is to safely bridge the power gap between the low-power control and data management logic and the high-power electromagnetic brake. The STM32 Nucleo microcontroller operates on a $3.3\text{ V}$ logic level with general purpose input/output (GPIO) pins that supply a maximum current of $25\text{ mA}$. In contrast, the full-scale electromagnet, from the assembly, requires an operating current of $I_{\text{total}} = 8\text{ A}$ at $V_{\text{DC}} = 24\text{ V}$. A direct connection between these two components would cause catastrophic failure of the microcontroller. As a result, a dedicated switching circuit is required to isolate the logic hardware, protect against inductive transients caused by the electromagnet's actuation, and efficiently switch the high-current coil load. 
 
 Figure~\ref{fig:wiring-diagram} details the physical architecture of the electrical subsystem.
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"../../../../../../../../../Downloads/Wiring Diagram (5)"}
 	\caption{Wiring and Interconnect Diagram for the Full-Scale Joint Mechanism}
@@ -41,45 +41,41 @@ Figure~\ref{fig:wiring-diagram} details the physical architecture of the electri
 \end{figure}
 To generate the required total clamping force, four identical solenoids are utilised within the electromagnet. Choosing between a parallel or series electrical interconnection significantly impacts circuit reliability, supply voltage requirements, and coil winding specifications:
 \begin{itemize}
-	\item Supply Voltage and Current Distribution: In a series connection, the $24\text{ V}$ supply voltage is divided equally across the four coils ($6\text{ V}$ per coil), while the full line current of $8\text{ A}$ flows sequentially through every solenoid. Achieving $8\text{ A}$ at $6\text{ V}$ requires an extremely low coil resistance ($R_{\text{coil}} = 0.75\,\Omega$), demanding thick gauge wire that is difficult to wind densely. As opposed to a parallel configuration, which delivers the full $24\text{ V}_{\text{DC}}$ across each solenoid. The $8\text{ A}$ total supply current divides equally among the four parallel branches ($I_{\text{sol}} = 2\text{ A}$ per coil), resulting in a manageable coil resistance requirement of $R_{\text{coil}} = 12\,\Omega$.
-	\item Redundancy and fault-finding: In a series configuration, an open-circuit failure in a single solenoid winding disrupts the current path for the entire brake system, leading to complete joint failure. In a parallel configuration, each solenoid operates independently. If one coil open-circuits, the remaining three solenoids continue to generate holding force.
-	\item Inductive Time Constant ($\tau = L/R$): A parallel connection maintains high single-coil resistance relative to inductance, which minimises current rise delays during actuation and ensures rapid flux buildup.
+	\item Supply voltage and current distribution: In a series connection, the $24\text{ V}$ supply voltage is divided equally across the four coils ($6\text{ V}$ per coil), while the full line current of $8\text{ A}$ flows sequentially through every solenoid. Achieving $8\text{ A}$ at $6\text{ V}$ requires an extremely low coil resistance, demanding thick gauge wire that is difficult to wind densely. As opposed to a parallel configuration, which delivers the full $24\text{ V}_{\text{DC}}$ across each solenoid. The $8\text{ A}$ total supply current divides equally among the four parallel branches ($I_{\text{sol}} = 2\text{ A}$ per coil), resulting in a manageable coil resistance requirement of $R_{\text{coil}} = 12\,\Omega$.
+	\item Redundancy and fault-finding: In a series configuration, an open-circuit failure in a single solenoid winding disrupts the current path for the entire brake system, leading to complete joint failure. In a parallel configuration, each solenoid operates independently. If one coil open-circuits, the remaining three solenoids can continue to generate holding force.
+	\item Inductive time constant ($\tau = L/R$): A parallel connection maintains high single-coil resistance relative to inductance, which minimises current rise delays during actuation and ensures rapid flux buildup.
 \end{itemize}
 Therefore, the parallel configuration was selected for the full-scale joint assembly.
 
-To supply the low-voltage control and feedback hardware from the primary $24\text{ V}_{\text{DC}}$ DC supply, an XL7015 step-down buck converter is integrated into the power rail. The XL7015 accepts an input voltage range of $0\text{--}80\text{ V}_{\text{DC}}$ and steps it down to a regulated $5\text{ V}$ output voltage that is suitable for powering the STM32 microcontroller board and the GTS06-OC-RA1000B optical rotary encoder. A high-efficiency DC-DC buck converter ($\eta \approx 85\text{--}90\%$) ensures stable voltage delivery during high-current load switching transients.
-
-To control the energization of the $24\text{ V} / 8\text{ A}$ electromagnetic coil array, an N-channel Power MOSFET is utilized in a low-side switching topology acting as a solid-state digital relay. 
+To supply the low-voltage control and feedback hardware from the primary $24\text{ V}_{\text{DC}}$ DC supply, an XL7015 DC-DC buck converter is integrated into the power rail. The XL7015 accepts an input voltage range of $0\text{--}80\text{ V}_{\text{DC}}$ and steps it down to a regulated $5\text{ V}$ output voltage that is suitable for powering the STM32 microcontroller board and the GTS06-OC-RA1000B optical rotary encoder. A high-efficiency DC-DC buck converter ($\eta \approx 85\text{--}90\%$) ensures stable voltage delivery during high-current load switching transients.
 
 To control the actuation of the electromagnet, an N-channel Power MOSFET (Infineon IRF640N) is deployed in a high-side of the switching circuit acting as a solid-state digital relay.
 
-Because the IRF640N requires a gate-to-source voltage ($V_{GS}$) of at least $10\text{ V}$ to achieve full channel enhancement and minimum on-state resistance, driving its gate directly from the STM32's native $3.3\text{ V}$ logic signal would operate the MOSFET in its linear region. This would cause excessive thermal runaway and catastrophic damage. To bridge this voltage threshold using components available in the laboratories under the Electrical and Electronics Department, a discrete 2N3904 NPN BJT level-shifter stage is integrated as a gate pre-driver.
+Because the IRF640N requires a gate-to-source voltage ($V_{GS}$) of at least $10\text{ V}$ to operate its saturation region, driving its gate directly from the STM32's $3.3\text{ V}$ logic signal would operate the MOSFET in its linear region. This would cause excessive thermal runaway and result in catastrophic damage. To bridge this voltage threshold using components available in the laboratories in the Electrical and Electronics Department, a 2N3904 NPN BJT pre-amplifer stage is integrated into the switching circuit.
 
-The STM32 GPIO signal drives the base of the 2N3904 through a current-limiting resistor of \SI{1}{k\ohm}. When turned off, the 2N3904's collector is pulled up to a $12\text{ V}$ supply rail via a pull-up resistor ($R_{PU} = 2.2\text{ k}\Omega$), delivering $V_{GS} \approx 9.84\text{ V}$ directly to the IRF640N gate. Driven at to saturation, the IRF640N operates at its rated static drain-to-source resistance $R_{DS(\text{on})} = 0.15\,\Omega$. At the full operating load of $I_{\text{total}} = 8\text{ A}$, the continuous conduction power dissipation $P_{\text{cond}}$ across the MOSFET is:
+The STM32 GPIO signal drives the base of the 2N3904 through a current-limiting resistor of \SI{1}{k\ohm}. When turned off, the 2N3904's collector is pulled up to a $12\text{ V}$ supply rail via a pull-up resistor ($R_{PU} = 2.2\text{ k}\Omega$), delivering $V_{GS} \approx 9.84\text{ V}$ directly to the IRF640N gate. Driven to saturation, the IRF640N operates at its rated static drain-to-source resistance $R_{DS(\text{on})} = 0.15\,\Omega$. At the full operating load of $I_{\text{total}} = 8\text{ A}$, power dissipation $P_{\text{cond}}$ across the MOSFET is determined by Equation~\ref{eq:jvjsnbpn}:
 \begin{equation}
+	\label{eq:jvjsnbpn}
 	P_{\text{cond}} = I_{\text{total}}^2 \cdot R_{DS(\text{on})} = (8\text{ A})^2 \cdot 0.15\,\Omega = 9.6\text{ W}
 \end{equation}
-To dissipate this heat continuously and maintain the junction temperature ($T_J$) safely below $175^\circ\text{C}$, the TO-220 packaged MOSFET is fitted with a dedicated aluminum heatsink ($R_{\text{th,sa}} \le 3.5^\circ\text{C/W}$).
+To dissipate this heat continuously and maintain the junction temperature ($T_J$) safely below $175^\circ\text{C}$ (as stated in its datasheet), the TO-220 packaged MOSFET is fitted with a dedicated aluminum heatsink.
 
 To maintain the circuit's operability, protect the microcontroller, and ensure reliable gate-driving levels, specific passive components are incorporated as shown in Figure~\ref{fig:wiring-diagram}:
 \begin{itemize}
-	\item A base-limiting resistor of \SI{1}{k\ohm} is placed between the STM32 GPIO signal pin and the base of the 2N3904 NPN transistor. Sizing this resistor restricts the continuous base current drawn from the microcontroller GPIO pin during active switching to as seen under Equation~\ref{eq:ajkva}:
+	\item A base-limiting resistor of \SI{1}{k\ohm} is placed between the STM32 GPIO signal pin and the base of the 2N3904 NPN transistor. Sizing this resistor restricts the current drawn from the microcontroller GPIO pin during active switching, as seen under Equation~\ref{eq:ajkva}:
 	\begin{equation}
 		\label{eq:ajkva}
 		I_B = \frac{V_{\text{GPIO}} - V_{BE}}{R_B} = \frac{3.3\text{ V} - 0.7\text{ V}}{1000\,\Omega} = 2.6\text{ mA}
 	\end{equation}
 	which safely complies with the STM32 absolute maximum output pin threshold of $25\text{ mA}$.
-	
 	\item A collector pull-Up resistor of $\SI{2.2}{k\ohm}$ is connected between the $24\text{ V}$ DC power supply and the 2N3904 collector node (which connects directly to the IRF640N MOSFET Gate). When the 2N3904 is turned off (GPIO LOW), this resistor pulls the MOSFET Gate voltage up toward the rail, which provides sufficient gate-to-source voltage ($V_{GS}$) to fully enhance the IRF640N power MOSFET into saturation.
-	
 	\item A gate pull-down resistor of $\SI{10}{k\ohm}$ is connected between the IRF640N MOSFET Gate and Ground (GND). In conjunction with collector pull-down resistor, it forms a voltage divider establishing an active gate drive voltage when the 2N3904 is off, as shown under Equation~\ref{eq:kvlbs}:
 	\begin{equation}
 		\label{eq:kvlbs}
 		V_{GS} = V_{\text{rail}} \cdot \left( \frac{R_{PD}}{R_{PU} + R_{PD}} \right) = 24\text{ V} \cdot \left( \frac{10\text{ k}\Omega}{2.2\text{ k}\Omega + 10\text{ k}\Omega} \right) \approx 19.67\text{ V}
 	\end{equation}
 	This maximizes channel conductivity while remaining safely within the IRF640N maximum absolute gate rating ($V_{GS(\text{max})} = \pm 20\text{ V}$). Additionally, during microcontroller boot or floating GPIO states, $R_{PD}$ keeps the gate referenced to Ground.
-	
-	\item An flyback diode is placed in parallel across the electromagnetic coil array terminals. When the MOSFET switches off to disengage the joint, the collapsing magnetic field in the coil induction induces a severe negative Back-Electromotive Force (Back-EMF) spike ($v_L = -L \frac{di}{dt}$). The flyback diode array provides a means of dissipating the $8\text{ A}$ inductive current without exceeding the MOSFET breakdown rating ($V_{(BR)DSS} = 200\text{ V}$).
+	\item An flyback diode is placed in parallel across the electromagnet terminals. When the MOSFET switches off to disengage the joint, the collapsing magnetic field in the coil induces a severe negative Back-electromotive force (Back-EMF) spike ($v_L = -L \frac{di}{dt}$). The flyback diode array provides a means of dissipating the inductive current without exceeding the MOSFET breakdown rating.
 \end{itemize}
 
 For real-time spatial positioning and angular displacement tracking, the GTS06-OC-RA1000B optical rotary encoder ($1000\text{ PPR}$) is connected across the $5\text{ V}$ regulated by the DC-DC buck converter. Its A and B quadrature signal lines are routed directly to the STM32 timer input pins configured in encoder interface mode. 

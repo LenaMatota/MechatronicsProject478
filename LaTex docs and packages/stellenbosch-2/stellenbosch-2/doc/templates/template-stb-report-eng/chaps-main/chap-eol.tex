@@ -1,0 +1,41 @@
+\chapter{End-of-Life Protocol}
+\label{ch:eol_protocol}
+
+To align with modern sustainable engineering principles (ISO 14001) and international directives on Waste Electrical and Electronic Equipment (WEEE Directive 2012/19/EU), a comprehensive End-of-Life (EOL) protocol was established for the electromagnetic brake joint assembly. This protocol outlines design for disassembly, material recovery streams, hazardous substance management, and circular economy strategies.
+
+\section{Design for Disassembly (DfD) Architecture}
+The joint assembly incorporates mechanical modularity to ensure rapid non-destructive dismantling at the end of operational life. Threaded fasteners are standardized across the subassemblies to avoid the unnecessary use of permanent adhesive bonds or ultrasonic welds:
+\begin{enumerate}[leftmargin=*]
+	\item Removal of external wiring harnesses and detachment of the low-side Darlington switching driver PCB.
+	\item Unfastening the retaining bolts to release the mild steel yoke, friction plate, and pressure tabs.
+	\item Sliding the solenoids out of the yokes to disassemble the electromagnet.
+\end{enumerate}
+
+\section{Material Stream Classification and Circular Recycling}
+Table~\ref{tab:eol_materials} defines the end-of-life material recovery routes for all primary structural and electrical constituents of the joint assembly.
+
+\begin{table}[H]
+	\centering
+	\caption{End-of-Life Material Recycling and Disposal Protocol}
+	\label{tab:eol_materials}
+	\resizebox{\linewidth}{!}{%
+		\begin{tabular}{|l|l|c|l|}
+			\hline
+			\textbf{Component} & \textbf{Material Group} & \textbf{\% Mass} & \textbf{Recommended EOL Recovery Route} \\ \hline
+			Electromagnet Coils & High-Purity Copper (\SI{0.28}{mm}) & 32\% & Pyrometallurgical / Hydrometallurgical Recycling \\ \hline
+			Yoke Core \& Tabs & 1018 Mild Steel Stock & 48\% & Ferrous Scrap Metal Smelting \& Reprocessing \\ \hline
+			Bobbins \& Housing & PETG / Nylon Polymer & 12\% & Mechanical Polymer Granulating \& Regrind \\ \hline
+			Switching Driver & FR4 Board / Lead-Free Solder & 6\% & Specialized E-Waste Pyrolysis \& Metal Extraction \\ \hline
+			Insulation / Fasteners & Kapton / Stainless Steel & 2\% & Material Recovery / Thermal Energy Recovery \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+\section{Hazardous Substance Mitigation and Environmental Safety}
+To comply with Restriction of Hazardous Substances (RoHS Directive 2011/65/EU) guidelines, all electronic components (TIP41C power transistors, 2N3904 BJTs, and 1N4007 diodes) are specified as lead-free and halogen-free.
+
+\begin{itemize}[leftmargin=*]
+	\item The control electronics PCB must be diverted from municipal landfill streams and processed through accredited e-waste facilities to recover trace semiconductor materials.
+	\item Thermal insulation, such as Kapton tape and magnet wire enamel coatings must undergo controlled high-temperature incineration with gas scrubbing to eliminate toxic volatile organic compound (VOC) emissions during metal recovery.
+	\item \textbf{Circular Material Efficiency:} The overall recyclable mass fraction of the joint mechanism exceeds $92\%$, supporting closed-loop manufacturing frameworks for industrial metrology hardware.
+\end{itemize}
